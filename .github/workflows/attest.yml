@@ -1,0 +1,39 @@
+name: Attestation de provenance
+
+# Signe les manifestes d'empreintes sans clé, via Sigstore/OIDC, et inscrit
+# l'attestation au journal de transparence public Rekor.
+# Vérification côté utilisateur :
+#   gh attestation verify checksums/SHA512SUMS --repo <owner>/tgv-msss-crosswalk
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write      # requis pour l'OIDC Sigstore
+  attestations: write
+
+jobs:
+  attest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Confirmer que les empreintes sont à jour
+        run: python tools/gen_checksums.py --verify
+
+      - name: Attester les manifestes et le jeu de données
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: |
+            checksums/SHA512SUMS
+            checksums/SHA256SUMS
+            checksums/manifest.json
+            data/toutes-correspondances.csv
+            xlsx/Matrice-correspondance-TGV-13-referentiels.xlsx

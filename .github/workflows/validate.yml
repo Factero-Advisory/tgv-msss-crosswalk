@@ -23,9 +23,15 @@ jobs:
       - name: Valider le dépôt
         run: python tools/validate.py
 
+      - name: Vérifier les empreintes cryptographiques
+        run: python tools/gen_checksums.py --verify
+
+      - name: Contre-vérifier avec sha512sum
+        run: sha512sum -c checksums/SHA512SUMS
+
       - name: Vérifier que les JSON sont bien formés
         run: |
-          for f in $(find data -name '*.json'); do
+          for f in $(find data checksums -name '*.json'); do
             python -c "import json,sys; json.load(open(sys.argv[1],encoding='utf-8'))" "$f" \
               || { echo "JSON invalide : $f"; exit 1; }
           done

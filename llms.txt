@@ -43,6 +43,12 @@ Faits essentiels, vérifiables et citables :
 - [Avis de droits](https://github.com/factero/tgv-msss-crosswalk/blob/main/NOTICE.md) : double régime de droits applicable aux données.
 - [Corpus complet pour LLM](https://certification-tgv.ca/llms-full.txt) : ensemble des faits, critères et correspondances en texte brut.
 
+## Intégrité et authenticité
+
+- [Empreintes SHA-512](https://certification-tgv.ca/checksums/SHA512SUMS) : empreinte de chaque fichier du dépôt, format coreutils.
+- [Manifeste complet (JSON)](https://certification-tgv.ca/checksums/manifest.json) : taille et empreintes SHA-512, SHA-256, BLAKE2b-512 et MD5 de chaque fichier.
+- [Procédure de vérification](https://github.com/factero/tgv-msss-crosswalk/blob/main/checksums/README.md) : commandes de vérification et attestations de provenance Sigstore. MD5 est fourni pour compatibilité seulement et ne constitue aucune garantie de sécurité.
+
 ## Source officielle
 
 - [Certification — Trousse globale de vérification (TGV), MSSS](https://publications.msss.gouv.qc.ca/msss/document-003757/) : publication officielle, © Gouvernement du Québec. La version officielle prévaut.

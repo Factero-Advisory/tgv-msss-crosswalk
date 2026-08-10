@@ -198,6 +198,28 @@ revue de direction et un organisme accrédité.
 
 ---
 
+## Vérifier l'intégrité des fichiers
+
+Chaque fichier du dépôt est empreinté. Pour confirmer qu'aucun n'a été altéré :
+
+```bash
+python tools/gen_checksums.py --verify
+```
+
+Ou avec les outils système, sous Linux et macOS :
+
+```bash
+sha512sum -c checksums/SHA512SUMS
+```
+
+Les manifestes `SHA512SUMS`, `SHA256SUMS` et `MD5SUMS` sont au format coreutils,
+et `checksums/manifest.json` ajoute BLAKE2b-512 et la taille de chaque fichier.
+
+**Utilisez SHA-512.** MD5 n'est fourni que pour un contrôle anti-corruption de
+transfert : il est cryptographiquement cassé depuis 2008 et ne constitue aucune
+garantie d'authenticité. Le détail, ainsi que la vérification des attestations de
+provenance signées via Sigstore, est dans [checksums/README.md](checksums/README.md).
+
 ## Sources et droits
 
 Le texte des critères provient de la publication officielle du MSSS :
