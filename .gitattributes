@@ -1,0 +1,18 @@
+# Normalisation des fins de ligne : LF dans le depot, natif a l'extraction.
+* text=auto eol=lf
+
+# Fichiers binaires : jamais de conversion
+*.xlsx  binary
+*.xls   binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.ico   binary
+
+# Les donnees generees sont marquees pour que GitHub n'alourdisse pas les diffs
+data/**            linguist-generated=true
+llms-full.txt      linguist-generated=true
+sitemap.xml        linguist-generated=true
+
+# Le site genere ne doit pas fausser les statistiques de langage du depot
+*.html             linguist-documentation=true

@@ -1,0 +1,3058 @@
+[
+ {
+  "ref": "G01",
+  "famille": "G",
+  "famille_fr": "Gouvernance",
+  "famille_en": "Governance",
+  "texte": "Le produit ou le service technologique doit offrir une interface en français pour ses utilisateurs.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:g01"
+ },
+ {
+  "ref": "G02",
+  "famille": "G",
+  "famille_fr": "Gouvernance",
+  "famille_en": "Governance",
+  "texte": "Le produit ou service technologique ne doit pas présenter de la publicité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:g02"
+ },
+ {
+  "ref": "I01",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "La solution doit supporter l'utilisation d'un service d'authentification externe (protocole LDAP et LDAPS).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i01"
+ },
+ {
+  "ref": "I02",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Votre solution s'appuie sur ou est compatible avec un système d'exploitation, des composantes, et un un système de gestion de base de données récents et en cours de prise en charge par leur fabriquant respectif.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i02"
+ },
+ {
+  "ref": "I03",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsque nécessaire, la solution peut invoquer la librairie cryptographique du poste de travail Windows (ou de la session Citrix/TS) afin d’effectuer les opérations de signature, de hachage et de chiffrement.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i03"
+ },
+ {
+  "ref": "I04",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Pour la gestion de l’identification des usagers, la solution permet d’intégrer l’identification provinciale des usagers au moment de l’accueil des nouveaux usagers. La solution doit permettre d’appeler les services communs provinciaux de gestion de l’identification des usagers (GIU) à partir des critères de recherche permis, au moment de la création d’un dossier afin d’établir les données d’identification de l’usager et d'assurer l’utilisation des données d’identification provinciale au sein de la solution.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i04"
+ },
+ {
+  "ref": "I05",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Pour la gestion de l’identification des usagers, la solution doit permettre d’exploiter les mécanismes d’interaction prévus à cette fin auprès des services provinciaux de gestion de l’identification des usagers, afin d’assurer la mise à jour et de préserver l’intégrité des données d’identification de base des usagers de sorte que ces données permettent de résoudre et d'exploiter le NIU (numéro d’identification unique des usagers) à partir de la solution.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i05"
+ },
+ {
+  "ref": "I06",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "La solution supporte les transactions et les messages de la norme FHIR et peut également supporter HL7v3 au besoin.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i06"
+ },
+ {
+  "ref": "I07",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "La solution dispose de connecteurs de plusieurs technologies. Exemples de connecteurs : - SOAP / XML, - MLLP, JSON; - HTTP / HTTPS; - SMTP; - TCP/IP Sockets; - HL7v3.x, - FHIR",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i07"
+ },
+ {
+  "ref": "I08",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet d'inscrire le nom de famille légal de l'utilisateur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i08"
+ },
+ {
+  "ref": "I09",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, permet d’inscrire le prénom légal de l’usager (obligatoire).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i09"
+ },
+ {
+  "ref": "I10",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le sexe de l’usager.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i10"
+ },
+ {
+  "ref": "I11",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la date de naissance de l’usager (obligatoire).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i11"
+ },
+ {
+  "ref": "I12",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la date de décès de l’utilisateur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i12"
+ },
+ {
+  "ref": "I13",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le nom légal à la naissance de la mère de l’usager (obligatoire).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i13"
+ },
+ {
+  "ref": "I14",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, vermet de saisir le prénom légal de la mère de l’usager (obligatoire).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i14"
+ },
+ {
+  "ref": "I15",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le nom légal à la naissance du père de l’usager (obligatoire).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i15"
+ },
+ {
+  "ref": "I16",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le prénom du père de l’usager (obligatoire).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i16"
+ },
+ {
+  "ref": "I17",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le numéro d’assurance maladie de l’usager de la province de Québec (obligatoire).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i17"
+ },
+ {
+  "ref": "I18",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la date d’expiration inscrite sur la carte d’assurance maladie du Québec (obligatoire si NAM existe).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i18"
+ },
+ {
+  "ref": "I19",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le numéro d’identification unique attribué par la RAMQ. Il est unique et identifie un seul individu. Il est non visible aux utilisateurs (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i19"
+ },
+ {
+  "ref": "I20",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le numéro attribué par une municipalité ou une autorité compétente pour identifier un immeuble dans une voie de communication (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i20"
+ },
+ {
+  "ref": "I21",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir l'identifiant du complément d’information relatif au numéro d’immeuble (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i21"
+ },
+ {
+  "ref": "I22",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la première ligne de l’adresse, et contient le type de voie, le nom de rue et le point cardinal (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i22"
+ },
+ {
+  "ref": "I23",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Permet de saisir, en format libre, à la suite de l’adresse ligne 1 le nom de la municipalité des adresses hors Québec, ou le nom de la municipalité, le nom de l’état et le code postal, pour les adresses hors Canada (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i23"
+ },
+ {
+  "ref": "I24",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir, en format libre, à la suite de l’adresse ligne 2 le nom du pays pour les adresses hors Canada quand le pays n’existe pas dans la table du champ « Pays » (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i24"
+ },
+ {
+  "ref": "I25",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la case postale et la succursale d’une adresse postale (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i25"
+ },
+ {
+  "ref": "I26",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir de façon unique le type de subdivision dans un immeuble (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i26"
+ },
+ {
+  "ref": "I27",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir l’ensemble des caractères numériques jusqu’au premier caractère alphabétique du numéro de subdivision de l’immeuble (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i27"
+ },
+ {
+  "ref": "I28",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre permet de saisir le code géographique de la municipalité, tel qu’il a été assigné par l’Institut de la statistique du Québec (ISQ) (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i28"
+ },
+ {
+  "ref": "I29",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la description de la municipalité correspondant au code de municipalité (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i29"
+ },
+ {
+  "ref": "I30",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le code postal de l’adresse reconnue par Société canadienne des postes (obligatoire lorsque l'usager est dans un contexte d'admission ou d'inscription).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i30"
+ },
+ {
+  "ref": "I31",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la province dans lequel se retrouve l’adresse de résidence permanente (principale) de l’usager (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i31"
+ },
+ {
+  "ref": "I32",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Permet de saisir le pays dans lequel se retrouve l’adresse de résidence permanente (principale) de l’usager (factultaif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i32"
+ },
+ {
+  "ref": "I33",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le type de coordonnée de communication. Cet élément est généralement associé à un numéro de téléphone (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i33"
+ },
+ {
+  "ref": "I34",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le numéro de téléphone de l’usager (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i34"
+ },
+ {
+  "ref": "I35",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la raison pour laquelle le NAM du Québec n’apparaît pas au dossier informatisé de l’usager (obligatoire si NAM vide).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i35"
+ },
+ {
+  "ref": "I36",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le code d’établissement reconnu par Santé Québec où le dossier local est situé (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i36"
+ },
+ {
+  "ref": "I37",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir de saisir le code de l’installation reconnu par Santé Québec où le dossier local est situé (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i37"
+ },
+ {
+  "ref": "I38",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le numéro de dossier local est attribué de façon automatique par l’IPL à un usager (physique ou virtuel) qui reçoit des services dans l’installation concernée (obligatoire).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i38"
+ },
+ {
+  "ref": "I39",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir permet de saisir le code (OID) ou le nom de l’application source dans lequel le dossier est conservé (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i39"
+ },
+ {
+  "ref": "I40",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le numéro de fiche d’identification de l’usager est un identifiant technologique attribué par l'IPMÉ de l'établissement et est en lien avec les numéros de dossiers locaux de l'usager (obligatoire dans l'IPMÉ).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i40"
+ },
+ {
+  "ref": "I41",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le nom du/de la conjoint(e) de l’usager (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i41"
+ },
+ {
+  "ref": "I42",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le prénom du/de la conjoint(e) de l’usager (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i42"
+ },
+ {
+  "ref": "I43",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir tout autre nom utilisé pour identifier un usager (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i43"
+ },
+ {
+  "ref": "I44",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir tout autre prénom utilisé pour identifier un usager (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i44"
+ },
+ {
+  "ref": "I45",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Permet de saisir le document officiel qui appuie l'identité d'un individu. Document qui vient appuyer officiellement l’identité d’un individu. Une pièce étatique est requise pour l’usager non assuré (Ex. : nouveau-né, hors province, hors pays, militaire, etc.) (obligatoire).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i45"
+ },
+ {
+  "ref": "I46",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le numéro de la pièce étatique de l'usager non assuré (ex. : nouveau-né, hors province, hors pays, militaire, etc.) (obligatoire si l'élément 30100034 est sélectionné).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i46"
+ },
+ {
+  "ref": "I47",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le pays de naissance de l'usager (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i47"
+ },
+ {
+  "ref": "I48",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la langue généralement utilisée par l’usager (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i48"
+ },
+ {
+  "ref": "I49",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le territoire associé à l'adresse (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i49"
+ },
+ {
+  "ref": "I50",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le type d'adresse de l'usager (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i50"
+ },
+ {
+  "ref": "I51",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la date de début à laquelle l’adresse est en vigueur (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i51"
+ },
+ {
+  "ref": "I52",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la date de fin à laquelle l’adresse est en vigueur (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i52"
+ },
+ {
+  "ref": "I53",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir l’adresse de courrier électronique à laquelle l’usager veut recevoir une correspondance électronique (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i53"
+ },
+ {
+  "ref": "I54",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le type d’équipement utilisé pour communiquer (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i54"
+ },
+ {
+  "ref": "I55",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la date de début à laquelle l’adresse est en vigueur (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i55"
+ },
+ {
+  "ref": "I56",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir la date de fin à laquelle l’adresse est en vigueur (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i56"
+ },
+ {
+  "ref": "I57",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir l’adresse de courrier électronique à laquelle l’usager veut recevoir une correspondance électronique (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i57"
+ },
+ {
+  "ref": "I58",
+  "famille": "I",
+  "famille_fr": "Interoperabilite",
+  "famille_en": "Interoperability",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun contenant des renseignements de santé ou de services sociaux, votre PST permet de saisir le type d’équipement utilisé pour communiquer (facultatif).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:i58"
+ },
+ {
+  "ref": "IA1",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Si votre solution fait appel à une composante en intelligence artificielle (solution ayant recours à l’intelligence artificielle – SARIA), ceci doit être clairement mentionné dans la documentation de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia1"
+ },
+ {
+  "ref": "IA10",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La stratégie d'évaluation des résultats du(des) modèle(s) est accessible et contient les métriques et les résultats positifs, les négatifs, les faux positifs et les faux négatifs, le cas échéant.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia10"
+ },
+ {
+  "ref": "IA11",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Dans le cas de l'utilisation de l'IA générative pour la production de résultats, un rapport décrivant le degré de variabilité des résultats pour une même situation doit être fourni.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia11"
+ },
+ {
+  "ref": "IA12",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Dans le cas de l'utilisation de l'IA générative pour la production de résultats, un rapport décrivant des tests d'injection de requêtes malveillantes doit permettre à l'acquéreur d'établir le risque inhérent à la conception de requêtes de la SARIA et le besoin de contrôle, formation et explicabilité liés à la formulation des requêtes dans la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia12"
+ },
+ {
+  "ref": "IA13",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La documentation de la SARIA mentionne l'utilisation envisagée et les groupes sociaux ou conditions qui doivent être présents dans le contexte d'utilisation.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia13"
+ },
+ {
+  "ref": "IA14",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La documentation de la SARIA mentionne ses limitations et les mises en garde et éléments à surveiller pendant l'utilisation de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia14"
+ },
+ {
+  "ref": "IA15",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Des mesures d’identification, contrôle, atténuation et suivi des biais indésirables sont prises et documentées pendant le développement de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia15"
+ },
+ {
+  "ref": "IA16",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La documentation de la SARIA mentionne les utilisations similaires mais non récommandées et d'autres utilisations non recommandées de la SARIA, ainsi que les groupes sociaux et conditions qui ne doivent pas être présents dans le contexte d'utilisation de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia16"
+ },
+ {
+  "ref": "IA17",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Lorsque des jeux de données sont utilisés pour l'entraînement, la validation ou les tests du(des) modèle(s) de la SARIA, ils sont identifiés dans une liste accessible.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia17"
+ },
+ {
+  "ref": "IA18",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le(s) type(s) d'IA (symbolique, apprentissage automatique ou générative ou autres) qui font partie de la SARIA sont mentionnés dans sa documentation.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia18"
+ },
+ {
+  "ref": "IA19",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Si la SARIA a été implantée ailleurs, un rapport avec les défis, bénéfices, risques soulevés et indicateurs de performance utilisés dans les implantations précédentes est fourni à l'acquéreur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia19"
+ },
+ {
+  "ref": "IA2",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Une politique de confidentialité couvrant l'utilisation du système d'IA en langage simple et clair est publiée sur le site Internet de votre compagnie.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia2"
+ },
+ {
+  "ref": "IA20",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le fournisseur s'engage à ne pas changer les types d'IA ou les modèles utilisés dans la SARIA sans approbation explicite de l'acquéreur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia20"
+ },
+ {
+  "ref": "IA21",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Un plan d'amélioration et d'évolution de la SARIA est présenté par le fournisseur. Ce plan suit les mêmes conditions et a la même rigueur que le processus de vérification globale initial.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia21"
+ },
+ {
+  "ref": "IA22",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le plan d'amélioration et d'évolution de la SARIA présente un processus d'évaluation continue après l'implantation de la SARIA. Ce processus prend en considération le niveau de risques identifiés dans le développement et les essais de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia22"
+ },
+ {
+  "ref": "IA23",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le plan d'amélioration et d'évolution de la SARIA doit considérer la réévaluation des critères et méthodes d'anonymisation de données, l'intégration de stratégies d'explicabilité sur des limitations identifiées dans l'utilisation, des changements pour améliorer la gouvernance de la SARIA ou des améliorations du(des) modèle(s) de la SARIA, en collaboration avec l'acquéreur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia23"
+ },
+ {
+  "ref": "IA24",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Une description de l'architecture de la SARIA et l'interaction entre ses composantes doit être fournie. La description doit contenir les concepts d'IA, les approches et techniques utilisées dans le traitement des données et la création du(des) modèle(s) de sorte à faciliter l'analyse de chercheurs en IA responsable.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia24"
+ },
+ {
+  "ref": "IA25",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Une formation ou un document comprenant les notions nécessaires pour que l'utilisateur comprenne le fonctionnement de la SARIA et le rôle de l'utilisateur en tant que vérificateur des résultats et intégrateur de ces résultats dans le processus de travail doit être produit par le fournisseur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia25"
+ },
+ {
+  "ref": "IA26",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La documentation de la SARIA inclut l'empreinte environnementale du développement et une estimation de l'empreinte environnementale de l'utilisation de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia26"
+ },
+ {
+  "ref": "IA27",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Lorsque l'anonymisation ou la dépersonnalisation de données est utilisée pour le développement ou l’utilisation de la SARIA, les méthodes et critères utilisés sont documentés.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia27"
+ },
+ {
+  "ref": "IA28",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les mesures pour atténuer les risques de la SARIA sont vulgarisées dans un document compréhensible par des non-spécialistes en IA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia28"
+ },
+ {
+  "ref": "IA29",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Une description de la façon dont le fournisseur évalue et minimise les répercussions des systèmes d'IA sur la durabilité environnementale, y compris en ce qui concerne la programmation économe en énergie et les techniques de conception, de formation et d'utilisation efficaces de l'IA est fournie.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia29"
+ },
+ {
+  "ref": "IA3",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les raisons, les principaux facteurs et les paramètres régissant les décisions fondées sur un traitement automatisé des renseignements personnels sont-ils clairement établis?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia3"
+ },
+ {
+  "ref": "IA30",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Dans le cas d’utilisation de la technique des agents autonomes dans la SARIA, une description des modalités de contrôle et de surveillance des agents doit être fournie ainsi que les modalités de communication d'incidents à l'acquéreur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia30"
+ },
+ {
+  "ref": "IA31",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Si des données synthétiques sont utilisées dans l'entraînement du(des) modèle(s) de la SARIA, l'explication des raisons qui ont mené au choix des données synthétiques, comment elles ont été utilisées et dans quelle mesure ces données procurent la réprésentativité souhaitée doit être documentée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia31"
+ },
+ {
+  "ref": "IA32",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Idéalement, l'entraînement, la validation et les tests du(des) modèle(s) de la SARIA ont utilisé des jeux de données différents. La méthodologie utilisée pour l'obtention de jeux de données pour ces trois étapes doit être documentée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia32"
+ },
+ {
+  "ref": "IA33",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le fournisseur accepte de collaborer avec des chercheurs en IA responsable et avec un comité formé par des potentiels utilisateurs et usagers pour une analyse de risques et recommandations concernant la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia33"
+ },
+ {
+  "ref": "IA34",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le fournisseur s'engage à tenir un registre ou à collaborer aux efforts d'un organisme indépendant pour tenir un registre des risques qui résultent de l’utilisation de la SARIA, du(des) modèle(s) qui intégrent la SARIA ou des jeux de données utilisés dans le développement de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia34"
+ },
+ {
+  "ref": "IA35",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le fournisseur s'engage à communiquer à l'acquéreur tout nouveau risque qui résulte de l’utilisation de la SARIA, du(des) modèle(s) qui intégrent la SARIA ou des jeux de données utilisées pour le développement de la SARIA. Dans le cas d'un développement secondaire, le fournisseur s'engage à exiger du développeur primaire la communication de ces riques.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia35"
+ },
+ {
+  "ref": "IA36",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le fournisseur s'engage à ne pas utiliser pour l'entraînement du(des) modèle(s) de la SARIA des jeux de données corrompues ou dont l'intégrité peut avoir été compromise dans les cinq ans avant leur utilisation.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia36"
+ },
+ {
+  "ref": "IA37",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le fournisseur s'engage à surveiller les événements qui auraient pu corrompre ou compromettre l'intégrité des jeux de données utilisés pour l'entraînement du(des) modèle(s) de la SARIA avant leur utilisation et d'en informer l'acquéreur, le cas échéant, pendant la durée de vie de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia37"
+ },
+ {
+  "ref": "IA38",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Dans le cas de l’utilisation de jeux de données pour l'entraînement du(des) modèle(s) de la SARIA, le fournisseur doit avoir acquis les droits sur ces jeux de données, notamment lorsqu’il s’agit de renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia38"
+ },
+ {
+  "ref": "IA39",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La communication des renseignements personnels par toute composante de la SARIA ou entre composantes de la SARIA et composantes extérieures est faite de manière à en assurer une protection qui répond aux exigences des lois du Québec.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia39"
+ },
+ {
+  "ref": "IA4",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La SARIA doit informer la personne concernée que la décision a été rendue sur la base d'un traitement automatisé de ses renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia4"
+ },
+ {
+  "ref": "IA40",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Aucune communication de renseignements personnels, qu'ils soient d'usagers ou d'utilisateurs, ne sera faite par aucune composante de la SARIA (y compris les appels à des modèles d'IA générative) à l'extérieur du territoire du Québec. Si c'est le cas, la personne dont le renseignement personnel sera communiqué doit y consentir de façon informée, explicite et inéquivoque.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia40"
+ },
+ {
+  "ref": "IA41",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "L'acquéreur ainsi que le Bureau de certification doivent être informés de toute communication ou vente de données liées à la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia41"
+ },
+ {
+  "ref": "IA42",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Tout produit développé à partir des données d'utilisation de la SARIA ou des données auxquelles le(s) modèle(s) de la SARIA est (sont) exposés en raison de la SARIA devra faire objet d'une communication à l'acquéreur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia42"
+ },
+ {
+  "ref": "IA43",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "L'acquéreur doit être informé de toute tierce partie de la SARIA, y compris des compagnies, organismes ou particuliers qui ont démontré au fournisseur de l'intérêt sur les données d'utilisation de la SARIA ou à qui le fournisseur développera n'importe quel type de produit créé à partir des données d'utilisation de la SARIA ou des données auxquelles le(s) modèle(s) de la SARIA est (sont) exposé(s) en raison de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia43"
+ },
+ {
+  "ref": "IA44",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "L'acquéreur doit être informé de toute analyse des données d'utilisation de la SARIA ou toute donnée liée à l'utilisation de la SARIA non solicitée par l'acquéreur lui-même.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia44"
+ },
+ {
+  "ref": "IA45",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La SARIA est dotée de fonctions qui permettent à l'acquéreur d'inhiber l'appel à un, plusieurs ou tous les modèle(s) de la SARIA, dans le cas d'une défaillance, d'une panne, d'un refus de l'usager ou d'une décision administrative concernant la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia45"
+ },
+ {
+  "ref": "IA46",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Le fournisseur s'engage à ne pas permettre – ou d'une quelconque façon faciliter – l'apprentissage automatique sur les données d'utilisation de la SARIA ou sur des données liées à l'utilisation de la SARIA sans l'autorisation explicite de l'acquéreur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia46"
+ },
+ {
+  "ref": "IA47",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les accès à la SARIA sont journalisés et retraçables, ainsi que les prises de décision, réactions et commentaires effectués par les utilisateurs.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia47"
+ },
+ {
+  "ref": "IA48",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La journalisation des accès, décisions, réactions et commentaires propres à l'utilisateur est accessible pour la période pendant laquelle les décisions que la SARIA appuie peuvent être questionnées en cour.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia48"
+ },
+ {
+  "ref": "IA49",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les accès à la SARIA sont sécurisés de façon à ce que l’utilisateur ne puisse pas consulter des données, des informations ou des documents auxquels il n'a pas l'autorisation d’accéder en raison de son emploi ou de son rôle.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia49"
+ },
+ {
+  "ref": "IA5",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "À la demande de la personne concernée, la SARIA doit permettre de fournir les renseignements personnels utilisés, les raisons et facteurs ayant mené à la décision, et le droit de rectification des renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia5"
+ },
+ {
+  "ref": "IA50",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les accès à la SARIA sont sécurisés de façon à ce que l’utilisateur ne puisse pas réaliser de tâches pour lesquelles il n’a pas l'autorisation de le faire en raison de son emploi ou de son rôle.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia50"
+ },
+ {
+  "ref": "IA51",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les données d’utilisation et les résultats de la SARIA sont journalisés et accessibles par l'acquéreur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia51"
+ },
+ {
+  "ref": "IA52",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Il y a un mécanisme qui permet à l'acquéreur de suivre et d'extraire l'approbation et les changements effectués par les utilisateurs dans les résultats de la SARIA, ainsi que les commentaires et les réactions des utilisateurs.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia52"
+ },
+ {
+  "ref": "IA53",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Lorsque c'est possible, la décision ou la recommandation finale de la SARIA est composée de résultats intermédiaires que l'utilisateur peut consulter.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia53"
+ },
+ {
+  "ref": "IA54",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La SARIA est dotée de fonctions permettant à l'utilisateur de consulter et d'extraire les décisions intermédiaires validées ou modifiées par lui-même dans le processus de décision ou de recommandation de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia54"
+ },
+ {
+  "ref": "IA55",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La SARIA est dotée de fonctions qui permettent à l'acquéreur de conférer des accès qui respectent les rôles et responsabilités des personnes du programme ou service dans lequel la SARIA sera utilisée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia55"
+ },
+ {
+  "ref": "IA56",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Si le(s) modèle(s) de la SARIA s'adapte(nt) par apprentissage automatique à partir des données d'entrée fournies, la SARIA possède des fonctionnalités pour accompagner, analyser, planifier et exécuter l'adaptation. L'adaptation devrait être faite selon l'approbation de l'acquéreur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia56"
+ },
+ {
+  "ref": "IA57",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Dans le cas d'utilisation de l'IA générative pour la production de résultats, les sources utilisées pour générer les résultats doivent être présentées dans les résultats et l'accès à ces sources doit être intégré dans l'interface personne-système de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia57"
+ },
+ {
+  "ref": "IA58",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les résultats inadéquats de la SARIA peuvent être signalés par les utilisateurs comme tels dans la SARIA. Ils sont journalisés et peuvent être extraits par l'acquéreur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia58"
+ },
+ {
+  "ref": "IA59",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les limitations de la SARIA et les mises en garde par rapport à son utilisation sont présentes dans les écrans d'utilisation de la SARIA, de façon à ce que l'utilisateur sache quels aspects des résultats doivent être vérifiés avec plus d'attention (stratégie d'explicabilité).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia59"
+ },
+ {
+  "ref": "IA6",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Offrir à la personne concernée la possibilité de présenter ses observations à un membre du personnel en mesure de réviser la décision.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia6"
+ },
+ {
+  "ref": "IA60",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les écrans de la SARIA menent l'utilisateur à comprendre qu’il est toujours possible de ne pas l’utiliser ou de ne pas accepter au moins une de ses recommandations.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia60"
+ },
+ {
+  "ref": "IA61",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les écrans de la SARIA placent l'utilisateur en contrôle des résultats et du processus. Si l'utilisateur peut changer les résultats de la SARIA, la SARIA ne peut pas changer les validations, les résultats ni aucun autre intrant humain dans la SARIA après la validation finale de l'utilisateur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia61"
+ },
+ {
+  "ref": "IA62",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Les écrans et la présentation d'information dans la SARIA aident l’utilisateur à comprendre ce que le(s) modèle(s) de la SARIA fait(font) et quelles sont les données, les paramètres ou le contexte pris en considération pour la décision ou la recommandation de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia62"
+ },
+ {
+  "ref": "IA63",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La version de la SARIA est toujours visible dans ses écrans et change lorsqu’une mise à jour est effectuée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia63"
+ },
+ {
+  "ref": "IA64",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La version de la SARIA utilisée dans un résultat est mentionnée dans ce résultat.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia64"
+ },
+ {
+  "ref": "IA65",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Dans le cas d’utilisation de la technique des agents autonomes, des modalités de contrôle et surveillance des agents doivent faire partie de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia65"
+ },
+ {
+  "ref": "IA66",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La SARIA possède des points de contrôle automatiques des appels aux composantes extérieures à la SARIA et une stratégie de continuation dans le cas de défaillance de ces composantes.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia66"
+ },
+ {
+  "ref": "IA67",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La présentation de publicité interne de la SARIA (alertes de nouvelles fonctionnalités, trucs et astuces ou d'autres contenus non directement liés à l'utilisation de la SARIA dans un cas concret) doit être limitée à l'intérieur des deux premières minutes d'utilisation de la SARIA. Malgré ce qui est dit, il est interdit d'avoir de la publicité de nature commerciale dans la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia67"
+ },
+ {
+  "ref": "IA68",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Dans la SARIA, aucun mot, élément visuel ou sonore, mouvement ou temps de réponse de l'utilisateur n'est utilisé comme déclencheur d'associations ou d'actions commanditées",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia68"
+ },
+ {
+  "ref": "IA69",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Aucune technique subliminale n'est utilisée dans la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia69"
+ },
+ {
+  "ref": "IA7",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "La SARIA doit permettre la révision de la décision par un humain.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia7"
+ },
+ {
+  "ref": "IA8",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Un processus d'essais a été accompli pour identifier les différences de comportement de la SARIA face aux conditions ou aux groupes sociaux présents dans le contexte d'utilisation de la SARIA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia8"
+ },
+ {
+  "ref": "IA9",
+  "famille": "IA",
+  "famille_fr": "Intelligence artificielle",
+  "famille_en": "Artificial intelligence",
+  "texte": "Un processus d'essais a été accompli pour établir le niveau d'adéquation de la SARIA à l'utilisation envisagée",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:ia9"
+ },
+ {
+  "ref": "P01.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre organisation dispose d'une politique de protection de la vie privée / protection des renseignements personnels",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p01.01"
+ },
+ {
+  "ref": "P01.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "La protection des renseignements personnels est encadrée au sein de votre organisation par des politiques, processus, directives, procédures ou autres instructions.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p01.02"
+ },
+ {
+  "ref": "P01.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "La politique de confidentialité régissant la collecte et l'utilisation des renseignements par votre produit ou service technologique est facilement consultable par l'utilisateur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p01.03"
+ },
+ {
+  "ref": "P01.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Démontrer que vous avez établi des politiques et des pratiques encadrant la gouvernance des renseignements personnels et publier de l’information détaillée sur celles-ci en termes simples et clairs sur le site Internet de l’entreprise ou, si elle n’a pas de site, par tout autre moyen approprié.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p01.04"
+ },
+ {
+  "ref": "P01.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les politiques de votre entreprise détaillent-elles clairement quelles informations sont collectées, conservées, communiquées et détruites ?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p01.05"
+ },
+ {
+  "ref": "P02.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Un responsable de la PRP est chargé de la mise en œuvre des politiques, procédures et pratiques en matière de PRP.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p02.01"
+ },
+ {
+  "ref": "P02.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Prouver que vous avez appuyé la personne responsable de la PRP avec les ressources nécessaires (humaines, techniques et financières) pour assurer la réussite de votre mise en conformité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p02.02"
+ },
+ {
+  "ref": "P02.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Un responsable de la PRP a été impliqué dans le projet de développement de votre produit ou service technologique.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p02.03"
+ },
+ {
+  "ref": "P03.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Le projet de développement de votre produit ou service technologique comportait des activités permettant de s'assurer du respect des principes de protection de la vie privée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p03.01"
+ },
+ {
+  "ref": "P03.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Dès les premières étapes du projet et tout au long de celui-ci, vous avez cerné et analysé les risques d'atteinte à la vie privée que pouvait présenter votre produit ou service technologique.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p03.02"
+ },
+ {
+  "ref": "P04.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Confirmer la mise en place d’un mécanisme permettant de réaliser une évaluation des facteurs relatifs à la vie privée (ÉFVP) lorsque la Loi l’exige : 1- Évaluer la conformité du projet au regard des lois sur la protection des renseignements personnels; 2- Relever les risques du projet sur la vie privée des personnes concernées; 3- Mettre en place des stratégies et des mesures pour éviter ces risques ou les réduire efficacement; 4- Surveiller le produit ou le service technologique de ces mesures et les réviser.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p04.01"
+ },
+ {
+  "ref": "P04.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Dans le cas où une ÉFVP a été jugée obligatoire, est-ce que ladite ÉFVP élaborée contient tous les éléments d'informations tel qu'éxigé par la CAI ?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p04.02"
+ },
+ {
+  "ref": "P05.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre personnel est sensibilisé à la protection de la vie privée et aux bonnes pratiques en la matière.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p05.01"
+ },
+ {
+  "ref": "P05.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous informez l'acquéreur et les utilisateurs de votre produit ou service technologique de l'usage autorisé de votre PST ainsi que de l'existence de mesures de sécurité et de leur rôle quand à l'utilisation appropriée de celles-ci et des renseignements personnels en présence.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p05.02"
+ },
+ {
+  "ref": "P06.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous informez l'utilisateur de votre produit ou service technologique de la finalité de la collecte et de l'usage des renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.01"
+ },
+ {
+  "ref": "P06.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "S'assurer que l'utilisateur a obtenu le consentement de la personne concernée concernant la collecte et l'utilisation de ses renseignements personnels. Aussi que les personnes concernées sont systématiquement informées des motifs de la collecte de leurs renseignements personnels, de l'utilisation prévue, des tiers impliqués, de leur droit de rétractation du consentement, ainsi que de leurs droits d'accès et de rectification ? Que ces informations sont présentées de manière simple, claire et compréhensible pour assurer un consentement manifeste, libre et éclairé ?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.02"
+ },
+ {
+  "ref": "P06.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant de recueillir et de consigner le consentement à la collecte des renseignements personnels de la personne concernée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.03"
+ },
+ {
+  "ref": "P06.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant de consigner l'attestation d'un utilisateur (professionnel de la santé) qu'il a bien obtenu le consentement de la personne concernée pour collecter les renseignements personnels la concernant.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.04"
+ },
+ {
+  "ref": "P06.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant de recueillir et de consigner le consentement d'un utilisateur à la communication des renseignements personnels le concernant.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.05"
+ },
+ {
+  "ref": "P06.06",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose d'un mécanisme permettant à l'utilisateur de confirmer formellement tout transfert spécifique de renseignements personnels en provenance du DSQ.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.06"
+ },
+ {
+  "ref": "P06.07",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant une gestion détaillée du consentement (ex. paramètres d'acceptation, préférences)",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.07"
+ },
+ {
+  "ref": "P06.08",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous êtes en mesure de connaître la provenance des renseignements personnels collectés et utilisés par votre produit ou service technologique. Lorsque la collecte n'a pu être faite directement auprès de la personne concernée, votre produit ou service technologique comporte un mécanisme permettant de consigner une déclaration de l'utilisateur selon laquelle ce consentement a bien été obtenu.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.08"
+ },
+ {
+  "ref": "P06.09",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose d'un mécanisme permettant de consigner l'acceptation par chacun des utilisateurs du produit ou service technologique des conditions d'utilisation.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.09"
+ },
+ {
+  "ref": "P06.10",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Démontrer que vous avez mis en place des mécanismes permettant de respecter le nouvel encadrement applicable à la communication de renseignements personnels sans le consentement de la personne concernée",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.10"
+ },
+ {
+  "ref": "P06.11",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Si votre entreprise collecte des renseignements personnels de mineurs de moins de 14 ans , disposez-vous d'un processus pour obtenir le consentement des titulaires de l'autorité parentale ?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.11"
+ },
+ {
+  "ref": "P06.12",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre application dispose de mécanismes permettant de consigner l'attestation d'un utilisateur (professionnel de la santé) qu'il a bien obtenu le consentement de la personne concernée pour communiquer les renseignements personnels la concernant, lorsque c'est nécessaire.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p06.12"
+ },
+ {
+  "ref": "P07.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre organisation s'assure que ses partenaires se conforment à ses exigences en matière de protection des renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p07.01"
+ },
+ {
+  "ref": "P07.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous informez les utilisateurs de votre produit ou service technologique sur l'identité des parties prenantes (fournisseur du produit ou service technologique, établissement acquéreur - client, ministère ou autre).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p07.02"
+ },
+ {
+  "ref": "P08.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les recours à des identifiants généraux, tel le numéro d'assurance sociale, le numéro d'assurance-maladie, le numéro de permis de conduire, le certificat d’identité électronique ou autre, sont recueillis en vertu de dispositions légales ou d’ententes spécifiques convenues avec l'acquéreur. La personne concernée en est informée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p08.01"
+ },
+ {
+  "ref": "P08.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Lors d'une collecte directe de renseignements personnels auprès du patient pour le bénéfice d'un organisme public ou lorsque le patient est utilisateur du produit ou service technologique (pour un organisme public), vous l'Informez préalablement à la collecte de l'utilisation des renseignements personnels le concernant en respectant les exigences de l'article 65 de la Loi sur l’accès aux documents des organismes publics et sur la protection des renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p08.02"
+ },
+ {
+  "ref": "P08.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous êtes en mesure de connaître la provenance des renseignements personnels collectés et utilisés par votre produit ou service technologique. Lorsque la collecte n'a pu être faite directement auprès de la personne concernée, votre produit ou service technologique comporte un mécanisme permettant de consigner une confirmation d'autorisation de la part de l'utilisateur ainsi que d'une justification de l'impossibilité d'une collecte directe.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p08.03"
+ },
+ {
+  "ref": "P08.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Si votre produit ou service technologique recueille de l'information sur l'équipement de l'utilisateur ou son utilisation (ex. témoin de navigation, information de localisation ou toute autre collecte automatisée d'information sur son poste ou l'utilisation de celui-ci), vous l'en informez, vous obtenez son consentement et vous en justifiez le recours.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p08.04"
+ },
+ {
+  "ref": "P08.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant de connaître la date de la collecte (réception) des renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p08.05"
+ },
+ {
+  "ref": "P08.06",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les renseignements personnels pris en charge par votre produit ou service technologique en provenance du DSQ font l'objet d'une traçabilité et d'un marquage spécifique tout au long de leur cycle de vie.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p08.06"
+ },
+ {
+  "ref": "P08.07",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Toute communication de renseignements personnels alimentant votre produit ou service technologique ou toute communication de renseignements personnels en provenance de votre produit ou service technologique est identifiée et fait l'objet de mesures de traçabilité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p08.07"
+ },
+ {
+  "ref": "P08.08",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "L'information relative aux renseignements personnels collectés et traités par votre produit ou service technologique reste facilement disponible pour son utilisateur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p08.08"
+ },
+ {
+  "ref": "P08.09",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous informez l'utilisateur sur la durée de conservation des renseignements de santé et des services sociaux au moment de la collecte.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p08.09"
+ },
+ {
+  "ref": "P09.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique permet une gestion des accès aux renseignements personnels sur la base de profils d'utilisateurs suivant le principe du moindre privilège.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.01"
+ },
+ {
+  "ref": "P09.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose ou bénéficie des mécanismes d'authentification des utilisateurs de manière à fournir une assurance raisonnable de l'identité de la personne, et ce, en tenant compte de la sensibilité des renseignements.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.02"
+ },
+ {
+  "ref": "P09.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Chaque accès aux renseignements personnels répond au principe de nécessité, c’est-à-dire, le besoin de connaître pour son utilisateur dans le cadre de ses fonctions ou de son statut.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.03"
+ },
+ {
+  "ref": "P09.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose des mécanismes permettant de journaliser l'ensemble des accès aux renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.04"
+ },
+ {
+  "ref": "P09.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous êtes en mesure de faire le lien entre chacun des renseignements personnels, le type d'accès, les tâches et les profils des utilisateurs de votre produit ou service technologique.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.05"
+ },
+ {
+  "ref": "P09.06",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "L'ensemble des accès aux renseignements personnels collectés et traités par votre produit ou service technologique fait l'objet d'une journalisation dont l'exploitation est possible par des outils de gestion.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.06"
+ },
+ {
+  "ref": "P09.07",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant de restreindre l'accès aux renseignements personnels selon le moment (ex. accès selon une plage horaire particulière).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.07"
+ },
+ {
+  "ref": "P09.08",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les accès à privilèges élevés (ex. administrateur de la solution ou profil permettant de gérer les accès) font l'objet d'un contrôle renforcé.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.08"
+ },
+ {
+  "ref": "P09.09",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant la mise à jour des renseignements personnels par les personnes autorisées avec mention des circonstances et de l'origine de cette mise à jour.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.09"
+ },
+ {
+  "ref": "P09.10",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Permettre aux personnes d'identifier les types de renseignements auxquels ils demandent une restriction d'accès, les groupes à qui cette restriction d'accès s'applique et la durée de cette restriction.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.10"
+ },
+ {
+  "ref": "P09.11",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vérifier si la personne qui demande l'accès à des renseignements personnels fait partie des gens restreints par rapport à l'accès à ces renseignements et si on est dans la période de restriction.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.11"
+ },
+ {
+  "ref": "P09.12",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "L'accès aux renseignements de santé et de services sociaux peut être refusé momentanément au patient si, de l'avis d'un professionnel de santé ou des services sociaux, il en découlerait vraisemblablement un préjudice grave pour sa santé. Dans ce cas, l’organisme documente les motifs ayant mené à cette décision et détermine, sur la recommandation du professionnel, le moment où ce droit pourra être exercé. Comment faites-vous pour faire respecter ce critère?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p09.12"
+ },
+ {
+  "ref": "P10.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Préciser les rôles et responsabilités des membres du personnel participant à la protection des renseignements personnels tout au long de leur cycle de vie.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.01"
+ },
+ {
+  "ref": "P10.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "La durée de conservation de chacun des renseignements personnels pris en charge par votre produit ou service technologique est déterminée et justifiée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.02"
+ },
+ {
+  "ref": "P10.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose des mesures de sécurité appropriées pour protéger les renseignements personnels et les renseignements personnels de santé et services sociaux tout au long de leur cycle de vie.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.03"
+ },
+ {
+  "ref": "P10.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose des mécanismes permettant une journalisation de toute activité relative à chacun des renseignements personnels et ce, tout au long de leur cycle de vie.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.04"
+ },
+ {
+  "ref": "P10.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les renseignements personnels de votre produit ou service technologique sont protégés de manière adéquate lors de leur archivage.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.05"
+ },
+ {
+  "ref": "P10.06",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Confirmer la mise en place d’un mécanisme permettant de détruire les renseignements personnels lorsque la finalité de leur collecte est accomplie",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.06"
+ },
+ {
+  "ref": "P10.07",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Confirmer la mise en place d’un mécanisme permettant d'anonymiser les renseignements personnels pour les utiliser à des fins sérieuses et légitimes, sous réserve des conditions et d’un délai de conservation prévus par une loi.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.07"
+ },
+ {
+  "ref": "P10.08",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "La destruction d'un renseignement personnel de votre produit ou service technologique, lorsque confirmée, est irréversible et entraîne la destruction de toutes ses copies.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.08"
+ },
+ {
+  "ref": "P10.09",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Confirmer la mise en place d’un mécanisme permettant de respecter le droit à la cessation de la diffusion, à la réindexation ou à la désindexation (ou droit à l'oubli).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.09"
+ },
+ {
+  "ref": "P10.10",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Confirmer la mise en place d’un mécanisme permettant de respecter les nouvelles règles de communication des renseignements personnels facilitant le processus de deuil.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p10.10"
+ },
+ {
+  "ref": "P11.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les dispositions légales, réglementaires ou le programme légitimant la collecte et l'utilisation de renseignements personnels sont identifiés et les mesures sont en place pour permettre leur respect lors du déploiement et de l'opération de votre produit ou service technologique.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.01"
+ },
+ {
+  "ref": "P11.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous destinez chaque renseignement personnel à un usage déterminé et vous reliez cet usage aux fonctionnalités ou services offerts par votre produit ou service technologique.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.02"
+ },
+ {
+  "ref": "P11.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous réduisez au minimum les renseignements personnels utilisés et les personnes à qui sont divulguées les renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.03"
+ },
+ {
+  "ref": "P11.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique ne présente que lorsque c'est nécessaire, l'identité des personnes concernées par les renseignements personnels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.04"
+ },
+ {
+  "ref": "P11.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Chaque renseignement personnel est utilisé pour une finalité autorisée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.05"
+ },
+ {
+  "ref": "P11.06",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les renseignements personnels recueillis par votre produit ou service technologique sont strictement nécessaires.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.06"
+ },
+ {
+  "ref": "P11.07",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Chaque fichier de renseignements personnels est créé ou maintenu pour une finalité autorisée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.07"
+ },
+ {
+  "ref": "P11.08",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "L'extraction ou la communication des renseignements personnels depuis votre produit ou service technologique ou l'une de ses composantes est contrôlée et s'appuie sur des mesures permettant d'en assurer la confidentialité",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.08"
+ },
+ {
+  "ref": "P11.09",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les actions, décisions ou recommandations qui découlent des renseignements personnels recueillis sont documentées. Cette documentation est facilement accessible et communiquée à l'acquéreur et à l'utilisateur du produit ou service technologique.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.09"
+ },
+ {
+  "ref": "P11.10",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant à l'acquéreur de savoir quand chacun des renseignements personnels a été utilisé et par qui il l'a été.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.10"
+ },
+ {
+  "ref": "P11.11",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant de rendre. facilement accessibles à un utilisateur, tous les renseignements le concernant de façon à lui permettre de les consulter et de les corriger dans la mesure prévue par la loi.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.11"
+ },
+ {
+  "ref": "P11.12",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant à l'acquéreur de répondre à toute demande d'une personne souhaitant consulter ou corriger les renseignements personnels la concernant, dans la mesure prévue par la loi.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.12"
+ },
+ {
+  "ref": "P11.13",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant la propagation des renseignements personnels mis à jour ou ayant fait l'objet d'une rectification.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.13"
+ },
+ {
+  "ref": "P11.14",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Il est sous-entendu que l’utilisation secondaire des données, en dehors des cas explicitement prévus par la Loi, est aussi couverte par la protection des renseignements personnels. Ainsi, vous ne pouvez pas créer, exporter, conserver et/ou distribuer des informations (même si les données sont anonymisées, s'il s'agit de résultats d’analyses statistiques ou de mégadonnées) obtenues à partir des données personnelles des patients.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.14"
+ },
+ {
+  "ref": "P11.15",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Chaque panorama de votre produit ou service technologique ne comporte que les renseignements personnels strictement nécessaires à la tâche à accomplir.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.15"
+ },
+ {
+  "ref": "P11.16",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre produit ou service technologique dispose de mécanismes permettant d'informer l'utilisateur de la nécessité d'une mise à jour de chacun des renseignements personnels selon les règles en vigueur ou en adéquation avec la fréquence d'utilisation.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.16"
+ },
+ {
+  "ref": "P11.17",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les mécanismes de gestion des mises à jour des renseignements personnels de votre produit ou service technologique sont en mesure de tenir compte des duplicatas et des répliques de ces renseignements.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.17"
+ },
+ {
+  "ref": "P11.18",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "L'hébergement des renseignements personnels par toute composante de votre produit ou service technologique est fait de manière à en assurer une protection répondant aux exigences de la loi du Québec. L'hébergement des renseignements personnels par toute composante de votre produit ou service technologique (y compris les composantes redondantes et les sauvegardes) se trouve sur le territoire du Québec. À défaut, vous en informez clairement l'acquéreur et les utilisateurs et vous vous assurez qu'ils bénéficient d'un régime juridique offrant une protection adéquate.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.18"
+ },
+ {
+  "ref": "P11.19",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "En dehors des cas explicitement prévus par la Loi, aucun renseignement personnel n'est utilisé pour des fins d'apprentissage ou de développement de votre produit ou service technologique.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p11.19"
+ },
+ {
+  "ref": "P12.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre entreprise a-t-elle défini ce qui constitue un incident de confidentialité et dispose-t-elle d'une procédure pour traiter ces incidents?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p12.01"
+ },
+ {
+  "ref": "P12.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les procédures de notification interne et externe en cas d'incident de confidentialité sont-elles clairement établies?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p12.02"
+ },
+ {
+  "ref": "P12.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Démontrer que vous avez mis en place des mesures pour prévenir ou limiter les conséquences d’un incident de confidentialité impliquant un renseignement personnel.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p12.03"
+ },
+ {
+  "ref": "P12.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Démontrer qu’en cas d’incident de confidentialité impliquant un renseignement personnel, vous avez mis en place des mécanismes permettant de prendre les mesures raisonnables pour diminuer les risques qu’un préjudice soit causé aux personnes concernées et éviter que de nouveaux incidents de même nature se produisent.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p12.04"
+ },
+ {
+  "ref": "P12.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Démontrer que vous avez instauré des pratiques qui vous permettront de réagir adéquatement et rapidement en cas d’incident de confidentialité impliquant un renseignement personnel (ex. : plan de réponse aux incidents et directive au personnel).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p12.05"
+ },
+ {
+  "ref": "P12.06",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Démontrer qu’en cas d’incident de confidentialité impliquant un renseignement personnel, vous avez mis en place des mécanismes permettant d’aviser le Bureau de certification ainsi que la Commission et la personne concernée si l’incident présente un risque de préjudice sérieux. Aussi, que vous avez mis en place un registre des incidents dont une copie devra être transmise au Bureau de certification ainsi qu’à la Commission d'accès à l'information à sa demande. Que votre entreprise dispose d'un processus défini pour la mise à jour régulière des registres des incidents de confidentialité ?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p12.06"
+ },
+ {
+  "ref": "P13.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Si votre produit ou service technologique permet de prendre en charge des renseignements provenant de plusieurs clients, assurez-vous de respecter le cloisonnement des fichiers.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p13.01"
+ },
+ {
+  "ref": "P13.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Si vous créez un entrepôt de données à partir notamment de fichiers de renseignements personnels, assurez-vous de respecter le cloisonnement des fichiers qui comportent des finalités distinctes.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p13.02"
+ },
+ {
+  "ref": "P14.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre entreprise a-t-elle dressé un inventaire complet des renseignements personnels qu'elle détient, y compris dans ses systèmes TI et autres sources d'information? L'inventaire inclut-il des détails sur les endroits où sont stockés les renseignements personnels? L'inventaire inclut-il des détails sur les types d'informations stockées par l'entreprise? L'inventaire inclut-il des détails sur les informations collectées par l'entreprise ?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p14.01"
+ },
+ {
+  "ref": "P14.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Vous tenez à jour un inventaire des renseignements personnels recueillis ou utilisés par votre produit ou service technologique, y compris ceux figurant dans les données de journalisation ou de surveillance. L’inventaire des renseignements personnels étant évolutif, il importe de le tenir à jour pour rendre compte des changements susceptibles d’être survenus au sein de votre entreprise (ex. : nouvelle collecte de renseignements personnels pour un projet) et de vous assurer de planifier adéquatement vos actions et de respecter toutes vos obligations.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p14.02"
+ },
+ {
+  "ref": "P14.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Existe-t-il un contrôle efficace de l'accès et du transfert des renseignements personnels en accord avec les politiques de l'entreprise?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p14.03"
+ },
+ {
+  "ref": "P14.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre entreprise a-t-elle un processus clair pour le transfert de renseignements personnels à des tiers?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p14.04"
+ },
+ {
+  "ref": "P14.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "En cas d'incident, votre entreprise est-elle capable d'identifier rapidement quelles données sont mises en cause?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p14.05"
+ },
+ {
+  "ref": "P15.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "La politique de l'entreprise en matière de conservation et de destruction des données personnelles est-elle clairement définie et documentée?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p15.01"
+ },
+ {
+  "ref": "P15.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les outils de gestion des données ont-ils été sélectionnés par une personne qualifiée et sont-ils adaptés aux besoins spécifiques de l'entreprise?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p15.02"
+ },
+ {
+  "ref": "P15.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "L'entreprise suit-elle un calendrier de conservation des données conforme à sa politique et adapté aux types de données collectées?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p15.03"
+ },
+ {
+  "ref": "P15.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "L'entreprise révise-t-elle régulièrement sa politique de données en tenant compte des changements législatifs et des meilleures pratiques?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p15.04"
+ },
+ {
+  "ref": "P16.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "L'entreprise a-t-elle une stratégie clairement définie pour le traitement des plaintes relatives à la protection des renseignements personnels?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p16.01"
+ },
+ {
+  "ref": "P16.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Des personnes spécifiques sont-elles désignées et formées pour répondre aux plaintes en matière de protection des renseignements personnels?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p16.02"
+ },
+ {
+  "ref": "P16.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Le processus de traitement des plaintes intègre-t-il des méthodes d'authentification adéquates pour toutes les formes de requêtes?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p16.03"
+ },
+ {
+  "ref": "P16.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Le processus de traitement des plaintes est-il décrit de manière simple et claire pour les utilisateurs? Est-il accessible publiquement sur le site Web de l'entreprise?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p16.04"
+ },
+ {
+  "ref": "P16.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Existe-t-il un registre des plaintes et celui-ci contient-il les réponses apportées par l'entreprise aux plaintes? Est-il régulièrement mis à jour?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p16.05"
+ },
+ {
+  "ref": "P17.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre entreprise a-t-elle établi un processus formel pour recevoir ainsi que pour traiter les demandes de désindexation des renseignements personnels?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p17.01"
+ },
+ {
+  "ref": "P17.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Avez-vous un mécanisme en place pour vérifier si des exigences légales, réglementaires ou normatives empêchent l'agrément à une demande de désindexation?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p17.02"
+ },
+ {
+  "ref": "P17.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre entreprise a-t-elle développé des processus spécifiques pour la destruction, l'anonymisation et la désindexation des renseignements personnels ?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p17.03"
+ },
+ {
+  "ref": "P17.04",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Dans les cas où il est impossible d'appliquer le droit à la désindexation, disposez-vous d'un protocole pour informer la personne requérante des raisons de cette impossibilité?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p17.04"
+ },
+ {
+  "ref": "P17.05",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Lorsque c'est possible, votre entreprise utilise-t-elle des techniques d'anonymisation ou de destruction des renseignements personnels pour répondre aux demandes de désindexation?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p17.05"
+ },
+ {
+  "ref": "P18.01",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Disposez-vous d'un processus structuré permettant aux personnes concernées de demander une copie de leurs renseignements personnels détenus par l'entreprise?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p18.01"
+ },
+ {
+  "ref": "P18.02",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Votre entreprise est capable de les communiquer dans un format technologique structuré et couramment utilisé?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p18.02"
+ },
+ {
+  "ref": "P18.03",
+  "famille": "P",
+  "famille_fr": "Protection des renseignements personnels",
+  "famille_en": "Personal information protection",
+  "texte": "Les personnes responsables de répondre aux demandes de portabilité des données au sein de votre entreprise ont-elles reçu la formation nécessaire pour communiquer ces informations de manière sécuritaire et dans un délai raisonnable?",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:p18.03"
+ },
+ {
+  "ref": "PF01",
+  "famille": "PF",
+  "famille_fr": "Performance",
+  "famille_en": "Performance",
+  "texte": "Documenter les caractéristiques techniques minimales requises pour assurer le bon fonctionnement de votre application en fonction du nombre d'utilisateurs de votre application. (ex. documents structurants, rapport de test de charge, etc.)",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:pf01"
+ },
+ {
+  "ref": "PF02",
+  "famille": "PF",
+  "famille_fr": "Performance",
+  "famille_en": "Performance",
+  "texte": "Documenter le temps de latence que peut supporter le PST sans perte de communication ou de données ou toute autre répercussion indésirable.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:pf02"
+ },
+ {
+  "ref": "PF03",
+  "famille": "PF",
+  "famille_fr": "Performance",
+  "famille_en": "Performance",
+  "texte": "Documenter la bande passante minimale garantissant un fonctionnement normal du PST.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:pf03"
+ },
+ {
+  "ref": "PF04",
+  "famille": "PF",
+  "famille_fr": "Performance",
+  "famille_en": "Performance",
+  "texte": "Documenter le pourcentage d'apport de trafic sur le lien d'entrée d'un point de service pour l'ensemble des utilisateurs de ce point de service que le PST peut induire dans le cadre de l'utilisation prévue ou dans sa condition normale d'utilisation.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:pf04"
+ },
+ {
+  "ref": "PF05",
+  "famille": "PF",
+  "famille_fr": "Performance",
+  "famille_en": "Performance",
+  "texte": "Documenter les temps de réponse qu'on doit attendre du PST dans les meilleures et pires conditions.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:pf05"
+ },
+ {
+  "ref": "PF06",
+  "famille": "PF",
+  "famille_fr": "Performance",
+  "famille_en": "Performance",
+  "texte": "Documenter la gestion des paquets par le PST en précisant le taux de perte de paquets qu'il peut supporter sans perte de communication ou de données, la gestion du réordonnancement ainsi que la durée de vie des paquets.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:pf06"
+ },
+ {
+  "ref": "PF07",
+  "famille": "PF",
+  "famille_fr": "Performance",
+  "famille_en": "Performance",
+  "texte": "Documenter les délais de rétention et d'interruption de connexion que le PST peut supporter sans perte de communication ou de données. Il faudra préciser également si le PST supporte le reroutage de paquets sans perte de communication ou de données.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:pf07"
+ },
+ {
+  "ref": "S01.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Une évaluation des risques de sécurité a été réalisée lors de la conception de votre application et avant sa mise en production.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s01.01"
+ },
+ {
+  "ref": "S01.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Procéder à des évaluations périodiques des risques et vulnérabilités potentiels pour la confidentialité, l'intégrité et la disponibilité des renseignements prises en charge par votre application et vos partenaires d'affaires associés.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s01.02"
+ },
+ {
+  "ref": "S01.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "L'évaluation continue des risques est approuvée par la direction et réalisée pour réaffirmer l'évaluation initiale des risques. Une évaluation des risques est effectuée chaque fois que des changements majeurs seront proposés à votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s01.03"
+ },
+ {
+  "ref": "S02.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous disposez de politique(s) de sécurité présentant: - vos objectifs; - vos principes directeurs en la matière; - les rôles et responsabilités; - la gestion des dérogations et des exceptions.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s02.01"
+ },
+ {
+  "ref": "S02.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous avez mis en place des normes, processus et procédures techniques pour atteindre vos objectifs de sécurité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s02.02"
+ },
+ {
+  "ref": "S02.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Ces politiques sont approuvées par la direction, communiquées aux personnes intéressées et sont maintenues à jour.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s02.03"
+ },
+ {
+  "ref": "S02.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous disposez d'un cadre réglementaire de bonnes pratiques d’utilisation des outils informatiques, ainsi qu’une procédure à suivre en cas d’incident afin de réagir correctement et de structurer une réponse efficiente à une menace.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s02.04"
+ },
+ {
+  "ref": "S03.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous avez défini les responsabilités en matière de sécurité au sein de votre organisation.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s03.01"
+ },
+ {
+  "ref": "S03.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application et les différents actifs permettant son exploitation ont un responsable attitré chargé de leur sécurité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s03.02"
+ },
+ {
+  "ref": "S03.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Les tâches incompatibles liées à votre application ont été cernées et des mesures ont été prises pour limiter l'usage inapproprié de votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s03.03"
+ },
+ {
+  "ref": "S03.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous disposez d'une méthode de gestion de projet intégrant la sécurité et permettant d'identifier les risques et de les traiter adéquatement.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s03.04"
+ },
+ {
+  "ref": "S03.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous gérez les risques spécifiques liés aux appareils mobiles.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s03.05"
+ },
+ {
+  "ref": "S03.06",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous disposez d'une politique permettant de couvrir les risques liés au télétravail.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s03.06"
+ },
+ {
+  "ref": "S04.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous assurer que votre personnel a les compétences requises en lien avec ses fonctions.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s04.01"
+ },
+ {
+  "ref": "S04.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Un programme de sensibilisation et de formation à la sécurité est en place pour tous les membres du personnel de l'entreprise (y compris la direction).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s04.02"
+ },
+ {
+  "ref": "S04.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Les membres de votre personnel et les contractants ayant participé au développement et à l'exploitation de votre application sont informés de leurs responsabilités et des procédures à appliquer.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s04.03"
+ },
+ {
+  "ref": "S04.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Des sanctions appropriées sont approuvées pour les membres du personnel qui ne respectent pas les politiques et procédures de sécurité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s04.04"
+ },
+ {
+  "ref": "S04.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "À l'issue de la relation d'emploi, vous rappelez aux personnes concernées les obligations qui restent valables.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s04.05"
+ },
+ {
+  "ref": "S05.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous avez établi des conditions d'utilisation de votre application et des différents actifs permettant son exploitation, son entretien, son évolution ainsi que le soutien aux utilisateurs.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s05.01"
+ },
+ {
+  "ref": "S05.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Un mécanisme permet de présenter les conditions d'utilisation à toute personne lors de sa première utilisation de l'application et d'en consigner son acceptation. Ces conditions doivent pouvoir être personnalisées afin d'y intégrer l'énoncé de responsabilité de l'utilisateur vis-à-vis des renseignements personnels de santé.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s05.02"
+ },
+ {
+  "ref": "S05.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Ces conditions restent facilement consultables et sont représentées à l'utilisateur à intervalles adéquats.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s05.03"
+ },
+ {
+  "ref": "S05.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application et les différents actifs permettant son exploitation sont inventoriés et ont un responsable attitré chargé de leur sécurité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s05.04"
+ },
+ {
+  "ref": "S05.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application et les différents actifs permettant son exploitation sont classifiés (catégorisés) en matière de disponibilité, d'intégrité et de confidentialité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s05.05"
+ },
+ {
+  "ref": "S05.06",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous assurer qu'au terme de leur contrat, les utilisateurs employés et contractants restituent tous les actifs de votre organisation qui leur ont été confiés.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s05.06"
+ },
+ {
+  "ref": "S05.07",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "L'utilisation des supports amovibles est encadrée conformément aux exigences découlant de la classification de l'information qui s'y trouve.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s05.07"
+ },
+ {
+  "ref": "S05.08",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Disposer d'une procédure formelle vous permettant de vous assurer d'une mise au rebut sécurisée des supports d'information relative à votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s05.08"
+ },
+ {
+  "ref": "S06.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Établir une politique de gestion des accès pour votre organisation, applicable à l'ensemble des personnes participant à la conception, à l'exploitation, à l'entretien et à l'évolution de votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.01"
+ },
+ {
+  "ref": "S06.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Établir des règles de gestion des accès à votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.02"
+ },
+ {
+  "ref": "S06.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application comporte des mécanismes permettant de gérer, de contrôler l'ensemble des accès et de limiter ces accès aux seules composantes, fonctionnalités et informations pour lesquelles l'utilisateur a reçu spécifiquement une autorisation.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.03"
+ },
+ {
+  "ref": "S06.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Les activités à privilèges élevés sont réservées à des comptes spécifiques consacrés et une fonction de votre application permet d'en contrôler l'octroi.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.04"
+ },
+ {
+  "ref": "S06.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Le niveau de complexité des mots de passe peut être géré (niveau de robustesse suffisant).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.05"
+ },
+ {
+  "ref": "S06.06",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Démontrer que votre PST rend obligatoire l'utilisation du MFA.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.06"
+ },
+ {
+  "ref": "S06.07",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application fournit un mécanisme d’authentification utilisant des protocoles natifs sécurisés et modernes (par exemple : LDAPS). Elle permet l’utilisation de fédérations d’identités modernes (par exemple : SAML ou OpenID).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.07"
+ },
+ {
+  "ref": "S06.08",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application permet de préserver la confidentialité des mots de passe et elle ne capture ou n'entrepose en aucun cas les mots de passe utilisés lorsqu’elle fonctionne en mode intégré avec une source d’autorité externe (par exemple un établissement).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.08"
+ },
+ {
+  "ref": "S06.09",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Lorsqu'il est géré par votre application, chaque utilisateur doit pouvoir changer son mot de passe.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.09"
+ },
+ {
+  "ref": "S06.10",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Les communications entre les différentes composantes de votre application doivent être authentifiées et celles-ci doivent avoir le minimum de privilèges requis.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.10"
+ },
+ {
+  "ref": "S06.11",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application et les systèmes permettant son fonctionnement ne comportent aucun mot de passe dans des scripts automatisés, des macros, le code source ou toute autre utilisation pouvant rendre complexes les mises à jour des mots de passe. Dans le cas contraire, une demande d'exception doit être effectuée auprès de Santé Québec.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.11"
+ },
+ {
+  "ref": "S06.12",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application dispose de fonctionnalités permettant de faciliter la revue des accès.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.12"
+ },
+ {
+  "ref": "S06.13",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "La gestion des accès repose sur des profils basés sur les fonctionnalités de votre application. Ces profils sont paramétrés de façon à pouvoir attribuer aux utilisateurs les seuls accès dont ils ont besoin.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.13"
+ },
+ {
+  "ref": "S06.14",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application comporte des fonctionnalités permettant à son acquéreur d'en gérer aisément les accès.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.14"
+ },
+ {
+  "ref": "S06.15",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application comporte une fonctionnalité permettant à l'utilisation de facilement se déconnecter.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.15"
+ },
+ {
+  "ref": "S06.16",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application permet de désactiver un identifiant automatiquement après un maximum de cinq tentatives de connexion échouées. Une alerte doit pouvoir être configurée comme prévu au critère S10.03.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.16"
+ },
+ {
+  "ref": "S06.17",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "En cas d'échec d'une authentification à votre application, seul un message générique doit s'afficher sans mention des champs invalides.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.17"
+ },
+ {
+  "ref": "S06.18",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application n'utilise aucun compte générique. À défaut, une demande d'exception doit être demandée auprès de Santé Québec.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.18"
+ },
+ {
+  "ref": "S06.19",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application dispose d'une fonction permettant la déconnexion automatique d'une session après un délai d'inactivité (configurable).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.19"
+ },
+ {
+  "ref": "S06.20",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Restreindre l'accès au code source de votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.20"
+ },
+ {
+  "ref": "S06.21",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "L'authentification aux services externes critiques de votre fichier PST est protégée par un test CAPTCHA. (facultatif si l'AMF est implantée)",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.21"
+ },
+ {
+  "ref": "S06.22",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Toute connexion à un service ou toute modification au profil d’un utilisateur ou citoyen doit être signalée au titulaire.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.22"
+ },
+ {
+  "ref": "S06.23",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "L'infrastructure qui héberge votre fichier PST permet la surveillance et la détection d’attaques de type bourrage de justificatifs (credential stuffing) ou par dictionnaire, qui permet d'alerter et de mitiger toute tentative de connexion anormale.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.23"
+ },
+ {
+  "ref": "S06.24",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Le compte utilisateur des intervenants doit provenir de l'annuaire centralisé de Santé Québec.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.24"
+ },
+ {
+  "ref": "S06.25",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Journaliser les accès au PST exposés sur Internet.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.25"
+ },
+ {
+  "ref": "S06.26",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "S'assurer que votre PST permet aux propriétaire de la donnée d'y accéder sans contrainte.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s06.26"
+ },
+ {
+  "ref": "S07.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "L'ensemble des données sensibles dont les renseignements personnels et les renseignements personnels de santé font l'objet d'un chiffrement (lors de leur entreposage et de leurs communications).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s07.01"
+ },
+ {
+  "ref": "S07.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Toutes les communications entre les composantes de votre application sont chiffrées et font l'objet d'une authentification de part et d'autre.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s07.02"
+ },
+ {
+  "ref": "S08.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "La gestion des clés utilisées par votre application et ses composantes fait l'objet d'une documentation formelle, et ce, tout au long de leur cycle de vie.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s08.01"
+ },
+ {
+  "ref": "S08.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Les locaux où sont hébergées les différentes composantes permettant à votre application de fonctionner font l'objet d'un contrôle d'accès et de mesures de protection physiques appropriées.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s08.02"
+ },
+ {
+  "ref": "S08.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Les locaux d'où interviennent les développeurs de votre solution et le personnel chargé de sa maintenance et du soutien à l'utilisateur font l'objet d'un contrôle d'accès et de mesures de protection adéquates.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s08.03"
+ },
+ {
+  "ref": "S08.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "S'assurer que le matériel hébergeant votre application fait l'objet d'un entretien approprié permettant de garantir sa disponibilité et son intégrité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s08.04"
+ },
+ {
+  "ref": "S09.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Adopter une politique du bureau propre et de l'écran vide applicable au personnel impliqué dans le développement et le soutien de votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.01"
+ },
+ {
+  "ref": "S09.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Documenter vos procédures d'exploitation sont documentées et portez-les à la connaissance des personnes concernées.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.02"
+ },
+ {
+  "ref": "S09.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Fournir un guide d'utilisation de votre application aux utilisateurs.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.03"
+ },
+ {
+  "ref": "S09.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Fournir un guide d'installation et d'entretien de votre application incluant de l'information sur : l'environnement, les éléments requis, la configuration (serveurs et terminaux), la gestion des accès, la surveillance et la gestion des sauvegardes.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.04"
+ },
+ {
+  "ref": "S09.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "L'infrastructure permettant à votre application de fonctionner ainsi que ses données (lorsqu'hébergées sous votre responsabilité) bénéficient d'un système de sauvegarde à l'abri des rançongiciels.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.05"
+ },
+ {
+  "ref": "S09.06",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application bénéficie de stratégies de sauvegarde (sans interruption sur son fonctionnement) permettant une récupération complète ou partielle des données (incluant les métadonnées).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.06"
+ },
+ {
+  "ref": "S09.07",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Disposer d'un processus documenté de gestion des changements de votre application vous permettant d'en garder le contrôle.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.07"
+ },
+ {
+  "ref": "S09.08",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Fournir un niveau de version pour votre application et pouvoir identifier chaque changement par un nouveau numéro de version. Permettre à l'utilisateur de votre application de consulter votre numéro de version.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.08"
+ },
+ {
+  "ref": "S09.09",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Disposer d'un plan pour gérer de manière continue les vulnérabilités potentielles de votre application (et de son environnement lorsque vous en avez la responsabilité).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.09"
+ },
+ {
+  "ref": "S09.10",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Appliquer, dans les meilleurs délais, les correctifs de sécurité de toute composante de votre application et de son environnement pour supprimer ou réduire les failles de sécurité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.10"
+ },
+ {
+  "ref": "S09.11",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Documenter l'ensemble des composantes de votre application et de son environnement, qui s'appuient sur des technologies récentes prises en charge par leur fournisseur respectif.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.11"
+ },
+ {
+  "ref": "S09.12",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Votre application est exempte de porte dérobée permettant une connexion à l'insu de l'acquéreur et de l'utilisateur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s09.12"
+ },
+ {
+  "ref": "S10.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "L'ensemble des systèmes permettant à votre application de fonctionner dispose d'une solution de protection antivirus récente avec fonction d'EDR.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s10.01"
+ },
+ {
+  "ref": "S10.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "La solution dispose de mécanismes de gestion des exceptions et d'alertes.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s10.02"
+ },
+ {
+  "ref": "S10.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Démontrer que le fichier PST actif utilise les outils de sécurité disponibles à Santé Québec quant à ses protocoles, au réseau RGT et aux règles d'accès au Portail de gestion de l’identité et des accès (GIA) provincial.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s10.03"
+ },
+ {
+  "ref": "S10.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Pouvoir journaliser toute activité effectuée avec votre application (incluant l'activité d'un pilote ou d'un administrateur) de manière à pouvoir identifier l'acteur (personne ou système), les circonstances, le moment, la nature de cette activité et les informations concernées.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s10.04"
+ },
+ {
+  "ref": "S10.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Doter votre application des fonctionnalités permettant de filtrer et d'analyser l'information journalisée, de générer des rapports ou d'en faire des extractions dans un format standard pour pouvoir les utiliser dans un système tiers.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s10.05"
+ },
+ {
+  "ref": "S10.06",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Doter votre application de fonctionnalités d'alerte afin de signaler au(x) pilote(s) la détection des comportements anormaux et des incidents potentiels en matière de sécurité de l'information.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s10.06"
+ },
+ {
+  "ref": "S10.07",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Doter votre application et son environnement sous votre responsabilité (incluant vos fournisseurs) de systèmes de détection d'intrusion.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s10.07"
+ },
+ {
+  "ref": "S10.08",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Doter votre application dispose d'un rôle de type auditeur permettant la consultation des rapports d'audit.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s10.08"
+ },
+ {
+  "ref": "S10.09",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Doter l'information journalisée par votre application ainsi que l'environnement sous votre responsabilité (incluant vos fournisseurs) de mesures de sécurité adéquates notamment pour empêcher son altération et sa divulgation à des personnes non autorisées.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s10.09"
+ },
+ {
+  "ref": "S11.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Pouvoir conserver l'information journalisée par votre application, ainsi que l'environnement sous votre responsabilité (incluant vos fournisseurs) selon le calendrier établi en fonction des lois, normes et règlements en vigueur.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s11.01"
+ },
+ {
+  "ref": "S11.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Protéger toutes les communications entre les composantes de votre application et les composantes avec qui elle interagit avec des mécanismes permettant d'assurer la sécurité des informations qui y transitent (incluant, le cas échéant, les mécanismes de soutien à distance).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s11.02"
+ },
+ {
+  "ref": "S11.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Cloisonner l'environnement d'exécution de votre application de manière à compartimenter les éléments ne nécessitant ni des mêmes droits ni des mêmes ressources (ex. : accès public, zone serveur).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s11.03"
+ },
+ {
+  "ref": "S11.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Si votre application utilise le service de courrier électronique, celui-ci ne traite pas d'information confidentielle, à moins que des mécanismes de protection appropriés soient mis en place.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s11.04"
+ },
+ {
+  "ref": "S11.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Planifier en continu des campagnes de simulation à l'hameçonnage afin de sensibiliser les intervenants (sous votre responsabilité) à l'écosystème de production de votre PST.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s11.05"
+ },
+ {
+  "ref": "S11.06",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Veiller à ce que la connectivité soit sécuritaire.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s11.06"
+ },
+ {
+  "ref": "S12.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Les intervenants sous votre responsabilité de l'écosystème de votre PST doivent bénéficier en continu d'un plan de formation en cybersécurité sur : - Les menaces numériques : la sécurité des appareils mobiles; - L'hameçonnage. - Les virus et les rançongiciels; - L'ingénierie sociale ou l'art de la manipulation.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s12.01"
+ },
+ {
+  "ref": "S12.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Considérer la sécurité à chacune des étapes du développement de votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s12.02"
+ },
+ {
+  "ref": "S12.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Veiller à ce que vos environnements de développement, de test et d'exploitation soient distincts.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s12.03"
+ },
+ {
+  "ref": "S12.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Veiller à ce que le développement de votre application respecte les bonnes pratiques de l'industrie en matière de sécurité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s12.04"
+ },
+ {
+  "ref": "S12.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Les développeurs de votre application (ainsi que les éventuels sous-traitants) respectent les principes d'ingénierie de la sécurité des systèmes.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s12.05"
+ },
+ {
+  "ref": "S12.06",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Superviser tout développement réalisé à l'externe.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s12.06"
+ },
+ {
+  "ref": "S12.07",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Éviter d'utiliser de l'information confidentielle de production dans le cadre du développement de votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s12.07"
+ },
+ {
+  "ref": "S12.08",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Disposer d'une stratégie de tests applicatifs.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s12.08"
+ },
+ {
+  "ref": "S13.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Considérer les vulnérabilités des composantes tierces sur lesquelles s'appuie votre application et faire les mises à jour en conséquence.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s13.01"
+ },
+ {
+  "ref": "S13.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Mener toute évaluation des menaces et des risques ainsi que toute évaluation des facteurs relatifs à la vie privée nécessaires pour tout recours à un fournisseur tiers investi dans le développement, l'exploitation, la maintenance et l'évolution de votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s13.02"
+ },
+ {
+  "ref": "S13.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Disposer d'une liste de l'ensemble des fournisseurs participant ou veillant au développement, à l'exploitation et à l'entretien de votre application. Cette liste précise la nature des services fournis.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s13.03"
+ },
+ {
+  "ref": "S13.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Dresser la liste des exigences pour chacun de ces fournisseurs (sécurité, accès, niveau de service, gestion des incidents…)",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s13.04"
+ },
+ {
+  "ref": "S13.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Établir les processus et les procédures permettant de surveiller la conformité des fournisseurs envers ces exigences.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s13.05"
+ },
+ {
+  "ref": "S13.06",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Avoir des ententes contractuelles avec chacun de ces fournisseurs.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s13.06"
+ },
+ {
+  "ref": "S14.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Évaluer sur une base régulière la performance de vos fournisseurs.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s14.01"
+ },
+ {
+  "ref": "S14.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "S'assurer que la localisation du PST réponde à l'exigence 05 des 12 exigences minimales",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s14.02"
+ },
+ {
+  "ref": "S14.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Disposer d'un processus de gestion des incidents arrimé avec celui des clients de votre application.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s14.03"
+ },
+ {
+  "ref": "S14.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Avertir les clients de votre application de tout incident portant sur les données dans les meilleurs délais, selon un processus établi.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s14.04"
+ },
+ {
+  "ref": "S15.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Vous engager à collaborer avec vos clients pour faciliter la prise en charge d'un incident.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s15.01"
+ },
+ {
+  "ref": "S15.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Veiller à ce que la surveillance de la solution (applicatif et données) respecte la classification, les besoins d'affaires et les normes du site d'hébergement",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s15.02"
+ },
+ {
+  "ref": "S15.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Mettre en place ou arrimer avec les mécanismes de plan de reprise en vigueur au Secrétariat du Conseil du Trésor",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s15.03"
+ },
+ {
+  "ref": "S15.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Disposer d'un plan de continuité de vos activités (maintenance et exploitation de votre application).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s15.04"
+ },
+ {
+  "ref": "S15.05",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Veiller à ce qu'un plan de recouvrement après sinistre chapeaute les infrastructures permettant l'exploitation de votre application,",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s15.05"
+ },
+ {
+  "ref": "S16.01",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Tester ce plan de reprise périodiquement afin de vérifier son efficacité.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s16.01"
+ },
+ {
+  "ref": "S16.02",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Disposer d'une stratégie de validation de la conformité technique des différentes composantes de votre application et de son environnement sous votre responsabilité (incluant les actifs confiés à vos fournisseurs).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s16.02"
+ },
+ {
+  "ref": "S16.03",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Soumettre votre application à un test d'intrusion administré par un prestataire indépendant et reconnu par Santé Québec.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s16.03"
+ },
+ {
+  "ref": "S16.04",
+  "famille": "S",
+  "famille_fr": "Securite",
+  "famille_en": "Security",
+  "texte": "Garantir que votre application repose sur un code de programmation dont vous détenez les droits de propriété intellectuelle, conformément à la Loi sur les droits d'auteurs. Dans le cas contraire, expliciter clairement les limitations (ex. : type de licence).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:s16.04"
+ },
+ {
+  "ref": "T01",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Veiller à ce que votre application respecte les normes d’accessibilité Web du Conseil du Trésor du Québec.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t01"
+ },
+ {
+  "ref": "T02",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun, veiller à ce que votre PST permette de saisir l'annuaire des comptes utilisateurs des professionnels de santé. Il doit s'agir de l'Entra ID de Santé Québec",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t02"
+ },
+ {
+  "ref": "T03",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Lorsqu'il y a arrimage avec les actifs informationnels d'intérêt commun, votre PST permet de s'arrimer avec le service de fédération d'identité (SFID) de Santé Québec, pour les utilisateurs qui n'ont pas de compte dans les annuaires de Santé Québec (ex. partenaires externes de santé).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t03"
+ },
+ {
+  "ref": "T04",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Décrire l’architecture technologique qui doit supporter l'installation et l'utilisation de votre PST.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t04"
+ },
+ {
+  "ref": "T05",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Veiller à ce que le PST dispose de mécanismes de gestion des exceptions et d'alertes (seuils de performances, capacités ….).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t05"
+ },
+ {
+  "ref": "T06",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Il faut démontrer ou confirmer que la base de données est extensible et hautement performante.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t06"
+ },
+ {
+  "ref": "T07",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Il faut démontrer que le PST est en mesure de cloisonner logiquement ou physiquement toutes les données clinico-administratives (identification des usagers, dossiers, etc.) et cliniques.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t07"
+ },
+ {
+  "ref": "T08",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Lorsqu'il s\"agit d'une application Web, il faut démontrer que le PST est une application Web qui utilise un fureteur au moyen du HTTPS dont la mise à jour est centralisée.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t08"
+ },
+ {
+  "ref": "T09",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Lorsque votre PST est de type client serveur, il faut être en mesure de le déployer au moyen d'un serveur de présentation Citrix, Terminal Service ou Remote Desktop Protocol.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t09"
+ },
+ {
+  "ref": "T10",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Il faut démontrer que le PST peut fonctionner adéquatement dans une infrastructure virtualisée et infonuagique de préférence en mode SaaS.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t10"
+ },
+ {
+  "ref": "T11",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Votre PST s'appuie sur ou est compatible avec un système d'exploitation, un système de gestion de base de données et des composantes récents et en cours de prise en charge par leur manufacturier respectif.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t11"
+ },
+ {
+  "ref": "T12",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "lorsqu,il y a un arrimage avec les actifs informationnels d'intérêt communs, il faut démontrer que le PST actif utilise l'infrastructure de sécurité de l'Active Directory ou LDAP d'un établissement local, régional ou provincial à l'intérieur du RITM",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t12"
+ },
+ {
+  "ref": "T13",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Pour les applications Web, veiller à ce que le PST soit accessible à distance depuis une interface Web.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t13"
+ },
+ {
+  "ref": "T14",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Lorsque votre PST est accessible en mode Web, l'application ne nécessite aucune installation de composante.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t14"
+ },
+ {
+  "ref": "T15",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Le PST peut invoquer la librairie cryptographique du poste de travail Windows (ou de la session Citrix/TS) afin d’effectuer les opérations de signature, de hachage et de chiffrement.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t15"
+ },
+ {
+  "ref": "T16",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Privilégier le mode SaaS comme solution.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t16"
+ },
+ {
+  "ref": "T17",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Hébergement du PST dans les espaces de Santé Québec ou dans un espace infonuagique approuvé par le MCN.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t17"
+ },
+ {
+  "ref": "T18",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "L'architecture technologique détaillée doit répondre à la classification de la solution.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t18"
+ },
+ {
+  "ref": "T19",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Le PST doit toujours être à jour.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t19"
+ },
+ {
+  "ref": "T20",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Le compte utilisateur des intervenants doit provenir de notre annuaire centralisé Santé Québec.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t20"
+ },
+ {
+  "ref": "T21",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "La sauvegarde du PST (applicatif et données) doit respecter la classification, les besoins d'affaires et les normes du site d'hébergement.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t21"
+ },
+ {
+  "ref": "T22",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "La surveillance de la solution (applicatif et données) doit respecter la classification, les besoins d'affaires et les normes du site d'hébergement.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t22"
+ },
+ {
+  "ref": "T23",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Utiliser les API du catalogue API gouvernemental ou ceux existants et reconnus par le MCN.",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t23"
+ },
+ {
+  "ref": "T24",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Hébergement infonuagique en priorité",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t24"
+ },
+ {
+  "ref": "T25",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Mettre en place des espaces d'environnements distincts et isolés (Développement, Tests, Préproduction, Production).",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t25"
+ },
+ {
+  "ref": "T26",
+  "famille": "T",
+  "famille_fr": "Technique",
+  "famille_en": "Technical",
+  "texte": "Mettre en place ou arrimer avec les mécanismes de plan de reprise en vigueur au Secrétariat du Conseil du Trésor",
+  "urn": "urn:intuitem:risk:req_node:tgv-msss-qc-2026:t26"
+ }
+]

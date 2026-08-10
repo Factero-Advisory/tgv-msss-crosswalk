@@ -1,0 +1,795 @@
+{
+ "referentiel": {
+  "slug": "rgpd-gdpr",
+  "nom": "RGPD / GDPR (UE 2016/679)",
+  "categorie": "Reglementation",
+  "controles_total": 287
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 110,
+  "criteres_tgv": 98,
+  "controles_cible_touches": 51,
+  "relations": {
+   "tgv_plus_etroit": 16,
+   "recoupement_partiel": 90,
+   "equivalent": 2,
+   "tgv_plus_large": 2
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "P01.01",
+   "cible_ref": "24.2",
+   "cible_intitule": "Where proportionate in relation to processing activities, the measures referred to in paragraph 1 shall include the implementation of appropriate data protection policies by the controller.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La politique de protection des renseignements personnels de l'organisation constitue la « data protection policy » dont l'art. 24.2 exige la mise en œuvre par le responsable."
+  },
+  {
+   "tgv_ref": "P01.02",
+   "cible_ref": "24.1",
+   "cible_intitule": "Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for the rights and freedoms of natural persons, the controller shall implement appropriate technical and organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation. Those measures shall be reviewed and updated where necessary.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'encadrement documenté (politiques, processus, procédures) fournit les mesures organisationnelles que l'art. 24.1 impose pour assurer et démontrer la conformité."
+  },
+  {
+   "tgv_ref": "P01.03",
+   "cible_ref": "12.1",
+   "cible_intitule": "The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child. The information shall be provided in writing, or by other means, including, where appropriate, by electronic means. When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La consultabilité facile de la politique de confidentialité par l'utilisateur correspond à l'exigence de forme « aisément accessible » de l'information de l'art. 12.1."
+  },
+  {
+   "tgv_ref": "P01.04",
+   "cible_ref": "12.1",
+   "cible_intitule": "The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child. The information shall be provided in writing, or by other means, including, where appropriate, by electronic means. When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.",
+   "relation": "recoupement_partiel",
+   "justification": "Le volet « publier de l'information détaillée en termes simples et clairs sur le site » recoupe l'exigence de transparence et d'accessibilité de l'art. 12.1."
+  },
+  {
+   "tgv_ref": "P01.04",
+   "cible_ref": "24.2",
+   "cible_intitule": "Where proportionate in relation to processing activities, the measures referred to in paragraph 1 shall include the implementation of appropriate data protection policies by the controller.",
+   "relation": "recoupement_partiel",
+   "justification": "Le volet « politiques et pratiques de gouvernance des RP » de ce critère recoupe la mise en œuvre de politiques de protection des données de l'art. 24.2."
+  },
+  {
+   "tgv_ref": "P01.05",
+   "cible_ref": "13.2.a",
+   "cible_intitule": "the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;",
+   "relation": "recoupement_partiel",
+   "justification": "Le volet « conservées/détruites » du détail exigé des politiques correspond à l'information sur la durée de conservation prévue à l'art. 13.2.a."
+  },
+  {
+   "tgv_ref": "P02.01",
+   "cible_ref": "37.1",
+   "cible_intitule": "The controller and the processor shall designate a data protection officer in any case where:",
+   "relation": "recoupement_partiel",
+   "justification": "La désignation d'un responsable chargé de la mise en œuvre des politiques et pratiques de PRP recoupe la désignation d'un délégué à la protection des données de l'art. 37.1, sans en reprendre les conditions de déclenchement."
+  },
+  {
+   "tgv_ref": "P02.02",
+   "cible_ref": "38.2",
+   "cible_intitule": "The controller and processor shall support the data protection officer in performing the tasks referred to in Article 39 by providing resources necessary to carry out those tasks and access to personal data and processing operations, and to maintain his or her expert knowledge.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La preuve d'allocation de ressources humaines, techniques et financières au responsable satisfait l'obligation de fournir au délégué les ressources nécessaires à ses missions (art. 38.2)."
+  },
+  {
+   "tgv_ref": "P02.03",
+   "cible_ref": "38.1",
+   "cible_intitule": "The controller and the processor shall ensure that the data protection officer is involved, properly and in a timely manner, in all issues which relate to the protection of personal data.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'implication du responsable de la PRP dès le projet de développement illustre l'implication « en temps utile » du délégué dans les questions de protection des données de l'art. 38.1."
+  },
+  {
+   "tgv_ref": "P03.01",
+   "cible_ref": "25.1",
+   "cible_intitule": "Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for rights and freedoms of natural persons posed by the processing, the controller shall, both at the time of the determination of the means for processing and at the time of the processing itself, implement appropriate technical and organisational measures, such as pseudonymisation, which are designed to implement data-protection principles, such as data minimisation, in an effective manner and to integrate the necessary safeguards into the processing in order to meet the requirements of this Regulation and protect the rights of data subjects.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Intégrer au projet des activités garantissant le respect des principes de protection de la vie privée met en œuvre la protection des données dès la conception de l'art. 25.1."
+  },
+  {
+   "tgv_ref": "P03.02",
+   "cible_ref": "35.1",
+   "cible_intitule": "Where a type of processing in particular using new technologies, and taking into account the nature, scope, context and purposes of the processing, is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data. A single assessment may address a set of similar processing operations that present similar high risks.",
+   "relation": "recoupement_partiel",
+   "justification": "L'identification et l'analyse continues des risques d'atteinte à la vie privée recoupent l'analyse d'impact relative à la protection des données de l'art. 35.1, sans son caractère formel déclenché par un risque élevé."
+  },
+  {
+   "tgv_ref": "P04.01",
+   "cible_ref": "35.1",
+   "cible_intitule": "Where a type of processing in particular using new technologies, and taking into account the nature, scope, context and purposes of the processing, is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data. A single assessment may address a set of similar processing operations that present similar high risks.",
+   "relation": "equivalent",
+   "justification": "Le mécanisme d'ÉFVP (évaluer la conformité, relever les risques, définir les mesures) correspond directement à l'analyse d'impact relative à la protection des données prévue à l'art. 35.1."
+  },
+  {
+   "tgv_ref": "P04.02",
+   "cible_ref": "35.7.a",
+   "cible_intitule": "a systematic description of the envisaged processing operations and the purposes of the processing, including, where applicable, the legitimate interest pursued by the controller;",
+   "relation": "recoupement_partiel",
+   "justification": "L'exigence que l'ÉFVP contienne tous les éléments requis recoupe l'obligation d'y inclure une description systématique du traitement (art. 35.7.a)."
+  },
+  {
+   "tgv_ref": "P04.02",
+   "cible_ref": "35.7.d",
+   "cible_intitule": "the measures envisaged to address the risks, including safeguards, security measures and mechanisms to ensure the protection of personal data and to demonstrate compliance with this Regulation taking into account the rights and legitimate interests of data subjects and other persons concerned.",
+   "relation": "recoupement_partiel",
+   "justification": "L'exigence que l'ÉFVP contienne tous les éléments requis recoupe l'obligation d'y inclure les mesures envisagées pour faire face aux risques (art. 35.7.d)."
+  },
+  {
+   "tgv_ref": "P05.01",
+   "cible_ref": "24.1",
+   "cible_intitule": "Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for the rights and freedoms of natural persons, the controller shall implement appropriate technical and organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation. Those measures shall be reviewed and updated where necessary.",
+   "relation": "recoupement_partiel",
+   "justification": "La sensibilisation du personnel aux bonnes pratiques de protection de la vie privée constitue une mesure organisationnelle démontrant la conformité au sens de l'art. 24.1."
+  },
+  {
+   "tgv_ref": "P06.01",
+   "cible_ref": "13.1.c",
+   "cible_intitule": "the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Informer l'utilisateur de la finalite de la collecte et de l'usage des RP correspond au seul volet 'finalites' de l'art. 13.1.c, lequel exige aussi la base juridique; le critere TGV en est donc un sous-ensemble (subset), non une equivalence."
+  },
+  {
+   "tgv_ref": "P06.02",
+   "cible_ref": "13.1.c",
+   "cible_intitule": "the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+   "relation": "recoupement_partiel",
+   "justification": "Le volet « personnes informées des motifs de la collecte et de l'utilisation prévue » recoupe l'information sur les finalités du traitement de l'art. 13.1.c."
+  },
+  {
+   "tgv_ref": "P06.02",
+   "cible_ref": "7.1",
+   "cible_intitule": "Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.",
+   "relation": "recoupement_partiel",
+   "justification": "Le volet « s'assurer que le consentement de la personne concernée a été obtenu » recoupe l'obligation de pouvoir démontrer le consentement de l'art. 7.1."
+  },
+  {
+   "tgv_ref": "P06.03",
+   "cible_ref": "7.1",
+   "cible_intitule": "Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.",
+   "relation": "equivalent",
+   "justification": "Le mécanisme de recueil et de consignation du consentement fournit précisément la démonstration du consentement exigée par l'art. 7.1."
+  },
+  {
+   "tgv_ref": "P06.04",
+   "cible_ref": "7.1",
+   "cible_intitule": "Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.",
+   "relation": "recoupement_partiel",
+   "justification": "La consignation de l'attestation de l'utilisateur professionnel qu'il a obtenu le consentement recoupe l'obligation de démontrer le consentement (art. 7.1), ici par preuve indirecte."
+  },
+  {
+   "tgv_ref": "P06.05",
+   "cible_ref": "7.1",
+   "cible_intitule": "Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.",
+   "relation": "recoupement_partiel",
+   "justification": "La consignation du consentement de l'utilisateur à la communication de ses RP correspond à la démonstration du consentement (art. 7.1) appliquée à la divulgation."
+  },
+  {
+   "tgv_ref": "P06.06",
+   "cible_ref": "9.2.a",
+   "cible_intitule": "the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;",
+   "relation": "recoupement_partiel",
+   "justification": "La confirmation formelle de chaque transfert de renseignements de santé (DSQ) recoupe le consentement explicite requis pour les données de santé par l'art. 9.2.a."
+  },
+  {
+   "tgv_ref": "P06.07",
+   "cible_ref": "7.3",
+   "cible_intitule": "The data subject shall have the right to withdraw his or her consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. Prior to giving consent, the data subject shall be informed thereof. It shall be as easy to withdraw as to give consent.",
+   "relation": "recoupement_partiel",
+   "justification": "La gestion détaillée du consentement (préférences, paramètres d'acceptation) permet notamment le retrait du consentement aussi aisé que son octroi exigé par l'art. 7.3."
+  },
+  {
+   "tgv_ref": "P06.08",
+   "cible_ref": "14.2.f",
+   "cible_intitule": "from which source the personal data originate, and if applicable, whether it came from publicly accessible sources;",
+   "relation": "recoupement_partiel",
+   "justification": "La capacité de connaître la provenance des RP collectés indirectement recoupe l'obligation relative à la source des données de l'art. 14.2.f."
+  },
+  {
+   "tgv_ref": "P06.10",
+   "cible_ref": "6.1",
+   "cible_intitule": "Processing shall be lawful only if and to the extent that at least one of the following applies:",
+   "relation": "recoupement_partiel",
+   "justification": "Les mécanismes encadrant la communication de RP sans consentement s'appuient sur l'existence d'une base de licéité autre que le consentement (art. 6.1)."
+  },
+  {
+   "tgv_ref": "P06.11",
+   "cible_ref": "8.2",
+   "cible_intitule": "The controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology.",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus d'obtention du consentement du titulaire de l'autorité parentale pour les mineurs recoupe l'obligation de vérifier ce consentement parental (art. 8.2)."
+  },
+  {
+   "tgv_ref": "P06.12",
+   "cible_ref": "7.1",
+   "cible_intitule": "Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.",
+   "relation": "recoupement_partiel",
+   "justification": "La consignation de l'attestation du professionnel qu'il a obtenu le consentement à la communication recoupe la démonstration du consentement (art. 7.1) pour la divulgation."
+  },
+  {
+   "tgv_ref": "P07.01",
+   "cible_ref": "28.1",
+   "cible_intitule": "Where processing is to be carried out on behalf of a controller, the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that processing will meet the requirements of this Regulation and ensure the protection of the rights of the data subject.",
+   "relation": "recoupement_partiel",
+   "justification": "S'assurer que les partenaires respectent les exigences de PRP recoupe l'obligation de ne recourir qu'à des sous-traitants présentant des garanties suffisantes (art. 28.1)."
+  },
+  {
+   "tgv_ref": "P07.02",
+   "cible_ref": "13.1.a",
+   "cible_intitule": "the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+   "relation": "recoupement_partiel",
+   "justification": "Informer les utilisateurs de l'identité des parties prenantes (fournisseur) recoupe l'obligation de communiquer l'identité du responsable du traitement (art. 13.1.a)."
+  },
+  {
+   "tgv_ref": "P07.02",
+   "cible_ref": "13.1.e",
+   "cible_intitule": "the recipients or categories of recipients of the personal data, if any;",
+   "relation": "recoupement_partiel",
+   "justification": "Informer sur les parties prenantes destinataires des RP (établissement acquéreur, ministère) recoupe l'information sur les destinataires de l'art. 13.1.e."
+  },
+  {
+   "tgv_ref": "P08.01",
+   "cible_ref": "6.1",
+   "cible_intitule": "Processing shall be lawful only if and to the extent that at least one of the following applies:",
+   "relation": "recoupement_partiel",
+   "justification": "La collecte d'identifiants généraux « en vertu de dispositions légales ou d'ententes spécifiques » recoupe l'exigence d'une base de licéité pour le traitement (art. 6.1)."
+  },
+  {
+   "tgv_ref": "P08.02",
+   "cible_ref": "13.1",
+   "cible_intitule": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+   "relation": "recoupement_partiel",
+   "justification": "Informer le patient préalablement à la collecte directe de l'utilisation de ses RP correspond à l'information à fournir au moment où les données sont obtenues auprès de la personne (art. 13.1)."
+  },
+  {
+   "tgv_ref": "P08.03",
+   "cible_ref": "14.2.f",
+   "cible_intitule": "from which source the personal data originate, and if applicable, whether it came from publicly accessible sources;",
+   "relation": "recoupement_partiel",
+   "justification": "La capacité de connaître la provenance lors d'une collecte indirecte recoupe l'obligation relative à la source des données de l'art. 14.2.f."
+  },
+  {
+   "tgv_ref": "P08.03",
+   "cible_ref": "7.1",
+   "cible_intitule": "Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.",
+   "relation": "recoupement_partiel",
+   "justification": "La consignation d'une confirmation de l'autorisation de la personne lors d'une collecte indirecte recoupe l'obligation de démontrer le consentement (art. 7.1)."
+  },
+  {
+   "tgv_ref": "P08.04",
+   "cible_ref": "13.1.c",
+   "cible_intitule": "the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+   "relation": "recoupement_partiel",
+   "justification": "Informer l'utilisateur de la collecte automatisée d'informations sur son poste recoupe l'information sur les finalités du traitement (art. 13.1.c)."
+  },
+  {
+   "tgv_ref": "P08.04",
+   "cible_ref": "6.1.a",
+   "cible_intitule": "the data subject has given consent to the processing of his or her personal data for one or more specific purposes;",
+   "relation": "recoupement_partiel",
+   "justification": "Obtenir le consentement pour la collecte automatisée d'informations sur l'équipement/usage (témoins, localisation) correspond au consentement comme base de licéité (art. 6.1.a)."
+  },
+  {
+   "tgv_ref": "P08.07",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "L'identification et la tracabilite (journalisation) de toute communication entrante/sortante de RP constituent une mesure technique de securite garantissant la tracabilite des flux au sens de l'art. 32.1 (remplace le renvoi errone au registre 30.1.d)."
+  },
+  {
+   "tgv_ref": "P08.09",
+   "cible_ref": "13.2.a",
+   "cible_intitule": "the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Informer l'utilisateur au moment de la collecte de la durée de conservation des renseignements de santé correspond, pour ce sous-ensemble de données, à l'information sur la durée de conservation de l'art. 13.2.a."
+  },
+  {
+   "tgv_ref": "P09.01",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "La gestion des accès par profils selon le moindre privilège constitue une mesure technique de sécurité au sens de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P09.02",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Les mécanismes d'authentification proportionnés à la sensibilité des renseignements constituent une mesure de sécurité de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P09.03",
+   "cible_ref": "25.2",
+   "cible_intitule": "The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and their accessibility. In particular, such measures shall ensure that by default personal data are not made accessible without the individual's intervention to an indefinite number of natural persons.",
+   "relation": "recoupement_partiel",
+   "justification": "Limiter chaque accès au strict besoin de connaître recoupe la limitation de l'accessibilité des données par défaut de l'art. 25.2."
+  },
+  {
+   "tgv_ref": "P09.04",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "La journalisation de l'ensemble des accès aux RP est une mesure de sécurité assurant la traçabilité (art. 32.1)."
+  },
+  {
+   "tgv_ref": "P09.05",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Relier chaque RP au type d'accès, aux tâches et aux profils des utilisateurs soutient la traçabilité des accès, mesure de sécurité de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P09.06",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "La journalisation exploitable de tous les accès par des outils de gestion constitue une mesure de sécurité et de surveillance de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P09.07",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Restreindre l'accès aux RP selon des plages horaires est une mesure de contrôle d'accès relevant de la sécurité du traitement (art. 32.1)."
+  },
+  {
+   "tgv_ref": "P09.08",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Le contrôle renforcé des accès à privilèges élevés est une mesure de sécurité de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P09.09",
+   "cible_ref": "5.1.d",
+   "cible_intitule": "accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’);",
+   "relation": "recoupement_partiel",
+   "justification": "La mise à jour contrôlée des RP par des personnes autorisées, avec mention de l'origine, soutient le principe d'exactitude imposant des données à jour (art. 5.1.d)."
+  },
+  {
+   "tgv_ref": "P09.10",
+   "cible_ref": "18.1",
+   "cible_intitule": "The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies:",
+   "relation": "recoupement_partiel",
+   "justification": "Permettre à la personne de demander une restriction d'accès à certains renseignements, envers certains groupes et pour une durée, recoupe le droit à la limitation du traitement (art. 18.1)."
+  },
+  {
+   "tgv_ref": "P09.11",
+   "cible_ref": "18.1",
+   "cible_intitule": "The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies:",
+   "relation": "recoupement_partiel",
+   "justification": "Vérifier si le demandeur fait partie des personnes restreintes et si l'on est dans la période de restriction opérationnalise l'application de la limitation du traitement (art. 18.1)."
+  },
+  {
+   "tgv_ref": "P09.12",
+   "cible_ref": "15.1",
+   "cible_intitule": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:",
+   "relation": "recoupement_partiel",
+   "justification": "Le refus temporaire d'accès du patient en cas de risque de préjudice grave pour sa santé encadre l'exercice du droit d'accès, susceptible de restriction (art. 15.1)."
+  },
+  {
+   "tgv_ref": "P10.01",
+   "cible_ref": "24.1",
+   "cible_intitule": "Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for the rights and freedoms of natural persons, the controller shall implement appropriate technical and organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation. Those measures shall be reviewed and updated where necessary.",
+   "relation": "recoupement_partiel",
+   "justification": "Préciser les rôles et responsabilités du personnel en matière de protection des RP fait partie des mesures organisationnelles de l'art. 24.1."
+  },
+  {
+   "tgv_ref": "P10.02",
+   "cible_ref": "5.1.e",
+   "cible_intitule": "kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) subject to implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject (‘storage limitation’);",
+   "relation": "tgv_plus_etroit",
+   "justification": "Déterminer et justifier la durée de conservation de chaque RP met en œuvre le principe de limitation de la conservation de l'art. 5.1.e."
+  },
+  {
+   "tgv_ref": "P10.03",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "tgv_plus_etroit",
+   "justification": "Disposer de mesures de sécurité appropriées protégeant les RP tout au long de leur cycle de vie correspond à la sécurité du traitement de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P10.04",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "La journalisation de toute activité relative à chaque RP est une mesure de sécurité assurant la traçabilité (art. 32.1)."
+  },
+  {
+   "tgv_ref": "P10.05",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Protéger adéquatement les RP lors de leur archivage relève des mesures de sécurité de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P10.06",
+   "cible_ref": "17.1.a",
+   "cible_intitule": "the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Détruire les RP lorsque la finalité de leur collecte est accomplie correspond au motif d'effacement « données non nécessaires au regard des finalités » de l'art. 17.1.a."
+  },
+  {
+   "tgv_ref": "P10.06",
+   "cible_ref": "5.1.e",
+   "cible_intitule": "kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) subject to implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject (‘storage limitation’);",
+   "relation": "tgv_plus_etroit",
+   "justification": "La destruction des RP à l'accomplissement de la finalité met en œuvre le principe de limitation de la conservation de l'art. 5.1.e."
+  },
+  {
+   "tgv_ref": "P10.08",
+   "cible_ref": "17.1",
+   "cible_intitule": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+   "relation": "recoupement_partiel",
+   "justification": "La destruction irréversible entraînant la suppression de toutes les copies met en œuvre l'effacement complet exigé par le droit à l'effacement de l'art. 17.1."
+  },
+  {
+   "tgv_ref": "P10.09",
+   "cible_ref": "17.1",
+   "cible_intitule": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+   "relation": "recoupement_partiel",
+   "justification": "Le mécanisme de droit à l'oubli (cessation de diffusion, désindexation) opérationnalise le droit à l'effacement de l'art. 17.1."
+  },
+  {
+   "tgv_ref": "P10.09",
+   "cible_ref": "17.2",
+   "cible_intitule": "Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data.",
+   "relation": "recoupement_partiel",
+   "justification": "La cessation de la diffusion et la désindexation recoupent l'obligation d'informer les responsables de supprimer les liens et copies des données rendues publiques (art. 17.2)."
+  },
+  {
+   "tgv_ref": "P11.01",
+   "cible_ref": "6.1",
+   "cible_intitule": "Processing shall be lawful only if and to the extent that at least one of the following applies:",
+   "relation": "tgv_plus_etroit",
+   "justification": "Identifier les dispositions légales légitimant la collecte et l'utilisation, et mettre en place les mesures de respect, correspond à l'exigence d'une base de licéité de l'art. 6.1."
+  },
+  {
+   "tgv_ref": "P11.02",
+   "cible_ref": "5.1.b",
+   "cible_intitule": "collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (‘purpose limitation’);",
+   "relation": "tgv_plus_etroit",
+   "justification": "Destiner chaque RP à un usage déterminé relié aux fonctionnalités met en œuvre la limitation des finalités de l'art. 5.1.b."
+  },
+  {
+   "tgv_ref": "P11.03",
+   "cible_ref": "25.2",
+   "cible_intitule": "The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and their accessibility. In particular, such measures shall ensure that by default personal data are not made accessible without the individual's intervention to an indefinite number of natural persons.",
+   "relation": "recoupement_partiel",
+   "justification": "Réduire au minimum les personnes à qui les RP sont divulgués recoupe la limitation de l'accessibilité des données par défaut de l'art. 25.2."
+  },
+  {
+   "tgv_ref": "P11.03",
+   "cible_ref": "5.1.c",
+   "cible_intitule": "adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (‘data minimisation’);",
+   "relation": "recoupement_partiel",
+   "justification": "Réduire au minimum les RP utilisés met en œuvre la minimisation des données de l'art. 5.1.c."
+  },
+  {
+   "tgv_ref": "P11.04",
+   "cible_ref": "25.2",
+   "cible_intitule": "The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and their accessibility. In particular, such measures shall ensure that by default personal data are not made accessible without the individual's intervention to an indefinite number of natural persons.",
+   "relation": "recoupement_partiel",
+   "justification": "N'afficher l'identité des personnes concernées que lorsque c'est nécessaire correspond à la protection des données par défaut limitant les données traitées (art. 25.2)."
+  },
+  {
+   "tgv_ref": "P11.05",
+   "cible_ref": "5.1.b",
+   "cible_intitule": "collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (‘purpose limitation’);",
+   "relation": "tgv_plus_etroit",
+   "justification": "N'utiliser chaque RP que pour une finalité autorisée met en œuvre la limitation des finalités de l'art. 5.1.b."
+  },
+  {
+   "tgv_ref": "P11.06",
+   "cible_ref": "5.1.c",
+   "cible_intitule": "adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (‘data minimisation’);",
+   "relation": "tgv_plus_etroit",
+   "justification": "Ne recueillir que les RP strictement nécessaires met en œuvre la minimisation des données de l'art. 5.1.c."
+  },
+  {
+   "tgv_ref": "P11.07",
+   "cible_ref": "30.1.b",
+   "cible_intitule": "the purposes of the processing;",
+   "relation": "recoupement_partiel",
+   "justification": "Maintenir chaque fichier de RP pour une finalité autorisée recoupe la consignation des finalités du traitement au registre des activités (art. 30.1.b)."
+  },
+  {
+   "tgv_ref": "P11.08",
+   "cible_ref": "5.1.f",
+   "cible_intitule": "processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (‘integrity and confidentiality’).",
+   "relation": "recoupement_partiel",
+   "justification": "Contrôler l'extraction et la communication des RP par des mesures de confidentialité met en œuvre le principe d'intégrité et de confidentialité de l'art. 5.1.f."
+  },
+  {
+   "tgv_ref": "P11.10",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Permettre à l'acquéreur de savoir quand et par qui chaque RP a été utilisé relève de la journalisation, mesure de sécurité de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P11.11",
+   "cible_ref": "15.1",
+   "cible_intitule": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:",
+   "relation": "recoupement_partiel",
+   "justification": "Rendre facilement accessibles à la personne tous les renseignements la concernant pour les consulter correspond au droit d'accès de l'art. 15.1."
+  },
+  {
+   "tgv_ref": "P11.12",
+   "cible_ref": "12.2",
+   "cible_intitule": "The controller shall facilitate the exercise of data subject rights under Articles 15 to 22. In the cases referred to in Article 11(2), the controller shall not refuse to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject.",
+   "relation": "recoupement_partiel",
+   "justification": "Disposer de mécanismes pour répondre à toute demande de consultation ou de correction correspond à l'obligation de faciliter l'exercice des droits des personnes (art. 12.2)."
+  },
+  {
+   "tgv_ref": "P11.13",
+   "cible_ref": "5.1.d",
+   "cible_intitule": "accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’);",
+   "relation": "recoupement_partiel",
+   "justification": "Propager les RP mis à jour ou ayant fait l'objet d'une rectification met en œuvre le principe d'exactitude imposant la rectification des données inexactes (art. 5.1.d)."
+  },
+  {
+   "tgv_ref": "P11.14",
+   "cible_ref": "5.1.b",
+   "cible_intitule": "collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (‘purpose limitation’);",
+   "relation": "recoupement_partiel",
+   "justification": "Interdire l'utilisation secondaire des données hors des cas prévus par la Loi met en œuvre la limitation des finalités interdisant tout traitement ultérieur incompatible (art. 5.1.b)."
+  },
+  {
+   "tgv_ref": "P11.15",
+   "cible_ref": "25.2",
+   "cible_intitule": "The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and their accessibility. In particular, such measures shall ensure that by default personal data are not made accessible without the individual's intervention to an indefinite number of natural persons.",
+   "relation": "recoupement_partiel",
+   "justification": "N'afficher dans chaque panorama que les RP strictement nécessaires à la tâche correspond à la minimisation par défaut de l'art. 25.2."
+  },
+  {
+   "tgv_ref": "P11.16",
+   "cible_ref": "5.1.d",
+   "cible_intitule": "accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’);",
+   "relation": "recoupement_partiel",
+   "justification": "Informer l'utilisateur de la nécessité de mettre à jour chaque RP soutient le principe d'exactitude imposant des données à jour (art. 5.1.d)."
+  },
+  {
+   "tgv_ref": "P11.17",
+   "cible_ref": "5.1.d",
+   "cible_intitule": "accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’);",
+   "relation": "recoupement_partiel",
+   "justification": "Tenir compte des duplicatas et des répliques lors des mises à jour assure l'exactitude de toutes les instances des RP (art. 5.1.d)."
+  },
+  {
+   "tgv_ref": "P11.18",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Héberger les RP en assurant une protection conforme aux exigences légales relève de la sécurité du traitement de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P11.19",
+   "cible_ref": "5.1.b",
+   "cible_intitule": "collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (‘purpose limitation’);",
+   "relation": "recoupement_partiel",
+   "justification": "Ne pas utiliser les RP à des fins d'apprentissage ou de développement hors cadre légal met en œuvre la limitation des finalités de l'art. 5.1.b."
+  },
+  {
+   "tgv_ref": "P12.01",
+   "cible_ref": "33.1",
+   "cible_intitule": "In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons. Where the notification to the supervisory authority is not made within 72 hours, it shall be accompanied by reasons for the delay.",
+   "relation": "tgv_plus_large",
+   "justification": "La définition d'un incident de confidentialité et la procédure de traitement englobent, au-delà de la notification à l'autorité (art. 33.1), l'ensemble de la gestion de la violation."
+  },
+  {
+   "tgv_ref": "P12.02",
+   "cible_ref": "33.1",
+   "cible_intitule": "In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons. Where the notification to the supervisory authority is not made within 72 hours, it shall be accompanied by reasons for the delay.",
+   "relation": "recoupement_partiel",
+   "justification": "L'établissement de procédures de notification externe en cas d'incident recoupe l'obligation de notifier la violation à l'autorité de contrôle (art. 33.1)."
+  },
+  {
+   "tgv_ref": "P12.02",
+   "cible_ref": "34.1",
+   "cible_intitule": "When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay.",
+   "relation": "recoupement_partiel",
+   "justification": "L'établissement de procédures de notification en cas d'incident recoupe l'obligation de communiquer la violation à la personne concernée (art. 34.1)."
+  },
+  {
+   "tgv_ref": "P12.03",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Mettre en place des mesures pour prévenir ou limiter les conséquences d'un incident relève des mesures de sécurité assurant la protection des données (art. 32.1)."
+  },
+  {
+   "tgv_ref": "P12.04",
+   "cible_ref": "33.3.d",
+   "cible_intitule": "describe the measures taken or proposed to be taken by the controller to address the personal data breach, including, where appropriate, measures to mitigate its possible adverse effects.",
+   "relation": "recoupement_partiel",
+   "justification": "Prendre des mesures raisonnables pour diminuer les risques de préjudice et éviter la récurrence correspond aux mesures d'atténuation de la violation exigées à l'art. 33.3.d."
+  },
+  {
+   "tgv_ref": "P12.05",
+   "cible_ref": "33.1",
+   "cible_intitule": "In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons. Where the notification to the supervisory authority is not made within 72 hours, it shall be accompanied by reasons for the delay.",
+   "relation": "tgv_plus_large",
+   "justification": "Le plan de réponse aux incidents permettant de réagir rapidement soutient et dépasse l'obligation de notifier la violation sans retard indu à l'autorité (art. 33.1)."
+  },
+  {
+   "tgv_ref": "P12.06",
+   "cible_ref": "33.1",
+   "cible_intitule": "In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons. Where the notification to the supervisory authority is not made within 72 hours, it shall be accompanied by reasons for the delay.",
+   "relation": "recoupement_partiel",
+   "justification": "Aviser la Commission d'un incident présentant un risque de préjudice sérieux correspond à la notification de la violation à l'autorité de contrôle (art. 33.1)."
+  },
+  {
+   "tgv_ref": "P12.06",
+   "cible_ref": "33.5",
+   "cible_intitule": "The controller shall document any personal data breaches, comprising the facts relating to the personal data breach, its effects and the remedial action taken. That documentation shall enable the supervisory authority to verify compliance with this Article.",
+   "relation": "recoupement_partiel",
+   "justification": "Tenir un registre des incidents dont une copie est transmise à la Commission recoupe l'obligation de documenter les violations de données (art. 33.5)."
+  },
+  {
+   "tgv_ref": "P12.06",
+   "cible_ref": "34.1",
+   "cible_intitule": "When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay.",
+   "relation": "recoupement_partiel",
+   "justification": "Aviser la personne concernée lorsque l'incident présente un risque de préjudice sérieux correspond à la communication de la violation à la personne concernée (art. 34.1)."
+  },
+  {
+   "tgv_ref": "P13.01",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Assurer le cloisonnement des fichiers de plusieurs clients est une mesure technique de sécurité garantissant l'isolation des données (art. 32.1)."
+  },
+  {
+   "tgv_ref": "P13.02",
+   "cible_ref": "5.1.b",
+   "cible_intitule": "collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (‘purpose limitation’);",
+   "relation": "recoupement_partiel",
+   "justification": "Cloisonner les fichiers ayant des finalités distinctes dans un entrepôt de données met en œuvre la limitation des finalités de l'art. 5.1.b."
+  },
+  {
+   "tgv_ref": "P14.01",
+   "cible_ref": "30.1",
+   "cible_intitule": "Each controller and, where applicable, the controller's representative, shall maintain a record of processing activities under its responsibility. That record shall contain all of the following information:",
+   "relation": "recoupement_partiel",
+   "justification": "Dresser un inventaire complet des RP détenus, de leurs emplacements et de leurs types recoupe la tenue d'un registre des activités de traitement (art. 30.1)."
+  },
+  {
+   "tgv_ref": "P14.02",
+   "cible_ref": "30.1",
+   "cible_intitule": "Each controller and, where applicable, the controller's representative, shall maintain a record of processing activities under its responsibility. That record shall contain all of the following information:",
+   "relation": "recoupement_partiel",
+   "justification": "Tenir à jour un inventaire évolutif des RP recueillis ou utilisés, y compris les données de journalisation, recoupe la tenue à jour du registre des activités de traitement (art. 30.1)."
+  },
+  {
+   "tgv_ref": "P14.03",
+   "cible_ref": "32.1",
+   "cible_intitule": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:",
+   "relation": "recoupement_partiel",
+   "justification": "Un contrôle efficace de l'accès et du transfert des RP relève des mesures techniques et organisationnelles de sécurité de l'art. 32.1."
+  },
+  {
+   "tgv_ref": "P14.04",
+   "cible_ref": "28.3",
+   "cible_intitule": "Processing by a processor shall be governed by a contract or other legal act under Union or Member State law, that is binding on the processor with regard to the controller and that sets out the subject-matter and duration of the processing, the nature and purpose of the processing, the type of personal data and categories of data subjects and the obligations and rights of the controller. That contract or other legal act shall stipulate, in particular, that the processor:",
+   "relation": "recoupement_partiel",
+   "justification": "Disposer d'un processus clair de transfert des RP à des tiers recoupe l'encadrement contractuel régissant le recours aux sous-traitants (art. 28.3)."
+  },
+  {
+   "tgv_ref": "P14.05",
+   "cible_ref": "33.3.a",
+   "cible_intitule": "describe the nature of the personal data breach including where possible, the categories and approximate number of data subjects concerned and the categories and approximate number of personal data records concerned;",
+   "relation": "recoupement_partiel",
+   "justification": "Pouvoir identifier rapidement les données mises en cause lors d'un incident correspond à la description des catégories et du volume de données concernées dans la notification de violation (art. 33.3.a)."
+  },
+  {
+   "tgv_ref": "P15.01",
+   "cible_ref": "5.1.e",
+   "cible_intitule": "kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) subject to implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject (‘storage limitation’);",
+   "relation": "recoupement_partiel",
+   "justification": "Une politique de conservation et de destruction clairement définie et documentée met en œuvre le principe de limitation de la conservation de l'art. 5.1.e."
+  },
+  {
+   "tgv_ref": "P15.03",
+   "cible_ref": "30.1.f",
+   "cible_intitule": "where possible, the envisaged time limits for erasure of the different categories of data;",
+   "relation": "recoupement_partiel",
+   "justification": "Suivre un calendrier de conservation par type de données correspond à la consignation des délais prévus pour l'effacement des différentes catégories au registre (art. 30.1.f)."
+  },
+  {
+   "tgv_ref": "P15.04",
+   "cible_ref": "24.1",
+   "cible_intitule": "Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for the rights and freedoms of natural persons, the controller shall implement appropriate technical and organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation. Those measures shall be reviewed and updated where necessary.",
+   "relation": "recoupement_partiel",
+   "justification": "Réviser régulièrement la politique de données en fonction des évolutions législatives correspond à l'obligation de revoir et d'actualiser les mesures de l'art. 24.1."
+  },
+  {
+   "tgv_ref": "P16.01",
+   "cible_ref": "12.2",
+   "cible_intitule": "The controller shall facilitate the exercise of data subject rights under Articles 15 to 22. In the cases referred to in Article 11(2), the controller shall not refuse to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject.",
+   "relation": "recoupement_partiel",
+   "justification": "Disposer d'une stratégie de traitement des plaintes relatives aux RP recoupe l'obligation de faciliter l'exercice des droits des personnes concernées (art. 12.2)."
+  },
+  {
+   "tgv_ref": "P16.03",
+   "cible_ref": "12.6",
+   "cible_intitule": "Without prejudice to Article 11, where the controller has reasonable doubts concerning the identity of the natural person making the request referred to in Articles 15 to 21, the controller may request the provision of additional information necessary to confirm the identity of the data subject.",
+   "relation": "recoupement_partiel",
+   "justification": "Intégrer des méthodes d'authentification adéquates au traitement des demandes correspond à la vérification de l'identité du demandeur en cas de doute raisonnable (art. 12.6)."
+  },
+  {
+   "tgv_ref": "P16.04",
+   "cible_ref": "12.1",
+   "cible_intitule": "The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child. The information shall be provided in writing, or by other means, including, where appropriate, by electronic means. When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.",
+   "relation": "recoupement_partiel",
+   "justification": "Décrire le processus de traitement des plaintes de manière simple, claire et publiquement accessible correspond à l'exigence de transparence et d'accessibilité de l'information de l'art. 12.1."
+  },
+  {
+   "tgv_ref": "P16.05",
+   "cible_ref": "5.2",
+   "cible_intitule": "The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’).",
+   "relation": "recoupement_partiel",
+   "justification": "Tenir un registre des plaintes et des réponses apportées, régulièrement mis à jour, soutient l'obligation de responsabilité de démontrer la conformité (art. 5.2)."
+  },
+  {
+   "tgv_ref": "P17.01",
+   "cible_ref": "17.1",
+   "cible_intitule": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+   "relation": "recoupement_partiel",
+   "justification": "Établir un processus formel de réception et de traitement des demandes de désindexation opérationnalise le droit à l'effacement de l'art. 17.1."
+  },
+  {
+   "tgv_ref": "P17.02",
+   "cible_ref": "17.3",
+   "cible_intitule": "Paragraphs 1 and 2 shall not apply to the extent that processing is necessary:",
+   "relation": "recoupement_partiel",
+   "justification": "Vérifier si des exigences légales ou réglementaires empêchent d'accéder à une demande de désindexation correspond à l'examen des exceptions au droit à l'effacement de l'art. 17.3."
+  },
+  {
+   "tgv_ref": "P17.03",
+   "cible_ref": "17.1",
+   "cible_intitule": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+   "relation": "recoupement_partiel",
+   "justification": "Développer des processus spécifiques de destruction, d'anonymisation et de désindexation des RP opérationnalise le droit à l'effacement de l'art. 17.1."
+  },
+  {
+   "tgv_ref": "P17.04",
+   "cible_ref": "12.4",
+   "cible_intitule": "If the controller does not take action on the request of the data subject, the controller shall inform the data subject without delay and at the latest within one month of receipt of the request of the reasons for not taking action and on the possibility of lodging a complaint with a supervisory authority and seeking a judicial remedy.",
+   "relation": "recoupement_partiel",
+   "justification": "Disposer d'un protocole pour informer le requérant des raisons de l'impossibilité de désindexer correspond à l'obligation d'informer la personne des motifs de non-action sur sa demande (art. 12.4)."
+  },
+  {
+   "tgv_ref": "P17.05",
+   "cible_ref": "17.1",
+   "cible_intitule": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+   "relation": "recoupement_partiel",
+   "justification": "Recourir à l'anonymisation ou à la destruction pour répondre aux demandes de désindexation met en œuvre le droit à l'effacement de l'art. 17.1."
+  },
+  {
+   "tgv_ref": "P18.01",
+   "cible_ref": "15.3",
+   "cible_intitule": "The controller shall provide a copy of the personal data undergoing processing. For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs. Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.",
+   "relation": "recoupement_partiel",
+   "justification": "Disposer d'un processus permettant à la personne de demander une copie de ses RP correspond à l'obligation de fournir une copie des données faisant l'objet du traitement (art. 15.3)."
+  },
+  {
+   "tgv_ref": "P18.02",
+   "cible_ref": "15.3",
+   "cible_intitule": "The controller shall provide a copy of the personal data undergoing processing. For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs. Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.",
+   "relation": "recoupement_partiel",
+   "justification": "Communiquer les RP dans un format technologique structuré et couramment utilisé correspond à la fourniture d'une copie des données, le cas échéant sous forme électronique d'usage courant (art. 15.3)."
+  },
+  {
+   "tgv_ref": "P18.03",
+   "cible_ref": "12.3",
+   "cible_intitule": "The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request. That period may be extended by two further months where necessary, taking into account the complexity and number of the requests. The controller shall inform the data subject of any such extension within one month of receipt of the request, together with the reasons for the delay. Where the data subject makes the request by electronic form means, the information shall be provided by electronic means where possible, unless otherwise requested by the data subject.",
+   "relation": "recoupement_partiel",
+   "justification": "Former les responsables à répondre aux demandes de portabilité de manière sécuritaire et dans un délai raisonnable correspond à l'obligation de donner suite sans retard indu, dans le délai prescrit (art. 12.3)."
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "referentiel": {
+  "slug": "iso-22301-2019",
+  "nom": "ISO 22301:2019",
+  "categorie": "Certification",
+  "controles_total": 46
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 7,
+  "criteres_tgv": 6,
+  "controles_cible_touches": 5,
+  "relations": {
+   "recoupement_partiel": 1,
+   "tgv_plus_etroit": 6
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "S09.06",
+   "cible_ref": "8.3.5",
+   "cible_intitule": "Implementation of solutions",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de sauvegarde permettant une récupération complète ou partielle des données (S09.06) est une solution de reprise implémentée recevable pour 8.3.5, mais ne recoupe que partiellement ce contrôle (aspects techniques de sauvegarde hors périmètre BCMS d'un côté, autres solutions de continuité non couvertes de l'autre)."
+  },
+  {
+   "tgv_ref": "S15.03",
+   "cible_ref": "8.3.5",
+   "cible_intitule": "Implementation of solutions",
+   "relation": "tgv_plus_etroit",
+   "justification": "La preuve de mise en place/arrimage des mécanismes de plan de reprise du SCT (S15.03) atteste l'implémentation d'une solution de reprise au sens de 8.3.5, dont elle constitue un cas particulier plus étroit."
+  },
+  {
+   "tgv_ref": "S15.04",
+   "cible_ref": "8.4.4",
+   "cible_intitule": "Business continuity plans",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de continuité des activités documenté (maintenance/exploitation de l'application) exigé par S15.04 est exactement la pièce que l'auditeur examine pour 8.4.4, mais 8.4.4 impose un contenu plus riche (rôles, seuils de déclenchement, étapes détaillées de reprise), d'où un TGV plus étroit."
+  },
+  {
+   "tgv_ref": "S15.05",
+   "cible_ref": "8.4.5",
+   "cible_intitule": "Recovery",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de recouvrement après sinistre couvrant les infrastructures (S15.05) fournit la preuve des activités de reprise post-perturbation demandée par 8.4.5, mais bornée à l'infrastructure alors que 8.4.5 vise la reprise de l'ensemble des opérations."
+  },
+  {
+   "tgv_ref": "S16.01",
+   "cible_ref": "8.5",
+   "cible_intitule": "Exercise programme",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les rapports de tests périodiques du plan de reprise (S16.01) sont recevables comme preuve d'exercices sous 8.5, qui exige toutefois un programme d'exercices structuré et diversifié plus large que le seul test du plan."
+  },
+  {
+   "tgv_ref": "S16.01",
+   "cible_ref": "8.6",
+   "cible_intitule": "Evaluation of business continuity documentation and capabilities",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le rapport de test périodique du plan de reprise, en tant qu'il vise explicitement à «vérifier son efficacité», constitue une évaluation de capacité recevable pour 8.6; TGV plus étroit car borné à l'efficacité du seul plan de reprise alors que 8.6 évalue l'ensemble de la documentation et des capacités de continuité."
+  },
+  {
+   "tgv_ref": "T26",
+   "cible_ref": "8.3.5",
+   "cible_intitule": "Implementation of solutions",
+   "relation": "tgv_plus_etroit",
+   "justification": "Critère au libellé identique à S15.03: la preuve d'arrimage aux mécanismes de reprise du SCT démontre l'implémentation d'une solution de reprise (8.3.5), sous-ensemble spécifique de la mise en œuvre des solutions de continuité."
+  }
+ ]
+}

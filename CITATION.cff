@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+title: >-
+  Correspondances TGV : cartographie de la Trousse globale de vérification du
+  MSSS vers 13 référentiels internationaux
+message: >-
+  Si vous utilisez ces données, merci de citer ce dépôt selon les métadonnées
+  ci-dessous.
+type: dataset
+authors:
+  - family-names: Robert
+    given-names: Sébastien
+    affiliation: Services Conseil Factero
+    email: srobert@factero.ca
+    city: Saint-Jean-sur-Richelieu
+    region: Québec
+    country: CA
+repository-code: https://github.com/factero/tgv-msss-crosswalk
+url: https://certification-tgv.ca
+abstract: >-
+  Cartographie ouverte et vérifiée entre les 382 critères de la Trousse globale
+  de vérification (TGV) du ministère de la Santé et des Services sociaux du
+  Québec et les contrôles de 13 référentiels internationaux de sécurité de
+  l'information, de protection de la vie privée, de gouvernance de
+  l'intelligence artificielle et de continuité d'activité. Le jeu de données
+  comprend 1302 correspondances, chacune qualifiée par une relation (équivalent,
+  plus étroit, plus large, recoupement partiel) et accompagnée d'une
+  justification écrite. Référentiels couverts : SOC 2, NIST SP 800-66 Rev. 2
+  (HIPAA), ISO/IEC 27001:2022, ISO/IEC 27701:2025, ISO/IEC 42001:2023, BSI
+  C5:2020, RGPD, HITRUST CSF v11, directive NIS2, CCB CyberFundamentals, EU AI
+  Act, HDS v2 et ISO 22301:2019.
+keywords:
+  - TGV
+  - Trousse globale de vérification
+  - MSSS
+  - Santé Québec
+  - certification
+  - crosswalk
+  - correspondance de contrôles
+  - ISO 27001
+  - SOC 2
+  - RGPD
+  - GDPR
+  - ISO 42001
+  - HITRUST
+  - HDS
+  - NIS2
+  - conformité
+  - santé numérique
+  - cybersécurité
+  - protection des renseignements personnels
+  - Loi 25
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+version: 1.0.0
+date-released: '2026-07-23'
+references:
+  - type: government-document
+    title: Certification - Trousse globale de vérification (TGV)
+    authors:
+      - name: Ministère de la Santé et des Services sociaux du Québec
+    year: 2024
+    isbn: '978-2-550-97589-2'
+    number: 24-715-38W
+    url: https://publications.msss.gouv.qc.ca/msss/document-003757/
+    notes: >-
+      Document source des critères. © Gouvernement du Québec. Non couvert par la
+      licence CC BY 4.0 du présent dépôt, voir NOTICE.md.

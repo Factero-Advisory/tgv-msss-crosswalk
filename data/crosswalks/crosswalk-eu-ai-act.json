@@ -1,0 +1,324 @@
+{
+ "referentiel": {
+  "slug": "eu-ai-act",
+  "nom": "Reglement europeen sur l'IA (EU AI Act)",
+  "categorie": "Reglementation",
+  "controles_total": 347
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 43,
+  "criteres_tgv": 41,
+  "controles_cible_touches": 31,
+  "relations": {
+   "recoupement_partiel": 18,
+   "tgv_plus_etroit": 25
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "IA10",
+   "cible_ref": "15.3",
+   "cible_intitule": "The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie d'évaluation avec métriques, faux positifs et faux négatifs alimente la déclaration des niveaux et métriques d'exactitude dans la notice (art. 15.3)."
+  },
+  {
+   "tgv_ref": "IA12",
+   "cible_ref": "15.5",
+   "cible_intitule": "High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les tests d'injection de requêtes malveillantes alimentent la résilience aux tentatives de tiers d'altérer les sorties en exploitant les vulnérabilités (art. 15.5)."
+  },
+  {
+   "tgv_ref": "IA13",
+   "cible_ref": "13.3.b.v",
+   "cible_intitule": "when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+   "relation": "recoupement_partiel",
+   "justification": "Documenter l'utilisation envisagée et les groupes devant être présents recoupe l'information sur la performance à l'égard des groupes visés par l'art. 13.3.b.v."
+  },
+  {
+   "tgv_ref": "IA14",
+   "cible_ref": "13.3.b.iii",
+   "cible_intitule": "any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);",
+   "relation": "tgv_plus_etroit",
+   "justification": "Documenter les limitations et mises en garde à surveiller alimente l'information sur les circonstances prévisibles pouvant engendrer des risques (art. 13.3.b.iii)."
+  },
+  {
+   "tgv_ref": "IA15",
+   "cible_ref": "10.2.g",
+   "cible_intitule": "appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+   "relation": "recoupement_partiel",
+   "justification": "Les mesures d'identification, contrôle, atténuation et suivi des biais correspondent aux mesures de détection, prévention et atténuation des biais de l'art. 10.2.g."
+  },
+  {
+   "tgv_ref": "IA16",
+   "cible_ref": "13.3.b.iii",
+   "cible_intitule": "any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);",
+   "relation": "tgv_plus_etroit",
+   "justification": "Documenter les utilisations non recommandées et conditions à éviter alimente l'information sur le mauvais usage raisonnablement prévisible (art. 13.3.b.iii)."
+  },
+  {
+   "tgv_ref": "IA17",
+   "cible_ref": "10.2.b",
+   "cible_intitule": "data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+   "relation": "recoupement_partiel",
+   "justification": "Identifier dans une liste accessible les jeux de données d'entraînement, validation et test recoupe la documentation de la collecte et de l'origine des données (art. 10.2.b)."
+  },
+  {
+   "tgv_ref": "IA18",
+   "cible_ref": "11.1",
+   "cible_intitule": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market or put into service and shall be kept up-to date. The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It shall contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, may provide the elements of the technical documentation specified in Annex IV in a simplified manner. For this purpose, the Commission shall establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it shall use the form referred to in this paragraph. Notified bodies shall accept the form for the purposes of the conformity assessment.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Mentionner les types d'IA employés fait partie de la documentation technique décrivant le système exigée à l'art. 11.1 (annexe IV)."
+  },
+  {
+   "tgv_ref": "IA22",
+   "cible_ref": "72.1",
+   "cible_intitule": "Providers shall establish and document a post-market monitoring system in a manner that is proportionate to the nature of the AI technologies and the risks of the high-risk AI system.",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus d'évaluation continue après implantation tenant compte des risques correspond au système de surveillance après commercialisation à établir et documenter (art. 72.1)."
+  },
+  {
+   "tgv_ref": "IA24",
+   "cible_ref": "11.1",
+   "cible_intitule": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market or put into service and shall be kept up-to date. The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It shall contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, may provide the elements of the technical documentation specified in Annex IV in a simplified manner. For this purpose, the Commission shall establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it shall use the form referred to in this paragraph. Notified bodies shall accept the form for the purposes of the conformity assessment.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La description de l'architecture, des concepts, approches et techniques de traitement des données et des modèles constitue un contenu central de la documentation technique (art. 11.1)."
+  },
+  {
+   "tgv_ref": "IA25",
+   "cible_ref": "13.2",
+   "cible_intitule": "High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La formation ou le document permettant à l'utilisateur de comprendre le fonctionnement et son rôle de vérificateur alimente la notice d'utilisation claire et compréhensible (art. 13.2)."
+  },
+  {
+   "tgv_ref": "IA25",
+   "cible_ref": "14.4.b",
+   "cible_intitule": "to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (‘automation bias’), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons;",
+   "relation": "recoupement_partiel",
+   "justification": "La formation ou le document amenant l'utilisateur à comprendre son rôle de vérificateur critique des résultats alimente l'exigence que la personne exerçant la supervision reste consciente de la tendance à la sur-confiance envers la sortie (biais d'automatisation, art. 14.4.b), dimension non couverte par le mapping vers 13.2."
+  },
+  {
+   "tgv_ref": "IA27",
+   "cible_ref": "10.2.c",
+   "cible_intitule": "relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+   "relation": "recoupement_partiel",
+   "justification": "Documenter les méthodes et critères d'anonymisation ou de dépersonnalisation recoupe la documentation des opérations de préparation des données (art. 10.2.c)."
+  },
+  {
+   "tgv_ref": "IA28",
+   "cible_ref": "9.2.d",
+   "cible_intitule": "the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a) .",
+   "relation": "tgv_plus_etroit",
+   "justification": "Vulgariser les mesures d'atténuation des risques de la SARIA présuppose et documente l'adoption des mesures de gestion des risques ciblées de l'art. 9.2.d."
+  },
+  {
+   "tgv_ref": "IA3",
+   "cible_ref": "13.1",
+   "cible_intitule": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system’s output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Établir les raisons, facteurs et paramètres régissant la décision automatisée alimente l'exigence de transparence permettant d'interpréter la sortie du système (art. 13.1)."
+  },
+  {
+   "tgv_ref": "IA30",
+   "cible_ref": "14.1",
+   "cible_intitule": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Décrire les modalités de contrôle et de surveillance des agents autonomes alimente la conception permettant une supervision humaine effective (art. 14.1)."
+  },
+  {
+   "tgv_ref": "IA31",
+   "cible_ref": "10.3",
+   "cible_intitule": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose. They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used. Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.",
+   "relation": "recoupement_partiel",
+   "justification": "Documenter la représentativité des données synthétiques utilisées recoupe l'exigence de jeux de données suffisamment représentatifs (art. 10.3)."
+  },
+  {
+   "tgv_ref": "IA32",
+   "cible_ref": "10.2",
+   "cible_intitule": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular:",
+   "relation": "tgv_plus_etroit",
+   "justification": "Documenter la méthodologie d'obtention de jeux distincts pour entraînement, validation et test alimente les pratiques de gouvernance des données de l'art. 10.2."
+  },
+  {
+   "tgv_ref": "IA35",
+   "cible_ref": "72.2",
+   "cible_intitule": "The post-market monitoring system shall actively and systematically collect, document and analyse relevant data which may be provided by deployers or which may be collected through other sources on the performance of high-risk AI systems throughout their lifetime, and which allow the provider to evaluate the continuous compliance of AI systems with the requirements set out in Chapter III, Section 2. Where relevant, post- market monitoring shall include an analysis of the interaction with other AI systems. This obligation shall not cover sensitive operational data of deployers which are law- enforcement authorities.",
+   "relation": "recoupement_partiel",
+   "justification": "Communiquer à l'acquéreur tout nouveau risque issu de la SARIA recoupe la collecte et l'analyse systématiques des données de performance par la surveillance après commercialisation (art. 72.2)."
+  },
+  {
+   "tgv_ref": "IA36",
+   "cible_ref": "10.3",
+   "cible_intitule": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose. They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used. Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.",
+   "relation": "recoupement_partiel",
+   "justification": "S'engager à ne pas utiliser de jeux de données corrompus ou d'intégrité compromise recoupe l'exigence de données exemptes d'erreurs et complètes (art. 10.3)."
+  },
+  {
+   "tgv_ref": "IA37",
+   "cible_ref": "15.5",
+   "cible_intitule": "High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Surveiller les événements pouvant corrompre l'intégrité des données d'entraînement alimente la résilience contre l'empoisonnement des données prévue à l'art. 15.5."
+  },
+  {
+   "tgv_ref": "IA38",
+   "cible_ref": "10.2.b",
+   "cible_intitule": "data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+   "relation": "recoupement_partiel",
+   "justification": "Avoir acquis les droits sur les jeux de données, notamment de renseignements personnels, recoupe la documentation de l'origine et de la finalité initiale des données (art. 10.2.b)."
+  },
+  {
+   "tgv_ref": "IA4",
+   "cible_ref": "26.11",
+   "cible_intitule": "Without prejudice to Article 50 of this Regulation, deployers of high-risk AI systems referred to in Annex III that make decisions or assist in making decisions related to natural persons shall inform the natural persons that they are subject to the use of the high-risk AI system. For high-risk AI systems used for law enforcement purposes Article 13 of Directive (EU) 2016/680 shall apply.",
+   "relation": "recoupement_partiel",
+   "justification": "Informer la personne que la décision repose sur un traitement automatisé recoupe l'obligation du déployeur d'aviser les personnes soumises à un système d'IA à haut risque (art. 26.11)."
+  },
+  {
+   "tgv_ref": "IA45",
+   "cible_ref": "14.4.e",
+   "cible_intitule": "to intervene in the operation of the high-risk AI system or interrupt the system through a ‘stop’ button or a similar procedure that allows the system to come to a halt in a safe state.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La fonction permettant d'inhiber l'appel aux modèles en cas de défaillance ou de refus correspond au bouton d'arrêt permettant d'interrompre le système (art. 14.4.e)."
+  },
+  {
+   "tgv_ref": "IA47",
+   "cible_ref": "12.1",
+   "cible_intitule": "High-risk AI systems shall technically allow for the automatic recording of events (‘logs’) over their lifetime.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Journaliser et retracer les accès, décisions et réactions des utilisateurs alimente l'enregistrement automatique des événements (journaux) exigé à l'art. 12.1."
+  },
+  {
+   "tgv_ref": "IA48",
+   "cible_ref": "26.6",
+   "cible_intitule": "Deployers of high-risk AI systems shall keep the logs automatically generated by that high-risk AI system to the extent such logs are under their control, for a period appropriate to the intended purpose of the high-risk AI system, of at least six months, unless provided otherwise in applicable Union or national law, in particular in Union law on the protection of personal data.",
+   "relation": "recoupement_partiel",
+   "justification": "Conserver les journaux pour la période ou les décisions peuvent être contestées en cour recoupe la conservation des journaux par le déployeur pour une durée appropriée (art. 26.6)."
+  },
+  {
+   "tgv_ref": "IA5",
+   "cible_ref": "13.3.b.iv",
+   "cible_intitule": "where applicable, the technical capabilities and characteristics of the high- risk AI system to provide information that is relevant to explain its output;",
+   "relation": "recoupement_partiel",
+   "justification": "Fournir sur demande les renseignements et facteurs ayant mené à la décision suppose les capacités techniques d'explication de la sortie exigées par l'art. 13.3.b.iv."
+  },
+  {
+   "tgv_ref": "IA51",
+   "cible_ref": "12.2",
+   "cible_intitule": "In order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for:",
+   "relation": "recoupement_partiel",
+   "justification": "Journaliser les données d'utilisation et résultats accessibles à l'acquéreur alimente le niveau de traçabilité du fonctionnement adapte au but prévu (art. 12.2)."
+  },
+  {
+   "tgv_ref": "IA53",
+   "cible_ref": "13.3.b.iv",
+   "cible_intitule": "where applicable, the technical capabilities and characteristics of the high- risk AI system to provide information that is relevant to explain its output;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Composer la décision finale de résultats intermédiaires consultables alimente les capacités techniques d'explication de la sortie (art. 13.3.b.iv)."
+  },
+  {
+   "tgv_ref": "IA56",
+   "cible_ref": "15.4",
+   "cible_intitule": "High-risk AI systems shall be as resilient as possible regarding errors, faults or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems. Technical and organisational measures shall be taken towards this regard.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Encadrer l'adaptation par apprentissage continu de la SARIA répond à l'exigence de réduire le risque de boucles de rétroaction des systèmes qui continuent d'apprendre (art. 15.4)."
+  },
+  {
+   "tgv_ref": "IA58",
+   "cible_ref": "26.5",
+   "cible_intitule": "Deployers shall monitor the operation of the high-risk AI system on the basis of the instructions for use and, where relevant, inform providers in accordance with Article 72. Where deployers have reason to consider that the use of the high-risk AI system in accordance with the instructions may present a risk within the meaning of Article 79(1), they shall, without undue delay, inform the provider or distributor and the relevant market surveillance authority, and shall suspend the use of that system. Where deployers have identified a serious incident, they shall also immediately inform first the provider, and then the importer or distributor and the relevant market surveillance authorities of that incident. If the deployer is not able to reach the provider, Article 73 shall apply mutatis mutandis. This obligation shall not cover sensitive operational data of deployers of AI systems which are law enforcement authorities.",
+   "relation": "recoupement_partiel",
+   "justification": "Signaler et extraire les résultats inadéquats recoupe l'obligation du déployeur de surveiller le fonctionnement et d'informer le fournisseur (art. 26.5)."
+  },
+  {
+   "tgv_ref": "IA59",
+   "cible_ref": "14.4.a",
+   "cible_intitule": "to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance ;",
+   "relation": "recoupement_partiel",
+   "justification": "Présenter les limitations et mises en garde dans les écrans aide l'utilisateur à comprendre les capacités et limites et à surveiller le système (art. 14.4.à)."
+  },
+  {
+   "tgv_ref": "IA60",
+   "cible_ref": "14.4.d",
+   "cible_intitule": "to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Amener l'utilisateur à comprendre qu'il peut ne pas utiliser la SARIA ou refuser une recommandation correspond à la faculté de ne pas recourir au système ou d'écarter sa sortie (art. 14.4.d)."
+  },
+  {
+   "tgv_ref": "IA61",
+   "cible_ref": "14.1",
+   "cible_intitule": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Placer l'utilisateur en contrôle des résultats sans que la SARIA puisse altérer ses validations concrétise la supervision humaine effective de l'art. 14.1."
+  },
+  {
+   "tgv_ref": "IA62",
+   "cible_ref": "13.1",
+   "cible_intitule": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system’s output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Aider l'utilisateur à comprendre ce que fait le modèle et quelles données et paramètres sont pris en compte alimente la transparence permettant d'interpréter la sortie (art. 13.1)."
+  },
+  {
+   "tgv_ref": "IA62",
+   "cible_ref": "14.4.c",
+   "cible_intitule": "to correctly interpret the high-risk AI system’s output, taking into account, for example, the interpretation tools and methods available;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Aider l'utilisateur à comprendre ce que fait le modèle et quelles données, paramètres ou contexte sont pris en compte pour la décision alimente directement la capacité à interpréter correctement la sortie du système (art. 14.4.c), exigence de supervision distincte de la transparence de conception (13.1)."
+  },
+  {
+   "tgv_ref": "IA65",
+   "cible_ref": "14.1",
+   "cible_intitule": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Intégrer des modalités de contrôle et de surveillance des agents autonomes dans la SARIA concrétise la conception permettant une supervision humaine (art. 14.1)."
+  },
+  {
+   "tgv_ref": "IA66",
+   "cible_ref": "15.4",
+   "cible_intitule": "High-risk AI systems shall be as resilient as possible regarding errors, faults or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems. Technical and organisational measures shall be taken towards this regard.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les points de contrôle des appels externes et la stratégie de continuation en cas de défaillance alimentent la résilience aux erreurs et défaillances de l'art. 15.4."
+  },
+  {
+   "tgv_ref": "IA68",
+   "cible_ref": "5.1.a",
+   "cible_intitule": "the placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person’s consciousness or purposefully manipulative or deceptive techniques, with the objective, or the effect of, materially distorting the behaviour of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing a person to take a decision that that person would not have otherwise taken in a manner that causes or is likely to cause that person, another person or group of persons significant harm;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Interdire tout élément servant de déclencheur d'associations ou d'actions commanditées relève de la prohibition des techniques manipulatrices ou trompeuses de l'art. 5.1.à."
+  },
+  {
+   "tgv_ref": "IA69",
+   "cible_ref": "5.1.a",
+   "cible_intitule": "the placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person’s consciousness or purposefully manipulative or deceptive techniques, with the objective, or the effect of, materially distorting the behaviour of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing a person to take a decision that that person would not have otherwise taken in a manner that causes or is likely to cause that person, another person or group of persons significant harm;",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'interdiction de toute technique subliminale dans la SARIA correspond à la pratique prohibée des techniques subliminales de l'art. 5.1.à."
+  },
+  {
+   "tgv_ref": "IA7",
+   "cible_ref": "14.1",
+   "cible_intitule": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Permettre la révision de la décision par un humain est une modalité concrète de la supervision humaine effective exigée par l'art. 14.1."
+  },
+  {
+   "tgv_ref": "IA8",
+   "cible_ref": "10.2.f",
+   "cible_intitule": "examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus d'essais identifiant les différences de comportement selon les groupes sociaux correspond à l'examen des biais possibles de l'art. 10.2.f."
+  },
+  {
+   "tgv_ref": "IA9",
+   "cible_ref": "9.6",
+   "cible_intitule": "High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures. Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les essais établissant l'adéquation à l'utilisation envisagée alimentent les tests garantissant une performance conforme au but prévu (art. 9.6)."
+  }
+ ]
+}

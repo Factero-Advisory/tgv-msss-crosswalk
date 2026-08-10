@@ -1,0 +1,815 @@
+{
+ "referentiel": {
+  "slug": "bsi-c5-2020",
+  "nom": "BSI C5:2020",
+  "categorie": "Attestation",
+  "controles_total": 121
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 113,
+  "criteres_tgv": 103,
+  "controles_cible_touches": 67,
+  "relations": {
+   "tgv_plus_etroit": 46,
+   "recoupement_partiel": 64,
+   "equivalent": 3
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "S01.01",
+   "cible_ref": "OIS-07",
+   "cible_intitule": "Application of the Risk Management Policy",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le rapport d'évaluation des risques de sécurité réalisé avant mise en production constitue une instance des évaluations de risques exigées par OIS-07."
+  },
+  {
+   "tgv_ref": "S01.02",
+   "cible_ref": "OIS-07",
+   "cible_intitule": "Application of the Risk Management Policy",
+   "relation": "recoupement_partiel",
+   "justification": "Les rapports d'évaluations périodiques des risques CID recoupent l'exécution récurrente du processus de gestion des risques d'OIS-07 sans en couvrir tout le périmètre organisationnel."
+  },
+  {
+   "tgv_ref": "S01.03",
+   "cible_ref": "DEV-05",
+   "cible_intitule": "Risk assessment, categorisation and prioritisation of changes",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'évaluation de risque déclenchée par tout changement majeur est un sous-ensemble de l'évaluation de risque exigée sur l'ensemble des changements par DEV-05."
+  },
+  {
+   "tgv_ref": "S01.03",
+   "cible_ref": "OIS-07",
+   "cible_intitule": "Application of the Risk Management Policy",
+   "relation": "recoupement_partiel",
+   "justification": "L'approbation par la direction de l'évaluation continue des risques recoupe l'exécution périodique du processus de risque d'OIS-07."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "OIS-02",
+   "cible_intitule": "Information Security Policy",
+   "relation": "recoupement_partiel",
+   "justification": "La politique de sécurité présentant objectifs, principes directeurs et rôles fournit la preuve documentaire attendue par la politique OIS-02."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "SP-03",
+   "cible_intitule": "Exceptions from Existing Policies and Instructions",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le volet gestion des dérogations et exceptions de la politique est un sous-ensemble du processus formel d'exceptions avec acceptation du risque de SP-03."
+  },
+  {
+   "tgv_ref": "S02.02",
+   "cible_ref": "SP-01",
+   "cible_intitule": "Documentation, communication and provision of policies and instructions",
+   "relation": "recoupement_partiel",
+   "justification": "Les normes, processus et procédures techniques documentés constituent les instructions dérivées de la politique de sécurité visées par SP-01."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "SP-01",
+   "cible_intitule": "Documentation, communication and provision of policies and instructions",
+   "relation": "tgv_plus_etroit",
+   "justification": "La communication des politiques aux personnes intéressées est un sous-ensemble de la diffusion et mise à disposition exigée par SP-01."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "SP-02",
+   "cible_intitule": "Review and Approval of Policies and Instructions",
+   "relation": "recoupement_partiel",
+   "justification": "L'approbation par la direction et la mise à jour des politiques recoupent la revue et l'approbation périodiques exigées par SP-02."
+  },
+  {
+   "tgv_ref": "S02.04",
+   "cible_ref": "AM-02",
+   "cible_intitule": "Acceptable Use and Safe Handling of Assets Policy",
+   "relation": "recoupement_partiel",
+   "justification": "Le cadre de bonnes pratiques d'utilisation des outils informatiques recoupe la politique d'usage acceptable des actifs d'AM-02."
+  },
+  {
+   "tgv_ref": "S02.04",
+   "cible_ref": "SIM-01",
+   "cible_intitule": "Policy for security incident management",
+   "relation": "tgv_plus_etroit",
+   "justification": "La procédure à suivre en cas d'incident est un sous-ensemble de la politique de gestion des incidents de sécurité de SIM-01."
+  },
+  {
+   "tgv_ref": "S03.01",
+   "cible_ref": "OIS-02",
+   "cible_intitule": "Information Security Policy",
+   "relation": "tgv_plus_etroit",
+   "justification": "La définition des responsabilités de sécurité est un sous-ensemble du contenu rôles et responsabilités de la politique OIS-02."
+  },
+  {
+   "tgv_ref": "S03.02",
+   "cible_ref": "AM-01",
+   "cible_intitule": "Asset Inventory",
+   "relation": "recoupement_partiel",
+   "justification": "L'attribution d'un responsable de sécurité à l'application et à ses actifs recoupe l'affectation des personnes responsables des actifs prévue par AM-01."
+  },
+  {
+   "tgv_ref": "S03.03",
+   "cible_ref": "OIS-04",
+   "cible_intitule": "Segregation of Duties",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'identification des tâches incompatibles de l'application et les mesures anti-usage inapproprié sont un sous-ensemble applicatif de la séparation des tâches d'OIS-04."
+  },
+  {
+   "tgv_ref": "S03.04",
+   "cible_ref": "DEV-01",
+   "cible_intitule": "Policies for the development/procurement of information systems",
+   "relation": "recoupement_partiel",
+   "justification": "La méthode de gestion de projet intégrant la sécurité recoupe les directives couvrant le cycle de vie de développement sécurisé de DEV-01."
+  },
+  {
+   "tgv_ref": "S04.01",
+   "cible_ref": "HR-01",
+   "cible_intitule": "Verification of qualification and trustworthiness",
+   "relation": "tgv_plus_etroit",
+   "justification": "La vérification des compétences du personnel est un sous-ensemble de la vérification de qualification et d'intégrité exigée par HR-01."
+  },
+  {
+   "tgv_ref": "S04.02",
+   "cible_ref": "HR-03",
+   "cible_intitule": "Security training and awareness programme",
+   "relation": "equivalent",
+   "justification": "Le programme de sensibilisation et de formation à la sécurité pour tout le personnel correspond directement au programme de sécurité d'HR-03."
+  },
+  {
+   "tgv_ref": "S04.03",
+   "cible_ref": "HR-02",
+   "cible_intitule": "Employment terms and conditions",
+   "relation": "recoupement_partiel",
+   "justification": "L'information du personnel et des contractants sur leurs responsabilités et procédures recoupe les obligations de conformité imposées par les conditions d'emploi d'HR-02."
+  },
+  {
+   "tgv_ref": "S04.04",
+   "cible_ref": "HR-04",
+   "cible_intitule": "Disciplinary measures",
+   "relation": "equivalent",
+   "justification": "Les sanctions approuvées pour non-respect des politiques correspondent aux mesures disciplinaires d'HR-04."
+  },
+  {
+   "tgv_ref": "S04.05",
+   "cible_ref": "HR-05",
+   "cible_intitule": "Responsibilities in the event of termination or change of employment",
+   "relation": "equivalent",
+   "justification": "Le rappel des obligations subsistant à la fin de la relation d'emploi correspond aux responsabilités en cas de cessation ou changement d'emploi d'HR-05."
+  },
+  {
+   "tgv_ref": "S05.01",
+   "cible_ref": "AM-02",
+   "cible_intitule": "Acceptable Use and Safe Handling of Assets Policy",
+   "relation": "recoupement_partiel",
+   "justification": "Les conditions d'utilisation de l'application et de ses actifs d'exploitation recoupent la politique d'usage acceptable et de manipulation sure des actifs d'AM-02."
+  },
+  {
+   "tgv_ref": "S05.04",
+   "cible_ref": "AM-01",
+   "cible_intitule": "Asset Inventory",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'inventaire de l'application et de ses actifs avec responsable attitré est un sous-ensemble de l'inventaire des actifs d'AM-01."
+  },
+  {
+   "tgv_ref": "S05.05",
+   "cible_ref": "AM-06",
+   "cible_intitule": "Asset Classification and Labelling",
+   "relation": "tgv_plus_etroit",
+   "justification": "La classification des actifs selon disponibilité, intégrité et confidentialité est un sous-ensemble de la classification et de l'étiquetage des actifs d'AM-06."
+  },
+  {
+   "tgv_ref": "S05.06",
+   "cible_ref": "AM-05",
+   "cible_intitule": "Commitment to Permissible Use, Safe Handling and Return of Assets",
+   "relation": "tgv_plus_etroit",
+   "justification": "La restitution de tous les actifs en fin de contrat est un sous-ensemble de l'engagement de retour des actifs d'AM-05."
+  },
+  {
+   "tgv_ref": "S05.07",
+   "cible_ref": "AM-02",
+   "cible_intitule": "Acceptable Use and Safe Handling of Assets Policy",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'encadrement des supports amovibles selon la classification de l'information est un sous-ensemble de la manipulation sure des actifs d'AM-02."
+  },
+  {
+   "tgv_ref": "S05.08",
+   "cible_ref": "AM-04",
+   "cible_intitule": "Decommissioning of Hardware",
+   "relation": "tgv_plus_etroit",
+   "justification": "La procédure de mise au rebut sécurisée des supports d'information est un sous-ensemble de l'effacement sécurisé lors du déclassement du matériel d'AM-04."
+  },
+  {
+   "tgv_ref": "S06.01",
+   "cible_ref": "IDM-01",
+   "cible_intitule": "Policy for user accounts and access rights",
+   "relation": "recoupement_partiel",
+   "justification": "La politique organisationnelle de gestion des accès recoupe le concept de rôles/droits et la politique de gestion des comptes et droits d'IDM-01."
+  },
+  {
+   "tgv_ref": "S06.02",
+   "cible_ref": "PSS-08",
+   "cible_intitule": "Roles and Rights Concept",
+   "relation": "recoupement_partiel",
+   "justification": "Les règles de gestion des accès propres à l'application recoupent le concept de rôles et droits offert par le service de PSS-08."
+  },
+  {
+   "tgv_ref": "S06.03",
+   "cible_ref": "PSS-09",
+   "cible_intitule": "Authorisation Mechanisms",
+   "relation": "recoupement_partiel",
+   "justification": "Les mécanismes limitant chaque accès aux seules composantes et informations autorisées correspondent aux mécanismes d'autorisation de PSS-09."
+  },
+  {
+   "tgv_ref": "S06.04",
+   "cible_ref": "IDM-06",
+   "cible_intitule": "Privileged access rights",
+   "relation": "recoupement_partiel",
+   "justification": "Le confinement des activités à privilèges élevés à des comptes dédiés avec contrôle d'octroi recoupe la gestion des droits d'accès à privilèges d'IDM-06."
+  },
+  {
+   "tgv_ref": "S06.05",
+   "cible_ref": "PSS-07",
+   "cible_intitule": "Confidentiality of Authentication Information",
+   "relation": "tgv_plus_etroit",
+   "justification": "La gestion du niveau de complexité des mots de passe est un sous-ensemble des exigences de confidentialité des informations d'authentification par mot de passe de PSS-07."
+  },
+  {
+   "tgv_ref": "S06.06",
+   "cible_ref": "PSS-05",
+   "cible_intitule": "Authentication Mechanisms",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'obligation d'utiliser le MFA est un sous-ensemble des mécanismes d'authentification forte à plusieurs facteurs fournis par PSS-05."
+  },
+  {
+   "tgv_ref": "S06.07",
+   "cible_ref": "PSS-05",
+   "cible_intitule": "Authentication Mechanisms",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le support de protocoles sécurisés modernes et de fédérations d'identité (SAML/OpenID) est un sous-ensemble des mécanismes d'authentification à l'état de l'art de PSS-05."
+  },
+  {
+   "tgv_ref": "S06.08",
+   "cible_ref": "PSS-07",
+   "cible_intitule": "Confidentiality of Authentication Information",
+   "relation": "tgv_plus_etroit",
+   "justification": "La préservation de la confidentialité et le non-stockage des mots de passe en mode integre relèvent de la confidentialité des informations d'authentification de PSS-07."
+  },
+  {
+   "tgv_ref": "S06.09",
+   "cible_ref": "PSS-07",
+   "cible_intitule": "Confidentiality of Authentication Information",
+   "relation": "tgv_plus_etroit",
+   "justification": "La possibilité pour chaque utilisateur de changer son mot de passe est un sous-ensemble des procédures de gestion des mots de passe de PSS-07."
+  },
+  {
+   "tgv_ref": "S06.10",
+   "cible_ref": "IDM-09",
+   "cible_intitule": "Authentication mechanisms",
+   "relation": "recoupement_partiel",
+   "justification": "L'authentification mutuelle entre composantes de l'application recoupe l'authentification des composants système impliqués dans les processus automatisés d'IDM-09."
+  },
+  {
+   "tgv_ref": "S06.11",
+   "cible_ref": "IDM-08",
+   "cible_intitule": "Confidentiality of authentication information",
+   "relation": "recoupement_partiel",
+   "justification": "L'absence de mots de passe en clair dans le code source et les scripts recoupe la gestion confidentielle de l'attribution des informations d'authentification d'IDM-08."
+  },
+  {
+   "tgv_ref": "S06.12",
+   "cible_ref": "PSS-08",
+   "cible_intitule": "Roles and Rights Concept",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctionnalités facilitant la revue des accès recoupent le concept de rôles/droits permettant au client de gérer les accès de PSS-08."
+  },
+  {
+   "tgv_ref": "S06.13",
+   "cible_ref": "PSS-08",
+   "cible_intitule": "Roles and Rights Concept",
+   "relation": "recoupement_partiel",
+   "justification": "La gestion par profils basés sur les fonctionnalités appliquant le moindre privilège correspond aux profils de droits par fonction de PSS-08."
+  },
+  {
+   "tgv_ref": "S06.14",
+   "cible_ref": "PSS-08",
+   "cible_intitule": "Roles and Rights Concept",
+   "relation": "recoupement_partiel",
+   "justification": "La capacité de l'acquéreur à gérer aisément les accès via l'application correspond au concept de rôles/droits permettant aux clients de gérer les accès de PSS-08."
+  },
+  {
+   "tgv_ref": "S06.15",
+   "cible_ref": "PSS-06",
+   "cible_intitule": "Session Management",
+   "relation": "tgv_plus_etroit",
+   "justification": "La fonction permettant à l'utilisateur de se déconnecter facilement est un sous-ensemble de la gestion de session de PSS-06."
+  },
+  {
+   "tgv_ref": "S06.16",
+   "cible_ref": "PSS-05",
+   "cible_intitule": "Authentication Mechanisms",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le verrouillage automatique de l'identifiant utilisateur après cinq échecs de connexion est un sous-ensemble des mécanismes d'authentification proteges contre les attaques connues (force brute/devinement de justificatifs) fournis par PSS-05, sur la couche produit destinée aux utilisateurs finaux."
+  },
+  {
+   "tgv_ref": "S06.17",
+   "cible_ref": "PSS-05",
+   "cible_intitule": "Authentication Mechanisms",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le message d'erreur générique anti-énumération est un sous-ensemble des protections contre les attaques connues des mécanismes d'authentification de PSS-05."
+  },
+  {
+   "tgv_ref": "S06.18",
+   "cible_ref": "IDM-01",
+   "cible_intitule": "Policy for user accounts and access rights",
+   "relation": "recoupement_partiel",
+   "justification": "L'interdiction de comptes génériques assurant la responsabilité individuelle recoupe le concept de comptes nominatifs de la politique de gestion des comptes d'IDM-01."
+  },
+  {
+   "tgv_ref": "S06.19",
+   "cible_ref": "PSS-06",
+   "cible_intitule": "Session Management",
+   "relation": "tgv_plus_etroit",
+   "justification": "La déconnexion automatique d'une session après délai d'inactivité est un sous-ensemble de la gestion de session de PSS-06."
+  },
+  {
+   "tgv_ref": "S06.20",
+   "cible_ref": "DEV-07",
+   "cible_intitule": "Logging of changes",
+   "relation": "recoupement_partiel",
+   "justification": "La restriction de l'accès au code source recoupe le concept de rôles/droits et l'accès authentifié aux outils de gestion du code de DEV-07."
+  },
+  {
+   "tgv_ref": "S06.21",
+   "cible_ref": "PSS-05",
+   "cible_intitule": "Authentication Mechanisms",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le test CAPTCHA protégeant l'authentification contre l'automatisation est un sous-ensemble des protections contre les attaques connues de PSS-05."
+  },
+  {
+   "tgv_ref": "S06.22",
+   "cible_ref": "PSS-04",
+   "cible_intitule": "Error handling and Logging Mechanisms",
+   "relation": "recoupement_partiel",
+   "justification": "La notification au titulaire de toute connexion ou modification de profil recoupe les mécanismes fournissant aux utilisateurs des informations liées à la sécurité de PSS-04."
+  },
+  {
+   "tgv_ref": "S06.23",
+   "cible_ref": "COS-01",
+   "cible_intitule": "Technical safeguards",
+   "relation": "tgv_plus_etroit",
+   "justification": "La détection et mitigation du bourrage de justificatifs et des attaques par dictionnaire est un sous-ensemble des mesures techniques de détection et réponse aux attaques réseau de COS-01."
+  },
+  {
+   "tgv_ref": "S06.25",
+   "cible_ref": "OPS-15",
+   "cible_intitule": "Logging and Monitoring - Accountability",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation des accès au PST exposés sur Internet est un sous-ensemble de la journalisation d'imputabilité des accès utilisateurs d'OPS-15."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "CRY-02",
+   "cible_intitule": "Encryption of data for transmission (transport encryption)",
+   "relation": "recoupement_partiel",
+   "justification": "Le chiffrement des communications de données sensibles recoupe le chiffrement en transport de CRY-02, qui exige en plus l'authentification sur réseaux publics."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "CRY-03",
+   "cible_intitule": "Encryption of sensitive data for storage",
+   "relation": "recoupement_partiel",
+   "justification": "Le chiffrement à l'entreposage des données sensibles recoupe le chiffrement au stockage de CRY-03, qui exige en plus des clés détenues par le client."
+  },
+  {
+   "tgv_ref": "S07.02",
+   "cible_ref": "CRY-02",
+   "cible_intitule": "Encryption of data for transmission (transport encryption)",
+   "relation": "recoupement_partiel",
+   "justification": "Le chiffrement et l'authentification de part et d'autre des communications inter-composantes recoupent le chiffrement et l'authentification de transmission de CRY-02."
+  },
+  {
+   "tgv_ref": "S08.01",
+   "cible_ref": "CRY-04",
+   "cible_intitule": "Secure key management",
+   "relation": "tgv_plus_etroit",
+   "justification": "La documentation formelle de la gestion des clés sur tout leur cycle de vie est un sous-ensemble des procédures de gestion sécurisée des clés de CRY-04."
+  },
+  {
+   "tgv_ref": "S08.02",
+   "cible_ref": "PS-01",
+   "cible_intitule": "Physical Security and Environmental Control Requirements",
+   "relation": "recoupement_partiel",
+   "justification": "Les mesures de protection physique appropriées des locaux d'hébergement recoupent les exigences de sécurité physique et environnementale de PS-01."
+  },
+  {
+   "tgv_ref": "S08.02",
+   "cible_ref": "PS-04",
+   "cible_intitule": "Physical site access control",
+   "relation": "recoupement_partiel",
+   "justification": "Le contrôle d'accès aux locaux hébergeant les composantes recoupe le contrôle d'accès physique aux sites de PS-04."
+  },
+  {
+   "tgv_ref": "S09.01",
+   "cible_ref": "AM-02",
+   "cible_intitule": "Acceptable Use and Safe Handling of Assets Policy",
+   "relation": "tgv_plus_etroit",
+   "justification": "La politique du bureau propre et de l'écran vide est un sous-ensemble de la manipulation sure des actifs et informations d'AM-02."
+  },
+  {
+   "tgv_ref": "S09.02",
+   "cible_ref": "SP-01",
+   "cible_intitule": "Documentation, communication and provision of policies and instructions",
+   "relation": "tgv_plus_etroit",
+   "justification": "La documentation des procédures d'exploitation et leur communication aux personnes concernées sont un sous-ensemble de la documentation et diffusion des instructions de SP-01."
+  },
+  {
+   "tgv_ref": "S09.03",
+   "cible_ref": "PSS-01",
+   "cible_intitule": "Guidelines and Recommendations for Cloud Customers",
+   "relation": "recoupement_partiel",
+   "justification": "Le guide d'utilisation fourni aux utilisateurs recoupe les recommandations d'utilisation sure du service fournies aux clients de PSS-01."
+  },
+  {
+   "tgv_ref": "S09.04",
+   "cible_ref": "PSS-01",
+   "cible_intitule": "Guidelines and Recommendations for Cloud Customers",
+   "relation": "recoupement_partiel",
+   "justification": "Le guide d'installation et d'entretien couvrant la configuration sécurisée, la gestion des accès et les sauvegardes correspond aux recommandations de configuration et installation sures de PSS-01."
+  },
+  {
+   "tgv_ref": "S09.05",
+   "cible_ref": "OPS-06",
+   "cible_intitule": "Data Protection and Recovery - Concept",
+   "relation": "recoupement_partiel",
+   "justification": "Le système de sauvegarde de l'infrastructure et des données recoupe le concept de sauvegarde et récupération d'OPS-06."
+  },
+  {
+   "tgv_ref": "S09.05",
+   "cible_ref": "OPS-09",
+   "cible_intitule": "Data Backup and Recovery - Storage",
+   "relation": "tgv_plus_etroit",
+   "justification": "La résilience aux rançongiciels par sauvegardes isolées/protégées est un sous-ensemble du stockage distant et protégé des sauvegardes d'OPS-09."
+  },
+  {
+   "tgv_ref": "S09.06",
+   "cible_ref": "OPS-06",
+   "cible_intitule": "Data Protection and Recovery - Concept",
+   "relation": "recoupement_partiel",
+   "justification": "Les stratégies de sauvegarde permettant une récupération complète ou partielle des données et métadonnées recoupent le concept de sauvegarde et récupération d'OPS-06."
+  },
+  {
+   "tgv_ref": "S09.07",
+   "cible_ref": "DEV-03",
+   "cible_intitule": "Policies for changes to information systems",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus documenté de gestion des changements de l'application recoupe les politiques de gestion des changements des systèmes de DEV-03."
+  },
+  {
+   "tgv_ref": "S09.08",
+   "cible_ref": "DEV-08",
+   "cible_intitule": "Version Control",
+   "relation": "recoupement_partiel",
+   "justification": "La numérotation de version identifiant chaque changement recoupe le contrôle de version permettant de tracer les changements de DEV-08."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "OPS-18",
+   "cible_intitule": "Managing Vulnerabilities, Malfunctions and Errors - Concept",
+   "relation": "recoupement_partiel",
+   "justification": "Le plan de gestion continue des vulnérabilités de l'application recoupe le concept de gestion des vulnérabilités d'OPS-18."
+  },
+  {
+   "tgv_ref": "S09.10",
+   "cible_ref": "OPS-18",
+   "cible_intitule": "Managing Vulnerabilities, Malfunctions and Errors - Concept",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'application diligente des correctifs de sécurité est un sous-ensemble des mesures de traitement rapide des vulnérabilités d'OPS-18."
+  },
+  {
+   "tgv_ref": "S09.11",
+   "cible_ref": "OPS-18",
+   "cible_intitule": "Managing Vulnerabilities, Malfunctions and Errors - Concept",
+   "relation": "recoupement_partiel",
+   "justification": "La documentation des composantes reposant sur des technologies récentes supportées recoupe la gestion des vulnérabilités visant à éviter les composants non supportés d'OPS-18."
+  },
+  {
+   "tgv_ref": "S09.12",
+   "cible_ref": "PSS-02",
+   "cible_intitule": "Identification of Vulnerabilities of the Cloud Service",
+   "relation": "recoupement_partiel",
+   "justification": "L'absence de porte dérobée recoupe l'identification des vulnérabilités introduites lors du processus de développement du service de PSS-02."
+  },
+  {
+   "tgv_ref": "S10.01",
+   "cible_ref": "OPS-05",
+   "cible_intitule": "Protection Against Malware - Implementation",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le déploiement d'un antivirus récent avec fonction EDR sur tous les systèmes est un sous-ensemble de la mise en oeuvre de la protection contre les maliciels d'OPS-05."
+  },
+  {
+   "tgv_ref": "S10.02",
+   "cible_ref": "OPS-05",
+   "cible_intitule": "Protection Against Malware - Implementation",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les mécanismes de gestion des exceptions et d'alertes de la solution antimaliciel sont un sous-ensemble de la mise en oeuvre de la protection contre les maliciels d'OPS-05."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "OPS-10",
+   "cible_intitule": "Logging and Monitoring - Concept",
+   "relation": "tgv_plus_etroit",
+   "justification": "La capacité de journaliser toute activité effectuée avec l'application est un sous-ensemble du concept de journalisation et de surveillance des événements d'OPS-10."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "OPS-15",
+   "cible_intitule": "Logging and Monitoring - Accountability",
+   "relation": "recoupement_partiel",
+   "justification": "La journalisation identifiant l'acteur, le moment et la nature de chaque activité recoupe la journalisation d'imputabilité permettant l'identification univoque des accès d'OPS-15."
+  },
+  {
+   "tgv_ref": "S10.05",
+   "cible_ref": "OPS-13",
+   "cible_intitule": "Logging and Monitoring - Identification of Events",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctions de filtrage, analyse et extraction en format standard des journaux recoupent la surveillance et l'analyse automatisées des données de journalisation d'OPS-13."
+  },
+  {
+   "tgv_ref": "S10.06",
+   "cible_ref": "OPS-13",
+   "cible_intitule": "Logging and Monitoring - Identification of Events",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctionnalités d'alerte signalant comportements anormaux et incidents potentiels recoupent l'identification automatisée des événements et corrélations d'OPS-13."
+  },
+  {
+   "tgv_ref": "S10.07",
+   "cible_ref": "COS-01",
+   "cible_intitule": "Technical safeguards",
+   "relation": "recoupement_partiel",
+   "justification": "Les systèmes de détection d'intrusion recoupent les mesures techniques de détection et réponse aux attaques réseau de COS-01."
+  },
+  {
+   "tgv_ref": "S10.08",
+   "cible_ref": "PSS-08",
+   "cible_intitule": "Roles and Rights Concept",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le rôle de type auditeur permettant la consultation des rapports d'audit est un sous-ensemble du concept de rôles et droits de PSS-08."
+  },
+  {
+   "tgv_ref": "S10.09",
+   "cible_ref": "OPS-12",
+   "cible_intitule": "Logging and Monitoring - Access, Storage and Deletion",
+   "relation": "tgv_plus_etroit",
+   "justification": "La protection des journaux contre la divulgation aux personnes non autorisées est un sous-ensemble de la restriction d'accès aux seuls utilisateurs autorisés d'OPS-12."
+  },
+  {
+   "tgv_ref": "S10.09",
+   "cible_ref": "OPS-14",
+   "cible_intitule": "Logging and Monitoring - Storage of the Logging Data",
+   "relation": "recoupement_partiel",
+   "justification": "La protection des journaux contre l'altération recoupe la conservation des données de journalisation sous forme inaltérable d'OPS-14."
+  },
+  {
+   "tgv_ref": "S11.01",
+   "cible_ref": "OPS-14",
+   "cible_intitule": "Logging and Monitoring - Storage of the Logging Data",
+   "relation": "tgv_plus_etroit",
+   "justification": "La conservation des journaux selon un calendrier légal est un sous-ensemble des exigences de rétention et suppression des données de journalisation d'OPS-14."
+  },
+  {
+   "tgv_ref": "S11.02",
+   "cible_ref": "COS-08",
+   "cible_intitule": "Policies for data transmission",
+   "relation": "recoupement_partiel",
+   "justification": "La protection de toutes les communications incluant le soutien à distance recoupe les politiques et mesures de protection de la transmission de données de COS-08."
+  },
+  {
+   "tgv_ref": "S11.03",
+   "cible_ref": "COS-03",
+   "cible_intitule": "Monitoring of connections in the Cloud Service Provider's network",
+   "relation": "recoupement_partiel",
+   "justification": "Le cloisonnement de l'environnement d'exécution en zones (accès public, zone serveur) recoupe la séparation en zones de sécurité de COS-03."
+  },
+  {
+   "tgv_ref": "S11.04",
+   "cible_ref": "COS-08",
+   "cible_intitule": "Policies for data transmission",
+   "relation": "tgv_plus_etroit",
+   "justification": "La protection de l'information confidentielle transitant par courrier électronique est un sous-ensemble des politiques de protection de la transmission de COS-08."
+  },
+  {
+   "tgv_ref": "S11.05",
+   "cible_ref": "HR-03",
+   "cible_intitule": "Security training and awareness programme",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les campagnes continues de simulation d'hameçonnage sont un sous-ensemble du programme de sensibilisation et de formation à la sécurité d'HR-03."
+  },
+  {
+   "tgv_ref": "S11.06",
+   "cible_ref": "COS-02",
+   "cible_intitule": "Security requirements for connections in the Cloud Service Provider's network",
+   "relation": "recoupement_partiel",
+   "justification": "L'exigence d'une connectivité sécurisée recoupe les exigences de sécurité applicables aux connexions dans le réseau de COS-02."
+  },
+  {
+   "tgv_ref": "S12.01",
+   "cible_ref": "HR-03",
+   "cible_intitule": "Security training and awareness programme",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de formation en cybersécurité (menaces mobiles, hameçonnage, rançongiciels, ingénierie sociale) est un sous-ensemble du programme de sensibilisation d'HR-03."
+  },
+  {
+   "tgv_ref": "S12.02",
+   "cible_ref": "DEV-01",
+   "cible_intitule": "Policies for the development/procurement of information systems",
+   "relation": "recoupement_partiel",
+   "justification": "La prise en compte de la sécurité à chaque étape du développement recoupe les directives de développement sécurisé couvrant tout le cycle de vie de DEV-01."
+  },
+  {
+   "tgv_ref": "S12.03",
+   "cible_ref": "DEV-10",
+   "cible_intitule": "Separation of environments",
+   "relation": "recoupement_partiel",
+   "justification": "La distinction des environnements de développement, test et exploitation recoupe la séparation des environnements de DEV-10."
+  },
+  {
+   "tgv_ref": "S12.04",
+   "cible_ref": "DEV-01",
+   "cible_intitule": "Policies for the development/procurement of information systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le respect des bonnes pratiques de sécurité de l'industrie dans le développement est un sous-ensemble des directives de développement sécurisé de DEV-01."
+  },
+  {
+   "tgv_ref": "S12.05",
+   "cible_ref": "DEV-01",
+   "cible_intitule": "Policies for the development/procurement of information systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le respect des principes d'ingénierie de la sécurité des systèmes par les développeurs est un sous-ensemble des directives de développement sécurisé de DEV-01."
+  },
+  {
+   "tgv_ref": "S12.06",
+   "cible_ref": "DEV-02",
+   "cible_intitule": "Outsourcing of the development",
+   "relation": "recoupement_partiel",
+   "justification": "La supervision de tout développement réalisé à l'externe recoupe les exigences contractuelles d'externalisation du développement de DEV-02."
+  },
+  {
+   "tgv_ref": "S12.07",
+   "cible_ref": "DEV-10",
+   "cible_intitule": "Separation of environments",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'interdiction d'utiliser de l'information confidentielle de production en développement est un sous-ensemble de la séparation des environnements de DEV-10."
+  },
+  {
+   "tgv_ref": "S12.08",
+   "cible_ref": "DEV-06",
+   "cible_intitule": "Testing changes",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de tests applicatifs recoupe les tests des changements lors du développement et du déploiement de DEV-06."
+  },
+  {
+   "tgv_ref": "S13.01",
+   "cible_ref": "OPS-18",
+   "cible_intitule": "Managing Vulnerabilities, Malfunctions and Errors - Concept",
+   "relation": "recoupement_partiel",
+   "justification": "La prise en compte des vulnérabilités des composantes tierces et leurs mises à jour recoupe la gestion des vulnérabilités des composants d'OPS-18."
+  },
+  {
+   "tgv_ref": "S13.02",
+   "cible_ref": "SSO-02",
+   "cible_intitule": "Risk assessment of service providers and suppliers",
+   "relation": "recoupement_partiel",
+   "justification": "L'évaluation des menaces et des risques préalable au recours à un fournisseur tiers recoupe l'évaluation des risques des fournisseurs de SSO-02."
+  },
+  {
+   "tgv_ref": "S13.03",
+   "cible_ref": "SSO-03",
+   "cible_intitule": "Directory of service providers and suppliers",
+   "relation": "tgv_plus_etroit",
+   "justification": "La liste des fournisseurs précisant la nature des services fournis est un sous-ensemble du répertoire des fournisseurs de SSO-03."
+  },
+  {
+   "tgv_ref": "S13.04",
+   "cible_ref": "SSO-01",
+   "cible_intitule": "Policies and instructions for controlling and monitoring third parties",
+   "relation": "recoupement_partiel",
+   "justification": "La liste des exigences par fournisseur (sécurité, accès, niveau de service, incidents) recoupe les politiques de contrôle et de surveillance des tiers de SSO-01."
+  },
+  {
+   "tgv_ref": "S13.05",
+   "cible_ref": "SSO-04",
+   "cible_intitule": "Monitoring of compliance with requirements",
+   "relation": "recoupement_partiel",
+   "justification": "Les processus de surveillance de la conformité des fournisseurs à leurs exigences recoupent la surveillance de la conformité aux exigences de SSO-04."
+  },
+  {
+   "tgv_ref": "S13.06",
+   "cible_ref": "SSO-01",
+   "cible_intitule": "Policies and instructions for controlling and monitoring third parties",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les ententes contractuelles avec chaque fournisseur sont un sous-ensemble des politiques de contrôle contractuel des tiers de SSO-01."
+  },
+  {
+   "tgv_ref": "S14.01",
+   "cible_ref": "SSO-04",
+   "cible_intitule": "Monitoring of compliance with requirements",
+   "relation": "recoupement_partiel",
+   "justification": "L'évaluation régulière de la performance des fournisseurs recoupe la surveillance de la conformité des tiers de SSO-04."
+  },
+  {
+   "tgv_ref": "S14.02",
+   "cible_ref": "PSS-12",
+   "cible_intitule": "Locations of Data Processing and Storage",
+   "relation": "recoupement_partiel",
+   "justification": "La conformité de la localisation du PST recoupe la maîtrise des lieux de traitement et de stockage des données de PSS-12."
+  },
+  {
+   "tgv_ref": "S14.03",
+   "cible_ref": "OPS-21",
+   "cible_intitule": "Involvement of Cloud customers in the event of incidents",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'arrimage du processus d'incident avec celui des clients est un sous-ensemble de l'implication des clients lors des incidents d'OPS-21."
+  },
+  {
+   "tgv_ref": "S14.03",
+   "cible_ref": "SIM-01",
+   "cible_intitule": "Policy for security incident management",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus de gestion des incidents recoupe la politique de gestion des incidents de sécurité de SIM-01."
+  },
+  {
+   "tgv_ref": "S14.04",
+   "cible_ref": "SIM-03",
+   "cible_intitule": "Documentation and reporting of security incidents",
+   "relation": "recoupement_partiel",
+   "justification": "L'avertissement des clients de tout incident sur les données dans les meilleurs délais recoupe la documentation et le signalement des incidents aux clients affectes de SIM-03."
+  },
+  {
+   "tgv_ref": "S15.01",
+   "cible_ref": "OPS-21",
+   "cible_intitule": "Involvement of Cloud customers in the event of incidents",
+   "relation": "recoupement_partiel",
+   "justification": "L'engagement à collaborer avec les clients pour la prise en charge d'un incident recoupe l'implication des clients dans la résolution des incidents d'OPS-21."
+  },
+  {
+   "tgv_ref": "S15.02",
+   "cible_ref": "OPS-10",
+   "cible_intitule": "Logging and Monitoring - Concept",
+   "relation": "recoupement_partiel",
+   "justification": "La surveillance de la solution alignée sur la classification et les normes d'hébergement recoupe le concept de journalisation et de surveillance d'OPS-10."
+  },
+  {
+   "tgv_ref": "S15.03",
+   "cible_ref": "BCM-03",
+   "cible_intitule": "Planning business continuity",
+   "relation": "recoupement_partiel",
+   "justification": "L'arrimage aux mécanismes de plan de reprise gouvernementaux recoupe la planification de la continuité d'activité de BCM-03."
+  },
+  {
+   "tgv_ref": "S15.04",
+   "cible_ref": "BCM-03",
+   "cible_intitule": "Planning business continuity",
+   "relation": "recoupement_partiel",
+   "justification": "Le plan de continuité des activités de maintenance et d'exploitation correspond à la planification de la continuité d'activité de BCM-03."
+  },
+  {
+   "tgv_ref": "S15.05",
+   "cible_ref": "BCM-03",
+   "cible_intitule": "Planning business continuity",
+   "relation": "recoupement_partiel",
+   "justification": "Le plan de recouvrement après sinistre des infrastructures d'exploitation recoupe la planification de continuité et de contingence de BCM-03."
+  },
+  {
+   "tgv_ref": "S16.01",
+   "cible_ref": "BCM-04",
+   "cible_intitule": "Verification, updating and testing of the business continuity",
+   "relation": "recoupement_partiel",
+   "justification": "Le test périodique du plan de reprise pour vérifier son efficacité recoupe la vérification, la mise à jour et le test réguliers de la continuité de BCM-04."
+  },
+  {
+   "tgv_ref": "S16.02",
+   "cible_ref": "OPS-23",
+   "cible_intitule": "Managing Vulnerabilities, Malfunctions and Errors - System Hardening",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de validation de la conformité technique des composantes recoupe le durcissement des composants selon des standards reconnus d'OPS-23."
+  },
+  {
+   "tgv_ref": "S16.03",
+   "cible_ref": "OPS-19",
+   "cible_intitule": "Managing Vulnerabilities, Malfunctions and Errors - Penetration Tests",
+   "relation": "recoupement_partiel",
+   "justification": "Le test d'intrusion administré par un prestataire indépendant reconnu recoupe les tests de pénétration par personnel qualifié interne ou externe d'OPS-19."
+  },
+  {
+   "tgv_ref": "S16.04",
+   "cible_ref": "COM-01",
+   "cible_intitule": "Identification of applicable legal, regulatory, self-imposed or contractual requirements",
+   "relation": "tgv_plus_etroit",
+   "justification": "La garantie des droits de propriété intellectuelle du code ou l'explicitation des limitations de licence est un sous-ensemble de l'identification des exigences légales et contractuelles de COM-01."
+  }
+ ]
+}

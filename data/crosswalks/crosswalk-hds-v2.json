@@ -1,0 +1,107 @@
+{
+ "referentiel": {
+  "slug": "hds-v2",
+  "nom": "Hebergement de Donnees de Sante (HDS) v2.0",
+  "categorie": "Certification",
+  "controles_total": 71
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 12,
+  "criteres_tgv": 12,
+  "controles_cible_touches": 11,
+  "relations": {
+   "recoupement_partiel": 11,
+   "tgv_plus_large": 1
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "P09.04",
+   "cible_ref": "[EXI 05]",
+   "cible_intitule": "c. Traçabilité et imputabilité des accès ;",
+   "relation": "recoupement_partiel",
+   "justification": "La journalisation de l'ensemble des accès aux renseignements personnels (P09.04) fournit les traces nominatives assurant la traçabilité et l'imputabilité des accès aux DSCP attendues par HDS (EXI 05 D-c)."
+  },
+  {
+   "tgv_ref": "S04.02",
+   "cible_ref": "[EXI 10]",
+   "cible_intitule": "Les personnels travaillant pour l’Hébergeur doivent être sensibilisés à la criticité en termes de disponibilité, de confidentialité et d’intégrité des DSCP hébergées.",
+   "relation": "recoupement_partiel",
+   "justification": "Le programme de sensibilisation/formation à la sécurité (S04.02) fournit la preuve de sensibilisation du personnel exigée par HDS (EXI 10) sur la criticité DIC des données de santé."
+  },
+  {
+   "tgv_ref": "S05.07",
+   "cible_ref": "[EXI 05]",
+   "cible_intitule": "a. De copie des DSCP sur des supports portables ;",
+   "relation": "recoupement_partiel",
+   "justification": "L'encadrement de l'utilisation des supports amovibles (S05.07) traite le risque HDS de perte de contrôle par copie des DSCP sur supports portables (EXI 05 B-à)."
+  },
+  {
+   "tgv_ref": "S05.08",
+   "cible_ref": "[EXI 05]",
+   "cible_intitule": "c. De réallocation des espaces de stockage.",
+   "relation": "recoupement_partiel",
+   "justification": "La procédure de mise au rebut sécurisée des supports (S05.08) traite le risque HDS de perte de contrôle lors de la réallocation des espaces de stockage / rémanence des données (EXI 05 B-c)."
+  },
+  {
+   "tgv_ref": "S06.14",
+   "cible_ref": "[EXI 05]",
+   "cible_intitule": "a. Attribution, modification et retrait des droits d’accès ;",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctionnalités de gestion des accès de l'application (S06.14) traitent le risque HDS lié à l'attribution, la modification et le retrait des droits d'accès (EXI 05 D-à)."
+  },
+  {
+   "tgv_ref": "S08.02",
+   "cible_ref": "[EXI 05]",
+   "cible_intitule": "A. Défaillance des supports matériels de l’information due à des menaces physiques et environnementales.",
+   "relation": "recoupement_partiel",
+   "justification": "Le contrôle d'accès et la protection physique des locaux hébergeant les composantes (S08.02) traitent le risque HDS de défaillance des supports matériels due aux menaces physiques/environnementales (EXI 05 A)."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "[EXI 05]",
+   "cible_intitule": "c. Traçabilité et imputabilité des accès ;",
+   "relation": "tgv_plus_large",
+   "justification": "La journalisation nominative et horodatée de toute activité (S10.04) couvre et dépasse la traçabilité et l'imputabilité des accès attendues par HDS (EXI 05 D-c)."
+  },
+  {
+   "tgv_ref": "S10.05",
+   "cible_ref": "[EXI 15]",
+   "cible_intitule": "L’Hébergeur doit permettre au client de consulter les traces d’accès aux DSCP portées par des ressources spécifiques ou auxdites ressources par les personnels sous son contrôle ;",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctions de filtrage/extraction/restitution des journaux (S10.05) alimentent la capacité HDS à permettre au client de consulter les traces d'accès aux DSCP (EXI 15)."
+  },
+  {
+   "tgv_ref": "S11.02",
+   "cible_ref": "[EXI 05]",
+   "cible_intitule": "C. Dégradation, compromission ou rupture d’un flux d’information interne ou externe sous la responsabilité de l’Hébergeur.",
+   "relation": "recoupement_partiel",
+   "justification": "La protection des communications entre composantes (S11.02) traite le risque HDS de dégradation/compromission/rupture d'un flux d'information (EXI 05 C)."
+  },
+  {
+   "tgv_ref": "S13.05",
+   "cible_ref": "[EXI 06]",
+   "cible_intitule": "En cas de recours à la sous-traitance, l’Hébergeur doit s’assurer qu’il maîtrise les changements des mesures techniques et organisationnelles de ses sous-traitants permettant de traiter les risques identifiés.",
+   "relation": "recoupement_partiel",
+   "justification": "Les processus de surveillance de la conformité des fournisseurs (S13.05) alimentent la maîtrise des changements des mesures des sous-traitants exigée par HDS (EXI 06)."
+  },
+  {
+   "tgv_ref": "S15.05",
+   "cible_ref": "[EXI 05]",
+   "cible_intitule": "G. Défaillances matérielles ou logicielles, avec incapacité à respecter les engagements de continuité ou de reprise d’activité.",
+   "relation": "recoupement_partiel",
+   "justification": "Le plan de recouvrement après sinistre (S15.05) traite le risque HDS de défaillance matérielle/logicielle avec incapacité de reprise d'activité (EXI 05 G)."
+  },
+  {
+   "tgv_ref": "S16.03",
+   "cible_ref": "[EXI 15]",
+   "cible_intitule": "Sur demande du client, l’Hébergeur doit lui communiquer la synthèse managériale d’un rapport d’audit technique portant sur les ressources mutualisées dans le cadre du service. Cet audit doit être réalisé par un auditeur indépendant et dater de moins de trois ans ;",
+   "relation": "recoupement_partiel",
+   "justification": "Le test d'intrusion réalisé par un prestataire indépendant reconnu (S16.03) produit le rapport d'audit technique indépendant dont HDS exige la communication au client (EXI 15)."
+  }
+ ]
+}

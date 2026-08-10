@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Méthodologie des correspondances TGV</title>
+<meta name="description" content="Comment les 1302 correspondances entre la TGV et 13 référentiels sont produites, qualifiées, justifiées puis soumises à une vérification contradictoire.">
+
+<link rel="canonical" href="https://certification-tgv.ca/fr/methodologie.html">
+<link rel="alternate" hreflang="fr" href="https://certification-tgv.ca/fr/methodologie.html">
+<link rel="alternate" hreflang="en" href="https://certification-tgv.ca/en/methodology.html">
+<link rel="alternate" hreflang="x-default" href="https://certification-tgv.ca/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Méthodologie des correspondances TGV">
+<meta property="og:description" content="Comment les 1302 correspondances entre la TGV et 13 référentiels sont produites, qualifiées, justifiées puis soumises à une vérification contradictoire.">
+<meta property="og:url" content="https://certification-tgv.ca/fr/methodologie.html">
+<meta property="og:site_name" content="Correspondances TGV">
+<meta property="og:locale" content="fr_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Méthodologie des correspondances TGV">
+<meta name="twitter:description" content="Comment les 1302 correspondances entre la TGV et 13 référentiels sont produites, qualifiées, justifiées puis soumises à une vérification contradictoire.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Services Conseil Factero">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231f3864'/><text x='32' y='44' font-size='34' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>T</text></svg>">
+<style>
+:root{--bg:#fff;--fg:#1a1d24;--muted:#5a6270;--line:#e3e7ee;--band:#f7f9fc;
+--navy:#1f3864;--blue:#2e5496;--steel:#8eaadb;--acc:#0b6b5e;
+--eq:#cfeddb;--sub:#d4e4f7;--sup:#fbe0d0;--int:#eceef2;--card:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1218;--fg:#e8ecf3;--muted:#9aa4b5;
+--line:#232a36;--band:#151a23;--navy:#8fb0e8;--blue:#7ea3e0;--steel:#4a6a9d;
+--eq:#1d3d2c;--sub:#1b2f47;--sup:#3d2a1c;--int:#242a35;--card:#141922}}
+:root[data-theme=dark]{--bg:#0f1218;--fg:#e8ecf3;--muted:#9aa4b5;--line:#232a36;
+--band:#151a23;--navy:#8fb0e8;--blue:#7ea3e0;--eq:#1d3d2c;--sub:#1b2f47;
+--sup:#3d2a1c;--int:#242a35;--card:#141922}
+:root[data-theme=light]{--bg:#fff;--fg:#1a1d24;--muted:#5a6270;--line:#e3e7ee;
+--band:#f7f9fc;--navy:#1f3864;--blue:#2e5496;--eq:#cfeddb;--sub:#d4e4f7;
+--sup:#fbe0d0;--int:#eceef2;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+-webkit-text-size-adjust:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.top{border-bottom:1px solid var(--line);background:var(--band)}
+header.top .wrap{display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding-top:14px;padding-bottom:14px}
+.brand{font-weight:700;color:var(--navy);text-decoration:none;font-size:15px;letter-spacing:-.01em}
+nav.main{display:flex;gap:16px;flex-wrap:wrap;margin-left:auto}
+nav.main a{color:var(--muted);text-decoration:none;font-size:14px}
+nav.main a:hover,nav.main a[aria-current=page]{color:var(--blue)}
+.hero{padding:52px 0 34px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(26px,4.4vw,42px);line-height:1.15;margin:0 0 14px;letter-spacing:-.02em}
+.lede{font-size:clamp(16px,2vw,19px);color:var(--muted);max-width:70ch;margin:0 0 22px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.stat b{display:block;font-size:29px;line-height:1.1;color:var(--navy);letter-spacing:-.02em}
+.stat span{font-size:13px;color:var(--muted)}
+main{padding:34px 0 60px}
+h2{font-size:24px;margin:38px 0 12px;letter-spacing:-.01em}
+h3{font-size:18px;margin:26px 0 8px}
+p{max-width:74ch}
+a{color:var(--blue)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:18px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
+th{background:var(--band);text-align:left;padding:11px 12px;font-weight:600;
+border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+code,.ref{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.ref{white-space:nowrap;font-weight:600}
+.pill{display:inline-block;padding:2px 9px;border-radius:11px;font-size:12px;
+font-weight:600;white-space:nowrap}
+.pill.eq{background:var(--eq)}.pill.sub{background:var(--sub)}
+.pill.sup{background:var(--sup)}.pill.int{background:var(--int)}
+.note{background:var(--band);border-left:3px solid var(--steel);padding:14px 16px;
+border-radius:0 8px 8px 0;margin:22px 0;font-size:15px}
+.note strong{color:var(--navy)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:18px 0}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;
+padding:16px;text-decoration:none;color:inherit;transition:border-color .15s}
+.card:hover{border-color:var(--steel)}
+.card b{display:block;margin-bottom:4px;color:var(--navy);font-size:15px}
+.card span{font-size:13px;color:var(--muted)}
+input[type=search]{width:100%;max-width:460px;padding:11px 13px;border:1px solid var(--line);
+border-radius:9px;background:var(--card);color:var(--fg);font-size:15px}
+footer{border-top:1px solid var(--line);background:var(--band);padding:30px 0;
+font-size:13px;color:var(--muted)}
+footer a{color:var(--blue)}
+.dl{display:inline-block;background:var(--navy);color:#fff;padding:11px 20px;border-radius:9px;
+text-decoration:none;font-weight:600;font-size:15px;margin:6px 8px 6px 0}
+.dl.alt{background:transparent;color:var(--blue);border:1px solid var(--line)}
+@media(prefers-color-scheme:dark){.dl{color:#0f1218}}
+.hidden{display:none}
+</style>
+
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="../">Correspondances TGV</a>
+<nav class="main"><a href="../fr/tgv.html">La TGV</a><a href="../fr/referentiels/">Référentiels</a><a href="../fr/criteres.html">Les 382 critères</a><a href="../fr/methodologie.html">Méthodologie</a><a href="../en/">EN</a></nav>
+</div></header>
+<div class="hero"><div class="wrap"><h1>Méthodologie</h1>
+<p class="lede">Comment les 1302 correspondances entre la TGV et 13 référentiels sont produites, qualifiées, justifiées puis soumises à une vérification contradictoire.</p></div></div><main><div class="wrap">
+<h2>1. La TGV comme référentiel source</h2>
+<p>Chaque correspondance part d'un critère de la TGV vers un contrôle du référentiel cible, jamais
+l'inverse. La TGV est traitée comme la source de vérité, ce qui garantit que le jeu de données
+répond à la question réellement posée par les fournisseurs : « ce que le Québec me demande,
+où est-ce que ça compte ailleurs ? »</p>
+
+<h2>2. Production puis vérification contradictoire</h2>
+<p>Les correspondances sont d'abord produites par analyse assistée, référentiel par référentiel.
+Elles sont ensuite soumises à une seconde lecture dont le mandat explicite est de <em>rejeter</em> :
+liens ténus, relations mal qualifiées, justifications circulaires ou hors sujet.</p>
+<p>Ce filtre n'est pas cosmétique. Sur le référentiel HITRUST, <strong>59 des 160 correspondances
+proposées ont été rejetées</strong>, soit un peu plus du tiers. Seules les 101 survivantes figurent
+dans le jeu de données.</p>
+
+<h2>3. Une relation qualifiée pour chaque lien</h2>
+<p>Une flèche entre deux cases ne vaut rien en audit. Chaque correspondance précise la nature du
+recoupement, du point de vue du critère TGV.</p>
+<div class="tablewrap"><table><thead><tr><th>Relation</th><th>Valeur</th>
+<th class="num">Occurrences</th></tr></thead><tbody><tr><td><span class="pill eq">Équivalent</span></td><td><code>equivalent</code></td><td class="num">72</td></tr><tr><td><span class="pill sub">TGV plus étroit</span></td><td><code>tgv_plus_etroit</code></td><td class="num">642</td></tr><tr><td><span class="pill sup">TGV plus large</span></td><td><code>tgv_plus_large</code></td><td class="num">37</td></tr><tr><td><span class="pill int">Recoupement partiel</span></td><td><code>recoupement_partiel</code></td><td class="num">551</td></tr></tbody></table></div>
+
+<h2>4. Une justification écrite par correspondance</h2>
+<p>Chaque lien est accompagné d'une justification qui explique pourquoi il tient et pourquoi la
+relation choisie est la bonne. C'est ce qui permet de défendre le tableau devant un auditeur, et
+c'est ce qui distingue ce jeu de données d'un simple rapprochement de mots-clés.</p>
+
+<h2>5. Limites assumées</h2>
+<p>Une correspondance signale un recoupement d'intention entre deux exigences. Elle ne signifie pas
+qu'un critère TGV satisfait automatiquement le contrôle cible, ni qu'un taux de couverture équivaut
+à un taux de certification, ni qu'un organisme de certification acceptera l'équivalence.</p>
+<p>Les taux de couverture publiés doivent d'ailleurs se lire avec prudence : certains référentiels
+sont décomposés en sous-articles très fins, ce qui écrase mécaniquement le pourcentage sans que la
+couverture réelle soit moindre. C'est pourquoi le nombre de correspondances est mis en avant plutôt
+que le pourcentage.</p>
+</div></main>
+<footer><div class="wrap"><p><strong>Source des critères :</strong> Certification — Trousse globale de vérification (TGV), ministère de la Santé et des Services sociaux du Québec, publication 24-715-38W, ISBN 978-2-550-97589-2. <a href="https://publications.msss.gouv.qc.ca/msss/document-003757/">Publication officielle</a>. © Gouvernement du Québec.</p><p>Les correspondances, justifications et l'outillage sont publiés sous <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a> par <a href="https://factero.ca">Services Conseil Factero</a>, Saint-Jean-sur-Richelieu, Québec. <a href="https://github.com/factero/tgv-msss-crosswalk/blob/main/NOTICE.md">Avis de droits complet</a>.</p><p>Site indépendant. Ni produit, ni approuvé, ni endossé par le MSSS ou Santé Québec. En cas de divergence, la publication officielle prévaut. <a href="https://github.com/factero/tgv-msss-crosswalk">Dépôt GitHub</a> · <a href="../llms.txt">llms.txt</a></p></div></footer>
+</body></html>

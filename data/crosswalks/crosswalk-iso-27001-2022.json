@@ -1,0 +1,969 @@
+{
+ "referentiel": {
+  "slug": "iso-27001-2022",
+  "nom": "ISO/IEC 27001:2022",
+  "categorie": "Certification",
+  "controles_total": 123
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 135,
+  "criteres_tgv": 109,
+  "controles_cible_touches": 68,
+  "relations": {
+   "tgv_plus_etroit": 56,
+   "recoupement_partiel": 43,
+   "equivalent": 36
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "S01.01",
+   "cible_ref": "8.2",
+   "cible_intitule": "Information security risk assessment",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le rapport d'évaluation des risques de sécurité réalisé à la conception constitue une exécution ponctuelle du processus d'appréciation des risques exigé par 8.2."
+  },
+  {
+   "tgv_ref": "S01.01",
+   "cible_ref": "A.5.8",
+   "cible_intitule": "Information security in project management",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'appréciation des risques menée durant le projet de développement avant mise en production est la preuve attendue d'intégration de la sécurité dans la gestion de projet (A.5.8)."
+  },
+  {
+   "tgv_ref": "S01.02",
+   "cible_ref": "6.1.2",
+   "cible_intitule": "Information security risk assessment requirement",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'exigence d'évaluer périodiquement les risques sur la confidentialité, l'intégrité et la disponibilité recoupe le critère d'appréciation des risques CID de 6.1.2."
+  },
+  {
+   "tgv_ref": "S01.02",
+   "cible_ref": "8.2",
+   "cible_intitule": "Information security risk assessment",
+   "relation": "recoupement_partiel",
+   "justification": "Les rapports d'évaluations périodiques des risques CID sont acceptes comme preuve de mise en oeuvre du processus d'appréciation des risques à intervalles planifiés (8.2)."
+  },
+  {
+   "tgv_ref": "S01.03",
+   "cible_ref": "6.1.2",
+   "cible_intitule": "Information security risk assessment requirement",
+   "relation": "recoupement_partiel",
+   "justification": "La réaffirmation périodique de l'évaluation initiale des risques correspond au processus documenté d'appréciation à intervalles planifiés de 6.1.2."
+  },
+  {
+   "tgv_ref": "S01.03",
+   "cible_ref": "8.2",
+   "cible_intitule": "Information security risk assessment",
+   "relation": "recoupement_partiel",
+   "justification": "La réévaluation des risques à chaque changement majeur, approuvée par la direction, alimente le processus d'appréciation des risques de 8.2."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "5.2",
+   "cible_intitule": "Policy",
+   "relation": "recoupement_partiel",
+   "justification": "L'énoncé des objectifs et principes directeurs de sécurité recoupe la politique de sécurité de l'information de la clause 5.2."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "A.5.1",
+   "cible_intitule": "Policies for information security",
+   "relation": "equivalent",
+   "justification": "La politique de sécurité documentant objectifs, principes, rôles et gestion des dérogations est exactement la politique de sécurité de l'information exigée par A.5.1."
+  },
+  {
+   "tgv_ref": "S02.02",
+   "cible_ref": "A.5.37",
+   "cible_intitule": "Documented operating procedures",
+   "relation": "recoupement_partiel",
+   "justification": "Les normes et procédures techniques établies pour atteindre les objectifs de sécurité sont des procédures d'exploitation documentées au sens d'A.5.37."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "5.2",
+   "cible_intitule": "Policy",
+   "relation": "tgv_plus_etroit",
+   "justification": "La preuve de communication et d'approbation de la politique satisfait l'exigence de communication de la politique de la clause 5.2."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "A.5.1",
+   "cible_intitule": "Policies for information security",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'approbation par la direction, la communication et la mise à jour des politiques constituent le sous-ensemble maintien de la politique de sécurité d'A.5.1."
+  },
+  {
+   "tgv_ref": "S02.04",
+   "cible_ref": "A.5.10",
+   "cible_intitule": "Acceptable use of information and other associated assets",
+   "relation": "recoupement_partiel",
+   "justification": "Le cadre de bonnes pratiques d'utilisation des outils informatiques est une politique d'utilisation acceptable des actifs (A.5.10)."
+  },
+  {
+   "tgv_ref": "S02.04",
+   "cible_ref": "A.5.24",
+   "cible_intitule": "Information security incident management planning and preparation",
+   "relation": "recoupement_partiel",
+   "justification": "La procédure de réaction en cas d'incident correspond à la planification et préparation de la gestion des incidents (A.5.24)."
+  },
+  {
+   "tgv_ref": "S03.01",
+   "cible_ref": "5.3",
+   "cible_intitule": "Organizational roles, responsibilities and authorities",
+   "relation": "recoupement_partiel",
+   "justification": "L'attribution des responsabilités de sécurité recoupe la définition et communication des rôles et autorités de la clause 5.3."
+  },
+  {
+   "tgv_ref": "S03.01",
+   "cible_ref": "A.5.2",
+   "cible_intitule": "Information security roles and responsibilities",
+   "relation": "equivalent",
+   "justification": "La définition documentée des responsabilités de sécurité est précisément l'attribution des rôles et responsabilités de sécurité d'A.5.2."
+  },
+  {
+   "tgv_ref": "S03.02",
+   "cible_ref": "A.5.2",
+   "cible_intitule": "Information security roles and responsibilities",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'attribution d'un responsable de sécurité à l'application est un cas particulier de l'affectation des rôles de sécurité d'A.5.2."
+  },
+  {
+   "tgv_ref": "S03.02",
+   "cible_ref": "A.5.9",
+   "cible_intitule": "Inventory of information and other associated assets",
+   "relation": "recoupement_partiel",
+   "justification": "La désignation d'un propriétaire responsable de chaque actif recoupe l'attribution de propriété exigée par l'inventaire des actifs d'A.5.9."
+  },
+  {
+   "tgv_ref": "S03.03",
+   "cible_ref": "A.5.3",
+   "cible_intitule": "Segregation of duties",
+   "relation": "equivalent",
+   "justification": "L'identification des tâches incompatibles et les mesures pour en limiter l'usage constituent la séparation des tâches d'A.5.3."
+  },
+  {
+   "tgv_ref": "S03.04",
+   "cible_ref": "A.5.8",
+   "cible_intitule": "Information security in project management",
+   "relation": "equivalent",
+   "justification": "La méthode de gestion de projet intégrant l'identification et le traitement des risques de sécurité est la sécurité dans la gestion de projet d'A.5.8."
+  },
+  {
+   "tgv_ref": "S03.05",
+   "cible_ref": "A.8.1",
+   "cible_intitule": "User end point devices",
+   "relation": "tgv_plus_etroit",
+   "justification": "La gestion des risques propres aux appareils mobiles est le sous-ensemble mobiles de la protection des terminaux d'A.8.1."
+  },
+  {
+   "tgv_ref": "S03.06",
+   "cible_ref": "A.6.7",
+   "cible_intitule": "Remote working",
+   "relation": "equivalent",
+   "justification": "La politique couvrant les risques du télétravail est exactement le contrôle travail à distance d'A.6.7."
+  },
+  {
+   "tgv_ref": "S04.01",
+   "cible_ref": "7.2",
+   "cible_intitule": "Competence",
+   "relation": "equivalent",
+   "justification": "La preuve que le personnel possède les compétences requises pour ses fonctions est l'exigence de compétence de la clause 7.2."
+  },
+  {
+   "tgv_ref": "S04.02",
+   "cible_ref": "7.3",
+   "cible_intitule": "Awareness",
+   "relation": "recoupement_partiel",
+   "justification": "La sensibilisation de l'ensemble du personnel recoupe l'exigence de sensibilisation de la clause 7.3."
+  },
+  {
+   "tgv_ref": "S04.02",
+   "cible_ref": "A.6.3",
+   "cible_intitule": "Information security awareness, education and training",
+   "relation": "equivalent",
+   "justification": "Le programme de sensibilisation et de formation à la sécurité pour tout le personnel est le contrôle de sensibilisation, éducation et formation d'A.6.3."
+  },
+  {
+   "tgv_ref": "S04.03",
+   "cible_ref": "A.6.2",
+   "cible_intitule": "Terms and conditions of employment",
+   "relation": "recoupement_partiel",
+   "justification": "L'information des employés et contractants sur leurs responsabilités de sécurité recoupe les responsabilités inscrites aux conditions d'emploi d'A.6.2."
+  },
+  {
+   "tgv_ref": "S04.03",
+   "cible_ref": "A.6.3",
+   "cible_intitule": "Information security awareness, education and training",
+   "relation": "recoupement_partiel",
+   "justification": "La communication des procédures à appliquer aux intervenants recoupe la formation et la sensibilisation d'A.6.3."
+  },
+  {
+   "tgv_ref": "S04.04",
+   "cible_ref": "A.6.4",
+   "cible_intitule": "Disciplinary process",
+   "relation": "equivalent",
+   "justification": "Les sanctions approuvées pour non-respect des politiques de sécurité constituent le processus disciplinaire d'A.6.4."
+  },
+  {
+   "tgv_ref": "S04.05",
+   "cible_ref": "A.6.5",
+   "cible_intitule": "Responsibilities after termination or change of employment",
+   "relation": "equivalent",
+   "justification": "Le rappel des obligations subsistant à la fin de l'emploi est exactement le contrôle des responsabilités après cessation d'emploi d'A.6.5."
+  },
+  {
+   "tgv_ref": "S05.01",
+   "cible_ref": "A.5.10",
+   "cible_intitule": "Acceptable use of information and other associated assets",
+   "relation": "recoupement_partiel",
+   "justification": "Les conditions d'utilisation de l'application et des actifs recoupent la politique d'utilisation acceptable des actifs d'A.5.10."
+  },
+  {
+   "tgv_ref": "S05.02",
+   "cible_ref": "A.5.10",
+   "cible_intitule": "Acceptable use of information and other associated assets",
+   "relation": "recoupement_partiel",
+   "justification": "La présentation des conditions d'utilisation à la première utilisation avec consignation de l'acceptation matérialise l'utilisation acceptable des actifs d'A.5.10."
+  },
+  {
+   "tgv_ref": "S05.03",
+   "cible_ref": "A.5.10",
+   "cible_intitule": "Acceptable use of information and other associated assets",
+   "relation": "tgv_plus_etroit",
+   "justification": "La consultation permanente et le rappel périodique des conditions d'utilisation relèvent du maintien de l'utilisation acceptable d'A.5.10."
+  },
+  {
+   "tgv_ref": "S05.04",
+   "cible_ref": "A.5.9",
+   "cible_intitule": "Inventory of information and other associated assets",
+   "relation": "equivalent",
+   "justification": "L'inventaire de l'application et des actifs avec responsable attitré est exactement l'inventaire des actifs avec propriété d'A.5.9."
+  },
+  {
+   "tgv_ref": "S05.05",
+   "cible_ref": "A.5.12",
+   "cible_intitule": "Classification of information",
+   "relation": "equivalent",
+   "justification": "La classification de l'application et des actifs en disponibilité, intégrité et confidentialité est la classification de l'information d'A.5.12."
+  },
+  {
+   "tgv_ref": "S05.06",
+   "cible_ref": "A.5.11",
+   "cible_intitule": "Return of assets",
+   "relation": "equivalent",
+   "justification": "La restitution des actifs confiés au terme du contrat est exactement le contrôle restitution des actifs d'A.5.11."
+  },
+  {
+   "tgv_ref": "S05.07",
+   "cible_ref": "A.7.10",
+   "cible_intitule": "Storage media",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'encadrement des supports amovibles selon la classification est le sous-ensemble supports amovibles de la gestion des supports de stockage d'A.7.10."
+  },
+  {
+   "tgv_ref": "S05.08",
+   "cible_ref": "A.7.10",
+   "cible_intitule": "Storage media",
+   "relation": "tgv_plus_etroit",
+   "justification": "La procédure de mise au rebut sécurisée des supports d'information est le volet élimination de la gestion des supports d'A.7.10."
+  },
+  {
+   "tgv_ref": "S05.08",
+   "cible_ref": "A.7.14",
+   "cible_intitule": "Secure disposal or re-use of equipment",
+   "relation": "recoupement_partiel",
+   "justification": "La mise au rebut sécurisée des supports recoupe l'élimination ou réutilisation sécurisée des équipements d'A.7.14."
+  },
+  {
+   "tgv_ref": "S06.01",
+   "cible_ref": "A.5.15",
+   "cible_intitule": "Access control",
+   "relation": "equivalent",
+   "justification": "La politique de gestion des accès applicable à tous les intervenants est exactement le contrôle d'accès d'A.5.15."
+  },
+  {
+   "tgv_ref": "S06.02",
+   "cible_ref": "A.5.15",
+   "cible_intitule": "Access control",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les règles de gestion des accès à l'application sont un cas particulier du contrôle d'accès d'A.5.15."
+  },
+  {
+   "tgv_ref": "S06.03",
+   "cible_ref": "A.8.3",
+   "cible_intitule": "Information access restriction",
+   "relation": "equivalent",
+   "justification": "Le mécanisme limitant l'accès aux seules composantes, fonctions et informations autorisées est exactement la restriction d'accès à l'information d'A.8.3."
+  },
+  {
+   "tgv_ref": "S06.04",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "Privileged access rights",
+   "relation": "equivalent",
+   "justification": "La réservation des activités à privilèges élevés à des comptes dédiés contrôles est exactement le contrôle des droits d'accès à privilèges d'A.8.2."
+  },
+  {
+   "tgv_ref": "S06.05",
+   "cible_ref": "A.5.17",
+   "cible_intitule": "Authentication information",
+   "relation": "tgv_plus_etroit",
+   "justification": "La gestion de la complexité et robustesse des mots de passe est le volet politique de mots de passe de l'information d'authentification d'A.5.17."
+  },
+  {
+   "tgv_ref": "S06.06",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Secure authentication",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'obligation d'authentification multifacteur est un cas particulier de l'authentification sécurisée d'A.8.5."
+  },
+  {
+   "tgv_ref": "S06.07",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Secure authentication",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le recours à des protocoles d'authentification sécurisés modernes et à la fédération d'identités relève de l'authentification sécurisée d'A.8.5."
+  },
+  {
+   "tgv_ref": "S06.08",
+   "cible_ref": "A.5.17",
+   "cible_intitule": "Authentication information",
+   "relation": "tgv_plus_etroit",
+   "justification": "La préservation de la confidentialité et le non-stockage des mots de passe relèvent de la protection de l'information d'authentification d'A.5.17."
+  },
+  {
+   "tgv_ref": "S06.09",
+   "cible_ref": "A.5.17",
+   "cible_intitule": "Authentication information",
+   "relation": "tgv_plus_etroit",
+   "justification": "La possibilité pour l'utilisateur de changer son mot de passe est un volet de la gestion de l'information d'authentification d'A.5.17."
+  },
+  {
+   "tgv_ref": "S06.10",
+   "cible_ref": "A.8.3",
+   "cible_intitule": "Information access restriction",
+   "relation": "recoupement_partiel",
+   "justification": "Le minimum de privilèges accordé aux composantes recoupe la restriction d'accès à l'information d'A.8.3."
+  },
+  {
+   "tgv_ref": "S06.10",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Secure authentication",
+   "relation": "recoupement_partiel",
+   "justification": "L'authentification mutuelle des communications entre composantes recoupe l'authentification sécurisée d'A.8.5."
+  },
+  {
+   "tgv_ref": "S06.11",
+   "cible_ref": "A.5.17",
+   "cible_intitule": "Authentication information",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'interdiction de mots de passe en clair dans le code et les scripts est le volet protection des secrets de l'information d'authentification d'A.5.17."
+  },
+  {
+   "tgv_ref": "S06.11",
+   "cible_ref": "A.8.28",
+   "cible_intitule": "Secure coding",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'interdiction de tout mot de passe en clair dans le code source, scripts et macros est une règle canonique de codage sécurisé qu'une revue de code A.8.28 vérifié directement; S06.11 est un sous-ensemble précis du codage sécurisé (le mapping existant vers A.5.17 ne couvre que le volet protection du secret)."
+  },
+  {
+   "tgv_ref": "S06.12",
+   "cible_ref": "A.5.18",
+   "cible_intitule": "Access rights",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les fonctionnalités facilitant la revue des accès servent la revue périodique des droits d'accès d'A.5.18."
+  },
+  {
+   "tgv_ref": "S06.13",
+   "cible_ref": "A.5.15",
+   "cible_intitule": "Access control",
+   "relation": "recoupement_partiel",
+   "justification": "Les profils d'accès basés sur les fonctionnalités recoupent la mise en oeuvre du contrôle d'accès d'A.5.15."
+  },
+  {
+   "tgv_ref": "S06.13",
+   "cible_ref": "A.8.3",
+   "cible_intitule": "Information access restriction",
+   "relation": "tgv_plus_etroit",
+   "justification": "La gestion des accès par profils octroyant les seuls accès nécessaires est la mise en oeuvre du moindre privilège de la restriction d'accès d'A.8.3."
+  },
+  {
+   "tgv_ref": "S06.14",
+   "cible_ref": "A.5.18",
+   "cible_intitule": "Access rights",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les fonctionnalités de gestion des accès offertes à l'acquéreur servent la provision et la gestion des droits d'accès d'A.5.18."
+  },
+  {
+   "tgv_ref": "S06.15",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Secure authentication",
+   "relation": "tgv_plus_etroit",
+   "justification": "La fonction de déconnexion aisée relève de la gestion sécurisée des sessions de l'authentification sécurisée d'A.8.5."
+  },
+  {
+   "tgv_ref": "S06.16",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Secure authentication",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le verrouillage du compte après cinq échecs de connexion est une mesure anti-force-brute de l'authentification sécurisée d'A.8.5."
+  },
+  {
+   "tgv_ref": "S06.17",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Secure authentication",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'affichage d'un message d'échec générique sans détail des champs invalides relève des bonnes pratiques d'ouverture de session sécurisée d'A.8.5."
+  },
+  {
+   "tgv_ref": "S06.18",
+   "cible_ref": "A.5.16",
+   "cible_intitule": "Identity management",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'interdiction des comptes génériques matérialise l'exigence d'identités uniques de la gestion des identités d'A.5.16."
+  },
+  {
+   "tgv_ref": "S06.19",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Secure authentication",
+   "relation": "tgv_plus_etroit",
+   "justification": "La déconnexion automatique après inactivité est une mesure de gestion de session de l'authentification sécurisée d'A.8.5."
+  },
+  {
+   "tgv_ref": "S06.20",
+   "cible_ref": "A.8.4",
+   "cible_intitule": "Access to source code",
+   "relation": "equivalent",
+   "justification": "La restriction de l'accès au code source est exactement le contrôle accès au code source d'A.8.4."
+  },
+  {
+   "tgv_ref": "S06.21",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Secure authentication",
+   "relation": "tgv_plus_etroit",
+   "justification": "La protection de l'authentification par test CAPTCHA est une mesure anti-automatisation de l'authentification sécurisée d'A.8.5."
+  },
+  {
+   "tgv_ref": "S06.23",
+   "cible_ref": "A.8.16",
+   "cible_intitule": "Monitoring activities",
+   "relation": "tgv_plus_etroit",
+   "justification": "La détection et l'alerte des attaques par bourrage de justificatifs relèvent de la surveillance des activités et détection d'anomalies d'A.8.16."
+  },
+  {
+   "tgv_ref": "S06.24",
+   "cible_ref": "A.5.16",
+   "cible_intitule": "Identity management",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'exigence que les comptes proviennent de l'annuaire centralisé est un cas particulier de la gestion centralisée des identités d'A.5.16."
+  },
+  {
+   "tgv_ref": "S06.25",
+   "cible_ref": "A.8.15",
+   "cible_intitule": "Logging",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation des accès au PST exposé sur Internet est un sous-ensemble de la journalisation d'A.8.15."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "A.8.24",
+   "cible_intitule": "Use of cryptography",
+   "relation": "equivalent",
+   "justification": "Le chiffrement des données sensibles au repos et en transit est exactement l'utilisation de la cryptographie d'A.8.24."
+  },
+  {
+   "tgv_ref": "S07.02",
+   "cible_ref": "A.8.20",
+   "cible_intitule": "Networks security",
+   "relation": "recoupement_partiel",
+   "justification": "L'authentification mutuelle des flux entre composantes recoupe la sécurité des réseaux d'A.8.20."
+  },
+  {
+   "tgv_ref": "S07.02",
+   "cible_ref": "A.8.24",
+   "cible_intitule": "Use of cryptography",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le chiffrement des communications entre composantes est le volet chiffrement en transit de l'utilisation de la cryptographie d'A.8.24."
+  },
+  {
+   "tgv_ref": "S08.01",
+   "cible_ref": "A.8.24",
+   "cible_intitule": "Use of cryptography",
+   "relation": "tgv_plus_etroit",
+   "justification": "La documentation de la gestion des clés sur tout leur cycle de vie est le volet gestion des clés de la cryptographie d'A.8.24."
+  },
+  {
+   "tgv_ref": "S08.02",
+   "cible_ref": "A.7.1",
+   "cible_intitule": "Physical security perimeters",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le contrôle d'accès et la protection physique des locaux d'hébergement relèvent des périmètres de sécurité physique d'A.7.1."
+  },
+  {
+   "tgv_ref": "S08.02",
+   "cible_ref": "A.7.2",
+   "cible_intitule": "Physical entry",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le contrôle d'accès aux locaux hébergeant les composantes est le contrôle des entrées physiques d'A.7.2."
+  },
+  {
+   "tgv_ref": "S08.03",
+   "cible_ref": "A.7.2",
+   "cible_intitule": "Physical entry",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le contrôle d'accès physique aux locaux des développeurs est le contrôle des entrées physiques d'A.7.2."
+  },
+  {
+   "tgv_ref": "S08.03",
+   "cible_ref": "A.7.3",
+   "cible_intitule": "Securing offices, rooms and facilities",
+   "relation": "tgv_plus_etroit",
+   "justification": "La sécurisation des locaux des équipes de développement et de soutien relève de la sécurisation des bureaux et installations d'A.7.3."
+  },
+  {
+   "tgv_ref": "S08.04",
+   "cible_ref": "A.7.13",
+   "cible_intitule": "Equipment maintenance",
+   "relation": "equivalent",
+   "justification": "L'entretien approprié du matériel hébergeant l'application est exactement la maintenance des équipements d'A.7.13."
+  },
+  {
+   "tgv_ref": "S09.01",
+   "cible_ref": "A.7.7",
+   "cible_intitule": "Clear desk and clear screen",
+   "relation": "equivalent",
+   "justification": "La politique du bureau propre et de l'écran vide est exactement le contrôle bureau propre et écran vide d'A.7.7."
+  },
+  {
+   "tgv_ref": "S09.02",
+   "cible_ref": "A.5.37",
+   "cible_intitule": "Documented operating procedures",
+   "relation": "equivalent",
+   "justification": "La documentation et la communication des procédures d'exploitation sont exactement les procédures d'exploitation documentées d'A.5.37."
+  },
+  {
+   "tgv_ref": "S09.04",
+   "cible_ref": "A.5.37",
+   "cible_intitule": "Documented operating procedures",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le guide d'installation et d'entretien (config, accès, surveillance, sauvegardes) est un ensemble de procédures d'exploitation documentées d'A.5.37."
+  },
+  {
+   "tgv_ref": "S09.04",
+   "cible_ref": "A.8.9",
+   "cible_intitule": "Configuration management",
+   "relation": "recoupement_partiel",
+   "justification": "La documentation de la configuration des serveurs et terminaux recoupe la gestion de la configuration d'A.8.9."
+  },
+  {
+   "tgv_ref": "S09.05",
+   "cible_ref": "A.8.13",
+   "cible_intitule": "Information backup",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le système de sauvegarde à l'abri des rançongiciels est une exigence renforcée de la sauvegarde de l'information d'A.8.13."
+  },
+  {
+   "tgv_ref": "S09.06",
+   "cible_ref": "A.8.13",
+   "cible_intitule": "Information backup",
+   "relation": "equivalent",
+   "justification": "Les stratégies de sauvegarde permettant une récupération complète ou partielle des données sont exactement la sauvegarde de l'information d'A.8.13."
+  },
+  {
+   "tgv_ref": "S09.07",
+   "cible_ref": "A.8.32",
+   "cible_intitule": "Change management",
+   "relation": "equivalent",
+   "justification": "Le processus documenté de gestion des changements de l'application est exactement le contrôle gestion des changements d'A.8.32."
+  },
+  {
+   "tgv_ref": "S09.08",
+   "cible_ref": "A.8.32",
+   "cible_intitule": "Change management",
+   "relation": "tgv_plus_etroit",
+   "justification": "La gestion des versions identifiant chaque changement par un numéro relève de la traçabilité de la gestion des changements d'A.8.32."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "A.8.8",
+   "cible_intitule": "Management of technical vulnerabilities",
+   "relation": "equivalent",
+   "justification": "Le plan de gestion continue des vulnérabilités est exactement la gestion des vulnérabilités techniques d'A.8.8."
+  },
+  {
+   "tgv_ref": "S09.10",
+   "cible_ref": "A.8.8",
+   "cible_intitule": "Management of technical vulnerabilities",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'application diligente des correctifs de sécurité est le volet correctifs de la gestion des vulnérabilités techniques d'A.8.8."
+  },
+  {
+   "tgv_ref": "S09.11",
+   "cible_ref": "A.8.8",
+   "cible_intitule": "Management of technical vulnerabilities",
+   "relation": "recoupement_partiel",
+   "justification": "La documentation de composantes reposant sur des technologies supportées par leur fournisseur recoupe la maîtrise des versions vulnérables de la gestion des vulnérabilités d'A.8.8."
+  },
+  {
+   "tgv_ref": "S09.12",
+   "cible_ref": "A.8.28",
+   "cible_intitule": "Secure coding",
+   "relation": "recoupement_partiel",
+   "justification": "L'absence de porte dérobée dans l'application recoupe les exigences de codage sécurisé d'A.8.28."
+  },
+  {
+   "tgv_ref": "S10.01",
+   "cible_ref": "A.8.7",
+   "cible_intitule": "Protection against malware",
+   "relation": "equivalent",
+   "justification": "La solution antivirus récente avec fonction EDR sur tous les systèmes est exactement la protection contre les logiciels malveillants d'A.8.7."
+  },
+  {
+   "tgv_ref": "S10.02",
+   "cible_ref": "A.8.16",
+   "cible_intitule": "Monitoring activities",
+   "relation": "recoupement_partiel",
+   "justification": "Les mécanismes de gestion des exceptions et d'alertes de la solution recoupent la surveillance des activités d'A.8.16."
+  },
+  {
+   "tgv_ref": "S10.03",
+   "cible_ref": "A.5.16",
+   "cible_intitule": "Identity management",
+   "relation": "recoupement_partiel",
+   "justification": "L'utilisation des règles d'accès du portail provincial de gestion de l'identité et des accès recoupe la gestion des identités d'A.5.16."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "A.8.15",
+   "cible_intitule": "Logging",
+   "relation": "equivalent",
+   "justification": "La journalisation de toute activité (acteur, moment, nature, informations concernées) est exactement la journalisation d'A.8.15."
+  },
+  {
+   "tgv_ref": "S10.05",
+   "cible_ref": "A.8.15",
+   "cible_intitule": "Logging",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le filtrage, l'analyse et l'extraction en format standard des journaux relèvent de l'exploitation des journaux d'A.8.15."
+  },
+  {
+   "tgv_ref": "S10.05",
+   "cible_ref": "A.8.16",
+   "cible_intitule": "Monitoring activities",
+   "relation": "recoupement_partiel",
+   "justification": "L'analyse de l'information journalisée pour produire des rapports recoupe la surveillance des activités d'A.8.16."
+  },
+  {
+   "tgv_ref": "S10.06",
+   "cible_ref": "A.8.16",
+   "cible_intitule": "Monitoring activities",
+   "relation": "equivalent",
+   "justification": "Les fonctionnalités d'alerte sur comportements anormaux et incidents potentiels sont exactement la surveillance des activités d'A.8.16."
+  },
+  {
+   "tgv_ref": "S10.07",
+   "cible_ref": "A.8.16",
+   "cible_intitule": "Monitoring activities",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les systèmes de détection d'intrusion sont un moyen de la surveillance et de la détection des menaces d'A.8.16."
+  },
+  {
+   "tgv_ref": "S10.07",
+   "cible_ref": "A.8.20",
+   "cible_intitule": "Networks security",
+   "relation": "recoupement_partiel",
+   "justification": "Les systèmes de détection d'intrusion recoupent la sécurité des réseaux d'A.8.20."
+  },
+  {
+   "tgv_ref": "S10.08",
+   "cible_ref": "A.8.15",
+   "cible_intitule": "Logging",
+   "relation": "recoupement_partiel",
+   "justification": "Le rôle d'auditeur permettant la consultation des rapports d'audit recoupe l'accès protégé et exploitable aux journaux d'A.8.15."
+  },
+  {
+   "tgv_ref": "S10.09",
+   "cible_ref": "A.8.15",
+   "cible_intitule": "Logging",
+   "relation": "tgv_plus_etroit",
+   "justification": "La protection des journaux contre l'altération et la divulgation est le volet protection des journaux d'A.8.15."
+  },
+  {
+   "tgv_ref": "S11.01",
+   "cible_ref": "A.5.33",
+   "cible_intitule": "Protection of records",
+   "relation": "recoupement_partiel",
+   "justification": "La conservation de l'information journalisée selon les lois et normes recoupe la protection et rétention des enregistrements d'A.5.33."
+  },
+  {
+   "tgv_ref": "S11.01",
+   "cible_ref": "A.8.15",
+   "cible_intitule": "Logging",
+   "relation": "tgv_plus_etroit",
+   "justification": "La conservation des journaux selon un calendrier légal relève de la rétention des journaux d'A.8.15."
+  },
+  {
+   "tgv_ref": "S11.02",
+   "cible_ref": "A.5.14",
+   "cible_intitule": "Information transfer",
+   "relation": "recoupement_partiel",
+   "justification": "La protection des communications entre composantes, y compris le soutien à distance, recoupe le transfert sécurisé de l'information d'A.5.14."
+  },
+  {
+   "tgv_ref": "S11.02",
+   "cible_ref": "A.8.20",
+   "cible_intitule": "Networks security",
+   "relation": "recoupement_partiel",
+   "justification": "La sécurisation des flux entre composantes recoupe la sécurité des réseaux d'A.8.20."
+  },
+  {
+   "tgv_ref": "S11.03",
+   "cible_ref": "A.8.22",
+   "cible_intitule": "Segregation of networks",
+   "relation": "equivalent",
+   "justification": "Le cloisonnement de l'environnement d'exécution (accès public vs zone serveur) est exactement la ségrégation des réseaux d'A.8.22."
+  },
+  {
+   "tgv_ref": "S11.04",
+   "cible_ref": "A.5.14",
+   "cible_intitule": "Information transfer",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'encadrement du courrier électronique ne traitant pas d'information confidentielle est le volet courriel du transfert de l'information d'A.5.14."
+  },
+  {
+   "tgv_ref": "S11.04",
+   "cible_ref": "A.8.12",
+   "cible_intitule": "Data leakage prevention",
+   "relation": "recoupement_partiel",
+   "justification": "Les mesures empêchant l'information confidentielle de transiter par courriel recoupent la prévention des fuites de données d'A.8.12."
+  },
+  {
+   "tgv_ref": "S11.05",
+   "cible_ref": "A.6.3",
+   "cible_intitule": "Information security awareness, education and training",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les campagnes de simulation d'hameçonnage sont un moyen de la sensibilisation et formation à la sécurité d'A.6.3."
+  },
+  {
+   "tgv_ref": "S11.06",
+   "cible_ref": "A.8.20",
+   "cible_intitule": "Networks security",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'assurance d'une connectivité sécuritaire relève de la sécurité des réseaux d'A.8.20."
+  },
+  {
+   "tgv_ref": "S12.01",
+   "cible_ref": "A.6.3",
+   "cible_intitule": "Information security awareness, education and training",
+   "relation": "equivalent",
+   "justification": "Le plan de formation continue en cybersécurité (hameçonnage, rançongiciels, ingénierie sociale) est exactement la sensibilisation et formation à la sécurité d'A.6.3."
+  },
+  {
+   "tgv_ref": "S12.02",
+   "cible_ref": "A.8.25",
+   "cible_intitule": "Secure development life cycle",
+   "relation": "equivalent",
+   "justification": "La prise en compte de la sécurité à chaque étape du développement est exactement le cycle de développement sécurisé d'A.8.25."
+  },
+  {
+   "tgv_ref": "S12.03",
+   "cible_ref": "A.8.31",
+   "cible_intitule": "Separation of development, test and production environments",
+   "relation": "equivalent",
+   "justification": "La séparation des environnements de développement, de test et d'exploitation est exactement le contrôle d'A.8.31."
+  },
+  {
+   "tgv_ref": "S12.04",
+   "cible_ref": "A.8.28",
+   "cible_intitule": "Secure coding",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le respect des bonnes pratiques de sécurité de l'industrie dans le développement relève du codage sécurisé d'A.8.28."
+  },
+  {
+   "tgv_ref": "S12.05",
+   "cible_ref": "A.8.27",
+   "cible_intitule": "Secure system architecture and engineering principles",
+   "relation": "equivalent",
+   "justification": "Le respect des principes d'ingénierie de la sécurité des systèmes est exactement les principes d'ingénierie et d'architecture sécurisées d'A.8.27."
+  },
+  {
+   "tgv_ref": "S12.06",
+   "cible_ref": "A.8.30",
+   "cible_intitule": "Outsourced development",
+   "relation": "equivalent",
+   "justification": "La supervision de tout développement réalisé à l'externe est exactement le contrôle développement externalisé d'A.8.30."
+  },
+  {
+   "tgv_ref": "S12.07",
+   "cible_ref": "A.8.33",
+   "cible_intitule": "Test information",
+   "relation": "equivalent",
+   "justification": "L'interdiction d'utiliser de l'information confidentielle de production en développement est exactement la protection des données de test d'A.8.33."
+  },
+  {
+   "tgv_ref": "S12.08",
+   "cible_ref": "A.8.29",
+   "cible_intitule": "Security testing in development and acceptance",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de tests applicatifs recoupe les tests de sécurité en développement et en recette d'A.8.29."
+  },
+  {
+   "tgv_ref": "S13.01",
+   "cible_ref": "A.5.21",
+   "cible_intitule": "Managing information security in the ICT supply chain",
+   "relation": "recoupement_partiel",
+   "justification": "La maîtrise des vulnérabilités des composantes tierces recoupe la gestion de la sécurité dans la chaîne d'approvisionnement TIC d'A.5.21."
+  },
+  {
+   "tgv_ref": "S13.01",
+   "cible_ref": "A.8.8",
+   "cible_intitule": "Management of technical vulnerabilities",
+   "relation": "recoupement_partiel",
+   "justification": "La prise en compte des vulnérabilités des composantes tierces et leur mise à jour recoupe la gestion des vulnérabilités techniques d'A.8.8."
+  },
+  {
+   "tgv_ref": "S13.02",
+   "cible_ref": "A.5.19",
+   "cible_intitule": "Information security in supplier relationships",
+   "relation": "recoupement_partiel",
+   "justification": "L'évaluation des menaces et des risques préalable au recours à un fournisseur recoupe la diligence des relations fournisseurs d'A.5.19."
+  },
+  {
+   "tgv_ref": "S13.03",
+   "cible_ref": "A.5.19",
+   "cible_intitule": "Information security in supplier relationships",
+   "relation": "tgv_plus_etroit",
+   "justification": "La liste des fournisseurs et la nature de leurs services relève de la gestion des relations fournisseurs d'A.5.19."
+  },
+  {
+   "tgv_ref": "S13.04",
+   "cible_ref": "A.5.20",
+   "cible_intitule": "Addressing information security within supplier agreements",
+   "relation": "equivalent",
+   "justification": "La liste des exigences (sécurité, accès, niveau de service, incidents) par fournisseur alimente exactement la prise en compte de la sécurité dans les accords fournisseurs d'A.5.20."
+  },
+  {
+   "tgv_ref": "S13.05",
+   "cible_ref": "A.5.22",
+   "cible_intitule": "Monitoring, review and change management of supplier services",
+   "relation": "equivalent",
+   "justification": "Les processus de surveillance de la conformité des fournisseurs sont exactement le suivi, la revue et la gestion des changements des services fournisseurs d'A.5.22."
+  },
+  {
+   "tgv_ref": "S13.06",
+   "cible_ref": "A.5.20",
+   "cible_intitule": "Addressing information security within supplier agreements",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les ententes contractuelles conclues avec chaque fournisseur matérialisent les accords fournisseurs d'A.5.20."
+  },
+  {
+   "tgv_ref": "S14.01",
+   "cible_ref": "A.5.22",
+   "cible_intitule": "Monitoring, review and change management of supplier services",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'évaluation régulière de la performance des fournisseurs relève du suivi et de la revue des services fournisseurs d'A.5.22."
+  },
+  {
+   "tgv_ref": "S14.02",
+   "cible_ref": "A.5.23",
+   "cible_intitule": "Information security for use of cloud services",
+   "relation": "recoupement_partiel",
+   "justification": "La conformité de la localisation d'hébergement du PST recoupe la sécurité de l'usage des services infonuagiques d'A.5.23."
+  },
+  {
+   "tgv_ref": "S14.03",
+   "cible_ref": "A.5.24",
+   "cible_intitule": "Information security incident management planning and preparation",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le processus de gestion des incidents arrimé à celui des clients relève de la planification et préparation de la gestion des incidents d'A.5.24."
+  },
+  {
+   "tgv_ref": "S14.04",
+   "cible_ref": "A.5.26",
+   "cible_intitule": "Response to information security incidents",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'avertissement des clients de tout incident sur les données selon un processus établi relève de la réponse aux incidents d'A.5.26."
+  },
+  {
+   "tgv_ref": "S15.01",
+   "cible_ref": "A.5.26",
+   "cible_intitule": "Response to information security incidents",
+   "relation": "recoupement_partiel",
+   "justification": "L'engagement à collaborer avec les clients pour la prise en charge d'un incident recoupe la réponse aux incidents d'A.5.26."
+  },
+  {
+   "tgv_ref": "S15.02",
+   "cible_ref": "A.8.16",
+   "cible_intitule": "Monitoring activities",
+   "relation": "recoupement_partiel",
+   "justification": "La surveillance de la solution conforme à la classification et aux normes d'hébergement recoupe la surveillance des activités d'A.8.16."
+  },
+  {
+   "tgv_ref": "S15.03",
+   "cible_ref": "A.5.30",
+   "cible_intitule": "ICT readiness for business continuity",
+   "relation": "recoupement_partiel",
+   "justification": "L'arrimage aux mécanismes de plan de reprise en vigueur recoupe la préparation des TIC à la continuité d'activité d'A.5.30."
+  },
+  {
+   "tgv_ref": "S15.04",
+   "cible_ref": "A.5.29",
+   "cible_intitule": "Information security during disruption",
+   "relation": "recoupement_partiel",
+   "justification": "Le maintien des activités durant une perturbation recoupe la sécurité de l'information pendant une perturbation d'A.5.29."
+  },
+  {
+   "tgv_ref": "S15.04",
+   "cible_ref": "A.5.30",
+   "cible_intitule": "ICT readiness for business continuity",
+   "relation": "recoupement_partiel",
+   "justification": "Le plan de continuité de maintenance et d'exploitation recoupe la préparation des TIC à la continuité d'activité d'A.5.30."
+  },
+  {
+   "tgv_ref": "S15.05",
+   "cible_ref": "A.5.30",
+   "cible_intitule": "ICT readiness for business continuity",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de recouvrement après sinistre des infrastructures est le volet reprise après sinistre de la préparation des TIC à la continuité d'A.5.30."
+  },
+  {
+   "tgv_ref": "S16.01",
+   "cible_ref": "A.5.30",
+   "cible_intitule": "ICT readiness for business continuity",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le test périodique du plan de reprise est l'exigence de test des plans de reprise de la préparation des TIC à la continuité d'A.5.30."
+  },
+  {
+   "tgv_ref": "S16.02",
+   "cible_ref": "A.5.36",
+   "cible_intitule": "Compliance with policies, rules and standards for information security",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de validation de la conformité technique des composantes recoupe la vérification de conformité aux normes de sécurité d'A.5.36."
+  },
+  {
+   "tgv_ref": "S16.03",
+   "cible_ref": "A.5.35",
+   "cible_intitule": "Independent review of information security",
+   "relation": "recoupement_partiel",
+   "justification": "Le test d'intrusion administré par un prestataire INDÉPENDANT et reconnu par Santé Québec fournit une revue indépendante de la mise en oeuvre technique de la sécurité, recoupant l'exigence de revue indépendante de la sécurité de l'information d'A.5.35 (complémentaire au test de sécurité technique déjà mappé vers A.8.29)."
+  },
+  {
+   "tgv_ref": "S16.03",
+   "cible_ref": "A.8.29",
+   "cible_intitule": "Security testing in development and acceptance",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le test d'intrusion administré par un prestataire indépendant reconnu est un cas particulier des tests de sécurité d'A.8.29."
+  },
+  {
+   "tgv_ref": "S16.04",
+   "cible_ref": "A.5.32",
+   "cible_intitule": "Intellectual property rights",
+   "relation": "equivalent",
+   "justification": "La garantie de détention des droits de propriété intellectuelle du code (ou l'explicitation des licences) est exactement le contrôle droits de propriété intellectuelle d'A.5.32."
+  }
+ ]
+}

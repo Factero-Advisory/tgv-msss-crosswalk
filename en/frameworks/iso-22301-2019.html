@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TGV → ISO 22301:2019 crosswalk: 7 mappings</title>
+<meta name="description" content="Crosswalk between Quebec&#x27;s TGV health technology verification framework (MSSS) and ISO 22301:2019: 7 qualified, rationale-backed mappings covering 5 controls.">
+<meta name="keywords" content="TGV, ISO 22301:2019, crosswalk, correspondance, MSSS, certification">
+<link rel="canonical" href="https://certification-tgv.ca/en/frameworks/iso-22301-2019.html">
+<link rel="alternate" hreflang="en" href="https://certification-tgv.ca/en/frameworks/iso-22301-2019.html">
+<link rel="alternate" hreflang="fr" href="https://certification-tgv.ca/fr/referentiels/iso-22301-2019.html">
+<link rel="alternate" hreflang="x-default" href="https://certification-tgv.ca/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TGV → ISO 22301:2019 crosswalk: 7 mappings">
+<meta property="og:description" content="Crosswalk between Quebec&#x27;s TGV health technology verification framework (MSSS) and ISO 22301:2019: 7 qualified, rationale-backed mappings covering 5 controls.">
+<meta property="og:url" content="https://certification-tgv.ca/en/frameworks/iso-22301-2019.html">
+<meta property="og:site_name" content="Correspondances TGV">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TGV → ISO 22301:2019 crosswalk: 7 mappings">
+<meta name="twitter:description" content="Crosswalk between Quebec&#x27;s TGV health technology verification framework (MSSS) and ISO 22301:2019: 7 qualified, rationale-backed mappings covering 5 controls.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Services Conseil Factero">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231f3864'/><text x='32' y='44' font-size='34' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>T</text></svg>">
+<style>
+:root{--bg:#fff;--fg:#1a1d24;--muted:#5a6270;--line:#e3e7ee;--band:#f7f9fc;
+--navy:#1f3864;--blue:#2e5496;--steel:#8eaadb;--acc:#0b6b5e;
+--eq:#cfeddb;--sub:#d4e4f7;--sup:#fbe0d0;--int:#eceef2;--card:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1218;--fg:#e8ecf3;--muted:#9aa4b5;
+--line:#232a36;--band:#151a23;--navy:#8fb0e8;--blue:#7ea3e0;--steel:#4a6a9d;
+--eq:#1d3d2c;--sub:#1b2f47;--sup:#3d2a1c;--int:#242a35;--card:#141922}}
+:root[data-theme=dark]{--bg:#0f1218;--fg:#e8ecf3;--muted:#9aa4b5;--line:#232a36;
+--band:#151a23;--navy:#8fb0e8;--blue:#7ea3e0;--eq:#1d3d2c;--sub:#1b2f47;
+--sup:#3d2a1c;--int:#242a35;--card:#141922}
+:root[data-theme=light]{--bg:#fff;--fg:#1a1d24;--muted:#5a6270;--line:#e3e7ee;
+--band:#f7f9fc;--navy:#1f3864;--blue:#2e5496;--eq:#cfeddb;--sub:#d4e4f7;
+--sup:#fbe0d0;--int:#eceef2;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+-webkit-text-size-adjust:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.top{border-bottom:1px solid var(--line);background:var(--band)}
+header.top .wrap{display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding-top:14px;padding-bottom:14px}
+.brand{font-weight:700;color:var(--navy);text-decoration:none;font-size:15px;letter-spacing:-.01em}
+nav.main{display:flex;gap:16px;flex-wrap:wrap;margin-left:auto}
+nav.main a{color:var(--muted);text-decoration:none;font-size:14px}
+nav.main a:hover,nav.main a[aria-current=page]{color:var(--blue)}
+.hero{padding:52px 0 34px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(26px,4.4vw,42px);line-height:1.15;margin:0 0 14px;letter-spacing:-.02em}
+.lede{font-size:clamp(16px,2vw,19px);color:var(--muted);max-width:70ch;margin:0 0 22px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.stat b{display:block;font-size:29px;line-height:1.1;color:var(--navy);letter-spacing:-.02em}
+.stat span{font-size:13px;color:var(--muted)}
+main{padding:34px 0 60px}
+h2{font-size:24px;margin:38px 0 12px;letter-spacing:-.01em}
+h3{font-size:18px;margin:26px 0 8px}
+p{max-width:74ch}
+a{color:var(--blue)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:18px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
+th{background:var(--band);text-align:left;padding:11px 12px;font-weight:600;
+border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+code,.ref{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.ref{white-space:nowrap;font-weight:600}
+.pill{display:inline-block;padding:2px 9px;border-radius:11px;font-size:12px;
+font-weight:600;white-space:nowrap}
+.pill.eq{background:var(--eq)}.pill.sub{background:var(--sub)}
+.pill.sup{background:var(--sup)}.pill.int{background:var(--int)}
+.note{background:var(--band);border-left:3px solid var(--steel);padding:14px 16px;
+border-radius:0 8px 8px 0;margin:22px 0;font-size:15px}
+.note strong{color:var(--navy)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:18px 0}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;
+padding:16px;text-decoration:none;color:inherit;transition:border-color .15s}
+.card:hover{border-color:var(--steel)}
+.card b{display:block;margin-bottom:4px;color:var(--navy);font-size:15px}
+.card span{font-size:13px;color:var(--muted)}
+input[type=search]{width:100%;max-width:460px;padding:11px 13px;border:1px solid var(--line);
+border-radius:9px;background:var(--card);color:var(--fg);font-size:15px}
+footer{border-top:1px solid var(--line);background:var(--band);padding:30px 0;
+font-size:13px;color:var(--muted)}
+footer a{color:var(--blue)}
+.dl{display:inline-block;background:var(--navy);color:#fff;padding:11px 20px;border-radius:9px;
+text-decoration:none;font-weight:600;font-size:15px;margin:6px 8px 6px 0}
+.dl.alt{background:transparent;color:var(--blue);border:1px solid var(--line)}
+@media(prefers-color-scheme:dark){.dl{color:#0f1218}}
+.hidden{display:none}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "TGV → ISO 22301:2019 crosswalk: 7 mappings", "description": "Crosswalk between Quebec's TGV health technology verification framework (MSSS) and ISO 22301:2019: 7 qualified, rationale-backed mappings covering 5 controls.", "url": "https://certification-tgv.ca/en/frameworks/iso-22301-2019.html", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "creator": {"@type": "Organization", "name": "Services Conseil Factero"}, "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://certification-tgv.ca/data/crosswalks/crosswalk-iso-22301-2019.csv"}]}</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="../../en/">Correspondances TGV</a>
+<nav class="main"><a href="../../en/tgv.html">The TGV</a><a href="../../en/frameworks/">Frameworks</a><a href="../../en/methodology.html">Methodology</a><a href="../../">FR</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<p><a href="./">← All frameworks</a></p><h1>TGV → ISO 22301:2019</h1><p class="lede">7 mappings from 6 TGV criteria, covering 5 of 46 controls in this framework.</p>
+<div class="stats"><div class="stat"><b>7</b><span>mappings</span></div><div class="stat"><b>6</b><span>TGV criteria</span></div><div class="stat"><b>5/46</b><span>controls covered</span></div></div>
+<p style="color:var(--muted);font-size:14px">TGV narrower : 6 · Partial overlap : 1</p><a class="dl" href="https://certification-tgv.ca/data/crosswalks/crosswalk-iso-22301-2019.csv">Download this crosswalk (CSV)</a><a class="dl alt" href="https://certification-tgv.ca/data/crosswalks/crosswalk-iso-22301-2019.json">JSON</a>
+</div></div><main><div class="wrap">
+<div class="tablewrap"><table><thead><tr><th>TGV ref</th><th>TGV criterion</th><th>Target ref</th><th>Control title</th><th>Relationship</th><th>Rationale</th></tr></thead>
+<tbody><tr id="S09.06-835"><td><span class="ref">S09.06</span></td><td>Votre application bénéficie de stratégies de sauvegarde (sans interruption sur son fonctionnement) permettant une récupération complète ou partielle des données (incluant les métadonnées).</td><td><span class="ref">8.3.5</span></td><td>Implementation of solutions</td><td><span class="pill int">Partial overlap</span></td><td>La stratégie de sauvegarde permettant une récupération complète ou partielle des données (S09.06) est une solution de reprise implémentée recevable pour 8.3.5, mais ne recoupe que partiellement ce contrôle (aspects techniques de sauvegarde hors périmètre BCMS d&#x27;un côté, autres solutions de continuité non couvertes de l&#x27;autre).</td></tr><tr id="S15.03-835"><td><span class="ref">S15.03</span></td><td>Mettre en place ou arrimer avec les mécanismes de plan de reprise en vigueur au Secrétariat du Conseil du Trésor</td><td><span class="ref">8.3.5</span></td><td>Implementation of solutions</td><td><span class="pill sub">TGV narrower</span></td><td>La preuve de mise en place/arrimage des mécanismes de plan de reprise du SCT (S15.03) atteste l&#x27;implémentation d&#x27;une solution de reprise au sens de 8.3.5, dont elle constitue un cas particulier plus étroit.</td></tr><tr id="S15.04-844"><td><span class="ref">S15.04</span></td><td>Disposer d&#x27;un plan de continuité de vos activités (maintenance et exploitation de votre application).</td><td><span class="ref">8.4.4</span></td><td>Business continuity plans</td><td><span class="pill sub">TGV narrower</span></td><td>Le plan de continuité des activités documenté (maintenance/exploitation de l&#x27;application) exigé par S15.04 est exactement la pièce que l&#x27;auditeur examine pour 8.4.4, mais 8.4.4 impose un contenu plus riche (rôles, seuils de déclenchement, étapes détaillées de reprise), d&#x27;où un TGV plus étroit.</td></tr><tr id="S15.05-845"><td><span class="ref">S15.05</span></td><td>Veiller à ce qu&#x27;un plan de recouvrement après sinistre chapeaute les infrastructures permettant l&#x27;exploitation de votre application,</td><td><span class="ref">8.4.5</span></td><td>Recovery</td><td><span class="pill sub">TGV narrower</span></td><td>Le plan de recouvrement après sinistre couvrant les infrastructures (S15.05) fournit la preuve des activités de reprise post-perturbation demandée par 8.4.5, mais bornée à l&#x27;infrastructure alors que 8.4.5 vise la reprise de l&#x27;ensemble des opérations.</td></tr><tr id="S16.01-85"><td><span class="ref">S16.01</span></td><td>Tester ce plan de reprise périodiquement afin de vérifier son efficacité.</td><td><span class="ref">8.5</span></td><td>Exercise programme</td><td><span class="pill sub">TGV narrower</span></td><td>Les rapports de tests périodiques du plan de reprise (S16.01) sont recevables comme preuve d&#x27;exercices sous 8.5, qui exige toutefois un programme d&#x27;exercices structuré et diversifié plus large que le seul test du plan.</td></tr><tr id="S16.01-86"><td><span class="ref">S16.01</span></td><td>Tester ce plan de reprise périodiquement afin de vérifier son efficacité.</td><td><span class="ref">8.6</span></td><td>Evaluation of business continuity documentation and capabilities</td><td><span class="pill sub">TGV narrower</span></td><td>Le rapport de test périodique du plan de reprise, en tant qu&#x27;il vise explicitement à «vérifier son efficacité», constitue une évaluation de capacité recevable pour 8.6; TGV plus étroit car borné à l&#x27;efficacité du seul plan de reprise alors que 8.6 évalue l&#x27;ensemble de la documentation et des capacités de continuité.</td></tr><tr id="T26-835"><td><span class="ref">T26</span></td><td>Mettre en place ou arrimer avec les mécanismes de plan de reprise en vigueur au Secrétariat du Conseil du Trésor</td><td><span class="ref">8.3.5</span></td><td>Implementation of solutions</td><td><span class="pill sub">TGV narrower</span></td><td>Critère au libellé identique à S15.03: la preuve d&#x27;arrimage aux mécanismes de reprise du SCT démontre l&#x27;implémentation d&#x27;une solution de reprise (8.3.5), sous-ensemble spécifique de la mise en œuvre des solutions de continuité.</td></tr></tbody></table></div>
+</div></main>
+<footer><div class="wrap"><p><strong>Criteria source:</strong> Certification — Trousse globale de vérification (TGV), Ministère de la Santé et des Services sociaux du Québec, publication 24-715-38W, ISBN 978-2-550-97589-2. <a href="https://publications.msss.gouv.qc.ca/msss/document-003757/">Official publication</a>. © Gouvernement du Québec.</p><p>Crosswalk mappings, rationales and tooling released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> by <a href="https://factero.ca">Services Conseil Factero</a>, Quebec, Canada. <a href="https://github.com/factero/tgv-msss-crosswalk/blob/main/NOTICE.md">Full rights notice</a>.</p><p>Independent project. Not produced, approved or endorsed by the MSSS or Santé Québec. <a href="https://github.com/factero/tgv-msss-crosswalk">GitHub repository</a> · <a href="../../llms.txt">llms.txt</a></p></div></footer>
+</body></html>

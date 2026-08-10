@@ -1,0 +1,732 @@
+{
+ "referentiel": {
+  "slug": "hitrust-csf-v11",
+  "nom": "HITRUST CSF v11",
+  "categorie": "Certification",
+  "controles_total": 132
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 101,
+  "criteres_tgv": 66,
+  "controles_cible_touches": 82,
+  "relations": {
+   "recoupement_partiel": 47,
+   "tgv_plus_etroit": 17,
+   "tgv_plus_large": 29,
+   "equivalent": 8
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "I01",
+   "cible_ref": "10.10",
+   "cible_intitule": "Implement single sign-on (SSO) where possible to reduce password fatigue",
+   "relation": "recoupement_partiel",
+   "justification": "Le support d'un service d'authentification externe (LDAP/LDAPS) centralisé l'authentification et réduit la multiplication des mots de passe (objectif du SSO), sans constituer un SSO complet ni être entièrement couvert par lui; recouvrement partiel dans le domaine de l'authentification."
+  },
+  {
+   "tgv_ref": "P07.01",
+   "cible_ref": "14.06",
+   "cible_intitule": "Monitor vendor compliance on an ongoing basis (not just at contract signing)",
+   "relation": "recoupement_partiel",
+   "justification": "P07.01 s'assure de la conformité des partenaires aux seules exigences de vie privée (PRP); 14.06 surveille en continu la conformité générale des fournisseurs. Recouvrement partiel sur la vérification de conformité des tiers, borné à la PRP cote P07.01 et sans garantie du caractère continu exigé par 14.06 (l'assurance pouvant être ponctuelle)."
+  },
+  {
+   "tgv_ref": "P09.03",
+   "cible_ref": "11.02",
+   "cible_intitule": "Enforce the principle of least privilege across all accounts and systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.03 applique le principe de nécessité/moindre privilège aux seuls renseignements personnels; 11.02 vise tous les comptes et systèmes. Sous-ensemble par portée -> subset."
+  },
+  {
+   "tgv_ref": "P09.04",
+   "cible_ref": "12.01",
+   "cible_intitule": "Enable audit logging on all in-scope systems and applications",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.04 active la journalisation des seuls accès aux renseignements personnels, périmètre inclus dans la journalisation de tous les systèmes et applications de 12.01."
+  },
+  {
+   "tgv_ref": "P09.06",
+   "cible_ref": "12.02",
+   "cible_intitule": "Collect logs centrally using a SIEM or log management platform",
+   "relation": "recoupement_partiel",
+   "justification": "P09.06 rend les journaux d'accès aux RP exploitables par des outils de gestion, ce qui recoupe une plateforme de log management, mais sans exiger la centralisation en SIEM ni couvrir tous les logs; recouvrement partiel, d'où intersect (et non subset)."
+  },
+  {
+   "tgv_ref": "P09.08",
+   "cible_ref": "11.06",
+   "cible_intitule": "Restrict administrative/root access to designated administrators only",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.08 (domaine vie privée) encadre les accès à privilèges élevés portant sur les renseignements personnels; 11.06 restreint l'accès administratif de manière générale. Instance plus étroite -> subset."
+  },
+  {
+   "tgv_ref": "P09.11",
+   "cible_ref": "11.10",
+   "cible_intitule": "Document and approve all access to sensitive data and systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.11 vérifié l'autorisation de la personne demandant l'accès aux renseignements personnels (volet approbation); 11.10 exige de documenter ET d'approuver tout accès aux données/systèmes sensibles. Portée TGV plus étroite -> subset."
+  },
+  {
+   "tgv_ref": "P10.04",
+   "cible_ref": "12.01",
+   "cible_intitule": "Enable audit logging on all in-scope systems and applications",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.04 journalise l'activité sur les RP durant tout leur cycle de vie, sous-ensemble (données personnelles uniquement) de l'activation générale de journalisation de 12.01."
+  },
+  {
+   "tgv_ref": "S01.02",
+   "cible_ref": "01.05",
+   "cible_intitule": "Conduct an annual risk assessment covering all in-scope systems and data",
+   "relation": "recoupement_partiel",
+   "justification": "S01.02 (évaluations périodiques des risques ET vulnérabilités) recoupe l'évaluation annuelle des risques de 01.05, mais déborde sur les vulnérabilités et ne garantit pas la couverture de tous les systèmes en périmètre; à l'inverse 01.05 impose une couverture intégrale et une cadence annuelle non explicitement exigées par TGV. Chevauchement partiel authentique sur l'activité 'évaluation périodique des risques'."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "01.03",
+   "cible_intitule": "Develop and approve an information security policy signed by senior management",
+   "relation": "tgv_plus_etroit",
+   "justification": "S02.01 (politique présentant objectifs et principes) correspond à l'élément 'élaboration/contenu de la politique' de 01.03, mais ne couvre pas l'approbation signée par la haute direction. Le critère TGV est strictement inclus dans le contrôle HITRUST. Défendable: c'est le volet 'développer la politique' du contrôle."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "01.03",
+   "cible_intitule": "Develop and approve an information security policy signed by senior management",
+   "relation": "recoupement_partiel",
+   "justification": "S02.03 (politiques approuvées par la direction + communiquées) partage l'élément 'approbation par la haute direction' avec 01.03, mais ajoute la communication (hors 01.03) et n'inclut pas l'élaboration de la politique. Recouvrement partiel réel: ni l'un ni l'autre n'inclut totalement l'autre. Point de contact défendable = l'approbation par la direction."
+  },
+  {
+   "tgv_ref": "S02.04",
+   "cible_ref": "04.07",
+   "cible_intitule": "Define and enforce a BYOD acceptable use policy",
+   "relation": "tgv_plus_large",
+   "justification": "Un cadre de bonnes pratiques d'utilisation des outils informatiques englobe la politique d'usage acceptable BYOD, qui en est un cas particulier: superset défendable. Mapping le plus solide vers 04.07."
+  },
+  {
+   "tgv_ref": "S03.01",
+   "cible_ref": "01.08",
+   "cible_intitule": "Define roles and responsibilities for information security across the organization",
+   "relation": "equivalent",
+   "justification": "'Définir les responsabilités en matière de sécurité au sein de l'organisation' (S03.01) correspond directement à 'définir les rôles et responsabilités de sécurité à l'échelle de l'organisation' (01.08). Portée équivalente: le critère couvre pleinement l'intention du contrôle. Paire la plus solide du lot."
+  },
+  {
+   "tgv_ref": "S03.02",
+   "cible_ref": "01.08",
+   "cible_intitule": "Define roles and responsibilities for information security across the organization",
+   "relation": "tgv_plus_etroit",
+   "justification": "S03.02 (désignation d'un responsable pour l'application et les actifs qui l'exploitent) est une instance spécifique et plus étroite de l'attribution des responsabilités de sécurité couverte par 01.08. L'assignation d'un propriétaire d'actif est une forme reconnue de responsabilité de sécurité, ici limitée à un périmètre précis: strictement inclus dans le contrôle organisationnel."
+  },
+  {
+   "tgv_ref": "S03.05",
+   "cible_ref": "04.01",
+   "cible_intitule": "Implement a mobile device management (MDM) solution",
+   "relation": "tgv_plus_large",
+   "justification": "Gérer les risques spécifiques des appareils mobiles englobe l'implémentation d'une MDM, principal moyen technique de gestion de ces risques. Le critère TGV est plus large et ne nomme pas la solution: superset correct et défendable."
+  },
+  {
+   "tgv_ref": "S03.05",
+   "cible_ref": "04.04",
+   "cible_intitule": "Enable remote wipe capability for lost or stolen devices",
+   "relation": "tgv_plus_large",
+   "justification": "L'effacement à distance d'un appareil perdu ou volé est une mesure standard de gestion des risques mobiles, englobée par l'exigence plus large S03.05 sans y être nommée: superset défendable."
+  },
+  {
+   "tgv_ref": "S03.05",
+   "cible_ref": "04.05",
+   "cible_intitule": "Restrict application installation to approved sources",
+   "relation": "tgv_plus_large",
+   "justification": "La restriction des sources d'installation d'applications est une mesure reconnue de durcissement mobile relevant de la gestion des risques mobiles exigée par S03.05, qui est plus large: superset correct."
+  },
+  {
+   "tgv_ref": "S03.05",
+   "cible_ref": "04.06",
+   "cible_intitule": "Implement containerization to separate corporate and personal data (BYOD)",
+   "relation": "tgv_plus_large",
+   "justification": "La conteneurisation séparant données professionnelles et personnelles (BYOD) est une technique de gestion des risques mobiles/BYOD, sous-ensemble de l'exigence large S03.05: superset correct."
+  },
+  {
+   "tgv_ref": "S03.05",
+   "cible_ref": "04.09",
+   "cible_intitule": "Disable Bluetooth and NFC when not required",
+   "relation": "tgv_plus_large",
+   "justification": "La désactivation des interfaces Bluetooth/NFC inutiles est une mesure de durcissement mobile relevant de la gestion des risques mobiles exigée, plus largement, par S03.05: superset correct."
+  },
+  {
+   "tgv_ref": "S03.06",
+   "cible_ref": "04.08",
+   "cible_intitule": "Require VPN or secure access for mobile connections to corporate resources",
+   "relation": "recoupement_partiel",
+   "justification": "La politique de télétravail encadre l'accès distant sécurisé (VPN) hors site, ce qui recoupe l'accès sécurisé des connexions mobiles. Ni le télétravail ni le mobile ne s'incluent totalement (télétravail possible sur poste corporatif, mobile utilisé aussi sur site): intersect correct."
+  },
+  {
+   "tgv_ref": "S04.02",
+   "cible_ref": "13.01",
+   "cible_intitule": "Conduct security awareness training for all employees at hire and annually",
+   "relation": "recoupement_partiel",
+   "justification": "Texte complet: 'Un programme de sensibilisation et de formation à la sécurité est en place pour tous les membres du personnel de l'entreprise (y compris la direction).' Recoupe directement le public 'all employées' de 13.01. HITRUST ajoute une cadence obligatoire (à l'embauche et annuelle) absente de TGV, tandis que TGV vise un 'programme' plus large que la seule délivrance périodique. Aucun n'inclut totalement l'autre -> intersect. Défendable."
+  },
+  {
+   "tgv_ref": "S04.03",
+   "cible_ref": "13.02",
+   "cible_intitule": "Deliver role-specific training for IT staff, developers, and administrators",
+   "relation": "tgv_plus_etroit",
+   "justification": "S04.03: le personnel et les contractants 'ayant participé au développement et à l'exploitation de votre application' sont informés de leurs responsabilités et procédures. Public technique restreint (participants au projet applicatif) et contenu (responsabilités/procédures) plus étroits que la formation par rôle destinée à l'ensemble IT/développeurs/administrateurs de 13.02. TGV inclus dans HITRUST -> subset. Défendable."
+  },
+  {
+   "tgv_ref": "S05.04",
+   "cible_ref": "06.04",
+   "cible_intitule": "Maintain a configuration management database (CMDB) or asset inventory",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'inventaire de l'application et de ses actifs d'exploitation correspond à l'intention d'un inventaire d'actifs/CMDB. Il est plus étroit (périmètre applicatif) que la CMDB organisationnelle du 06.04. Subset correct, pair solide et directe."
+  },
+  {
+   "tgv_ref": "S05.06",
+   "cible_ref": "11.05",
+   "cible_intitule": "Disable accounts within 24 hours of employee termination",
+   "relation": "recoupement_partiel",
+   "justification": "S05.06 exige le retrait des accès des employés ET contractants en fin de contrat (population plus large, sans délai); 11.05 impose la désactivation sous 24h à la cessation d'emploi (délai que TGV n'a pas). Chevauchement sans inclusion mutuelle -> intersect."
+  },
+  {
+   "tgv_ref": "S05.06",
+   "cible_ref": "14.09",
+   "cible_intitule": "Maintain a process for managing vendor access termination",
+   "relation": "recoupement_partiel",
+   "justification": "S05.06 assure le retrait des accès des employés ET contractants au terme du contrat; 14.09 vise un processus de résiliation des accès fournisseurs. Recouvrement réel et spécifique (non générique) sur les contractants tiers en fin de relation. Aucune inclusion mutuelle: S05.06 couvre aussi les employés internes, tandis que 14.09 couvre l'accès organisationnel des fournisseurs (comptes de service, intégrations) que S05.06 ne traite pas."
+  },
+  {
+   "tgv_ref": "S05.07",
+   "cible_ref": "02.08",
+   "cible_intitule": "Implement USB device control policies",
+   "relation": "tgv_plus_large",
+   "justification": "S05.07 encadre l'usage de l'ensemble des supports amovibles (USB, disques externes, cartes, optique); 02.08 vise le contrôle des périphériques USB, sous-ensemble des supports amovibles. L'intention de 02.08 (maîtriser les supports USB) est pleinement couverte par S05.07, dont la portée est plus large. Superset confirme (TGV plus large que le contrôle HITRUST)."
+  },
+  {
+   "tgv_ref": "S05.07",
+   "cible_ref": "03.01",
+   "cible_intitule": "Develop a portable/removable media policy",
+   "relation": "equivalent",
+   "justification": "S05.07 exige une gouvernance documentée de l'utilisation des supports amovibles, fondée sur la classification de l'information (annotation: décrire les circonstances d'usage et les mesures de sécurité applicables). Cela établit et applique des règles formelles propres aux supports amovibles, ce qui correspond en portée à l'intention de 03.01 (disposer d'une politique de supports amovibles). Lien direct, sur le sujet, sans inférence. Portée équivalente."
+  },
+  {
+   "tgv_ref": "S05.08",
+   "cible_ref": "03.05",
+   "cible_intitule": "Implement secure disposal procedures for media containing sensitive data",
+   "relation": "recoupement_partiel",
+   "justification": "RELATION CORRIGÉE (superset -> intersect). Paire solide sur le fond: destruction sécurisée de supports d'information <-> destruction sécurisée de supports. Mais les périmètres se croisent sans inclusion: S05.08 vise la mise au rebut de tous les supports d'information liés à l'application (toute sensibilité), tandis que 03.05 vise les supports contenant des données sensibles (tout périmètre). S05.08 couvre des supports applicatifs non sensibles hors 03.05; 03.05 couvre des supports sensibles hors application hors S05.08. Donc intersect."
+  },
+  {
+   "tgv_ref": "S06.04",
+   "cible_ref": "06.06",
+   "cible_intitule": "Restrict the ability to modify system configurations to authorized administrators",
+   "relation": "tgv_plus_large",
+   "justification": "Réserver l'ensemble des activités à privilèges élevés - dont la modification de configuration - à des comptes dédiés couvre et dépasse la restriction de la seule modification des configurations aux administrateurs autorisés. Superset correct."
+  },
+  {
+   "tgv_ref": "S06.04",
+   "cible_ref": "08.07",
+   "cible_intitule": "Restrict administrative access to network devices to authorized personnel",
+   "relation": "tgv_plus_large",
+   "justification": "S06.04 reserve toutes les activités à privilèges élevés à des comptes dédiés avec contrôle de l'octroi. La restriction de l'accès administratif aux équipements réseau (08.07) est un cas particulier de cette exigence, l'administration d'équipements réseau étant incontestablement une activité à privilèges élevés. S06.04 est donc plus large que 08.07: superset."
+  },
+  {
+   "tgv_ref": "S06.04",
+   "cible_ref": "10.07",
+   "cible_intitule": "Implement a privileged access management (PAM) solution",
+   "relation": "tgv_plus_etroit",
+   "justification": "Réserver les activités à privilèges à des comptes dédiés et en contrôler l'octroi est une composante d'une solution PAM complète; strictement plus étroit que le PAM (n'inclut pas coffre, rotation, sessions JIT)."
+  },
+  {
+   "tgv_ref": "S06.04",
+   "cible_ref": "11.06",
+   "cible_intitule": "Restrict administrative/root access to designated administrators only",
+   "relation": "recoupement_partiel",
+   "justification": "S06.04 reserve les activités à privilèges élevés à des comptes dédiés; 11.06 restreint l'accès admin/root aux administrateurs désignés. Intention commune, mais TGV cible les comptes (pas explicitement la liste des personnes autorisées) et 'privilèges élevés' peut déborder admin/root. Correction equal -> intersect."
+  },
+  {
+   "tgv_ref": "S06.05",
+   "cible_ref": "10.01",
+   "cible_intitule": "Enforce a minimum password length of 12 characters",
+   "relation": "tgv_plus_large",
+   "justification": "La gestion configurable du niveau de robustesse des mots de passe englobe la politique de longueur minimale, couvrant ainsi l'intention du minimum de 12 caractères et allant au-delà (autres paramètres de robustesse). Défendable car la robustesse inclut la longueur; paire marginale mais tenable."
+  },
+  {
+   "tgv_ref": "S06.05",
+   "cible_ref": "10.02",
+   "cible_intitule": "Require complexity (uppercase, lowercase, numbers, special characters)",
+   "relation": "tgv_plus_large",
+   "justification": "Le critère porte explicitement sur la gestion de la complexité des mots de passe, ce qui recouvre directement l'exigence de complexité (types de caractères) et la dépasse via des niveaux de robustesse paramétrables. Mapping le plus solide de S06.05."
+  },
+  {
+   "tgv_ref": "S06.06",
+   "cible_ref": "10.03",
+   "cible_intitule": "Implement multi-factor authentication (MFA) for all remote access",
+   "relation": "tgv_plus_large",
+   "justification": "L'obligation de MFA sur l'ensemble du PST englobe le MFA pour les accès distants et le dépasse, puisqu'elle s'applique aussi hors accès distant."
+  },
+  {
+   "tgv_ref": "S06.06",
+   "cible_ref": "10.04",
+   "cible_intitule": "Implement MFA for all administrative and privileged accounts",
+   "relation": "tgv_plus_large",
+   "justification": "L'obligation générale de MFA couvre à fortiori les comptes administratifs et à privilèges, tout en s'étendant aux comptes ordinaires."
+  },
+  {
+   "tgv_ref": "S06.07",
+   "cible_ref": "10.10",
+   "cible_intitule": "Implement single sign-on (SSO) where possible to reduce password fatigue",
+   "relation": "tgv_plus_large",
+   "justification": "La fédération d'identités via protocoles modernes (SAML/OpenID) réalisé directement le SSO et couvre plus largement l'authentification sécurisée; strictement plus large que le seul SSO. Mapping le plus solide pour 10.10."
+  },
+  {
+   "tgv_ref": "S06.10",
+   "cible_ref": "08.03",
+   "cible_intitule": "Restrict inbound and outbound traffic to documented, approved flows",
+   "relation": "recoupement_partiel",
+   "justification": "S06.10 exige que les communications inter-composantes soient authentifiées et au minimum de privilèges, donc limitées aux seuls échanges nécessaires: cela rejoint l'intention de 08.03 de n'autoriser que des flux approuvés. Intersect car S06.10 opère au niveau applicatif/service via authentification et n'exige pas la documentation formelle des flux réseau requise par 08.03, alors que 08.03 ne couvre pas l'authentification des composantes."
+  },
+  {
+   "tgv_ref": "S06.12",
+   "cible_ref": "11.03",
+   "cible_intitule": "Conduct access reviews at least quarterly for critical systems",
+   "relation": "recoupement_partiel",
+   "justification": "S06.12 fournit l'outillage facilitant la revue des accès mais n'impose ni la conduite ni la cadence; 11.03 exige des revues effectuées au moins trimestriellement. Sujet identique (revue des accès), aucun n'inclut l'autre -> intersect."
+  },
+  {
+   "tgv_ref": "S06.13",
+   "cible_ref": "11.01",
+   "cible_intitule": "Implement role-based access control (RBAC) for all systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "S06.13 impose un RBAC (profils basés sur les fonctionnalités) circonscrit à l'application; 11.01 exige le RBAC sur tous les systèmes. Même mécanisme, portée TGV plus étroite -> subset."
+  },
+  {
+   "tgv_ref": "S06.16",
+   "cible_ref": "10.05",
+   "cible_intitule": "Enforce account lockout after a defined number of failed attempts",
+   "relation": "equivalent",
+   "justification": "La désactivation automatique d'un identifiant après un maximum de tentatives échouées équivaut au verrouillage de compte après un nombre défini d'échecs; même déclencheur, même effet, portée équivalente."
+  },
+  {
+   "tgv_ref": "S06.16",
+   "cible_ref": "12.05",
+   "cible_intitule": "Implement automated alerting for critical security events",
+   "relation": "recoupement_partiel",
+   "justification": "S06.16 déclenché une alerte configurable après cinq échecs d'authentification (alerte de sécurité automatisée, cas de 12.05), mais sa fonction première est la désactivation automatique de l'identifiant (verrouillage, hors périmètre d'alerte); recouvrement partiel, d'où intersect et non subset."
+  },
+  {
+   "tgv_ref": "S06.18",
+   "cible_ref": "11.09",
+   "cible_intitule": "Require unique user IDs for all accounts (no shared accounts)",
+   "relation": "tgv_plus_etroit",
+   "justification": "S06.18 interdit tout compte générique dans l'application (volet 'pas de comptes partages'); 11.09 exige des ID uniques pour tous les comptes sur tous les systèmes. Plus étroit en portée et sur le seul volet interdiction -> subset."
+  },
+  {
+   "tgv_ref": "S06.19",
+   "cible_ref": "11.08",
+   "cible_intitule": "Implement session timeout for inactive sessions",
+   "relation": "tgv_plus_etroit",
+   "justification": "S06.19 impose la déconnexion automatique après inactivité au sein de l'application; 11.08 vise l'expiration des sessions inactives de façon générale. Mécanisme identique mais portée TGV limitée à l'application. Correction equal -> subset."
+  },
+  {
+   "tgv_ref": "S06.22",
+   "cible_ref": "11.07",
+   "cible_intitule": "Log and monitor all privileged access activity",
+   "relation": "recoupement_partiel",
+   "justification": "S06.22 journalise toute connexion et toute modification de profil/privilège (couvre la trace des changements de privilèges) mais pas explicitement la surveillance; 11.07 exige journaliser ET surveiller les accès privilégiés. Recouvrement partiel -> intersect."
+  },
+  {
+   "tgv_ref": "S06.23",
+   "cible_ref": "08.05",
+   "cible_intitule": "Monitor network traffic for anomalies and potential threats",
+   "relation": "recoupement_partiel",
+   "justification": "S06.23 impose la surveillance et la détection de tentatives de connexion anormales (credential stuffing/dictionnaire) avec alerte et mitigation; la détection de connexions anormales est une forme de surveillance des menaces couverte par 08.05. Intersect: S06.23 ne vise qu'un type de menace (tentatives de connexion) alors que 08.05 couvre l'ensemble du trafic réseau, et S06.23 ajoute la mitigation qui déborde le simple monitoring de 08.05."
+  },
+  {
+   "tgv_ref": "S06.23",
+   "cible_ref": "12.04",
+   "cible_intitule": "Monitor logs for security events and anomalies in near-real-time",
+   "relation": "recoupement_partiel",
+   "justification": "S06.23 surveille et détecte le credential stuffing et les attaques par dictionnaire et alerte sur les connexions anormales: classe précise d'événements surveillée (plus étroite que 12.04) mais qui ajoute l'alerte; recouvrement partiel."
+  },
+  {
+   "tgv_ref": "S06.25",
+   "cible_ref": "12.01",
+   "cible_intitule": "Enable audit logging on all in-scope systems and applications",
+   "relation": "tgv_plus_etroit",
+   "justification": "S06.25 ne journalise que les accès au PST exposé sur Internet, cas étroit et spécifique strictement inclus dans l'activation générale de la journalisation exigée par 12.01 sur l'ensemble des systèmes et applications."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "02.06",
+   "cible_intitule": "Encrypt all endpoint hard drives (full-disk encryption)",
+   "relation": "recoupement_partiel",
+   "justification": "S07.01 exige le chiffrement des données sensibles (RP/RSSS) au repos; 02.06 exige le chiffrement intégral des disques des postes. Intention commune: protéger la confidentialité des données au repos par chiffrement, avec recouvrement réel sur les données sensibles stockées sur les postes. Aucun n'inclut l'autre — S07.01 est centre-données (tout emplacement, tout mécanisme, y compris chiffrement applicatif), 02.06 est centre-périphérique (disque entier du poste, quelle que soit la sensibilité). Intersect confirme."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "03.02",
+   "cible_intitule": "Encrypt all data on portable media (USB drives, external hard drives, tapes)",
+   "relation": "recoupement_partiel",
+   "justification": "RELATION CORRIGÉE (superset -> intersect). 03.02 impose de chiffrer TOUTES les données (sensibles ou non) présentes sur support amovible; S07.01 n'impose le chiffrement que des données SENSIBLES, mais partout (au repos et en transit). Recouvrement réel sur les données sensibles au repos sur support amovible, mais aucun n'inclut l'autre: 03.02 vise aussi les données non sensibles sur support amovible, S07.01 vise aussi le stockage non amovible. Donc intersect, pas superset."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "03.07",
+   "cible_intitule": "Prohibit storage of unencrypted PHI/sensitive data on portable media",
+   "relation": "tgv_plus_large",
+   "justification": "S07.01 impose le chiffrement de l'ensemble des données sensibles, dont les renseignements personnels et de santé, lors de l'entreposage. Cette obligation interdit de fait tout stockage non chiffré de ces données, y compris sur support amovible (03.07). S07.01 couvre tous les emplacements de stockage, donc est strictement plus large que la version restreinte aux supports amovibles. Superset défendable, avec preuve explicite du chiffrement."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "04.02",
+   "cible_intitule": "Enforce device encryption on all mobile devices accessing organizational data",
+   "relation": "recoupement_partiel",
+   "justification": "S07.01 vise le chiffrement au repos des données sensibles sur tous les systèmes; 04.02 vise le chiffrement complet des seuls appareils mobiles. Recouvrement sur les données sensibles stockées sur mobile, sans que l'un englobe l'autre: intersect correct."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "09.01",
+   "cible_intitule": "Encrypt all sensitive data in transit using TLS 1.2 or higher",
+   "relation": "tgv_plus_large",
+   "justification": "S07.01 impose le chiffrement de TOUTES les données sensibles (RP/RPS) à la fois à l'entreposage ET en communication. L'intention de 09.01 (chiffrer les données sensibles en transit, TLS 1.2+) est entièrement incluse dans S07.01, qui la déborde par le chiffrement au repos. La spécification TLS 1.2+ n'est qu'un détail d'implémentation de la même intention. Superset confirme."
+  },
+  {
+   "tgv_ref": "S07.02",
+   "cible_ref": "09.01",
+   "cible_intitule": "Encrypt all sensitive data in transit using TLS 1.2 or higher",
+   "relation": "recoupement_partiel",
+   "justification": "Correction: superset est faux. S07.02 se limite aux communications ENTRE composantes de l'application et couvre tout trafic inter-composante, même non sensible; 09.01 vise toute donnée sensible en transit, y compris vers des points hors composantes (navigateur client, systèmes externes) que S07.02 n'atteint pas. Recouvrement réel sur les données sensibles inter-composantes, mais aucun n'inclut totalement l'autre -> intersect."
+  },
+  {
+   "tgv_ref": "S08.01",
+   "cible_ref": "09.02",
+   "cible_intitule": "Implement certificate management processes for all TLS certificates",
+   "relation": "recoupement_partiel",
+   "justification": "Correction: superset est faux. S08.01 documente la gestion de TOUTES les clés sur leur cycle de vie (plus large que les seuls certificats TLS), mais 09.02 exige des processus de gestion de certificats (émission via AC, chaînes/ancres de confiance, validation, révocation) qui débordent la gestion documentaire des clés. Recouvrement fort sur le cycle de vie du matériel cryptographique, sans inclusion totale de part et d'autre -> intersect."
+  },
+  {
+   "tgv_ref": "S09.01",
+   "cible_ref": "02.07",
+   "cible_intitule": "Enforce automatic screen lock after a defined period of inactivity",
+   "relation": "recoupement_partiel",
+   "justification": "Le volet 'écran vide' de S09.01 partage l'intention de 02.07: ne pas laisser un poste non surveillé exposer de l'information, le verrouillage de l'écran étant le moyen commun. S09.01 couvre en plus le bureau propre (documents physiques) et reste une politique sans imposer l'automatisme technique; 02.07 impose le verrouillage automatique après inactivité. Aucun n'inclut l'autre. Intersect confirme."
+  },
+  {
+   "tgv_ref": "S09.01",
+   "cible_ref": "04.03",
+   "cible_intitule": "Require screen lock with PIN, password, or biometric authentication",
+   "relation": "recoupement_partiel",
+   "justification": "La politique d'écran vide impose de verrouiller les écrans laissés sans surveillance (intention comportementale du verrouillage d'écran), mais reste au niveau politique, couvre aussi bureaux/documents et ne prescrit pas l'authentification PIN/biométrie au niveau de l'appareil. Recouvrement partiel: intersect correct."
+  },
+  {
+   "tgv_ref": "S09.07",
+   "cible_ref": "06.03",
+   "cible_intitule": "Document and enforce a change management process with approval workflows",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le processus documenté de gestion des changements de l'application relève directement de l'intention du 06.03 (processus de change management avec approbations). Relation corrigée equal -> subset: le critère est limité à 'votre application' et n'exige explicitement que la documentation, alors que 06.03 couvre l'ensemble des systèmes et impose en plus l'application effective (enforce) et des workflows d'approbation. Le TGV est donc strictement inclus dans le 06.03."
+  },
+  {
+   "tgv_ref": "S09.07",
+   "cible_ref": "06.10",
+   "cible_intitule": "Document all changes with justification, approval, and rollback procedures",
+   "relation": "tgv_plus_large",
+   "justification": "Un processus documenté de gestion des changements englobe la documentation de chaque changement avec justification, approbation et procédure de retour arrière, plus les éléments de gouvernance (rôles, workflow, revue) absents du 06.10. Il est donc plus large que les seuls artefacts par-changement du 06.10. Superset défendable."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "02.02",
+   "cible_intitule": "Enforce automatic operating system and application patching",
+   "relation": "recoupement_partiel",
+   "justification": "S09.09 exige un programme continu de gestion des vulnérabilités dont la remédiation par correctifs est la sortie principale; 02.02 automatisé le patching OS/apps des postes. Recouvrement substantiel et reconnu sur la remédiation par correctifs (pas un simple mot-clé). S09.09 est plus large (identification, priorisation, remédiation) sans exiger l'automatisme; 02.02 est plus spécifique (automatisation, postes). Intersect confirme."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "07.01",
+   "cible_intitule": "Conduct vulnerability scans on all in-scope systems at least quarterly",
+   "relation": "tgv_plus_large",
+   "justification": "Un plan de gestion continue des vulnérabilités intègre nécessairement la détection périodique (balayages) comme mécanisme de base; il couvre l'intention du scan trimestriel tout en étant plus large (identification, évaluation, remédiation, suivi). Portée TGV plus large que le seul balayage -> superset."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "07.07",
+   "cible_intitule": "Track and report vulnerability remediation metrics",
+   "relation": "recoupement_partiel",
+   "justification": "La gestion continue des vulnérabilités impliqué intrinsèquement le suivi de l'état de remédiation des vulnérabilités, recoupant le suivi/rapport de 07.07; ce dernier ajoute toutefois l'exigence explicite de métriques et de reporting non garantie par le seul plan. Recouvrement partiel -> intersect."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "07.10",
+   "cible_intitule": "Document risk acceptance for vulnerabilities that cannot be immediately remediated",
+   "relation": "recoupement_partiel",
+   "justification": "Le plan de gestion continue traite les vulnérabilités non immédiatement corrigeables (atténuation/acceptation), recoupant la documentation d'acceptation du risque de 07.10; celui-ci exige spécifiquement la documentation formelle de l'acceptation, non explicitement garantie par le plan. Recouvrement partiel -> intersect."
+  },
+  {
+   "tgv_ref": "S09.10",
+   "cible_ref": "02.02",
+   "cible_intitule": "Enforce automatic operating system and application patching",
+   "relation": "recoupement_partiel",
+   "justification": "S09.10 impose l'application prompte des correctifs de sécurité à toutes les composantes; 02.02 exige un patching automatique OS/applications des postes. Intention commune réelle: maintenir les systèmes corrigés contre les vulnérabilités connues. Aucun n'inclut totalement l'autre — S09.10 est plus large en portée (toutes composantes, pas seulement les postes) mais n'exige pas l'automatisation, tandis que 02.02 impose l'automatisme mais se limite aux postes/OS/apps. Intersect confirme."
+  },
+  {
+   "tgv_ref": "S09.10",
+   "cible_ref": "07.03",
+   "cible_intitule": "Remediate critical vulnerabilities within 15 days of discovery",
+   "relation": "tgv_plus_large",
+   "justification": "L'application des correctifs de sécurité à toute composante dans les meilleurs délais couvre la remédiation des vulnérabilités critiques (le correctif en est le moyen principal) et va au-delà: toutes sévérités, sans le seuil précis de 15 jours. Portée TGV plus large -> superset."
+  },
+  {
+   "tgv_ref": "S09.10",
+   "cible_ref": "07.04",
+   "cible_intitule": "Remediate high vulnerabilities within 30 days of discovery",
+   "relation": "tgv_plus_large",
+   "justification": "Même critère de patch prompt appliqué à toute composante: couvre la remédiation des vulnérabilités elevees et l'excède (toutes sévérités, pas de seuil de 30 jours). Portée TGV plus large -> superset."
+  },
+  {
+   "tgv_ref": "S09.10",
+   "cible_ref": "07.09",
+   "cible_intitule": "Implement a process for emergency/out-of-band patching",
+   "relation": "tgv_plus_large",
+   "justification": "Appliquer les correctifs dans les meilleurs délais à toute composante englobe le correctif d'urgence/hors bande (cas particulier de patch prompt) tout en couvrant l'ensemble du patching de sécurité. Portée TGV plus large -> superset."
+  },
+  {
+   "tgv_ref": "S09.11",
+   "cible_ref": "05.07",
+   "cible_intitule": "Document wireless network architecture and security configurations",
+   "relation": "tgv_plus_large",
+   "justification": "S09.11 exige de documenter l'ensemble des composantes de l'application ET de son environnement — documentation exhaustive qui englobe l'architecture et la configuration du réseau sans fil. 05.07 ne vise que le volet sans-fil. Le critère TGV englobe et dépasse le contrôle."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "11.07",
+   "cible_intitule": "Log and monitor all privileged access activity",
+   "relation": "recoupement_partiel",
+   "justification": "S10.04 exige la journalisation de toute activité de l'application (incl. administration) -- plus large que les seuls accès privilégiés -- mais se limite à journaliser, sans la composante surveillance de 11.07. Aucun n'inclut totalement l'autre. Correction superset -> intersect."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "12.01",
+   "cible_intitule": "Enable audit logging on all in-scope systems and applications",
+   "relation": "recoupement_partiel",
+   "justification": "S10.04 impose de journaliser toute activité de l'application (pilote/admin inclus), donc active la journalisation pour un des systèmes visés par 12.01, mais reste limité à l'application et déborde vers le contenu du journal (acteur/moment/nature); ni l'un ni l'autre ne se contient totalement."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "12.07",
+   "cible_intitule": "Include the following in audit logs: user ID, timestamp, event type, success/failure, source",
+   "relation": "recoupement_partiel",
+   "justification": "S10.04 exige d'identifier l'acteur, le moment et la nature de l'activité (proche de userID, horodatage, type d'événement) mais omet le succès/échec et la source, et ajoute 'informations concernées'; recouvrement partiel des champs requis par 12.07."
+  },
+  {
+   "tgv_ref": "S10.05",
+   "cible_ref": "12.02",
+   "cible_intitule": "Collect logs centrally using a SIEM or log management platform",
+   "relation": "recoupement_partiel",
+   "justification": "S10.05 permet de filtrer/analyser les journaux et de les extraire en format standard vers un système tiers, ce qui alimente une collecte centrale/SIEM sans l'imposer; recouvrement partiel (S10.05 ajoute l'analyse, 12.02 impose la centralisation)."
+  },
+  {
+   "tgv_ref": "S10.06",
+   "cible_ref": "12.04",
+   "cible_intitule": "Monitor logs for security events and anomalies in near-real-time",
+   "relation": "recoupement_partiel",
+   "justification": "S10.06 détecte les comportements anormaux et incidents de sécurité potentiels (recoupe la surveillance des anomalies de 12.04) mais ajoute la fonction d'alerte; ni inclusion totale ni portée identique."
+  },
+  {
+   "tgv_ref": "S10.06",
+   "cible_ref": "12.05",
+   "cible_intitule": "Implement automated alerting for critical security events",
+   "relation": "recoupement_partiel",
+   "justification": "S10.06 signale par alerte aux pilotes les incidents de sécurité potentiels, recoupant l'alerte automatisée sur événements critiques de 12.05; S10.06 vise aussi des comportements anormaux plus larges tandis que 12.05 insiste sur l'automatisation et la criticité."
+  },
+  {
+   "tgv_ref": "S10.07",
+   "cible_ref": "05.05",
+   "cible_intitule": "Implement wireless intrusion detection/prevention systems (WIDS/WIPS)",
+   "relation": "recoupement_partiel",
+   "justification": "Recouvrement réel sur la détection d'intrusion. S10.07 impose des systèmes de détection d'intrusion pour l'application et son environnement; 05.05 vise un WIDS/WIPS spécialisé (points d'accès pirates, attaques RF, avec volet prévention). Un IDS applicatif générique ne garantit pas la surveillance RF/anti-rogue, et le WIDS/WIPS ne couvre pas l'application: aucun n'inclut totalement l'autre."
+  },
+  {
+   "tgv_ref": "S10.07",
+   "cible_ref": "08.04",
+   "cible_intitule": "Implement intrusion detection/prevention systems (IDS/IPS)",
+   "relation": "tgv_plus_etroit",
+   "justification": "S10.07 impose explicitement des systèmes de détection d'intrusion (IDS) sur l'application et son environnement. 08.04 couvre à la fois la détection (IDS) et la prévention (IPS). L'exigence TGV est donc strictement incluse dans le contrôle HITRUST: subset. Correspondance spécifique et solide, non générique."
+  },
+  {
+   "tgv_ref": "S10.07",
+   "cible_ref": "12.04",
+   "cible_intitule": "Monitor logs for security events and anomalies in near-real-time",
+   "relation": "recoupement_partiel",
+   "justification": "S10.07 dote l'application et son environnement de systèmes de détection d'intrusion, mécanisme de détection d'événements de sécurité en quasi temps réel qui recoupe 12.04; l'IDS n'étant pas strictement une surveillance des journaux, le recouvrement reste partiel."
+  },
+  {
+   "tgv_ref": "S10.08",
+   "cible_ref": "12.08",
+   "cible_intitule": "Review audit logs regularly (daily for critical systems)",
+   "relation": "recoupement_partiel",
+   "justification": "S10.08 fournit un rôle de type auditeur permettant de consulter les rapports d'audit, capacité qui outille la revue des journaux de 12.08 sans en imposer la régularité ni la fréquence; recouvrement partiel entre une capacité (TGV) et un processus de revue (HITRUST)."
+  },
+  {
+   "tgv_ref": "S10.09",
+   "cible_ref": "12.06",
+   "cible_intitule": "Protect log integrity (write-once storage, checksums, access controls)",
+   "relation": "equivalent",
+   "justification": "S10.09 protège l'information journalisée contre l'altération (intégrité) et la divulgation non autorisée (contrôle d'accès), portée équivalente à la protection de l'intégrité et des accès aux journaux visée par 12.06."
+  },
+  {
+   "tgv_ref": "S11.01",
+   "cible_ref": "12.03",
+   "cible_intitule": "Define log retention periods meeting regulatory requirements (minimum 1 year)",
+   "relation": "equivalent",
+   "justification": "S11.01 impose de conserver les journaux selon le calendrier fixe par les lois/normes applicables, portée équivalente à la définition de périodes de rétention conformes aux exigences réglementaires visée par 12.03."
+  },
+  {
+   "tgv_ref": "S11.02",
+   "cible_ref": "09.01",
+   "cible_intitule": "Encrypt all sensitive data in transit using TLS 1.2 or higher",
+   "relation": "tgv_plus_large",
+   "justification": "S11.02 protège TOUTES les communications entre l'application et les composantes avec qui elle interagit (interne ET externe, incl. soutien à distance) via des mécanismes de sécurité en transit. Contrairement à S07.02, sa portée externe couvre aussi les canaux transportant des données sensibles vers l'extérieur visés par 09.01; le chiffrement des données sensibles en transit y est donc inclus, et S11.02 le déborde (toutes communications, pas seulement sensibles). Superset défendable."
+  },
+  {
+   "tgv_ref": "S11.02",
+   "cible_ref": "09.04",
+   "cible_intitule": "Use SFTP, SCP, or HTTPS for all file transfers containing sensitive data",
+   "relation": "tgv_plus_large",
+   "justification": "S11.02 exige d'assurer la sécurité des informations qui transitent sur toutes les communications de l'application et de ses interlocuteurs, ce qui englobe les transferts de fichiers contenant des données sensibles visés par 09.04. 09.04 (transfert de fichiers via SFTP/SCP/HTTPS) n'est qu'un cas particulier de l'exigence plus large de protection en transit de S11.02. Superset défendable."
+  },
+  {
+   "tgv_ref": "S11.03",
+   "cible_ref": "05.01",
+   "cible_intitule": "Segment wireless networks from production/sensitive networks",
+   "relation": "recoupement_partiel",
+   "justification": "Recouvrement réel sur le principe de segmentation/cloisonnement pour isoler les zones moins fiables des zones sensibles. S11.03 cloisonne les tiers d'exécution applicatifs (zone d'accès public vs zone serveur); 05.01 isole spécifiquement le segment sans fil de la production. Le Wi-Fi constitue un cas de zone 'accès public', d'où l'overlap, mais S11.03 ne vise pas le sans-fil et 05.01 ne couvre pas le tierage applicatif: aucun n'inclut totalement l'autre."
+  },
+  {
+   "tgv_ref": "S11.03",
+   "cible_ref": "08.01",
+   "cible_intitule": "Implement network segmentation between security zones",
+   "relation": "recoupement_partiel",
+   "justification": "S11.03 impose de cloisonner l'environnement d'exécution de l'application en zones distinctes (zone publique, zone serveur), ce qui correspond conceptuellement à la segmentation en zones de sécurité de 08.01. Recouvrement réel sur l'isolation par zones, mais S11.03 vise le périmètre applicatif (pouvant reposer sur conteneurs/processus au-delà du réseau) tandis que 08.01 vise la segmentation réseau globale: aucun n'englobe totalement l'autre, d'où intersect."
+  },
+  {
+   "tgv_ref": "S11.04",
+   "cible_ref": "09.05",
+   "cible_intitule": "Implement email encryption for messages containing PHI or sensitive data",
+   "relation": "tgv_plus_large",
+   "justification": "S11.04 interdit tout traitement d'information confidentielle par courriel sauf mécanismes de protection appropriés, dont le chiffrement. Le chiffrement des courriels sensibles/PHI exigé par 09.05 est précisément l'un de ces mécanismes; S11.04 le déborde en offrant aussi l'option de ne pas transmettre d'information confidentielle et en couvrant toute information confidentielle. Superset défendable."
+  },
+  {
+   "tgv_ref": "S11.05",
+   "cible_ref": "13.03",
+   "cible_intitule": "Conduct phishing simulation exercises at least quarterly",
+   "relation": "equivalent",
+   "justification": "S11.05 planifie en continu des campagnes de simulation d'hameçonnage (l'annotation confirme qu'elles servent à 'former et sensibiliser'). Équivalent direct des exercices de simulation d'hameçonnage récurrents (au moins trimestriels) de 13.03: même objet, cadence récurrente compatible ('en continu' >= trimestriel) -> equal. Paire la plus solide."
+  },
+  {
+   "tgv_ref": "S11.05",
+   "cible_ref": "13.09",
+   "cible_intitule": "Include training on social engineering, physical security, and clean desk policies",
+   "relation": "recoupement_partiel",
+   "justification": "Les simulations d'hameçonnage de S11.05 développent la vigilance à l'ingénierie sociale, thème explicitement nommé par 13.09 (l'hameçonnage est le vecteur canonique d'ingénierie sociale, donc lien nommé et non générique). Recouvrement partiel seulement: S11.05 (méthode de simulation, hameçonnage) ne couvre ni la sécurité physique ni la politique du bureau propre, et 13.09 (contenu de formation) ne couvre pas la dimension exercice/test. Aucun n'inclut l'autre -> intersect. Défendable."
+  },
+  {
+   "tgv_ref": "S11.06",
+   "cible_ref": "04.08",
+   "cible_intitule": "Require VPN or secure access for mobile connections to corporate resources",
+   "relation": "tgv_plus_large",
+   "justification": "Assurer une connectivité sécuritaire englobe l'exigence d'accès VPN/sécurisé pour les connexions mobiles vers les ressources corporatives, cas particulier de S11.06: superset correct."
+  },
+  {
+   "tgv_ref": "S11.06",
+   "cible_ref": "05.02",
+   "cible_intitule": "Use WPA3 or WPA2-Enterprise with RADIUS authentication",
+   "relation": "tgv_plus_large",
+   "justification": "S11.06 exige une connectivité sécuritaire au sens large; WPA3/WPA2-Enterprise + RADIUS n'est qu'un mécanisme précis de sécurisation du lien (authentification/chiffrement du sans-fil), donc entièrement inclus dans l'exigence TGV. Le critère TGV est plus large que ce contrôle spécifique."
+  },
+  {
+   "tgv_ref": "S13.01",
+   "cible_ref": "07.08",
+   "cible_intitule": "Subscribe to vendor security advisories for all in-scope software",
+   "relation": "tgv_plus_large",
+   "justification": "Considérer les vulnérabilités des composantes tierces est plus large; l'abonnement aux avis de sécurité des fournisseurs (07.08) n'est qu'un des moyens de s'en informer. Portée TGV plus large -> superset."
+  },
+  {
+   "tgv_ref": "S13.02",
+   "cible_ref": "14.03",
+   "cible_intitule": "Conduct security risk assessments for all critical and high-risk vendors",
+   "relation": "tgv_plus_large",
+   "justification": "S13.02 impose l'évaluation des menaces et des risques de l'ensemble des fournisseurs; 14.03 limite l'évaluation de risque aux fournisseurs critiques et à haut risque. La portée de S13.02 englobe entièrement celle de 14.03 (TRA superset de security risk assessment; tous fournisseurs superset de critiques/haut risque)."
+  },
+  {
+   "tgv_ref": "S13.03",
+   "cible_ref": "14.01",
+   "cible_intitule": "Maintain an inventory of all third-party vendors with access to sensitive data",
+   "relation": "recoupement_partiel",
+   "justification": "S13.03 exige une liste de TOUS les fournisseurs participant au service (incluant ceux sans accès aux données); 14.01 vise l'inventaire des seuls fournisseurs ayant accès aux données sensibles (pouvant inclure des fournisseurs hors périmètre du service). Aucune population n'inclut l'autre, mais recouvrement réel et non générique sur la tenue d'un inventaire fournisseurs."
+  },
+  {
+   "tgv_ref": "S13.04",
+   "cible_ref": "14.05",
+   "cible_intitule": "Include security requirements in all vendor contracts and BAAs",
+   "relation": "recoupement_partiel",
+   "justification": "S13.04 définit les exigences de sécurité par fournisseur (la substance même de 14.05) mais ne les contractualise pas; 14.05 exige leur inclusion dans les contrats/BAA. Recouvrement réel sur le contenu sécuritaire, sans inclusion mutuelle. NB: la paire S13.06->14.05 a été rejetée car 'avoir des ententes contractuelles' ne porte aucune exigence de sécurité (recouvrement purement structurel)."
+  },
+  {
+   "tgv_ref": "S13.05",
+   "cible_ref": "14.06",
+   "cible_intitule": "Monitor vendor compliance on an ongoing basis (not just at contract signing)",
+   "relation": "equivalent",
+   "justification": "Les deux exigent l'établissement de processus et procédures de surveillance de la conformité des fournisseurs à leurs obligations. Portée équivalente: surveiller la conformité via des processus établis impliqué le suivi continu ('ongoing, not just at signing') requis par 14.06."
+  },
+  {
+   "tgv_ref": "S14.03",
+   "cible_ref": "14.07",
+   "cible_intitule": "Establish a vendor incident notification process with defined timelines",
+   "relation": "recoupement_partiel",
+   "justification": "S14.03 exige un processus de gestion des incidents arrimé à celui des clients (coordination incluant l'harmonisation de la notification et des escalades), mais sans délais définis; 14.07 vise le processus de notification avec délais précis. Recouvrement sur la coordination d'incident inter-parties, aucune inclusion totale."
+  },
+  {
+   "tgv_ref": "S14.04",
+   "cible_ref": "14.07",
+   "cible_intitule": "Establish a vendor incident notification process with defined timelines",
+   "relation": "recoupement_partiel",
+   "justification": "S14.04 oblige à avertir les clients de tout incident touchant les données (la substance même de la notification visée par 14.07), mais sans délais définis ni formalisation en processus chiffré; 14.07 exige un processus de notification avec délais. Recouvrement réel sur l'acte de notification transfrontière prestataire-client."
+  },
+  {
+   "tgv_ref": "S16.02",
+   "cible_ref": "07.02",
+   "cible_intitule": "Perform authenticated vulnerability scans (not just network-level)",
+   "relation": "recoupement_partiel",
+   "justification": "La validation de la conformité technique des composantes exige un accès interne/authentifié aux hôtes et examine leur état interne, tout comme le scan authentifié (07.02 se distingue justement par l'authentification vs le seul niveau réseau). Objectifs partiellement distincts (conformité vs vulnérabilités) mais recouvrement réel sur l'examen interne authentifié -> intersect."
+  },
+  {
+   "tgv_ref": "S16.03",
+   "cible_ref": "07.05",
+   "cible_intitule": "Conduct annual penetration testing by a qualified third party",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le test d'intrusion administré par un prestataire externe correspond bien au tiers qualifié, mais le critère TGV est restreint à 'votre application' alors que 07.05 vise le pentest en général (toute portée) et fixe la cadence annuelle. Le pentest applicatif est un cas plus étroit du pentest tiers -> subset (et non equal, qui surestimerait l'équivalence de portée et de cadence)."
+  },
+  {
+   "tgv_ref": "S16.03",
+   "cible_ref": "07.06",
+   "cible_intitule": "Include web application testing in the penetration testing scope",
+   "relation": "equivalent",
+   "justification": "L'application testée étant de type Web (T08), le test d'intrusion applicatif EST un test d'intrusion d'application Web, soit exactement l'objet de 07.06 (inclusion du test applicatif Web dans la portée). Portées équivalentes -> equal (superset surestimait la couverture: le pentest TGV ne dépasse pas l'objet Web de 07.06)."
+  },
+  {
+   "tgv_ref": "T04",
+   "cible_ref": "05.07",
+   "cible_intitule": "Document wireless network architecture and security configurations",
+   "relation": "recoupement_partiel",
+   "justification": "Alignement topique réel sur la documentation d'architecture. T04 décrit l'architecture technologique globale supportant le PST (dont l'architecture sans-fil ferait partie), mais reste une description d'architecture et ne couvre pas explicitement la documentation des configurations de sécurité exigée par 05.07; à l'inverse 05.07 ne couvre pas l'architecture globale du PST. Relation corrigée de superset vers intersect: T04 n'inclut pas le volet configurations de sécurité, donc recouvrement partiel sans inclusion totale."
+  },
+  {
+   "tgv_ref": "T25",
+   "cible_ref": "06.09",
+   "cible_intitule": "Test configuration changes in a staging environment before production deployment",
+   "relation": "recoupement_partiel",
+   "justification": "Des environnements Dev/Test/Prod distincts et isolés fournissent l'environnement de pre-production explicitement nommé par le 06.09. Recouvrement partiel assumé: la séparation ne garantit pas à elle seule le test des changements, et 06.09 ne couvre pas les autres finalités de l'isolation. Intersect correct. Doublon S12.03 écarté au profit de cette formulation plus forte (isolés, Prod nommée)."
+  }
+ ]
+}

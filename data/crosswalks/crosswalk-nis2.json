@@ -1,0 +1,689 @@
+{
+ "referentiel": {
+  "slug": "nis2",
+  "nom": "Directive NIS2 (annexe technique, guidance ENISA)",
+  "categorie": "Reglementation",
+  "controles_total": 351
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 95,
+  "criteres_tgv": 91,
+  "controles_cible_touches": 80,
+  "relations": {
+   "tgv_plus_etroit": 48,
+   "recoupement_partiel": 41,
+   "equivalent": 6
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "S01.01",
+   "cible_ref": "2.1.2",
+   "cible_intitule": "For the purpose of point 2.1.1., the relevant entities shall establish procedures for identification, analysis, assessment and treatment of risks (‘cybersecurity risk management process’). The cybersecurity risk management process shall be an integral part of the relevant entities’ overall risk management process, where applicable. As part of the cybersecurity risk management process, the relevant entities shall:",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'évaluation des risques de sécurité réalisée à la conception démontre l'application du processus de gestion des risques exigé."
+  },
+  {
+   "tgv_ref": "S01.02",
+   "cible_ref": "2.1.4",
+   "cible_intitule": "The relevant entities shall review and, where appropriate, update the risk assessment results and the risk treatment plan at planned intervals and at least annually, and when significant changes to operations or risks or significant incidents occur.",
+   "relation": "recoupement_partiel",
+   "justification": "Les évaluations périodiques des risques alimentent la révision à intervalles planifiés de l'appréciation des risques."
+  },
+  {
+   "tgv_ref": "S01.03",
+   "cible_ref": "2.1.4",
+   "cible_intitule": "The relevant entities shall review and, where appropriate, update the risk assessment results and the risk treatment plan at planned intervals and at least annually, and when significant changes to operations or risks or significant incidents occur.",
+   "relation": "equivalent",
+   "justification": "L'évaluation continue approuvée par la direction et déclenchée par les changements majeurs correspond à la révision périodique et annuelle de l'appréciation des risques."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "1.1.1.a",
+   "cible_intitule": "set out the relevant entities’ approach to managing the security of their network and information systems;",
+   "relation": "recoupement_partiel",
+   "justification": "La politique de sécurité présentant objectifs et principes établit l'approche de gestion de la sécurité des SI."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "1.1.1.g",
+   "cible_intitule": "lay down roles and responsibilities pursuant to point 1.2.;",
+   "relation": "recoupement_partiel",
+   "justification": "La politique définit les rôles et responsabilités de sécurité, tel qu'exigé par la politique NIS2."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "1.1.1.f",
+   "cible_intitule": "be communicated to and acknowledged by relevant employees and relevant interested external parties;",
+   "relation": "recoupement_partiel",
+   "justification": "L'approbation, la communication aux personnes intéressées et la mise à jour couvrent la communication et la reconnaissance de la politique."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "1.1.1.k",
+   "cible_intitule": "indicate the date of the formal approval by the management bodies of the relevant entities (the ‘management bodies’).",
+   "relation": "recoupement_partiel",
+   "justification": "L'approbation de la politique par la direction correspond à l'indication de la date d'approbation formelle par les instances dirigeantes."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "1.1.2",
+   "cible_intitule": "The network and information system security policy shall be reviewed and, where appropriate, updated by management bodies at least annually and when significant incidents or significant changes to operations or risks occur. The result of the reviews shall be documented.",
+   "relation": "recoupement_partiel",
+   "justification": "Le maintien à jour des politiques alimente la révision périodique de la politique de sécurité."
+  },
+  {
+   "tgv_ref": "S02.04",
+   "cible_ref": "3.1.1",
+   "cible_intitule": "For the purpose of Article 21(2), point (b) of Directive (EU) 2022/2555, the relevant entities shall establish and implement an incident handling policy laying down the roles, responsibilities, and procedures for detecting, analysing, containing or responding to, recovering from, documenting and reporting of incidents in a timely manner.",
+   "relation": "recoupement_partiel",
+   "justification": "La procédure à suivre en cas d'incident alimente l'établissement d'une politique de gestion des incidents."
+  },
+  {
+   "tgv_ref": "S03.01",
+   "cible_ref": "1.2.1",
+   "cible_intitule": "As part of their policy on the security of network and information systems referred to in point 1.1., the relevant entities shall lay down responsibilities and authorities for network and information system security and assign them to roles, allocate them according to the relevant entities’ needs, and communicate them to the management bodies.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La définition des responsabilités de sécurité correspond à l'attribution des responsabilités et autorités aux rôles."
+  },
+  {
+   "tgv_ref": "S03.02",
+   "cible_ref": "1.2.1",
+   "cible_intitule": "As part of their policy on the security of network and information systems referred to in point 1.1., the relevant entities shall lay down responsibilities and authorities for network and information system security and assign them to roles, allocate them according to the relevant entities’ needs, and communicate them to the management bodies.",
+   "relation": "recoupement_partiel",
+   "justification": "La désignation d'un responsable attitré de la sécurité des actifs recoupe l'attribution des responsabilités de sécurité aux rôles."
+  },
+  {
+   "tgv_ref": "S03.03",
+   "cible_ref": "1.2.5",
+   "cible_intitule": "Conflicting duties and conflicting areas of responsibility shall be segregated, where applicable.",
+   "relation": "equivalent",
+   "justification": "L'identification des tâches incompatibles et les mesures de limitation correspondent à la ségrégation des tâches et responsabilités conflictuelles."
+  },
+  {
+   "tgv_ref": "S03.04",
+   "cible_ref": "6.2.2.a",
+   "cible_intitule": "carry out an analysis of security requirements at the specification and design phases of any development or acquisition project undertaken by the relevant entities or on behalf of those entities;",
+   "relation": "recoupement_partiel",
+   "justification": "La méthode de gestion de projet intégrant la sécurité recoupe l'analyse des exigences de sécurité aux phases de spécification et de conception."
+  },
+  {
+   "tgv_ref": "S03.06",
+   "cible_ref": "6.7.2.d",
+   "cible_intitule": "determine and apply controls for remote access to network and information systems, including access by service providers;",
+   "relation": "recoupement_partiel",
+   "justification": "La politique couvrant les risques de télétravail alimente la définition et l'application de contrôles d'accès à distance."
+  },
+  {
+   "tgv_ref": "S04.01",
+   "cible_ref": "10.1.2.d",
+   "cible_intitule": "mechanisms for hiring personnel qualified for the respective roles, such as reference checks, vetting procedures, validation of certifications, or written tests.",
+   "relation": "recoupement_partiel",
+   "justification": "L'assurance des compétences requises du personnel recoupe les mécanismes d'embauche de personnel qualifié pour les rôles."
+  },
+  {
+   "tgv_ref": "S04.02",
+   "cible_ref": "8.1.2",
+   "cible_intitule": "For the purpose of point 8.1.1., the relevant entities shall offer to their employees, including members of management bodies, as well as to direct suppliers and service providers where appropriate in accordance with point 5.1.4., an awareness raising programme, which shall:",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le programme de sensibilisation et de formation pour tout le personnel, direction incluse, correspond au programme de sensibilisation exigé."
+  },
+  {
+   "tgv_ref": "S04.03",
+   "cible_ref": "10.1.1",
+   "cible_intitule": "For the purpose of Article 21(2), point (i) of Directive (EU) 2022/2555, the relevant entities shall ensure that their employees and direct suppliers and service providers, wherever applicable, understand and commit to their security responsibilities, as appropriate for the offered services and the job and in line with the relevant entities’ policy on the security of network and information systems.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'information du personnel et des contractants sur leurs responsabilités correspond à leur engagement à comprendre leurs responsabilités de sécurité."
+  },
+  {
+   "tgv_ref": "S04.04",
+   "cible_ref": "10.4.1",
+   "cible_intitule": "The relevant entities shall establish, communicate and maintain a disciplinary process for handling violations of network and information system security policies. The process shall take into consideration relevant legal, statutory, contractual and business requirements.",
+   "relation": "equivalent",
+   "justification": "Les sanctions approuvées pour non-respect des politiques correspondent au processus disciplinaire de traitement des violations."
+  },
+  {
+   "tgv_ref": "S04.05",
+   "cible_ref": "10.3.1",
+   "cible_intitule": "The relevant entities shall ensure that network and information system security responsibilities and duties that remain valid after termination or change of employment of their employees are contractually defined and enforced.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le rappel des obligations subsistant à la fin d'emploi correspond aux responsabilités de sécurité valides après cessation d'emploi définies contractuellement."
+  },
+  {
+   "tgv_ref": "S05.04",
+   "cible_ref": "12.4.1",
+   "cible_intitule": "The relevant entities shall develop and maintain a complete, accurate, up-to-date and consistent inventory of their assets. They shall record changes to the entries in the inventory in a traceable manner.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'inventaire de l'application et de ses actifs correspond au maintien d'un inventaire complet et à jour des actifs."
+  },
+  {
+   "tgv_ref": "S05.05",
+   "cible_ref": "12.1.2.b",
+   "cible_intitule": "associate all assets with a classification level, based on confidentiality, integrity, authenticity and availability requirements, to indicate the protection required according to their sensitivity, criticality, risk and business value;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La classification des actifs en disponibilité, intégrité et confidentialité correspond à l'association des actifs à un niveau de classification fondé sur ces critères."
+  },
+  {
+   "tgv_ref": "S05.06",
+   "cible_ref": "12.5.1",
+   "cible_intitule": "The relevant entities shall establish, implement and apply procedures which ensure that their assets which are under custody of personnel are deposited, returned or deleted upon termination of employment, and shall document the deposit, return and deletion of those assets. Where the deposit, return or deletion of assets is not possible, the relevant entities shall ensure that the assets can no longer access the relevant entities’ network and information systems in accordance with point 12.2.2.",
+   "relation": "tgv_plus_etroit",
+   "justification": "URN corrigé. La restitution de tous les actifs confiés au terme du contrat correspond au dépôt, retour ou suppression des actifs sous la garde du personnel à la cessation d'emploi."
+  },
+  {
+   "tgv_ref": "S05.07",
+   "cible_ref": "12.3.1",
+   "cible_intitule": "The relevant entities shall establish, implement and apply a policy on the management of removable storage media and communicate it to their employees and third parties who handle removable storage media at the relevant entities’ premises or other locations where the removable media is connected to the relevant entities’ network and information systems.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'encadrement de l'usage des supports amovibles selon la classification correspond à la politique de gestion des supports amovibles."
+  },
+  {
+   "tgv_ref": "S05.08",
+   "cible_ref": "12.2.2.b",
+   "cible_intitule": "provide rules on the safe use, safe storage, safe transport, and the irretrievable deletion and destruction of the assets;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La procédure de mise au rebut sécurisée des supports correspond aux règles de suppression et destruction irréversibles des actifs."
+  },
+  {
+   "tgv_ref": "S06.01",
+   "cible_ref": "11.1.1",
+   "cible_intitule": "For the purpose of Article 21(2), point (i) of Directive (EU) 2022/2555, the relevant entities shall establish, document and implement logical and physical access control policies for the access to their network and information systems, based on business requirements as well as network and information system security requirements.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La politique de gestion des accès applicable à toutes les personnes correspond à l'établissement de politiques de contrôle d'accès logique et physique."
+  },
+  {
+   "tgv_ref": "S06.02",
+   "cible_ref": "11.2.1",
+   "cible_intitule": "The relevant entities shall provide, modify, remove and document access rights to network and information systems in accordance with the access control policy referred to in point 11.1.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les règles de gestion des accès à l'application correspondent à l'octroi, la modification et la révocation documentés des droits d'accès."
+  },
+  {
+   "tgv_ref": "S06.03",
+   "cible_ref": "11.2.2.a",
+   "cible_intitule": "assign and revoke access rights based on the principles of need-to-know, least privilege and separation of duties;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La limitation des accès aux seules composantes autorisées correspond à l'octroi des droits selon le besoin de connaître et le moindre privilège."
+  },
+  {
+   "tgv_ref": "S06.04",
+   "cible_ref": "11.3.2.b",
+   "cible_intitule": "set up specific accounts to be used for system administration operations exclusively, such as installation, configuration, management or maintenance;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La réservation des activités à privilèges élevés à des comptes dédiés correspond aux comptes spécifiques d'administration système."
+  },
+  {
+   "tgv_ref": "S06.05",
+   "cible_ref": "11.6.1",
+   "cible_intitule": "The relevant entities shall implement secure authentication procedures and technologies based on access restrictions and the policy on access control.",
+   "relation": "recoupement_partiel",
+   "justification": "La gestion de la robustesse des mots de passe recoupe la mise en œuvre de procédures d'authentification sécurisées."
+  },
+  {
+   "tgv_ref": "S06.06",
+   "cible_ref": "11.7.1",
+   "cible_intitule": "The relevant entities shall ensure that users are authenticated by multiple authentication factors or continuous authentication mechanisms for accessing the relevant entities’ network and information systems, where appropriate, in accordance with the classification of the asset to be accessed.",
+   "relation": "equivalent",
+   "justification": "L'obligation d'utiliser le MFA correspond à l'authentification des utilisateurs par facteurs multiples."
+  },
+  {
+   "tgv_ref": "S06.07",
+   "cible_ref": "11.6.3",
+   "cible_intitule": "The relevant entities shall to the extent feasible use state-of-the-art authentication methods, in accordance with the associated assessed risk and the classification of the asset to be accessed, and unique authentication information.",
+   "relation": "recoupement_partiel",
+   "justification": "L'authentification via protocoles sécurisés modernes et fédérations d'identité recoupe l'utilisation de méthodes d'authentification à l'état de l'art."
+  },
+  {
+   "tgv_ref": "S06.08",
+   "cible_ref": "11.6.2.b",
+   "cible_intitule": "control the allocation to users and management of secret authentication information by a process that ensures the confidentiality of the information, including advising personnel on appropriate handling of authentication information;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La préservation de la confidentialité des mots de passe correspond à la gestion confidentielle des informations d'authentification secrètes."
+  },
+  {
+   "tgv_ref": "S06.09",
+   "cible_ref": "11.6.2.c",
+   "cible_intitule": "require the change of authentication credentials initially, at predefined intervals and upon suspicion that the credentials were compromised;",
+   "relation": "recoupement_partiel",
+   "justification": "La possibilité pour chaque utilisateur de changer son mot de passe recoupe l'exigence de changement des informations d'authentification."
+  },
+  {
+   "tgv_ref": "S06.10",
+   "cible_ref": "6.7.2.i",
+   "cible_intitule": "establish communication between distinct systems only through trusted channels that are isolated using logical, cryptographic or physical separation from other communication channels and provide assured identification of their end points and protection of the channel data from modification or disclosure;",
+   "relation": "recoupement_partiel",
+   "justification": "L'authentification des communications entre composantes recoupe l'établissement de canaux de confiance avec identification assurée des extrémités."
+  },
+  {
+   "tgv_ref": "S06.11",
+   "cible_ref": "11.6.2.b",
+   "cible_intitule": "control the allocation to users and management of secret authentication information by a process that ensures the confidentiality of the information, including advising personnel on appropriate handling of authentication information;",
+   "relation": "recoupement_partiel",
+   "justification": "L'absence de mots de passe dans le code et les scripts recoupe la gestion confidentielle des informations d'authentification."
+  },
+  {
+   "tgv_ref": "S06.12",
+   "cible_ref": "11.2.3",
+   "cible_intitule": "The relevant entities shall review access rights at planned intervals and shall modify them based on organisational changes. The relevant entities shall document the results of the review including the necessary changes of access rights.",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctionnalités facilitant la revue des accès recoupent la révision des droits d'accès à intervalles planifiés."
+  },
+  {
+   "tgv_ref": "S06.13",
+   "cible_ref": "11.2.2.a",
+   "cible_intitule": "assign and revoke access rights based on the principles of need-to-know, least privilege and separation of duties;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La gestion des accès par profils attribuant les seuls accès nécessaires correspond au principe du moindre privilège."
+  },
+  {
+   "tgv_ref": "S06.14",
+   "cible_ref": "11.2.1",
+   "cible_intitule": "The relevant entities shall provide, modify, remove and document access rights to network and information systems in accordance with the access control policy referred to in point 11.1.",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctionnalités permettant à l'acquéreur de gérer les accès recoupent l'octroi, la modification et la révocation des droits d'accès."
+  },
+  {
+   "tgv_ref": "S06.16",
+   "cible_ref": "11.6.2.d",
+   "cible_intitule": "require the reset of authentication credentials and the blocking of users after a predefined number of unsuccessful log-in attempts;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La désactivation d'un identifiant après cinq échecs correspond au blocage des utilisateurs après un nombre prédéfini de tentatives infructueuses."
+  },
+  {
+   "tgv_ref": "S06.18",
+   "cible_ref": "11.5.2.b",
+   "cible_intitule": "link the identity of users to a single person;",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'absence de comptes génériques correspond au lien de l'identité de l'utilisateur à une personne unique."
+  },
+  {
+   "tgv_ref": "S06.19",
+   "cible_ref": "11.6.2.e",
+   "cible_intitule": "terminate inactive sessions after a predefined period of inactivity; and",
+   "relation": "equivalent",
+   "justification": "La déconnexion automatique après un délai d'inactivité correspond à la fin des sessions inactives après une période prédéfinie."
+  },
+  {
+   "tgv_ref": "S06.20",
+   "cible_ref": "6.2.2.c",
+   "cible_intitule": "lay down security requirements regarding development environments;",
+   "relation": "recoupement_partiel",
+   "justification": "La restriction de l'accès au code source recoupe les exigences de sécurité des environnements de développement."
+  },
+  {
+   "tgv_ref": "S06.23",
+   "cible_ref": "3.2.4",
+   "cible_intitule": "The logs shall be regularly reviewed for any unusual or unwanted trends. Where appropriate, the relevant entities shall lay down appropriate values for alarm thresholds. If the laid down values for alarm threshold are exceeded, an alarm shall be triggered, where appropriate, automatically. The relevant entities shall ensure that, in case of an alarm, a qualified and appropriate response is initiated in a timely manner.",
+   "relation": "recoupement_partiel",
+   "justification": "La détection et l'alerte des attaques par bourrage de justificatifs recoupent la revue des journaux et le déclenchement d'alarmes sur seuils."
+  },
+  {
+   "tgv_ref": "S06.25",
+   "cible_ref": "3.2.3.c",
+   "cible_intitule": "access to systems and applications;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation des accès au PST exposé sur Internet correspond à la journalisation des accès aux systèmes et applications."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "9.2.a",
+   "cible_intitule": "in accordance with the relevant entities’ classification of assets, the type, strength and quality of the cryptographic measures required to protect the relevant entities’ assets, including data at rest and data in transit;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le chiffrement des données sensibles au repos et en transit correspond aux mesures cryptographiques protégeant les données au repos et en transit."
+  },
+  {
+   "tgv_ref": "S07.02",
+   "cible_ref": "6.7.2.i",
+   "cible_intitule": "establish communication between distinct systems only through trusted channels that are isolated using logical, cryptographic or physical separation from other communication channels and provide assured identification of their end points and protection of the channel data from modification or disclosure;",
+   "relation": "recoupement_partiel",
+   "justification": "Le chiffrement et l'authentification mutuelle des communications entre composantes recoupent les canaux de confiance isolés cryptographiquement avec identification des extrémités."
+  },
+  {
+   "tgv_ref": "S08.01",
+   "cible_ref": "9.2.c",
+   "cible_intitule": "the relevant entities’ approach to key management, including, where appropriate, methods for the following:",
+   "relation": "tgv_plus_etroit",
+   "justification": "La documentation formelle de la gestion des clés sur tout leur cycle de vie correspond à l'approche de gestion des clés."
+  },
+  {
+   "tgv_ref": "S08.02",
+   "cible_ref": "13.3.1",
+   "cible_intitule": "For the purpose of Article 21(2)(i) of Directive (EU) 2022/2555, the relevant entities shall prevent and monitor unauthorised physical access, damage and interference to their network and information systems.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le contrôle d'accès et la protection physique des locaux d'hébergement correspondent à la prévention et la surveillance des accès physiques non autorisés."
+  },
+  {
+   "tgv_ref": "S08.03",
+   "cible_ref": "13.3.2.c",
+   "cible_intitule": "design and implement physical security for offices, rooms and facilities,",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le contrôle d'accès des locaux des développeurs et du personnel de soutien correspond à la sécurité physique des bureaux et locaux."
+  },
+  {
+   "tgv_ref": "S08.04",
+   "cible_ref": "13.1.2.f",
+   "cible_intitule": "ensure continuous effectiveness, monitor, maintain and test the supply of the network and information systems necessary for the operation of the service offered, in particular the electricity, temperature and humidity control, telecommunications and Internet connection.",
+   "relation": "recoupement_partiel",
+   "justification": "L'entretien approprié du matériel garantissant disponibilité et intégrité recoupe le maintien et le test des systèmes nécessaires à l'exploitation."
+  },
+  {
+   "tgv_ref": "S09.04",
+   "cible_ref": "6.1.2.d",
+   "cible_intitule": "information describing the implemented cybersecurity functions of the ICT services or ICT products and the configuration required for their secure operation;",
+   "relation": "recoupement_partiel",
+   "justification": "Le guide d'installation et d'entretien décrivant la configuration recoupe l'information sur la configuration requise pour une exploitation sécurisée."
+  },
+  {
+   "tgv_ref": "S09.05",
+   "cible_ref": "4.2.2.c",
+   "cible_intitule": "storing backup copies (online or offline) in a safe location or locations, which are not in the same network as the system, and are at sufficient distance to escape any damage from a disaster at the main site;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La sauvegarde à l'abri des rançongiciels correspond au stockage des copies de sauvegarde dans un lieu sûr hors du réseau du système."
+  },
+  {
+   "tgv_ref": "S09.06",
+   "cible_ref": "4.2.1",
+   "cible_intitule": "The relevant entities shall maintain backup copies of data and provide sufficient available resources, including facilities, network and information systems and staff, to ensure an appropriate level of redundancy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les stratégies de sauvegarde permettant la récupération des données correspondent au maintien de copies de sauvegarde des données."
+  },
+  {
+   "tgv_ref": "S09.07",
+   "cible_ref": "6.4.1",
+   "cible_intitule": "The relevant entities shall apply change management procedures to control changes of network and information systems. Where applicable, the procedures shall be consistent with the relevant entities’ general policies concerning change management.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le processus documenté de gestion des changements correspond à l'application de procédures de gestion des changements des SI."
+  },
+  {
+   "tgv_ref": "S09.08",
+   "cible_ref": "6.4.2",
+   "cible_intitule": "The procedures referred to in point 6.4.1. shall be applied for releases, modifications and emergency changes of any software and hardware in operation and changes to the configuration. The procedures shall ensure that those changes are documented and, based on the risk assessment carried out pursuant to point 2.1, tested and assessed in view of the potential impact before being implemented.",
+   "relation": "recoupement_partiel",
+   "justification": "L'identification de chaque changement par un numéro de version recoupe la documentation des modifications logicielles."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "6.10.1",
+   "cible_intitule": "The relevant entities shall obtain information about technical vulnerabilities in their network and information systems, evaluate their exposure to such vulnerabilities, and take appropriate measures to manage the vulnerabilities.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de gestion continue des vulnérabilités correspond à l'obtention d'information sur les vulnérabilités et aux mesures pour les gérer."
+  },
+  {
+   "tgv_ref": "S09.10",
+   "cible_ref": "6.6.1.a",
+   "cible_intitule": "security patches are applied within a reasonable time after they become available;",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'application dans les meilleurs délais des correctifs de sécurité correspond à l'application des correctifs dans un délai raisonnable."
+  },
+  {
+   "tgv_ref": "S09.11",
+   "cible_ref": "6.1.2.b",
+   "cible_intitule": "requirements regarding security updates throughout the entire lifetime of the ICT services or ICT products, or replacement after the end of the support period;",
+   "relation": "recoupement_partiel",
+   "justification": "La documentation des composantes reposant sur des technologies prises en charge recoupe les exigences de mises à jour de sécurité ou de remplacement en fin de support."
+  },
+  {
+   "tgv_ref": "S09.12",
+   "cible_ref": "6.9.1",
+   "cible_intitule": "The relevant entities shall protect their network and information systems against malicious and unauthorised software.",
+   "relation": "recoupement_partiel",
+   "justification": "L'absence de porte dérobée recoupe la protection des SI contre les logiciels malveillants et non autorisés."
+  },
+  {
+   "tgv_ref": "S10.01",
+   "cible_ref": "6.9.2",
+   "cible_intitule": "For that purpose, the relevant entities shall in particular implement measures that detect or prevent the use of malicious or unauthorised software. The relevant entities shall, where appropriate, ensure that their network and information systems are equipped with detection and response software, which is updated regularly in accordance with the risk assessment carried out pursuant to point 2.1 and the contractual agreements with the providers.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La solution antivirus avec EDR sur tous les systèmes correspond aux mesures détectant ou empêchant l'usage de logiciels malveillants."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "3.2.1",
+   "cible_intitule": "The relevant entities shall lay down procedures and use tools to monitor and log activities on their network and information systems to detect events that could be considered as incidents and respond accordingly to mitigate the impact.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation de toute activité identifiant l'acteur et la nature correspond à la journalisation des activités pour détecter les événements."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "3.2.3.e",
+   "cible_intitule": "all privileged access to systems and applications, and activities performed by administrative accounts;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation de l'activité des administrateurs et pilotes correspond à la journalisation des accès à privilèges et des activités des comptes d'administration."
+  },
+  {
+   "tgv_ref": "S10.05",
+   "cible_ref": "3.4.2.d",
+   "cible_intitule": "put in place a process for log correlation and analysis, and",
+   "relation": "recoupement_partiel",
+   "justification": "Le filtrage et l'analyse de l'information journalisée recoupent le processus de corrélation et d'analyse des journaux."
+  },
+  {
+   "tgv_ref": "S10.06",
+   "cible_ref": "3.2.4",
+   "cible_intitule": "The logs shall be regularly reviewed for any unusual or unwanted trends. Where appropriate, the relevant entities shall lay down appropriate values for alarm thresholds. If the laid down values for alarm threshold are exceeded, an alarm shall be triggered, where appropriate, automatically. The relevant entities shall ensure that, in case of an alarm, a qualified and appropriate response is initiated in a timely manner.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les alertes signalant les comportements anormaux et incidents potentiels correspondent au déclenchement d'alarmes lors du dépassement des seuils."
+  },
+  {
+   "tgv_ref": "S10.07",
+   "cible_ref": "3.2.1",
+   "cible_intitule": "The relevant entities shall lay down procedures and use tools to monitor and log activities on their network and information systems to detect events that could be considered as incidents and respond accordingly to mitigate the impact.",
+   "relation": "recoupement_partiel",
+   "justification": "Les systèmes de détection d'intrusion recoupent l'usage d'outils de surveillance pour détecter les événements."
+  },
+  {
+   "tgv_ref": "S10.09",
+   "cible_ref": "3.2.5",
+   "cible_intitule": "The relevant entities shall maintain and back up logs for a predefined period and shall protect them from unauthorised access or changes.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La protection de l'information journalisée contre l'altération et la divulgation correspond à la protection des journaux contre les accès et modifications non autorisés."
+  },
+  {
+   "tgv_ref": "S11.01",
+   "cible_ref": "3.2.5",
+   "cible_intitule": "The relevant entities shall maintain and back up logs for a predefined period and shall protect them from unauthorised access or changes.",
+   "relation": "recoupement_partiel",
+   "justification": "La conservation de l'information journalisée selon le calendrier légal recoupe le maintien des journaux pour une période prédéfinie."
+  },
+  {
+   "tgv_ref": "S11.02",
+   "cible_ref": "6.7.2.i",
+   "cible_intitule": "establish communication between distinct systems only through trusted channels that are isolated using logical, cryptographic or physical separation from other communication channels and provide assured identification of their end points and protection of the channel data from modification or disclosure;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La protection des communications entre composantes correspond à l'établissement de canaux de confiance isolés protégeant les informations transitées."
+  },
+  {
+   "tgv_ref": "S11.03",
+   "cible_ref": "6.8.1",
+   "cible_intitule": "The relevant entities shall segment systems into networks or zones in accordance with the results of the risk assessment referred to in point 2.1. They shall segment their systems and networks from third parties’ systems and networks.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le cloisonnement de l'environnement d'exécution correspond à la segmentation des systèmes en réseaux ou zones."
+  },
+  {
+   "tgv_ref": "S11.05",
+   "cible_ref": "8.1.3",
+   "cible_intitule": "The awareness raising programme shall, where appropriate, be tested in terms of effectiveness. The awareness raising programme shall be updated and offered at planned intervals taking into account changes in cyber hygiene practices, and the current threat landscape and risks posed to the relevant entities.",
+   "relation": "recoupement_partiel",
+   "justification": "Les campagnes de simulation d'hameçonnage recoupent le test d'efficacité du programme de sensibilisation."
+  },
+  {
+   "tgv_ref": "S11.06",
+   "cible_ref": "6.7.1",
+   "cible_intitule": "The relevant entities shall take the appropriate measures to protect their network and information systems from cyber threats.",
+   "relation": "recoupement_partiel",
+   "justification": "L'exigence d'une connectivité sécuritaire recoupe les mesures de protection des SI contre les cybermenaces."
+  },
+  {
+   "tgv_ref": "S12.01",
+   "cible_ref": "8.2.3.b",
+   "cible_intitule": "briefing on known cyber threats;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de formation en cybersécurité sur les menaces numériques correspond au briefing sur les cybermenaces connues."
+  },
+  {
+   "tgv_ref": "S12.02",
+   "cible_ref": "6.2.1",
+   "cible_intitule": "Before developing a network and information system, including software, the relevant entities shall lay down rules for the secure development of network and information systems and apply them when developing network and information systems in-house, or when outsourcing the development of network and information systems. The rules shall cover all development phases, including specification, design, development, implementation and testing.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La prise en compte de la sécurité à chaque étape du développement correspond à l'établissement et l'application de règles de développement sécurisé."
+  },
+  {
+   "tgv_ref": "S12.03",
+   "cible_ref": "6.8.2.h",
+   "cible_intitule": "separate the production systems for the relevant entities’ services from systems used in development and testing, including backups.",
+   "relation": "equivalent",
+   "justification": "La distinction des environnements de développement, de test et d'exploitation correspond à la séparation des systèmes de production de ceux de développement et de test."
+  },
+  {
+   "tgv_ref": "S12.04",
+   "cible_ref": "6.2.2.b",
+   "cible_intitule": "apply principles for engineering secure systems and secure coding principles to any information system development activities such as promoting cybersecurity-by-design, zero-trust architectures;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le respect des bonnes pratiques de sécurité en développement correspond à l'application des principes d'ingénierie et de codage sécurisés."
+  },
+  {
+   "tgv_ref": "S12.05",
+   "cible_ref": "6.2.2.b",
+   "cible_intitule": "apply principles for engineering secure systems and secure coding principles to any information system development activities such as promoting cybersecurity-by-design, zero-trust architectures;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le respect des principes d'ingénierie de la sécurité par les développeurs correspond à l'application des principes d'ingénierie des systèmes sécurisés."
+  },
+  {
+   "tgv_ref": "S12.06",
+   "cible_ref": "6.2.3",
+   "cible_intitule": "For outsourced development of network and information systems, the relevant entities shall also apply the policies and procedures referred to in points 5 and 6.1.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La supervision de tout développement externalisé correspond à l'application des politiques aux développements de SI externalisés."
+  },
+  {
+   "tgv_ref": "S12.07",
+   "cible_ref": "6.2.2.f",
+   "cible_intitule": "sanitise and anonymise testing data according to the risk assessment carried out pursuant to point 2.1.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'évitement d'information confidentielle de production en développement correspond à l'assainissement et l'anonymisation des données de test."
+  },
+  {
+   "tgv_ref": "S12.08",
+   "cible_ref": "6.5.1",
+   "cible_intitule": "The relevant entities shall establish, implement and apply a policy and procedures for security testing.",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de tests applicatifs recoupe l'établissement d'une politique et de procédures de tests de sécurité."
+  },
+  {
+   "tgv_ref": "S13.01",
+   "cible_ref": "6.10.2.a",
+   "cible_intitule": "monitor information about vulnerabilities through appropriate channels, such as announcements of CSIRTs, competent authorities or information provided by suppliers or service providers;",
+   "relation": "recoupement_partiel",
+   "justification": "La prise en compte des vulnérabilités des composantes tierces recoupe la surveillance de l'information sur les vulnérabilités via les fournisseurs."
+  },
+  {
+   "tgv_ref": "S13.02",
+   "cible_ref": "5.1.2",
+   "cible_intitule": "As part of the supply chain security policy referred to in point 5.1.1, the relevant entities shall lay down criteria to select and contract suppliers and service providers. Those criteria shall include the following:",
+   "relation": "recoupement_partiel",
+   "justification": "L'évaluation des menaces et risques pour tout recours à un fournisseur tiers recoupe les critères de sélection fondés sur les pratiques de cybersécurité des fournisseurs."
+  },
+  {
+   "tgv_ref": "S13.03",
+   "cible_ref": "5.2.b",
+   "cible_intitule": "a list of ICT products, ICT services, and ICT processes provided by the direct supplier or service provider to the relevant entities.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La liste des fournisseurs précisant la nature de leurs services correspond au registre des produits et services TIC fournis par chaque fournisseur."
+  },
+  {
+   "tgv_ref": "S13.04",
+   "cible_ref": "5.1.4.a",
+   "cible_intitule": "cybersecurity requirements for the suppliers or service providers, including requirements as regards the security in acquisition of ICT services or ICT products set out in point 6.1.;",
+   "relation": "tgv_plus_etroit",
+   "justification": "La liste des exigences de sécurité par fournisseur correspond aux exigences de cybersécurité imposées aux fournisseurs dans les contrats."
+  },
+  {
+   "tgv_ref": "S13.05",
+   "cible_ref": "5.1.6",
+   "cible_intitule": "The relevant entities shall review the supply chain security policy, and monitor, evaluate and, where necessary, act upon changes in the cybersecurity practices of suppliers and service providers, at planned intervals and when significant changes to operations or risks or significant incidents related to the provision of ICT services or having impact on the security of the ICT products from suppliers and service providers occur.",
+   "relation": "recoupement_partiel",
+   "justification": "Les processus de surveillance de la conformité des fournisseurs recoupent la révision de la politique de chaîne d'approvisionnement et le suivi des pratiques des fournisseurs."
+  },
+  {
+   "tgv_ref": "S13.06",
+   "cible_ref": "5.1.4",
+   "cible_intitule": "Based on the supply chain security policy and taking into account the results of the risk assessment carried out in accordance with point 2.1. of this Annex, the relevant entities shall ensure that their contracts with the suppliers and service providers specify, where appropriate through service level agreements, the following, where appropriate:",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les ententes contractuelles avec chaque fournisseur correspondent à l'inclusion d'exigences de cybersécurité dans les contrats avec les fournisseurs."
+  },
+  {
+   "tgv_ref": "S14.01",
+   "cible_ref": "5.1.7.a",
+   "cible_intitule": "regularly monitor reports on the implementation of the service level agreements, where applicable;",
+   "relation": "recoupement_partiel",
+   "justification": "L'évaluation régulière de la performance des fournisseurs recoupe la surveillance des rapports sur la mise en œuvre des accords de niveau de service."
+  },
+  {
+   "tgv_ref": "S14.03",
+   "cible_ref": "3.1.1",
+   "cible_intitule": "For the purpose of Article 21(2), point (b) of Directive (EU) 2022/2555, the relevant entities shall establish and implement an incident handling policy laying down the roles, responsibilities, and procedures for detecting, analysing, containing or responding to, recovering from, documenting and reporting of incidents in a timely manner.",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus de gestion des incidents arrimé avec celui des clients recoupe l'établissement d'une politique de gestion des incidents."
+  },
+  {
+   "tgv_ref": "S14.04",
+   "cible_ref": "3.5.3.b",
+   "cible_intitule": "for communication among staff members of the relevant entity, and for communication with relevant stakeholders external to the relevant entity.",
+   "relation": "recoupement_partiel",
+   "justification": "L'avertissement des clients de tout incident sur les données recoupe les plans de communication avec les parties prenantes externes."
+  },
+  {
+   "tgv_ref": "S15.01",
+   "cible_ref": "3.5.3.b",
+   "cible_intitule": "for communication among staff members of the relevant entity, and for communication with relevant stakeholders external to the relevant entity.",
+   "relation": "recoupement_partiel",
+   "justification": "L'engagement à collaborer avec les clients pour la prise en charge d'un incident recoupe la communication avec les parties prenantes externes lors d'un incident."
+  },
+  {
+   "tgv_ref": "S15.03",
+   "cible_ref": "4.1.1",
+   "cible_intitule": "For the purpose of Article 21(2), point (c) of Directive (EU) 2022/2555, the relevant entities shall lay down and maintain a business continuity and disaster recovery plan to apply in the case of incidents.",
+   "relation": "recoupement_partiel",
+   "justification": "L'arrimage avec les mécanismes de plan de reprise recoupe la tenue d'un plan de continuité et de reprise après sinistre."
+  },
+  {
+   "tgv_ref": "S15.04",
+   "cible_ref": "4.1.1",
+   "cible_intitule": "For the purpose of Article 21(2), point (c) of Directive (EU) 2022/2555, the relevant entities shall lay down and maintain a business continuity and disaster recovery plan to apply in the case of incidents.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de continuité des activités de maintenance et d'exploitation correspond à la tenue d'un plan de continuité et de reprise après sinistre."
+  },
+  {
+   "tgv_ref": "S15.05",
+   "cible_ref": "4.1.2.f",
+   "cible_intitule": "recovery plans for specific operations, including recovery objectives;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de recouvrement après sinistre des infrastructures correspond aux plans de reprise d'opérations spécifiques incluant des objectifs de reprise."
+  },
+  {
+   "tgv_ref": "S16.01",
+   "cible_ref": "4.1.4",
+   "cible_intitule": "The business continuity plan and disaster recovery plan shall be tested, reviewed and, where appropriate, updated at planned intervals and following significant incidents or significant changes to operations or risks. The relevant entities shall ensure that the plans incorporate lessons learnt from such tests.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le test périodique du plan de reprise correspond au test et à la révision du plan de continuité et de reprise à intervalles planifiés."
+  },
+  {
+   "tgv_ref": "S16.02",
+   "cible_ref": "6.5.1",
+   "cible_intitule": "The relevant entities shall establish, implement and apply a policy and procedures for security testing.",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de validation de la conformité technique des composantes recoupe la politique et les procédures de tests de sécurité."
+  },
+  {
+   "tgv_ref": "S16.03",
+   "cible_ref": "6.5.2.b",
+   "cible_intitule": "carry out security tests according to a documented test methodology, covering the components identified as relevant for secure operation in a risk analysis;",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le test d'intrusion par un prestataire indépendant correspond à la réalisation de tests de sécurité selon une méthodologie documentée."
+  }
+ ]
+}

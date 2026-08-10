@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Corpus optimise pour les modeles de langage
+# LLM-oriented corpus
+# https://certification-tgv.ca/llms.txt
+# https://certification-tgv.ca/llms-full.txt
+
+Sitemap: https://certification-tgv.ca/sitemap.xml

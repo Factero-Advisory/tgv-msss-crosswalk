@@ -1,0 +1,1563 @@
+{
+ "referentiel": {
+  "slug": "soc2-type2",
+  "nom": "SOC 2 (Trust Services Criteria, AICPA 2017)",
+  "categorie": "Attestation",
+  "controles_total": 358
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 220,
+  "criteres_tgv": 217,
+  "controles_cible_touches": 45,
+  "relations": {
+   "tgv_plus_etroit": 165,
+   "recoupement_partiel": 55
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "P01.01",
+   "cible_ref": "P1.1",
+   "cible_intitule": "The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La politique de protection des RP documentée constitue le socle de l'avis sur les pratiques de vie privée exigé par P1.1; preuve : politique PRP approuvée."
+  },
+  {
+   "tgv_ref": "P01.02",
+   "cible_ref": "CC5.3",
+   "cible_intitule": "COSO Principle 12",
+   "relation": "tgv_plus_etroit",
+   "justification": "Encadrement de la PRP par politiques/directives/procédures = déploiement de contrôles par des politiques et procédures (CC5.3), version privacy."
+  },
+  {
+   "tgv_ref": "P01.03",
+   "cible_ref": "P1.1",
+   "cible_intitule": "The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Politique de confidentialité facilement consultable par l'utilisateur = mise à disposition/communication de l'avis de vie privée (P1.1)."
+  },
+  {
+   "tgv_ref": "P01.04",
+   "cible_ref": "P1.1",
+   "cible_intitule": "The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Publication d'information détaillée et en termes clairs sur les pratiques de gouvernance des RP = avis de vie privée communiqué (P1.1)."
+  },
+  {
+   "tgv_ref": "P01.05",
+   "cible_ref": "P1.1",
+   "cible_intitule": "The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Politiques détaillant les RP collectés/conservés/communiqués/détruits = contenu de l'avis de vie privée (P1.1)."
+  },
+  {
+   "tgv_ref": "P02.01",
+   "cible_ref": "CC1.3",
+   "cible_intitule": "COSO Principle 3",
+   "relation": "tgv_plus_etroit",
+   "justification": "Désignation d'un responsable PRP chargé de la mise en oeuvre = attribution d'autorités et responsabilités par la direction (CC1.3)."
+  },
+  {
+   "tgv_ref": "P02.02",
+   "cible_ref": "CC1.3",
+   "cible_intitule": "COSO Principle 3",
+   "relation": "tgv_plus_etroit",
+   "justification": "Appui du responsable PRP par des ressources humaines/techniques/financières = engagement de ressources et délégation d'autorité (CC1.3)."
+  },
+  {
+   "tgv_ref": "P02.03",
+   "cible_ref": "CC1.3",
+   "cible_intitule": "COSO Principle 3",
+   "relation": "recoupement_partiel",
+   "justification": "Implication du responsable PRP dans le projet de développement = exercice des responsabilités définies, avec chevauchement partiel du périmètre de CC1.3."
+  },
+  {
+   "tgv_ref": "P03.01",
+   "cible_ref": "CC3.2",
+   "cible_intitule": "COSO Principle 7",
+   "relation": "recoupement_partiel",
+   "justification": "Activités de projet assurant le respect des principes de vie privée = intersection avec l'identification/analyse des risques (CC3.2), sans équivalence complète."
+  },
+  {
+   "tgv_ref": "P03.02",
+   "cible_ref": "CC3.2",
+   "cible_intitule": "COSO Principle 7",
+   "relation": "tgv_plus_etroit",
+   "justification": "Identification et analyse des risques d'atteinte à la vie privée dès le début du projet = sous-ensemble de l'identification/analyse des risques (CC3.2)."
+  },
+  {
+   "tgv_ref": "P04.01",
+   "cible_ref": "CC3.2",
+   "cible_intitule": "COSO Principle 7",
+   "relation": "tgv_plus_etroit",
+   "justification": "Mécanisme d'ÉFVP lorsque la Loi l'exige = évaluation ciblée des risques vie privée, sous-ensemble de l'analyse des risques (CC3.2)."
+  },
+  {
+   "tgv_ref": "P04.02",
+   "cible_ref": "CC3.2",
+   "cible_intitule": "COSO Principle 7",
+   "relation": "tgv_plus_etroit",
+   "justification": "Complétude de l'ÉFVP selon les éléments exigés par la CAI = qualité/exhaustivité de l'analyse de risque vie privée (CC3.2)."
+  },
+  {
+   "tgv_ref": "P05.01",
+   "cible_ref": "CC2.2",
+   "cible_intitule": "COSO Principle 14",
+   "relation": "tgv_plus_etroit",
+   "justification": "Sensibilisation du personnel à la vie privée = communication interne visant à améliorer la connaissance et les comportements (CC2.2, volet privacy)."
+  },
+  {
+   "tgv_ref": "P05.02",
+   "cible_ref": "CC2.3",
+   "cible_intitule": "COSO Principle 15",
+   "relation": "tgv_plus_etroit",
+   "justification": "Information de l'acquéreur et des utilisateurs sur l'usage autorisé et les mesures de sécurité = communication aux parties externes de leurs responsabilités (CC2.3)."
+  },
+  {
+   "tgv_ref": "P06.01",
+   "cible_ref": "P1.1",
+   "cible_intitule": "The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Information de l'utilisateur sur la finalité de collecte et d'usage des RP = avis sur les pratiques de vie privée (P1.1)."
+  },
+  {
+   "tgv_ref": "P06.02",
+   "cible_ref": "P3.2",
+   "cible_intitule": "For information requiring explicit consent, the entity communicates the need for such consent, as well as the consequences of a failure to provide consent for the request for personal information, and obtains the consent prior to the collection of the information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Obtention/vérification du consentement avec information sur motifs, usage, tiers, rétractation = consentement explicite communiqué et obtenu avant collecte (P3.2)."
+  },
+  {
+   "tgv_ref": "P06.03",
+   "cible_ref": "P3.2",
+   "cible_intitule": "For information requiring explicit consent, the entity communicates the need for such consent, as well as the consequences of a failure to provide consent for the request for personal information, and obtains the consent prior to the collection of the information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Mécanisme de recueil et de consignation du consentement à la collecte = obtention et preuve du consentement explicite avant collecte (P3.2)."
+  },
+  {
+   "tgv_ref": "P06.04",
+   "cible_ref": "P3.2",
+   "cible_intitule": "For information requiring explicit consent, the entity communicates the need for such consent, as well as the consequences of a failure to provide consent for the request for personal information, and obtains the consent prior to the collection of the information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Consignation de l'attestation de consentement pour COLLECTER les RP = enregistrement du consentement de collecte (P3.2)."
+  },
+  {
+   "tgv_ref": "P06.05",
+   "cible_ref": "P6.1",
+   "cible_intitule": "The entity discloses personal information to third parties with the explicit consent of data subjects, and such consent is obtained prior to disclosure to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Recueil/consignation du consentement à la COMMUNICATION des RP = consentement explicite préalable à la divulgation à des tiers (P6.1)."
+  },
+  {
+   "tgv_ref": "P06.06",
+   "cible_ref": "P6.1",
+   "cible_intitule": "The entity discloses personal information to third parties with the explicit consent of data subjects, and such consent is obtained prior to disclosure to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Confirmation formelle d'un transfert spécifique de RP (DSQ) = consentement/autorisation préalable à la divulgation (P6.1)."
+  },
+  {
+   "tgv_ref": "P06.07",
+   "cible_ref": "P2.1",
+   "cible_intitule": "The entity communicates choices available regarding the collection, use, retention, disclosure, and disposal of personal information to the data subjects and the consequences, if any, of each choice. Explicit consent for the collection, use, retention, disclosure, and disposal of personal information is obtained from data subjects or other authorized persons, if required. Such consent is obtained only for the intended purpose of the information to meet the entity’s objectives related to privacy. The entity’s basis for determining implicit consent for the collection, use, retention, disclosure, and disposal of personal information is documented.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Gestion détaillée du consentement (paramètres d'acceptation, préférences) = communication des choix et recueil du consentement granulaire (P2.1)."
+  },
+  {
+   "tgv_ref": "P06.08",
+   "cible_ref": "P3.1",
+   "cible_intitule": "Personal information is collected consistent with the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Connaissance de la provenance des RP et déclaration lors de collecte indirecte = collecte conforme aux objectifs de vie privée (P3.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P06.09",
+   "cible_ref": "P2.1",
+   "cible_intitule": "The entity communicates choices available regarding the collection, use, retention, disclosure, and disposal of personal information to the data subjects and the consequences, if any, of each choice. Explicit consent for the collection, use, retention, disclosure, and disposal of personal information is obtained from data subjects or other authorized persons, if required. Such consent is obtained only for the intended purpose of the information to meet the entity’s objectives related to privacy. The entity’s basis for determining implicit consent for the collection, use, retention, disclosure, and disposal of personal information is documented.",
+   "relation": "recoupement_partiel",
+   "justification": "Consignation de l'acceptation des conditions d'utilisation = enregistrement d'un choix/consentement (P2.1), périmètre partiellement distinct (CGU)."
+  },
+  {
+   "tgv_ref": "P06.10",
+   "cible_ref": "P6.1",
+   "cible_intitule": "The entity discloses personal information to third parties with the explicit consent of data subjects, and such consent is obtained prior to disclosure to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Encadrement de la communication de RP sans consentement = contrôle des divulgations (P6.1) dans les cas prévus par la Loi, chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P06.11",
+   "cible_ref": "P3.2",
+   "cible_intitule": "For information requiring explicit consent, the entity communicates the need for such consent, as well as the consequences of a failure to provide consent for the request for personal information, and obtains the consent prior to the collection of the information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Processus de consentement parental pour les mineurs de moins de 14 ans = consentement obtenu d'une personne autorisée avant collecte (P3.2)."
+  },
+  {
+   "tgv_ref": "P06.12",
+   "cible_ref": "P6.1",
+   "cible_intitule": "The entity discloses personal information to third parties with the explicit consent of data subjects, and such consent is obtained prior to disclosure to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Consignation de l'attestation de consentement pour COMMUNIQUER les RP = preuve de consentement préalable à la divulgation (P6.1)."
+  },
+  {
+   "tgv_ref": "P07.01",
+   "cible_ref": "P6.4",
+   "cible_intitule": "The entity obtains privacy commitments from vendors and other third parties who have access to personal information to meet the entity’s objectives related to privacy. The entity assesses those parties’ compliance on a periodic and as-needed basis and takes corrective action, if necessary.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Assurance que les partenaires respectent les exigences PRP = obtention d'engagements de vie privée des tiers et évaluation de conformité (P6.4)."
+  },
+  {
+   "tgv_ref": "P07.02",
+   "cible_ref": "P1.1",
+   "cible_intitule": "The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Information des utilisateurs sur l'identité des parties prenantes = transparence de l'avis de vie privée (P1.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P08.01",
+   "cible_ref": "P3.1",
+   "cible_intitule": "Personal information is collected consistent with the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Collecte d'identifiants généraux (NAS/NAM) fondée sur des dispositions légales avec information = collecte conforme aux objectifs (P3.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P08.02",
+   "cible_ref": "P1.1",
+   "cible_intitule": "The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Information préalable à la collecte directe auprès du patient sur l'usage des RP = avis préalable à la collecte (P1.1)."
+  },
+  {
+   "tgv_ref": "P08.03",
+   "cible_ref": "P3.1",
+   "cible_intitule": "Personal information is collected consistent with the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Connaissance de la provenance et confirmation d'autorisation en collecte indirecte = collecte conforme aux objectifs (P3.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P08.04",
+   "cible_ref": "P3.2",
+   "cible_intitule": "For information requiring explicit consent, the entity communicates the need for such consent, as well as the consequences of a failure to provide consent for the request for personal information, and obtains the consent prior to the collection of the information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Information et consentement pour la collecte automatisée (témoins, localisation) = consentement explicite préalable à la collecte (P3.2)."
+  },
+  {
+   "tgv_ref": "P08.05",
+   "cible_ref": "P4.2",
+   "cible_intitule": "The entity retains personal information consistent with the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Connaissance de la date de collecte des RP = donnée de gestion soutenant la conservation (P4.2), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P08.06",
+   "cible_ref": "C1.1",
+   "cible_intitule": "The entity identifies and maintains confidential information to meet the entity’s objectives related to confidentiality.",
+   "relation": "recoupement_partiel",
+   "justification": "Traçabilité et marquage spécifique des RP du DSQ tout au long du cycle de vie = identification/maintien de l'information confidentielle (C1.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P08.07",
+   "cible_ref": "P6.2",
+   "cible_intitule": "The entity creates and retains a complete, accurate, and timely record of authorized disclosures of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Traçabilité de toute communication de RP entrante/sortante = tenue d'un registre exact des divulgations autorisées (P6.2)."
+  },
+  {
+   "tgv_ref": "P08.09",
+   "cible_ref": "P1.1",
+   "cible_intitule": "The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Information de l'utilisateur sur la durée de conservation au moment de la collecte = élément de l'avis de vie privée (P1.1)."
+  },
+  {
+   "tgv_ref": "P09.01",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Gestion des accès aux RP par profils selon le moindre privilège = accès base sur les rôles et moindre privilège (CC6.3)."
+  },
+  {
+   "tgv_ref": "P09.02",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Mécanismes d'authentification des utilisateurs proportionnels à la sensibilité = sécurité d'accès logique (CC6.1)."
+  },
+  {
+   "tgv_ref": "P09.03",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Accès aux RP répondant au principe de nécessité (besoin de connaître) = moindre privilège selon les rôles (CC6.3)."
+  },
+  {
+   "tgv_ref": "P09.04",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Journalisation de l'ensemble des accès aux RP = surveillance/enregistrement de l'activité du système (CC7.2)."
+  },
+  {
+   "tgv_ref": "P09.05",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Lien entre RP, type d'accès, tâches et profils = accès base sur les rôles/responsabilités (CC6.3), chevauchement partiel avec la journalisation."
+  },
+  {
+   "tgv_ref": "P09.06",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Journalisation des accès exploitable par des outils de gestion = surveillance et analyse des journaux (CC7.2)."
+  },
+  {
+   "tgv_ref": "P09.07",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Restriction des accès aux RP selon le moment (plage horaire) = mesure de sécurité d'accès logique (CC6.1)."
+  },
+  {
+   "tgv_ref": "P09.08",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Contrôle renforcé des accès à privilèges élevés = gestion du moindre privilège pour comptes à privilèges (CC6.3)."
+  },
+  {
+   "tgv_ref": "P09.09",
+   "cible_ref": "P7.1",
+   "cible_intitule": "The entity collects and maintains accurate, up-to-date, complete, and relevant personal information to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Mise à jour des RP par personnes autorisées avec circonstances/origine = maintien de RP exacts et à jour (P7.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P09.10",
+   "cible_ref": "P2.1",
+   "cible_intitule": "The entity communicates choices available regarding the collection, use, retention, disclosure, and disposal of personal information to the data subjects and the consequences, if any, of each choice. Explicit consent for the collection, use, retention, disclosure, and disposal of personal information is obtained from data subjects or other authorized persons, if required. Such consent is obtained only for the intended purpose of the information to meet the entity’s objectives related to privacy. The entity’s basis for determining implicit consent for the collection, use, retention, disclosure, and disposal of personal information is documented.",
+   "relation": "recoupement_partiel",
+   "justification": "Possibilité pour la personne de demander une restriction d'accès (types, groupes, durée) = expression d'un choix sur l'accès/divulgation (P2.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P09.11",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Vérification qu'un demandeur fait partie des personnes restreintes durant la période = application de restrictions d'accès (CC6.3), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P09.12",
+   "cible_ref": "P5.1",
+   "cible_intitule": "The entity grants identified and authenticated data subjects the ability to access their stored personal information for review and, upon request, provides physical or electronic copies of that information to data subjects to meet the entity’s objectives related to privacy. If access is denied, data subjects are informed of the denial and reason for such denial, as required, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Refus momentané d'accès au patient avec motifs documentés = refus d'accès motivé et communiqué à la personne (P5.1)."
+  },
+  {
+   "tgv_ref": "P10.01",
+   "cible_ref": "CC1.3",
+   "cible_intitule": "COSO Principle 3",
+   "relation": "tgv_plus_etroit",
+   "justification": "Rôles et responsabilités du personnel pour la PRP tout au long du cycle de vie = attribution d'autorités et responsabilités (CC1.3)."
+  },
+  {
+   "tgv_ref": "P10.02",
+   "cible_ref": "P4.2",
+   "cible_intitule": "The entity retains personal information consistent with the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Durée de conservation de chaque RP déterminée et justifiée = conservation des RP conforme aux objectifs (P4.2)."
+  },
+  {
+   "tgv_ref": "P10.03",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Mesures de sécurité appropriées pour protéger les RP durant tout le cycle de vie = protection par sécurité d'accès logique (CC6.1), périmètre plus large."
+  },
+  {
+   "tgv_ref": "P10.04",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Journalisation de toute activité relative à chaque RP durant le cycle de vie = surveillance/enregistrement de l'activité (CC7.2)."
+  },
+  {
+   "tgv_ref": "P10.05",
+   "cible_ref": "C1.1",
+   "cible_intitule": "The entity identifies and maintains confidential information to meet the entity’s objectives related to confidentiality.",
+   "relation": "recoupement_partiel",
+   "justification": "Protection adéquate des RP lors de l'archivage = maintien/protection de l'information confidentielle durant la rétention (C1.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P10.06",
+   "cible_ref": "P4.3",
+   "cible_intitule": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Destruction des RP à l'atteinte de la finalité de collecte = élimination sécurisée des RP (P4.3)."
+  },
+  {
+   "tgv_ref": "P10.07",
+   "cible_ref": "P4.3",
+   "cible_intitule": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Anonymisation des RP pour usage légitime = forme d'élimination/de-identification (P4.3), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P10.08",
+   "cible_ref": "P4.3",
+   "cible_intitule": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Destruction irréversible incluant toutes les copies = élimination sécurisée complète des RP (P4.3)."
+  },
+  {
+   "tgv_ref": "P10.09",
+   "cible_ref": "P4.3",
+   "cible_intitule": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Droit à la cessation de diffusion/désindexation (droit à l'oubli) = effacement/limitation de la disponibilité (P4.3), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P10.10",
+   "cible_ref": "P6.1",
+   "cible_intitule": "The entity discloses personal information to third parties with the explicit consent of data subjects, and such consent is obtained prior to disclosure to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Règles de communication des RP facilitant le processus de deuil = contrôle des divulgations (P6.1) dans un cas particulier, chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P11.01",
+   "cible_ref": "P3.1",
+   "cible_intitule": "Personal information is collected consistent with the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Basés légales légitimant la collecte identifiées et respectées au déploiement = collecte conforme aux objectifs (P3.1), chevauchement partiel (conformité légale)."
+  },
+  {
+   "tgv_ref": "P11.02",
+   "cible_ref": "P4.1",
+   "cible_intitule": "The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Chaque RP destiné à un usage déterminé relié aux fonctionnalités = limitation de l'usage aux finalités (P4.1)."
+  },
+  {
+   "tgv_ref": "P11.03",
+   "cible_ref": "P4.1",
+   "cible_intitule": "The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Réduction au minimum des RP utilisés et des destinataires = limitation de l'usage (P4.1), avec composante de minimisation."
+  },
+  {
+   "tgv_ref": "P11.04",
+   "cible_ref": "P4.1",
+   "cible_intitule": "The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Présentation de l'identité des personnes uniquement lorsque nécessaire = limitation de l'usage à la finalité (P4.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P11.05",
+   "cible_ref": "P4.1",
+   "cible_intitule": "The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Chaque RP utilisé pour une finalité autorisée = limitation de l'usage aux finalités prévues (P4.1)."
+  },
+  {
+   "tgv_ref": "P11.06",
+   "cible_ref": "P3.1",
+   "cible_intitule": "Personal information is collected consistent with the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "RP recueillis strictement nécessaires = minimisation de la collecte conforme aux objectifs (P3.1)."
+  },
+  {
+   "tgv_ref": "P11.07",
+   "cible_ref": "P4.1",
+   "cible_intitule": "The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Chaque fichier de RP créé/maintenu pour une finalité autorisée = limitation de l'usage aux finalités (P4.1)."
+  },
+  {
+   "tgv_ref": "P11.08",
+   "cible_ref": "CC6.7",
+   "cible_intitule": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Extraction/communication des RP contrôlée avec mesures de confidentialité = restriction et protection des transferts d'information (CC6.7)."
+  },
+  {
+   "tgv_ref": "P11.10",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Savoir quand et par qui chaque RP a été utilisé = piste d'audit/surveillance de l'activité (CC7.2)."
+  },
+  {
+   "tgv_ref": "P11.11",
+   "cible_ref": "P5.1",
+   "cible_intitule": "The entity grants identified and authenticated data subjects the ability to access their stored personal information for review and, upon request, provides physical or electronic copies of that information to data subjects to meet the entity’s objectives related to privacy. If access is denied, data subjects are informed of the denial and reason for such denial, as required, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Accès facile de l'utilisateur à tous les renseignements le concernant pour consultation = droit d'accès de la personne (P5.1)."
+  },
+  {
+   "tgv_ref": "P11.12",
+   "cible_ref": "P5.2",
+   "cible_intitule": "The entity corrects, amends, or appends personal information based on information provided by data subjects and communicates such information to third parties, as committed or required, to meet the entity’s objectives related to privacy. If a request for correction is denied, data subjects are informed of the denial and reason for such denial to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Réponse aux demandes de consultation/correction des RP = correction/rectification à la demande de la personne (P5.2)."
+  },
+  {
+   "tgv_ref": "P11.13",
+   "cible_ref": "P5.2",
+   "cible_intitule": "The entity corrects, amends, or appends personal information based on information provided by data subjects and communicates such information to third parties, as committed or required, to meet the entity’s objectives related to privacy. If a request for correction is denied, data subjects are informed of the denial and reason for such denial to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Propagation des RP mis à jour/rectifiés = correction communiquée aux tiers concernés (P5.2)."
+  },
+  {
+   "tgv_ref": "P11.14",
+   "cible_ref": "P4.1",
+   "cible_intitule": "The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Interdiction de l'utilisation secondaire hors cas prévus par la Loi = limitation de l'usage aux finalités autorisées (P4.1)."
+  },
+  {
+   "tgv_ref": "P11.15",
+   "cible_ref": "P4.1",
+   "cible_intitule": "The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Chaque panorama ne comporte que les RP strictement nécessaires à la tache = limitation de l'usage/minimisation à l'affichage (P4.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P11.16",
+   "cible_ref": "P7.1",
+   "cible_intitule": "The entity collects and maintains accurate, up-to-date, complete, and relevant personal information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Information de l'utilisateur sur la nécessité de mettre à jour les RP = maintien de RP exacts, à jour et pertinents (P7.1)."
+  },
+  {
+   "tgv_ref": "P11.17",
+   "cible_ref": "P7.1",
+   "cible_intitule": "The entity collects and maintains accurate, up-to-date, complete, and relevant personal information to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Prise en compte des duplicatas/répliques lors des mises à jour = maintien de l'exactitude sur toutes les copies (P7.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P11.18",
+   "cible_ref": "C1.1",
+   "cible_intitule": "The entity identifies and maintains confidential information to meet the entity’s objectives related to confidentiality.",
+   "relation": "recoupement_partiel",
+   "justification": "Hébergement des RP assurant la protection exigée par la loi du Québec = maintien/protection de l'information confidentielle (C1.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P11.19",
+   "cible_ref": "P4.1",
+   "cible_intitule": "The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Aucun RP utilisé pour l'apprentissage/développement hors cas prévus = limitation de l'usage aux finalités autorisées (P4.1)."
+  },
+  {
+   "tgv_ref": "P12.01",
+   "cible_ref": "CC7.4",
+   "cible_intitule": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Définition d'un incident de confidentialité et procédure de traitement = programme de réponse aux incidents (CC7.4), version confidentialité."
+  },
+  {
+   "tgv_ref": "P12.02",
+   "cible_ref": "P6.6",
+   "cible_intitule": "The entity provides notification of breaches and incidents to affected data subjects, regulators, and others to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Procédures de notification interne et externe en cas d'incident de confidentialité = notification des atteintes aux personnes/régulateurs (P6.6)."
+  },
+  {
+   "tgv_ref": "P12.03",
+   "cible_ref": "CC7.3",
+   "cible_intitule": "The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Mesures pour prévenir ou limiter les conséquences d'un incident = évaluation des événements et actions pour prévenir les défaillances (CC7.3)."
+  },
+  {
+   "tgv_ref": "P12.04",
+   "cible_ref": "CC7.4",
+   "cible_intitule": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Mesures pour réduire le préjudice et éviter la récurrence des incidents = confinement, remédiation et suivi (CC7.4)."
+  },
+  {
+   "tgv_ref": "P12.05",
+   "cible_ref": "CC7.4",
+   "cible_intitule": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Plan de réponse aux incidents et directives au personnel = programme structuré de réponse aux incidents (CC7.4)."
+  },
+  {
+   "tgv_ref": "P12.06",
+   "cible_ref": "P6.3",
+   "cible_intitule": "The entity creates and retains a complete, accurate, and timely record of detected or reported unauthorized disclosures (including breaches) of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "P12.06 exige la tenue d'un REGISTRE des incidents de confidentialité (dont une copie est transmise sur demande). Cela constitue un sous-ensemble de la tenue d'un registre complet, exact et à jour des atteintes détectées ou déclarées aux RP (P6.3) — obligation distincte de l'avis à la CAI/Commission/personne concernée (déjà mappé à P6.6); preuve : registre des incidents."
+  },
+  {
+   "tgv_ref": "P12.06",
+   "cible_ref": "P6.6",
+   "cible_intitule": "The entity provides notification of breaches and incidents to affected data subjects, regulators, and others to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Avis à la Commission (CAI), au Bureau et à la personne concernée si préjudice sérieux, registre des incidents = notification des atteintes (P6.6)."
+  },
+  {
+   "tgv_ref": "P13.01",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Cloisonnement des fichiers en environnement multi-clients = séparation logique des données par la sécurité d'accès (CC6.1)."
+  },
+  {
+   "tgv_ref": "P13.02",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Cloisonnement des fichiers à finalités distinctes dans un entrepôt = séparation logique (CC6.1), chevauchement partiel avec la limitation de finalité."
+  },
+  {
+   "tgv_ref": "P14.01",
+   "cible_ref": "C1.1",
+   "cible_intitule": "The entity identifies and maintains confidential information to meet the entity’s objectives related to confidentiality.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Inventaire complet des RP détenus (lieux, types) = identification et maintien de l'information confidentielle (C1.1)."
+  },
+  {
+   "tgv_ref": "P14.02",
+   "cible_ref": "C1.1",
+   "cible_intitule": "The entity identifies and maintains confidential information to meet the entity’s objectives related to confidentiality.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Inventaire à jour des RP recueillis/utilisés incluant la journalisation = maintien de l'inventaire de l'information confidentielle (C1.1)."
+  },
+  {
+   "tgv_ref": "P14.03",
+   "cible_ref": "CC6.7",
+   "cible_intitule": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Contrôle de l'accès et du transfert des RP selon les politiques = restriction et protection des transferts (CC6.7)."
+  },
+  {
+   "tgv_ref": "P14.04",
+   "cible_ref": "P6.1",
+   "cible_intitule": "The entity discloses personal information to third parties with the explicit consent of data subjects, and such consent is obtained prior to disclosure to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Processus de transfert de RP à des tiers = divulgation contrôlée aux tiers (P6.1)."
+  },
+  {
+   "tgv_ref": "P14.05",
+   "cible_ref": "CC7.3",
+   "cible_intitule": "The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures.",
+   "relation": "recoupement_partiel",
+   "justification": "Capacité d'identifier rapidement les données en cause lors d'un incident = évaluation de la portée des événements de sécurité (CC7.3), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P15.01",
+   "cible_ref": "P4.2",
+   "cible_intitule": "The entity retains personal information consistent with the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Politique de conservation et destruction des données personnelles documentée = conservation des RP conforme aux objectifs (P4.2)."
+  },
+  {
+   "tgv_ref": "P15.01",
+   "cible_ref": "P4.3",
+   "cible_intitule": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "P15.01 documente une politique de CONSERVATION ET DE DESTRUCTION des données personnelles. Le volet destruction croise l'élimination sécurisée des RP (P4.3), tandis que le volet conservation relève de P4.2 (déjà mappé); chevauchement partiel -> intersect; preuve : politique de conservation/destruction approuvée."
+  },
+  {
+   "tgv_ref": "P15.02",
+   "cible_ref": "CC5.2",
+   "cible_intitule": "COSO Principle 11",
+   "relation": "recoupement_partiel",
+   "justification": "Sélection par une personne qualifiée d'outils de gestion des données adaptés = contrôles généraux sur la technologie (CC5.2), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P15.03",
+   "cible_ref": "P4.2",
+   "cible_intitule": "The entity retains personal information consistent with the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Calendrier de conservation conforme à la politique et aux types de données = conservation des RP conforme aux objectifs (P4.2)."
+  },
+  {
+   "tgv_ref": "P15.04",
+   "cible_ref": "CC3.4",
+   "cible_intitule": "COSO Principle 9",
+   "relation": "tgv_plus_etroit",
+   "justification": "Révision régulière de la politique de données selon les changements législatifs = évaluation des changements (réglementaires) impactant les contrôles (CC3.4)."
+  },
+  {
+   "tgv_ref": "P16.01",
+   "cible_ref": "P8.1",
+   "cible_intitule": "The entity implements a process for receiving, addressing, resolving, and communicating the resolution of inquiries, complaints, and disputes from data subjects and others and periodically monitors compliance to meet the entity’s objectives related to privacy. Corrections and other necessary actions related to identified deficiencies are made or taken in a timely manner.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Stratégie de traitement des plaintes PRP = processus de réception/traitement/résolution des plaintes (P8.1)."
+  },
+  {
+   "tgv_ref": "P16.02",
+   "cible_ref": "P8.1",
+   "cible_intitule": "The entity implements a process for receiving, addressing, resolving, and communicating the resolution of inquiries, complaints, and disputes from data subjects and others and periodically monitors compliance to meet the entity’s objectives related to privacy. Corrections and other necessary actions related to identified deficiencies are made or taken in a timely manner.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Personnes désignées et formées pour répondre aux plaintes PRP = ressources du processus de traitement des plaintes (P8.1)."
+  },
+  {
+   "tgv_ref": "P16.03",
+   "cible_ref": "P5.1",
+   "cible_intitule": "The entity grants identified and authenticated data subjects the ability to access their stored personal information for review and, upon request, provides physical or electronic copies of that information to data subjects to meet the entity’s objectives related to privacy. If access is denied, data subjects are informed of the denial and reason for such denial, as required, to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Authentification adéquate des demandeurs dans le traitement des requêtes = personnes identifiées et authentifiées (P5.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P16.04",
+   "cible_ref": "P8.1",
+   "cible_intitule": "The entity implements a process for receiving, addressing, resolving, and communicating the resolution of inquiries, complaints, and disputes from data subjects and others and periodically monitors compliance to meet the entity’s objectives related to privacy. Corrections and other necessary actions related to identified deficiencies are made or taken in a timely manner.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Processus de plaintes décrit simplement et accessible publiquement = communication du processus de traitement des plaintes (P8.1)."
+  },
+  {
+   "tgv_ref": "P16.05",
+   "cible_ref": "P8.1",
+   "cible_intitule": "The entity implements a process for receiving, addressing, resolving, and communicating the resolution of inquiries, complaints, and disputes from data subjects and others and periodically monitors compliance to meet the entity’s objectives related to privacy. Corrections and other necessary actions related to identified deficiencies are made or taken in a timely manner.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Registre des plaintes contenant les réponses et tenu à jour = suivi/documentation du traitement des plaintes (P8.1)."
+  },
+  {
+   "tgv_ref": "P17.01",
+   "cible_ref": "P4.3",
+   "cible_intitule": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Processus de réception/traitement des demandes de désindexation = effacement/limitation de la diffusion (P4.3), chevauchement partiel avec le traitement des demandes."
+  },
+  {
+   "tgv_ref": "P17.02",
+   "cible_ref": "P4.3",
+   "cible_intitule": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "recoupement_partiel",
+   "justification": "Vérification des exigences légales empêchant la désindexation = contrôle préalable à l'effacement (P4.3), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "P17.03",
+   "cible_ref": "P4.3",
+   "cible_intitule": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Processus de destruction/anonymisation/désindexation des RP = élimination sécurisée/de-identification (P4.3)."
+  },
+  {
+   "tgv_ref": "P17.04",
+   "cible_ref": "P5.2",
+   "cible_intitule": "The entity corrects, amends, or appends personal information based on information provided by data subjects and communicates such information to third parties, as committed or required, to meet the entity’s objectives related to privacy. If a request for correction is denied, data subjects are informed of the denial and reason for such denial to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Protocole d'information de la personne sur l'impossibilité de désindexer = refus motivé communiqué à la personne (P5.2)."
+  },
+  {
+   "tgv_ref": "P17.05",
+   "cible_ref": "P4.3",
+   "cible_intitule": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Anonymisation ou destruction pour répondre aux demandes de désindexation = élimination sécurisée/de-identification (P4.3)."
+  },
+  {
+   "tgv_ref": "P18.01",
+   "cible_ref": "P5.1",
+   "cible_intitule": "The entity grants identified and authenticated data subjects the ability to access their stored personal information for review and, upon request, provides physical or electronic copies of that information to data subjects to meet the entity’s objectives related to privacy. If access is denied, data subjects are informed of the denial and reason for such denial, as required, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Processus permettant à la personne de demander une copie de ses RP = droit d'accès avec fourniture de copies (P5.1)."
+  },
+  {
+   "tgv_ref": "P18.02",
+   "cible_ref": "P5.1",
+   "cible_intitule": "The entity grants identified and authenticated data subjects the ability to access their stored personal information for review and, upon request, provides physical or electronic copies of that information to data subjects to meet the entity’s objectives related to privacy. If access is denied, data subjects are informed of the denial and reason for such denial, as required, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Communication des RP dans un format structuré et couramment utilisé = fourniture de copies électroniques à la personne (P5.1)."
+  },
+  {
+   "tgv_ref": "P18.03",
+   "cible_ref": "P5.1",
+   "cible_intitule": "The entity grants identified and authenticated data subjects the ability to access their stored personal information for review and, upon request, provides physical or electronic copies of that information to data subjects to meet the entity’s objectives related to privacy. If access is denied, data subjects are informed of the denial and reason for such denial, as required, to meet the entity’s objectives related to privacy.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Personnel formé pour communiquer les RP de façon sécuritaire et dans un délai raisonnable = fourniture d'accès conforme aux objectifs (P5.1)."
+  },
+  {
+   "tgv_ref": "S01.01",
+   "cible_ref": "CC3.2",
+   "cible_intitule": "COSO Principle 7",
+   "relation": "tgv_plus_etroit",
+   "justification": "Évaluation des risques de sécurité à la conception et avant mise en production = identification et analyse des risques (CC3.2)."
+  },
+  {
+   "tgv_ref": "S01.02",
+   "cible_ref": "CC3.2",
+   "cible_intitule": "COSO Principle 7",
+   "relation": "tgv_plus_etroit",
+   "justification": "Évaluations périodiques des risques et vulnérabilités (CID) = identification/analyse continue des risques (CC3.2)."
+  },
+  {
+   "tgv_ref": "S01.03",
+   "cible_ref": "CC3.4",
+   "cible_intitule": "COSO Principle 9",
+   "relation": "tgv_plus_etroit",
+   "justification": "Réévaluation des risques approuvée par la direction lors de changements majeurs = identification/évaluation des changements impactant les contrôles (CC3.4)."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "CC5.3",
+   "cible_intitule": "COSO Principle 12",
+   "relation": "tgv_plus_etroit",
+   "justification": "Politiques de sécurité (objectifs, principes, rôles, dérogations) = déploiement de contrôles par des politiques (CC5.3)."
+  },
+  {
+   "tgv_ref": "S02.02",
+   "cible_ref": "CC5.3",
+   "cible_intitule": "COSO Principle 12",
+   "relation": "tgv_plus_etroit",
+   "justification": "Normes, processus et procédures techniques de sécurité = procédures mettant les politiques en action (CC5.3)."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "CC5.3",
+   "cible_intitule": "COSO Principle 12",
+   "relation": "tgv_plus_etroit",
+   "justification": "Politiques approuvées par la direction, communiquées et maintenues à jour = gouvernance/documentation des politiques (CC5.3)."
+  },
+  {
+   "tgv_ref": "S02.04",
+   "cible_ref": "CC7.4",
+   "cible_intitule": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+   "relation": "recoupement_partiel",
+   "justification": "Cadre de bonnes pratiques et procédure à suivre en cas d'incident = programme de réponse aux incidents (CC7.4), chevauchement partiel (volet usage)."
+  },
+  {
+   "tgv_ref": "S03.01",
+   "cible_ref": "CC1.3",
+   "cible_intitule": "COSO Principle 3",
+   "relation": "tgv_plus_etroit",
+   "justification": "Définition des responsabilités en matière de sécurité = structures, autorités et responsabilités (CC1.3)."
+  },
+  {
+   "tgv_ref": "S03.02",
+   "cible_ref": "CC1.3",
+   "cible_intitule": "COSO Principle 3",
+   "relation": "tgv_plus_etroit",
+   "justification": "Responsable attitré de la sécurité de l'application et des actifs = attribution des responsabilités (CC1.3)."
+  },
+  {
+   "tgv_ref": "S03.03",
+   "cible_ref": "CC5.1",
+   "cible_intitule": "COSO Principle 10",
+   "relation": "tgv_plus_etroit",
+   "justification": "Identification des tâches incompatibles et mesures de limitation = contrôle de la séparation des tâches (CC5.1)."
+  },
+  {
+   "tgv_ref": "S03.04",
+   "cible_ref": "CC3.2",
+   "cible_intitule": "COSO Principle 7",
+   "relation": "recoupement_partiel",
+   "justification": "Méthode de gestion de projet intégrant la sécurité et le traitement des risques = identification/analyse des risques (CC3.2), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S03.05",
+   "cible_ref": "CC6.7",
+   "cible_intitule": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Gestion des risques liés aux appareils mobiles = restriction/protection de l'information sur les terminaux (CC6.7), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S03.06",
+   "cible_ref": "CC6.6",
+   "cible_intitule": "The entity implements logical access security measures to protect against threats from sources outside its system boundaries.",
+   "relation": "recoupement_partiel",
+   "justification": "Politique de télétravail couvrant les risques associés = protection contre les menaces hors frontières du système (CC6.6), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S04.01",
+   "cible_ref": "CC1.4",
+   "cible_intitule": "COSO Principle 4",
+   "relation": "tgv_plus_etroit",
+   "justification": "Compétences requises du personnel selon ses fonctions = engagement à disposer d'individus compétents (CC1.4)."
+  },
+  {
+   "tgv_ref": "S04.02",
+   "cible_ref": "CC2.2",
+   "cible_intitule": "COSO Principle 14",
+   "relation": "tgv_plus_etroit",
+   "justification": "Programme de sensibilisation et de formation à la sécurité pour tout le personnel = communication améliorant la connaissance de la sécurité (CC2.2)."
+  },
+  {
+   "tgv_ref": "S04.03",
+   "cible_ref": "CC2.2",
+   "cible_intitule": "COSO Principle 14",
+   "relation": "tgv_plus_etroit",
+   "justification": "Personnel et contractants informés de leurs responsabilités et procédures = communication des responsabilités de contrôle (CC2.2)."
+  },
+  {
+   "tgv_ref": "S04.04",
+   "cible_ref": "CC1.5",
+   "cible_intitule": "COSO Principle 5",
+   "relation": "tgv_plus_etroit",
+   "justification": "Sanctions pour non-respect des politiques de sécurité = responsabilisation et mesures disciplinaires (CC1.5)."
+  },
+  {
+   "tgv_ref": "S05.01",
+   "cible_ref": "CC2.3",
+   "cible_intitule": "COSO Principle 15",
+   "relation": "recoupement_partiel",
+   "justification": "Établissement des conditions d'utilisation de l'application = communication aux utilisateurs externes de leurs responsabilités (CC2.3), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S05.02",
+   "cible_ref": "CC2.3",
+   "cible_intitule": "COSO Principle 15",
+   "relation": "tgv_plus_etroit",
+   "justification": "Présentation et consignation de l'acceptation des CGU (avec énoncé de responsabilité RP) = communication des responsabilités aux utilisateurs externes (CC2.3)."
+  },
+  {
+   "tgv_ref": "S05.03",
+   "cible_ref": "CC2.3",
+   "cible_intitule": "COSO Principle 15",
+   "relation": "tgv_plus_etroit",
+   "justification": "Conditions consultables et représentées à intervalles adéquats = communication continue aux utilisateurs externes (CC2.3)."
+  },
+  {
+   "tgv_ref": "S05.04",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Inventaire des actifs avec responsable attitré = base des actifs proteges par la sécurité d'accès (CC6.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S05.05",
+   "cible_ref": "C1.1",
+   "cible_intitule": "The entity identifies and maintains confidential information to meet the entity’s objectives related to confidentiality.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Classification des actifs en disponibilité/intégrité/confidentialité = identification/désignation de l'information confidentielle (C1.1)."
+  },
+  {
+   "tgv_ref": "S05.06",
+   "cible_ref": "CC6.5",
+   "cible_intitule": "The entity discontinues logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished and is no longer required to meet the entity’s objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Restitution des actifs à la fin du contrat = cessation des protections/récupération des actifs (CC6.5), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S05.07",
+   "cible_ref": "CC6.7",
+   "cible_intitule": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Encadrement des supports amovibles selon la classification = restriction du déplacement/retrait de l'information (CC6.7)."
+  },
+  {
+   "tgv_ref": "S05.08",
+   "cible_ref": "CC6.5",
+   "cible_intitule": "The entity discontinues logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished and is no longer required to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Mise au rebut sécurisée des supports d'information = destruction empêchant la récupération des données (CC6.5)."
+  },
+  {
+   "tgv_ref": "S06.01",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Politique de gestion des accès applicable à tous = sécurité d'accès logique sur les actifs proteges (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.02",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Règles de gestion des accès à l'application = autorisation/modification/retrait des accès selon les rôles (CC6.3)."
+  },
+  {
+   "tgv_ref": "S06.03",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Mécanismes limitant les accès aux seules composantes/informations autorisées = sécurité d'accès logique (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.04",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Activités à privilèges élevés réservées à des comptes dédiés et contrôlées = moindre privilège pour comptes à privilèges (CC6.3)."
+  },
+  {
+   "tgv_ref": "S06.05",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Gestion de la complexité/robustesse des mots de passe = sécurité d'accès logique (authentification) (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.06",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Obligation du MFA = renforcement de l'authentification d'accès logique (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.07",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Authentification par protocoles sécurisés et fédérations d'identité modernes = sécurité d'accès logique (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.08",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Préservation de la confidentialité des mots de passe (non-capture en mode integre) = protection des justificatifs d'accès (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.09",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Changement de mot de passe par chaque utilisateur = gestion des justificatifs d'accès logique (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.10",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Communications inter-composantes authentifiées avec minimum de privilèges = moindre privilège (CC6.3)."
+  },
+  {
+   "tgv_ref": "S06.11",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Absence de mots de passe dans scripts/macros/code source = protection des justificatifs d'accès (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.12",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Fonctionnalités facilitant la revue des accès = revue périodique des accès selon les rôles (CC6.3)."
+  },
+  {
+   "tgv_ref": "S06.13",
+   "cible_ref": "CC6.3",
+   "cible_intitule": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Profils basés sur les fonctionnalités attribuant les seuls accès nécessaires = accès base sur les rôles et moindre privilège (CC6.3)."
+  },
+  {
+   "tgv_ref": "S06.14",
+   "cible_ref": "CC6.2",
+   "cible_intitule": "Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users whose access is administered by the entity. For those users whose access is administered by the entity, user system credentials are removed when user access is no longer authorized.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Fonctionnalités permettant à l'acquéreur de gérer les accès = enregistrement/autorisation et retrait des accès utilisateurs (CC6.2)."
+  },
+  {
+   "tgv_ref": "S06.15",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Fonctionnalité de déconnexion aisée = gestion de session de la sécurité d'accès logique (CC6.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S06.16",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Désactivation d'un identifiant après cinq tentatives échouées = mesure de sécurité d'accès logique (verrouillage) (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.17",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Message d'échec d'authentification générique sans champ invalide = sécurité d'accès logique (non-divulgation) (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.18",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Absence de comptes génériques (identification individuelle) = sécurité d'accès logique et imputabilité (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.19",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Déconnexion automatique après inactivité = gestion de session d'accès logique (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.20",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Restriction de l'accès au code source = sécurité d'accès logique sur un actif protégé (CC6.1)."
+  },
+  {
+   "tgv_ref": "S06.21",
+   "cible_ref": "CC6.6",
+   "cible_intitule": "The entity implements logical access security measures to protect against threats from sources outside its system boundaries.",
+   "relation": "tgv_plus_etroit",
+   "justification": "CAPTCHA sur les services externes critiques = protection contre les menaces provenant de l'extérieur du système (CC6.6)."
+  },
+  {
+   "tgv_ref": "S06.22",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "recoupement_partiel",
+   "justification": "Signalement au titulaire des connexions/modifications de profil = surveillance/alerte sur activité (CC7.2), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S06.23",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Détection et mitigation du credential stuffing/dictionnaire = surveillance des anomalies indicatives d'actes malveillants (CC7.2)."
+  },
+  {
+   "tgv_ref": "S06.24",
+   "cible_ref": "CC6.2",
+   "cible_intitule": "Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users whose access is administered by the entity. For those users whose access is administered by the entity, user system credentials are removed when user access is no longer authorized.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Comptes provenant de l'annuaire centralisé de Santé Québec = enregistrement/autorisation des utilisateurs (identité centralisée) (CC6.2)."
+  },
+  {
+   "tgv_ref": "S06.25",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Journalisation des accès au PST exposés sur Internet = surveillance/enregistrement de l'activité (CC7.2)."
+  },
+  {
+   "tgv_ref": "S06.26",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Accès sans contrainte du propriétaire de la donnée = accès logique autorisé à l'actif (CC6.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Chiffrement des données sensibles au repos = protection des actifs par la sécurité d'accès logique (CC6.1)."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "CC6.7",
+   "cible_intitule": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Chiffrement des données sensibles en communication = protection de l'information durant la transmission (CC6.7)."
+  },
+  {
+   "tgv_ref": "S07.02",
+   "cible_ref": "CC6.7",
+   "cible_intitule": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Communications inter-composantes chiffrées et authentifiées = protection de l'information durant la transmission (CC6.7)."
+  },
+  {
+   "tgv_ref": "S08.01",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Gestion documentée des clés cryptographiques sur tout leur cycle de vie = sécurité d'accès logique (gestion des clés) (CC6.1)."
+  },
+  {
+   "tgv_ref": "S08.02",
+   "cible_ref": "CC6.4",
+   "cible_intitule": "The entity restricts physical access to facilities and protected information assets (for example, data center facilities, back-up media storage, and other sensitive locations) to authorized personnel to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Contrôle d'accès et protections physiques des locaux d'hébergement = restriction de l'accès physique aux installations (CC6.4)."
+  },
+  {
+   "tgv_ref": "S08.03",
+   "cible_ref": "CC6.4",
+   "cible_intitule": "The entity restricts physical access to facilities and protected information assets (for example, data center facilities, back-up media storage, and other sensitive locations) to authorized personnel to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Contrôle d'accès physique des locaux des développeurs/maintenance/soutien = restriction de l'accès physique (CC6.4)."
+  },
+  {
+   "tgv_ref": "S08.04",
+   "cible_ref": "A1.2",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, implements, operates, approves, maintains, and monitors environmental protections, software, data back-up processes, and recovery infrastructure to meet its objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Entretien du matériel garantissant disponibilité et intégrité = maintien des protections/infrastructure (A1.2), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S09.01",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Politique du bureau propre et de l'écran vide = protection de l'information/accès (CC6.1), chevauchement partiel (physique)."
+  },
+  {
+   "tgv_ref": "S09.02",
+   "cible_ref": "CC5.3",
+   "cible_intitule": "COSO Principle 12",
+   "relation": "tgv_plus_etroit",
+   "justification": "Documentation et diffusion des procédures d'exploitation = procédures mettant les politiques en action (CC5.3)."
+  },
+  {
+   "tgv_ref": "S09.03",
+   "cible_ref": "CC2.3",
+   "cible_intitule": "COSO Principle 15",
+   "relation": "tgv_plus_etroit",
+   "justification": "Guide d'utilisation fourni aux utilisateurs = communication de l'exploitation du système aux utilisateurs externes (CC2.3)."
+  },
+  {
+   "tgv_ref": "S09.04",
+   "cible_ref": "CC2.3",
+   "cible_intitule": "COSO Principle 15",
+   "relation": "tgv_plus_etroit",
+   "justification": "Guide d'installation et d'entretien (config, accès, surveillance, sauvegardes) = communication du fonctionnement/frontières du système (CC2.3)."
+  },
+  {
+   "tgv_ref": "S09.05",
+   "cible_ref": "A1.2",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, implements, operates, approves, maintains, and monitors environmental protections, software, data back-up processes, and recovery infrastructure to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Système de sauvegarde à l'abri des rançongiciels = processus de sauvegarde des données (A1.2)."
+  },
+  {
+   "tgv_ref": "S09.06",
+   "cible_ref": "A1.2",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, implements, operates, approves, maintains, and monitors environmental protections, software, data back-up processes, and recovery infrastructure to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Stratégies de sauvegarde permettant une récupération complète/partielle = processus de sauvegarde et récupération (A1.2)."
+  },
+  {
+   "tgv_ref": "S09.07",
+   "cible_ref": "CC8.1",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Processus documenté de gestion des changements = autorisation/conception/test/implantation des changements (CC8.1)."
+  },
+  {
+   "tgv_ref": "S09.08",
+   "cible_ref": "CC8.1",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Gestion des versions et identification de chaque changement = gestion des changements documentée (CC8.1)."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "CC7.1",
+   "cible_intitule": "To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Plan de gestion continue des vulnérabilités = détection/surveillance des vulnérabilités (CC7.1)."
+  },
+  {
+   "tgv_ref": "S09.10",
+   "cible_ref": "CC7.1",
+   "cible_intitule": "To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Application rapide des correctifs de sécurité = remédiation des vulnérabilités (CC7.1)."
+  },
+  {
+   "tgv_ref": "S09.11",
+   "cible_ref": "CC7.1",
+   "cible_intitule": "To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities.",
+   "relation": "recoupement_partiel",
+   "justification": "Documentation de composantes sur technologies récentes prises en charge = gestion des vulnérabilités/obsolescence (CC7.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S09.12",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Application exempte de porte dérobée = absence d'accès logique non autorisé (CC6.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S10.01",
+   "cible_ref": "CC6.8",
+   "cible_intitule": "The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Antivirus récent avec EDR sur tous les systèmes = prévention/détection des logiciels malveillants (CC6.8)."
+  },
+  {
+   "tgv_ref": "S10.02",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Mécanismes de gestion des exceptions et d'alertes de la solution = surveillance et alerte sur anomalies (CC7.2)."
+  },
+  {
+   "tgv_ref": "S10.03",
+   "cible_ref": "CC6.6",
+   "cible_intitule": "The entity implements logical access security measures to protect against threats from sources outside its system boundaries.",
+   "relation": "recoupement_partiel",
+   "justification": "Utilisation des outils de sécurité de Santé Québec (protocoles, RGT, GIA) = protection réseau/frontière (CC6.6), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Journalisation de toute activité avec identification de l'acteur/moment/nature = surveillance/enregistrement de l'activité (CC7.2)."
+  },
+  {
+   "tgv_ref": "S10.05",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Filtrage/analyse des journaux et extraction standard vers un système tiers = analyse de la surveillance (CC7.2)."
+  },
+  {
+   "tgv_ref": "S10.06",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Alertes sur comportements anormaux et incidents potentiels = détection des anomalies indicatives d'événements de sécurité (CC7.2)."
+  },
+  {
+   "tgv_ref": "S10.07",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Systèmes de détection d'intrusion = surveillance des composantes pour actes malveillants (CC7.2)."
+  },
+  {
+   "tgv_ref": "S10.08",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "recoupement_partiel",
+   "justification": "Rôle auditeur pour consulter les rapports d'audit = revue de la surveillance (CC7.2), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S10.09",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Protection des journaux contre l'altération et la divulgation = sécurité d'accès logique appliquée aux journaux (CC6.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S11.01",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "recoupement_partiel",
+   "justification": "Conservation des journaux selon le calendrier légal/normatif = rétention de la surveillance (CC7.2), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S11.02",
+   "cible_ref": "CC6.7",
+   "cible_intitule": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Protection de toutes les communications inter-composantes (incl. soutien à distance) = protection de l'information durant la transmission (CC6.7)."
+  },
+  {
+   "tgv_ref": "S11.03",
+   "cible_ref": "CC6.1",
+   "cible_intitule": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Cloisonnement de l'environnement d'exécution (zones public/serveur) = architecture/sécurité d'accès logique (segmentation) (CC6.1)."
+  },
+  {
+   "tgv_ref": "S11.04",
+   "cible_ref": "CC6.7",
+   "cible_intitule": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Courriel ne traitant pas d'information confidentielle sauf protections = protection de l'information transmise (CC6.7), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S11.05",
+   "cible_ref": "CC2.2",
+   "cible_intitule": "COSO Principle 14",
+   "relation": "tgv_plus_etroit",
+   "justification": "Campagnes de simulation d'hameçonnage = communication de sensibilisation à la sécurité (CC2.2)."
+  },
+  {
+   "tgv_ref": "S11.06",
+   "cible_ref": "CC6.6",
+   "cible_intitule": "The entity implements logical access security measures to protect against threats from sources outside its system boundaries.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Connectivité sécuritaire = protection contre les menaces provenant de l'extérieur du système (CC6.6)."
+  },
+  {
+   "tgv_ref": "S12.01",
+   "cible_ref": "CC2.2",
+   "cible_intitule": "COSO Principle 14",
+   "relation": "tgv_plus_etroit",
+   "justification": "Plan continu de formation en cybersécurité (hameçonnage, rançongiciels, ingénierie sociale) = communication de sensibilisation à la sécurité (CC2.2)."
+  },
+  {
+   "tgv_ref": "S12.02",
+   "cible_ref": "CC8.1",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Sécurité considérée à chaque étape du développement = conception/développement/test des changements pour atteindre les objectifs (CC8.1)."
+  },
+  {
+   "tgv_ref": "S12.03",
+   "cible_ref": "CC8.1",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Environnements de développement/test/exploitation distincts = contrôle de gestion des changements (CC8.1)."
+  },
+  {
+   "tgv_ref": "S12.04",
+   "cible_ref": "CC8.1",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Développement respectant les bonnes pratiques de sécurité = développement/implantation contrôle des changements (CC8.1)."
+  },
+  {
+   "tgv_ref": "S12.05",
+   "cible_ref": "CC8.1",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Respect des principes d'ingénierie de sécurité des systèmes = conception sécurisée des changements (CC8.1)."
+  },
+  {
+   "tgv_ref": "S12.06",
+   "cible_ref": "CC9.2",
+   "cible_intitule": "The entity assesses and manages risks associated with vendors and business partners.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Supervision de tout développement externalisé = gestion des risques liés aux fournisseurs (CC9.2)."
+  },
+  {
+   "tgv_ref": "S12.07",
+   "cible_ref": "CC8.1",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+   "relation": "recoupement_partiel",
+   "justification": "Éviter l'information confidentielle de production en développement = pratique de test/gestion des changements (CC8.1), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S12.08",
+   "cible_ref": "CC8.1",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Stratégie de tests applicatifs = test des changements avant implantation (CC8.1)."
+  },
+  {
+   "tgv_ref": "S13.01",
+   "cible_ref": "CC7.1",
+   "cible_intitule": "To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Prise en compte et mise à jour des vulnérabilités des composantes tierces = gestion des vulnérabilités (CC7.1)."
+  },
+  {
+   "tgv_ref": "S13.02",
+   "cible_ref": "CC9.2",
+   "cible_intitule": "The entity assesses and manages risks associated with vendors and business partners.",
+   "relation": "tgv_plus_etroit",
+   "justification": "EMR/ÉFVP préalables au recours à un fournisseur tiers = évaluation/gestion des risques fournisseurs (CC9.2)."
+  },
+  {
+   "tgv_ref": "S13.03",
+   "cible_ref": "CC9.2",
+   "cible_intitule": "The entity assesses and manages risks associated with vendors and business partners.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Liste des fournisseurs et nature des services = inventaire de gestion des fournisseurs (CC9.2)."
+  },
+  {
+   "tgv_ref": "S13.04",
+   "cible_ref": "CC9.2",
+   "cible_intitule": "The entity assesses and manages risks associated with vendors and business partners.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Liste des exigences par fournisseur (sécurité, accès, niveau de service, incidents) = exigences de gestion des fournisseurs (CC9.2)."
+  },
+  {
+   "tgv_ref": "S13.05",
+   "cible_ref": "CC9.2",
+   "cible_intitule": "The entity assesses and manages risks associated with vendors and business partners.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Processus de surveillance de la conformité des fournisseurs = évaluation de la conformité des fournisseurs (CC9.2)."
+  },
+  {
+   "tgv_ref": "S13.06",
+   "cible_ref": "CC9.2",
+   "cible_intitule": "The entity assesses and manages risks associated with vendors and business partners.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Ententes contractuelles avec chaque fournisseur = engagements contractuels de gestion des fournisseurs (CC9.2)."
+  },
+  {
+   "tgv_ref": "S14.01",
+   "cible_ref": "CC9.2",
+   "cible_intitule": "The entity assesses and manages risks associated with vendors and business partners.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Évaluation régulière de la performance des fournisseurs = gestion/suivi des fournisseurs (CC9.2)."
+  },
+  {
+   "tgv_ref": "S14.02",
+   "cible_ref": "CC9.2",
+   "cible_intitule": "The entity assesses and manages risks associated with vendors and business partners.",
+   "relation": "recoupement_partiel",
+   "justification": "Localisation du PST conforme à l'exigence 05 = conformité d'hébergement/fournisseur (CC9.2), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S14.03",
+   "cible_ref": "CC7.4",
+   "cible_intitule": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Processus de gestion des incidents arrimé avec celui des clients = programme de réponse aux incidents (coordination) (CC7.4)."
+  },
+  {
+   "tgv_ref": "S14.04",
+   "cible_ref": "CC7.4",
+   "cible_intitule": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Avertissement des clients de tout incident sur les données = communication des incidents de sécurité (CC7.4)."
+  },
+  {
+   "tgv_ref": "S15.01",
+   "cible_ref": "CC7.4",
+   "cible_intitule": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Engagement à collaborer avec les clients pour la prise en charge d'un incident = communication/coordination de la réponse aux incidents (CC7.4)."
+  },
+  {
+   "tgv_ref": "S15.02",
+   "cible_ref": "CC7.2",
+   "cible_intitule": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+   "relation": "recoupement_partiel",
+   "justification": "Surveillance de la solution selon la classification et les normes d'hébergement = surveillance des composantes (CC7.2), chevauchement partiel."
+  },
+  {
+   "tgv_ref": "S15.03",
+   "cible_ref": "CC9.1",
+   "cible_intitule": "The entity identifies, selects, and develops risk mitigation activities for risks arising from potential business disruptions.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Arrimage avec les mécanismes de plan de reprise du SCT = mesures d'atténuation des risques de perturbation (CC9.1)."
+  },
+  {
+   "tgv_ref": "S15.04",
+   "cible_ref": "CC9.1",
+   "cible_intitule": "The entity identifies, selects, and develops risk mitigation activities for risks arising from potential business disruptions.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Plan de continuité des activités (maintenance/exploitation) = atténuation des risques de perturbation des activités (CC9.1)."
+  },
+  {
+   "tgv_ref": "S15.05",
+   "cible_ref": "A1.2",
+   "cible_intitule": "The entity authorizes, designs, develops or acquires, implements, operates, approves, maintains, and monitors environmental protections, software, data back-up processes, and recovery infrastructure to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Plan de recouvrement après sinistre couvrant les infrastructures = infrastructure de récupération (A1.2)."
+  },
+  {
+   "tgv_ref": "S16.01",
+   "cible_ref": "A1.3",
+   "cible_intitule": "The entity tests recovery plan procedures supporting system recovery to meet its objectives.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Test périodique du plan de reprise = test des procédures de récupération (A1.3)."
+  },
+  {
+   "tgv_ref": "S16.02",
+   "cible_ref": "CC4.1",
+   "cible_intitule": "COSO Principle 16",
+   "relation": "tgv_plus_etroit",
+   "justification": "Stratégie de validation de la conformité technique des composantes = évaluations vérifiant le fonctionnement des contrôles (CC4.1)."
+  },
+  {
+   "tgv_ref": "S16.03",
+   "cible_ref": "CC4.1",
+   "cible_intitule": "COSO Principle 16",
+   "relation": "tgv_plus_etroit",
+   "justification": "Test d'intrusion par un prestataire indépendant reconnu = évaluation séparée incluant les tests d'intrusion (CC4.1)."
+  },
+  {
+   "tgv_ref": "S16.04",
+   "cible_ref": "CC9.2",
+   "cible_intitule": "The entity assesses and manages risks associated with vendors and business partners.",
+   "relation": "recoupement_partiel",
+   "justification": "Détention des droits de PI du code ou explicitation des limitations de licence = gestion des droits/licences des tiers (CC9.2), chevauchement partiel."
+  }
+ ]
+}

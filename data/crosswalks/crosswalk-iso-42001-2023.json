@@ -1,0 +1,828 @@
+{
+ "referentiel": {
+  "slug": "iso-42001-2023",
+  "nom": "ISO/IEC 42001:2023",
+  "categorie": "Certification",
+  "controles_total": 67
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 115,
+  "criteres_tgv": 111,
+  "controles_cible_touches": 31,
+  "relations": {
+   "tgv_plus_etroit": 61,
+   "recoupement_partiel": 54
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "IA1",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "tgv_plus_etroit",
+   "justification": "La mention explicite du recours à l'IA dans la documentation alimente l'information à fournir aux utilisateurs du système."
+  },
+  {
+   "tgv_ref": "IA10",
+   "cible_ref": "A.6.2.4",
+   "cible_intitule": "AI system verification and validation",
+   "relation": "tgv_plus_etroit",
+   "justification": "La stratégie d'évaluation des résultats avec métriques (vrais/faux positifs et négatifs) documente la validation du modèle."
+  },
+  {
+   "tgv_ref": "IA11",
+   "cible_ref": "A.6.2.4",
+   "cible_intitule": "AI system verification and validation",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le rapport sur la variabilité des résultats de l'IA générative est une preuve de validation du comportement du système."
+  },
+  {
+   "tgv_ref": "IA12",
+   "cible_ref": "A.6.2.4",
+   "cible_intitule": "AI system verification and validation",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les tests d'injection de requêtes malveillantes relèvent de la vérification de la robustesse du système d'IA."
+  },
+  {
+   "tgv_ref": "IA13",
+   "cible_ref": "A.9.4",
+   "cible_intitule": "Intended use of the AI system",
+   "relation": "tgv_plus_etroit",
+   "justification": "La documentation de l'utilisation envisagée et des conditions de contexte requises correspond à la documentation de l'usage prévu du système."
+  },
+  {
+   "tgv_ref": "IA14",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "tgv_plus_etroit",
+   "justification": "La documentation des limitations, mises en garde et éléments à surveiller alimente l'information à fournir aux utilisateurs."
+  },
+  {
+   "tgv_ref": "IA15",
+   "cible_ref": "A.6.1.3",
+   "cible_intitule": "Processes for responsible AI system design and development",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les mesures documentées d'identification, d'atténuation et de suivi des biais en développement relèvent des processus de conception responsable."
+  },
+  {
+   "tgv_ref": "IA16",
+   "cible_ref": "A.9.4",
+   "cible_intitule": "Intended use of the AI system",
+   "relation": "tgv_plus_etroit",
+   "justification": "La documentation des utilisations non recommandées et des contextes à exclure précise l'usage prévu du système et ses limites."
+  },
+  {
+   "tgv_ref": "IA17",
+   "cible_ref": "A.4.3",
+   "cible_intitule": "Data resources",
+   "relation": "tgv_plus_etroit",
+   "justification": "La liste accessible des jeux de données d'entraînement, de validation et de tests documente les ressources de données du système."
+  },
+  {
+   "tgv_ref": "IA18",
+   "cible_ref": "A.6.2.7",
+   "cible_intitule": "AI system technical documentation",
+   "relation": "tgv_plus_etroit",
+   "justification": "La mention des types d'IA utilisés (symbolique, apprentissage, générative) alimente la documentation technique du système."
+  },
+  {
+   "tgv_ref": "IA19",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Information for interested parties",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le rapport sur les implantations précédentes (défis, bénéfices, risques, indicateurs) fournit à l'acquéreur une information pertinente sur le système."
+  },
+  {
+   "tgv_ref": "IA2",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Information for interested parties",
+   "relation": "tgv_plus_etroit",
+   "justification": "La publication d'une politique de confidentialité couvrant le système d'IA en langage clair fournit l'information due aux parties intéressées."
+  },
+  {
+   "tgv_ref": "IA20",
+   "cible_ref": "A.6.2.5",
+   "cible_intitule": "AI system deployment",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'engagement à ne pas changer les types d'IA ou les modèles sans approbation de l'acquéreur relève du contrôle des déploiements et changements en production."
+  },
+  {
+   "tgv_ref": "IA21",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "recoupement_partiel",
+   "justification": "Le plan d'amélioration et d'évolution avec la rigueur de la vérification initiale recoupe la gestion de l'exploitation et des mises à jour du système."
+  },
+  {
+   "tgv_ref": "IA22",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le processus d'évaluation continue post-implantation fondé sur les risques correspond à la surveillance du système en exploitation."
+  },
+  {
+   "tgv_ref": "IA23",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "recoupement_partiel",
+   "justification": "La réévaluation périodique (anonymisation, explicabilité, gouvernance, modèles) recoupe la surveillance et l'amélioration du système en exploitation."
+  },
+  {
+   "tgv_ref": "IA24",
+   "cible_ref": "A.6.2.7",
+   "cible_intitule": "AI system technical documentation",
+   "relation": "tgv_plus_etroit",
+   "justification": "La description de l'architecture, des concepts et des techniques d'IA utilisées alimente la documentation technique du système."
+  },
+  {
+   "tgv_ref": "IA25",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "tgv_plus_etroit",
+   "justification": "La formation ou documentation sur le fonctionnement du système et le rôle de vérificateur de l'utilisateur alimente l'information destinée aux utilisateurs."
+  },
+  {
+   "tgv_ref": "IA26",
+   "cible_ref": "A.5.5",
+   "cible_intitule": "Assessing societal impacts of AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "La documentation de l'empreinte environnementale du développement et de l'utilisation alimente l'évaluation des impacts sociétaux du système."
+  },
+  {
+   "tgv_ref": "IA27",
+   "cible_ref": "A.7.6",
+   "cible_intitule": "Data preparation",
+   "relation": "tgv_plus_etroit",
+   "justification": "La documentation des méthodes et critères d'anonymisation et de dépersonnalisation relève de la préparation des données du système."
+  },
+  {
+   "tgv_ref": "IA28",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "tgv_plus_etroit",
+   "justification": "La vulgarisation des mesures d'atténuation des risques pour non-spécialistes alimente l'information fournie aux utilisateurs."
+  },
+  {
+   "tgv_ref": "IA29",
+   "cible_ref": "A.5.5",
+   "cible_intitule": "Assessing societal impacts of AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "La description des mesures de minimisation des répercussions environnementales alimente l'évaluation des impacts sociétaux du système."
+  },
+  {
+   "tgv_ref": "IA3",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'établissement documenté des raisons, facteurs et paramètres des décisions automatisées alimente la documentation destinée aux utilisateurs."
+  },
+  {
+   "tgv_ref": "IA30",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "tgv_plus_etroit",
+   "justification": "La description des modalités de contrôle et de surveillance des agents autonomes relève de la surveillance du système en exploitation."
+  },
+  {
+   "tgv_ref": "IA30",
+   "cible_ref": "A.8.4",
+   "cible_intitule": "Communication of incidents",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les modalités de communication d'incidents à l'acquéreur correspondent à la communication des incidents liés à l'IA."
+  },
+  {
+   "tgv_ref": "IA31",
+   "cible_ref": "A.7.2",
+   "cible_intitule": "Data for development and enhancement of AI system",
+   "relation": "tgv_plus_etroit",
+   "justification": "La justification documentée de l'usage et de la représentativité des données synthétiques relève de la gestion des données de développement."
+  },
+  {
+   "tgv_ref": "IA32",
+   "cible_ref": "A.7.2",
+   "cible_intitule": "Data for development and enhancement of AI system",
+   "relation": "tgv_plus_etroit",
+   "justification": "La méthodologie documentée de constitution de jeux distincts d'entraînement, de validation et de tests relève de la gestion des données de développement."
+  },
+  {
+   "tgv_ref": "IA33",
+   "cible_ref": "A.5.2",
+   "cible_intitule": "AI system impact assessment process",
+   "relation": "recoupement_partiel",
+   "justification": "La collaboration avec des chercheurs en IA responsable et un comité d'utilisateurs pour l'analyse de risques recoupe le processus d'évaluation d'impact du système."
+  },
+  {
+   "tgv_ref": "IA34",
+   "cible_ref": "8.2",
+   "cible_intitule": "AI risk assessment",
+   "relation": "recoupement_partiel",
+   "justification": "La tenue d'un registre des risques issus de la SARIA, de ses modèles et de ses jeux de données recoupe l'évaluation des risques IA menée à intervalles planifiés."
+  },
+  {
+   "tgv_ref": "IA35",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Information for interested parties",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'engagement à communiquer tout nouveau risque à l'acquéreur fournit l'information due aux parties intéressées."
+  },
+  {
+   "tgv_ref": "IA36",
+   "cible_ref": "A.7.4",
+   "cible_intitule": "Quality of data for AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'engagement à exclure des jeux de données corrompus ou compromis protège la qualité des données d'entraînement."
+  },
+  {
+   "tgv_ref": "IA37",
+   "cible_ref": "A.7.4",
+   "cible_intitule": "Quality of data for AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "La surveillance des événements pouvant compromettre l'intégrité des jeux de données d'entraînement maintient la qualité des données du système."
+  },
+  {
+   "tgv_ref": "IA37",
+   "cible_ref": "A.8.4",
+   "cible_intitule": "Communication of incidents",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'information de l'acquéreur en cas de compromission des jeux de données correspond à la communication d'incidents liés à l'IA."
+  },
+  {
+   "tgv_ref": "IA38",
+   "cible_ref": "A.7.3",
+   "cible_intitule": "Acquisition of data",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'acquisition des droits sur les jeux de données d'entraînement, notamment les renseignements personnels, relève du contrôle de l'acquisition des données."
+  },
+  {
+   "tgv_ref": "IA4",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Information for interested parties",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'information de la personne concernée qu'une décision repose sur un traitement automatisé constitue une information aux parties intéressées."
+  },
+  {
+   "tgv_ref": "IA41",
+   "cible_ref": "A.8.3",
+   "cible_intitule": "External reporting",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'information de l'acquéreur et du Bureau de certification sur toute communication ou vente de données relève du reporting externe sur les activités du système."
+  },
+  {
+   "tgv_ref": "IA42",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Information for interested parties",
+   "relation": "tgv_plus_etroit",
+   "justification": "La communication à l'acquéreur de tout produit dérivé des données d'utilisation informe les parties intéressées."
+  },
+  {
+   "tgv_ref": "IA43",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Information for interested parties",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'information de l'acquéreur sur les tierces parties intéressées par les données d'utilisation informe les parties intéressées."
+  },
+  {
+   "tgv_ref": "IA44",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Information for interested parties",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'information de l'acquéreur sur toute analyse non sollicitée des données d'utilisation informe les parties intéressées."
+  },
+  {
+   "tgv_ref": "IA45",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "tgv_plus_etroit",
+   "justification": "La fonction d'inhibition des modèles en cas de défaillance, refus ou décision administrative est un contrôle d'exploitation du système."
+  },
+  {
+   "tgv_ref": "IA46",
+   "cible_ref": "A.7.2",
+   "cible_intitule": "Data for development and enhancement of AI system",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'interdiction d'apprentissage automatique sur les données d'utilisation sans autorisation explicite encadre les données d'amélioration du système."
+  },
+  {
+   "tgv_ref": "IA47",
+   "cible_ref": "A.6.2.8",
+   "cible_intitule": "AI system recording of event logs",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation traçable des accès, décisions, réactions et commentaires correspond à l'enregistrement des journaux d'événements du système."
+  },
+  {
+   "tgv_ref": "IA48",
+   "cible_ref": "A.6.2.8",
+   "cible_intitule": "AI system recording of event logs",
+   "relation": "tgv_plus_etroit",
+   "justification": "La conservation des journaux pendant la période de contestation judiciaire des décisions relève de la gestion des journaux d'événements."
+  },
+  {
+   "tgv_ref": "IA5",
+   "cible_ref": "A.8.5",
+   "cible_intitule": "Information for interested parties",
+   "relation": "tgv_plus_etroit",
+   "justification": "La fourniture sur demande des renseignements, raisons et facteurs de la décision et du droit de rectification informe les parties intéressées."
+  },
+  {
+   "tgv_ref": "IA51",
+   "cible_ref": "A.6.2.8",
+   "cible_intitule": "AI system recording of event logs",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation des données d'utilisation et des résultats accessibles à l'acquéreur relève des journaux d'événements du système."
+  },
+  {
+   "tgv_ref": "IA52",
+   "cible_ref": "A.6.2.8",
+   "cible_intitule": "AI system recording of event logs",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le suivi et l'extraction des approbations, changements et réactions des utilisateurs relèvent de l'enregistrement des événements du système."
+  },
+  {
+   "tgv_ref": "IA53",
+   "cible_ref": "A.9.2",
+   "cible_intitule": "Processes for responsible use of AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "La consultation des résultats intermédiaires composant la décision soutient la vérification humaine dans l'utilisation responsable du système."
+  },
+  {
+   "tgv_ref": "IA54",
+   "cible_ref": "A.9.2",
+   "cible_intitule": "Processes for responsible use of AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "La consultation et l'extraction des décisions intermédiaires validées ou modifiées par l'utilisateur soutiennent la supervision humaine."
+  },
+  {
+   "tgv_ref": "IA56",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'encadrement de l'adaptation des modèles par apprentissage continu avec approbation de l'acquéreur relève de la surveillance du système en exploitation."
+  },
+  {
+   "tgv_ref": "IA57",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "tgv_plus_etroit",
+   "justification": "La présentation des sources des résultats génératifs dans l'interface alimente l'information fournie aux utilisateurs."
+  },
+  {
+   "tgv_ref": "IA58",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le signalement, la journalisation et l'extraction des résultats inadéquats alimentent la surveillance du système en exploitation."
+  },
+  {
+   "tgv_ref": "IA59",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'affichage des limitations et mises en garde dans les écrans d'utilisation alimente l'information fournie aux utilisateurs."
+  },
+  {
+   "tgv_ref": "IA6",
+   "cible_ref": "A.9.2",
+   "cible_intitule": "Processes for responsible use of AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "La possibilité de présenter ses observations à un humain apte à réviser la décision relève des processus d'utilisation responsable (supervision humaine)."
+  },
+  {
+   "tgv_ref": "IA60",
+   "cible_ref": "A.9.2",
+   "cible_intitule": "Processes for responsible use of AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "La possibilité affichée de ne pas utiliser le système ou de refuser ses recommandations préserve l'autonomie humaine dans l'utilisation responsable."
+  },
+  {
+   "tgv_ref": "IA61",
+   "cible_ref": "A.9.2",
+   "cible_intitule": "Processes for responsible use of AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le maintien de l'utilisateur en contrôle des résultats et l'intangibilité de ses validations relèvent de la supervision humaine du système."
+  },
+  {
+   "tgv_ref": "IA62",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'explication à l'écran du fonctionnement du modèle et des données ou paramètres considérés alimente l'information fournie aux utilisateurs."
+  },
+  {
+   "tgv_ref": "IA63",
+   "cible_ref": "A.6.2.5",
+   "cible_intitule": "AI system deployment",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'affichage permanent de la version et son changement à chaque mise à jour relèvent du contrôle des versions déployées."
+  },
+  {
+   "tgv_ref": "IA64",
+   "cible_ref": "A.6.2.5",
+   "cible_intitule": "AI system deployment",
+   "relation": "tgv_plus_etroit",
+   "justification": "La mention de la version utilisée dans chaque résultat assure la traçabilité des versions déployées en production."
+  },
+  {
+   "tgv_ref": "IA65",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'intégration de modalités de contrôle et de surveillance des agents autonomes dans le système relève de la surveillance en exploitation."
+  },
+  {
+   "tgv_ref": "IA66",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les points de contrôle automatiques des appels externes et la stratégie de continuité en cas de défaillance relèvent de l'exploitation et de la surveillance du système."
+  },
+  {
+   "tgv_ref": "IA7",
+   "cible_ref": "A.9.2",
+   "cible_intitule": "Processes for responsible use of AI systems",
+   "relation": "tgv_plus_etroit",
+   "justification": "La révision humaine des décisions est un mécanisme de supervision humaine exigé par les processus d'utilisation responsable de l'IA."
+  },
+  {
+   "tgv_ref": "IA8",
+   "cible_ref": "A.5.4",
+   "cible_intitule": "Assessing AI system impact on individuals or groups of individuals",
+   "relation": "recoupement_partiel",
+   "justification": "Ces essais fournissent des données probantes pour l'évaluation des impacts du système sur les individus et les groupes."
+  },
+  {
+   "tgv_ref": "IA8",
+   "cible_ref": "A.6.2.4",
+   "cible_intitule": "AI system verification and validation",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les essais identifiant les différences de comportement selon les groupes sociaux constituent des activités de vérification et validation du système."
+  },
+  {
+   "tgv_ref": "IA9",
+   "cible_ref": "A.6.2.4",
+   "cible_intitule": "AI system verification and validation",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les essais d'adéquation à l'utilisation envisagée valident le système par rapport à ses exigences."
+  },
+  {
+   "tgv_ref": "P01.01",
+   "cible_ref": "A.2.3",
+   "cible_intitule": "Alignment with other organizational policies",
+   "relation": "recoupement_partiel",
+   "justification": "La politique de protection de la vie privée est une politique organisationnelle avec laquelle la politique IA doit être alignée."
+  },
+  {
+   "tgv_ref": "P02.01",
+   "cible_ref": "A.3.2",
+   "cible_intitule": "AI roles and responsibilities",
+   "relation": "recoupement_partiel",
+   "justification": "La désignation d'un responsable PRP chargé de la mise en oeuvre des politiques recoupe la définition des rôles et responsabilités pour un système d'IA traitant des renseignements personnels."
+  },
+  {
+   "tgv_ref": "P02.02",
+   "cible_ref": "7.1",
+   "cible_intitule": "Resources",
+   "relation": "recoupement_partiel",
+   "justification": "L'allocation de ressources humaines, techniques et financières au responsable PRP recoupe la fourniture des ressources nécessaires au management de l'IA."
+  },
+  {
+   "tgv_ref": "P02.03",
+   "cible_ref": "A.3.2",
+   "cible_intitule": "AI roles and responsibilities",
+   "relation": "recoupement_partiel",
+   "justification": "L'implication du responsable PRP dans le projet de développement du produit recoupe l'attribution des responsabilités dans les activités du système d'IA."
+  },
+  {
+   "tgv_ref": "P03.01",
+   "cible_ref": "A.6.1.3",
+   "cible_intitule": "Processes for responsible AI system design and development",
+   "relation": "recoupement_partiel",
+   "justification": "Les activités de respect de la vie privée intégrées au projet de développement recoupent les processus de conception et de développement responsables de l'IA, dont la vie privée est une considération explicite."
+  },
+  {
+   "tgv_ref": "P03.02",
+   "cible_ref": "8.2",
+   "cible_intitule": "AI risk assessment",
+   "relation": "recoupement_partiel",
+   "justification": "L'identification et l'analyse des risques d'atteinte à la vie privée dès les premières étapes du projet et en continu alimentent l'évaluation des risques du système d'IA."
+  },
+  {
+   "tgv_ref": "P03.02",
+   "cible_ref": "A.5.4",
+   "cible_intitule": "Assessing AI system impact on individuals or groups of individuals",
+   "relation": "recoupement_partiel",
+   "justification": "L'analyse des risques d'atteinte à la vie privée menée dès la conception couvre le volet vie privée de l'évaluation des impacts du système d'IA sur les individus."
+  },
+  {
+   "tgv_ref": "P04.01",
+   "cible_ref": "A.5.2",
+   "cible_intitule": "AI system impact assessment process",
+   "relation": "recoupement_partiel",
+   "justification": "Le mécanisme d'évaluation des facteurs relatifs à la vie privée (ÉFVP) recoupe le processus d'évaluation des impacts du système d'IA sur les personnes concernées, intégration explicitement reconnue par ISO 42001."
+  },
+  {
+   "tgv_ref": "P04.02",
+   "cible_ref": "A.5.3",
+   "cible_intitule": "Documentation of AI system impact assessments",
+   "relation": "recoupement_partiel",
+   "justification": "L'ÉFVP documentée contenant tous les éléments exigés par la CAI recoupe la documentation des évaluations d'impact du système d'IA."
+  },
+  {
+   "tgv_ref": "P05.01",
+   "cible_ref": "7.3",
+   "cible_intitule": "Awareness",
+   "relation": "recoupement_partiel",
+   "justification": "La sensibilisation du personnel à la protection de la vie privée couvre le volet vie privée de la sensibilisation aux implications du système d'IA traitant des RP."
+  },
+  {
+   "tgv_ref": "P05.02",
+   "cible_ref": "A.9.4",
+   "cible_intitule": "Intended use of the AI system",
+   "relation": "recoupement_partiel",
+   "justification": "L'information de l'acquéreur et des utilisateurs sur l'usage autorisé du PST et leur rôle documente l'utilisation prévue du système d'IA exigée par A.9.4."
+  },
+  {
+   "tgv_ref": "P06.08",
+   "cible_ref": "A.7.5",
+   "cible_intitule": "Data provenance",
+   "relation": "recoupement_partiel",
+   "justification": "La traçabilité de la provenance des RP, y compris lors de collecte indirecte, fournit la preuve de provenance des données exigée par A.7.5 pour les données du système d'IA."
+  },
+  {
+   "tgv_ref": "P07.01",
+   "cible_ref": "A.10.3",
+   "cible_intitule": "Suppliers",
+   "relation": "recoupement_partiel",
+   "justification": "L'assurance que les partenaires respectent les exigences de protection des RP couvre le volet vie privée de la gestion des fournisseurs intervenant dans le système d'IA."
+  },
+  {
+   "tgv_ref": "P08.03",
+   "cible_ref": "A.7.5",
+   "cible_intitule": "Data provenance",
+   "relation": "recoupement_partiel",
+   "justification": "La capacité de connaître la provenance des renseignements personnels collectés et utilisés couvre la provenance des données lorsque celles-ci alimentent le système d'IA."
+  },
+  {
+   "tgv_ref": "P09.04",
+   "cible_ref": "A.6.2.8",
+   "cible_intitule": "AI system recording of event logs",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation des accès aux renseignements personnels constitue une catégorie des journaux d'événements exigés pour le système d'IA traitant ces données."
+  },
+  {
+   "tgv_ref": "P10.01",
+   "cible_ref": "A.3.2",
+   "cible_intitule": "AI roles and responsibilities",
+   "relation": "recoupement_partiel",
+   "justification": "Les rôles et responsabilités du personnel pour la protection des RP tout au long de leur cycle de vie alimentent la définition des rôles du cycle de vie du système d'IA traitant ces données."
+  },
+  {
+   "tgv_ref": "P10.04",
+   "cible_ref": "A.6.2.8",
+   "cible_intitule": "AI system recording of event logs",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation de toute activité relative à chaque renseignement personnel tout au long de son cycle de vie constitue une catégorie des journaux d'événements exigés par A.6.2.8 pour le système d'IA traitant ces données."
+  },
+  {
+   "tgv_ref": "P11.19",
+   "cible_ref": "A.7.2",
+   "cible_intitule": "Data for development and enhancement of AI system",
+   "relation": "recoupement_partiel",
+   "justification": "L'interdiction d'utiliser des renseignements personnels pour l'apprentissage ou le développement du produit hors cas prévus par la loi encadre directement les données de développement et d'amélioration du système d'IA."
+  },
+  {
+   "tgv_ref": "P12.02",
+   "cible_ref": "A.8.4",
+   "cible_intitule": "Communication of incidents",
+   "relation": "recoupement_partiel",
+   "justification": "Les procédures de notification interne et externe des incidents de confidentialité couvrent la communication des incidents aux parties concernées lorsque l'incident implique le système d'IA."
+  },
+  {
+   "tgv_ref": "P12.06",
+   "cible_ref": "A.8.4",
+   "cible_intitule": "Communication of incidents",
+   "relation": "recoupement_partiel",
+   "justification": "Le mécanisme d'avis au Bureau de certification, à la Commission et aux personnes concernées en cas d'incident de confidentialité constitue une preuve de communication d'incidents aux parties intéressées."
+  },
+  {
+   "tgv_ref": "P14.02",
+   "cible_ref": "A.4.3",
+   "cible_intitule": "Data resources",
+   "relation": "recoupement_partiel",
+   "justification": "L'inventaire à jour des renseignements personnels recueillis ou utilisés par le produit documente les ressources de données du système d'IA exigées par A.4.3."
+  },
+  {
+   "tgv_ref": "P16.01",
+   "cible_ref": "A.8.3",
+   "cible_intitule": "External reporting",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus formel de traitement des plaintes relatives aux RP fournit aux parties intéressées le canal exigé par A.8.3 pour signaler les impacts négatifs du système d'IA, pour le volet vie privée."
+  },
+  {
+   "tgv_ref": "S01.01",
+   "cible_ref": "8.2",
+   "cible_intitule": "AI risk assessment",
+   "relation": "recoupement_partiel",
+   "justification": "L'évaluation des risques de sécurité réalisée à la conception de la SARIA et avant sa mise en production couvre le volet sécurité de l'évaluation initiale des risques du système d'IA."
+  },
+  {
+   "tgv_ref": "S01.02",
+   "cible_ref": "8.2",
+   "cible_intitule": "AI risk assessment",
+   "relation": "recoupement_partiel",
+   "justification": "Les évaluations périodiques des risques et vulnérabilités de l'application recoupent l'exigence d'évaluation des risques IA menée à intervalles planifiés."
+  },
+  {
+   "tgv_ref": "S01.03",
+   "cible_ref": "8.2",
+   "cible_intitule": "AI risk assessment",
+   "relation": "recoupement_partiel",
+   "justification": "La réévaluation des risques approuvée par la direction et refaite à chaque changement majeur recoupe l'exigence d'évaluation des risques IA lors de changements significatifs."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "A.2.3",
+   "cible_intitule": "Alignment with other organizational policies",
+   "relation": "recoupement_partiel",
+   "justification": "Les politiques de sécurité (objectifs, principes, rôles, dérogations) font partie des politiques organisationnelles avec lesquelles la politique IA doit s'aligner."
+  },
+  {
+   "tgv_ref": "S03.01",
+   "cible_ref": "A.3.2",
+   "cible_intitule": "AI roles and responsibilities",
+   "relation": "recoupement_partiel",
+   "justification": "Les responsabilités de sécurité définies dans l'organisation couvrent le volet sécurité des rôles et responsabilités liés aux systèmes d'IA exigés par A.3.2."
+  },
+  {
+   "tgv_ref": "S03.02",
+   "cible_ref": "A.3.2",
+   "cible_intitule": "AI roles and responsibilities",
+   "relation": "recoupement_partiel",
+   "justification": "La désignation d'un responsable attitré de la sécurité de l'application recoupe l'attribution des rôles et responsabilités pour les activités du système d'IA."
+  },
+  {
+   "tgv_ref": "S03.04",
+   "cible_ref": "6.1",
+   "cible_intitule": "Actions to address risks and opportunities",
+   "relation": "recoupement_partiel",
+   "justification": "La méthode de gestion de projet intégrant l'identification et le traitement des risques contribue à la planification des actions face aux risques lorsque le projet porte sur un système d'IA."
+  },
+  {
+   "tgv_ref": "S04.01",
+   "cible_ref": "7.2",
+   "cible_intitule": "Competence",
+   "relation": "recoupement_partiel",
+   "justification": "La démonstration des compétences du personnel en lien avec ses fonctions couvre partiellement l'exigence de compétence 7.2 pour le personnel intervenant sur le système d'IA."
+  },
+  {
+   "tgv_ref": "S04.02",
+   "cible_ref": "7.3",
+   "cible_intitule": "Awareness",
+   "relation": "recoupement_partiel",
+   "justification": "Le programme de sensibilisation à la sécurité pour tout le personnel couvre le volet sécurité de la sensibilisation exigée par 7.3 pour les implications des systèmes d'IA."
+  },
+  {
+   "tgv_ref": "S05.04",
+   "cible_ref": "A.4.2",
+   "cible_intitule": "Resource documentation",
+   "relation": "recoupement_partiel",
+   "justification": "L'inventaire de l'application et des actifs permettant son exploitation, avec responsables attitrés, alimente la documentation des ressources du système d'IA exigée par A.4.2."
+  },
+  {
+   "tgv_ref": "S09.03",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "recoupement_partiel",
+   "justification": "Le guide d'utilisation fourni aux utilisateurs constitue une partie de la documentation systeme et de l'information aux utilisateurs exigées par A.8.2 pour le système d'IA."
+  },
+  {
+   "tgv_ref": "S09.04",
+   "cible_ref": "A.8.2",
+   "cible_intitule": "System documentation and information for users",
+   "relation": "recoupement_partiel",
+   "justification": "Le guide d'installation et d'entretien (environnement, configuration, accès, surveillance, sauvegardes) fournit une partie de la documentation système exigée par A.8.2 lorsque l'application est un système d'IA."
+  },
+  {
+   "tgv_ref": "S09.07",
+   "cible_ref": "A.6.2.5",
+   "cible_intitule": "AI system deployment",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus documenté de gestion des changements de l'application assure le déploiement maîtrisé exigé par A.6.2.5 lorsque l'application est un système d'IA."
+  },
+  {
+   "tgv_ref": "S09.08",
+   "cible_ref": "A.6.2.5",
+   "cible_intitule": "AI system deployment",
+   "relation": "recoupement_partiel",
+   "justification": "La gestion des versions identifiant chaque changement contribue au contrôle des mises en production du système d'IA exigé par A.6.2.5."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "A.6.2.8",
+   "cible_intitule": "AI system recording of event logs",
+   "relation": "recoupement_partiel",
+   "justification": "La journalisation de toute activité de l'application (acteur, moment, nature, circonstances) fournit l'enregistrement des journaux d'événements en exploitation exigé par A.6.2.8, sans couvrir la détermination des phases du cycle de vie où la journalisation doit être activée."
+  },
+  {
+   "tgv_ref": "S10.06",
+   "cible_ref": "A.6.2.6",
+   "cible_intitule": "AI system operation and monitoring",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctionnalités d'alerte sur comportements anormaux et incidents potentiels alimentent la surveillance de l'exploitation du système d'IA exigée par A.6.2.6."
+  },
+  {
+   "tgv_ref": "S12.01",
+   "cible_ref": "7.3",
+   "cible_intitule": "Awareness",
+   "relation": "recoupement_partiel",
+   "justification": "Le plan de formation continue en cybersécurité des intervenants de l'écosystème du PST entretient la sensibilisation aux implications de sécurité exigée par 7.3 pour le personnel intervenant sur le système d'IA."
+  },
+  {
+   "tgv_ref": "S12.02",
+   "cible_ref": "A.6.1.3",
+   "cible_intitule": "Processes for responsible AI system design and development",
+   "relation": "recoupement_partiel",
+   "justification": "La prise en compte de la sécurité à chaque étape du développement est une composante du processus de conception et développement responsables exigé pour le système d'IA."
+  },
+  {
+   "tgv_ref": "S12.06",
+   "cible_ref": "A.10.3",
+   "cible_intitule": "Suppliers",
+   "relation": "recoupement_partiel",
+   "justification": "La supervision de tout développement réalisé à l'externe couvre la maîtrise des fournisseurs participant au développement du système d'IA."
+  },
+  {
+   "tgv_ref": "S12.07",
+   "cible_ref": "A.7.2",
+   "cible_intitule": "Data for development and enhancement of AI system",
+   "relation": "recoupement_partiel",
+   "justification": "L'interdiction d'utiliser de l'information confidentielle de production en développement encadre les données utilisées pour le développement et l'amélioration du système d'IA."
+  },
+  {
+   "tgv_ref": "S12.08",
+   "cible_ref": "A.6.2.4",
+   "cible_intitule": "AI system verification and validation",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de tests applicatifs fournit une partie des preuves de vérification et validation du système d'IA par rapport à ses exigences."
+  },
+  {
+   "tgv_ref": "S13.02",
+   "cible_ref": "A.10.3",
+   "cible_intitule": "Suppliers",
+   "relation": "recoupement_partiel",
+   "justification": "L'évaluation des menaces, des risques et des facteurs vie privée pour tout recours à un fournisseur tiers alimente l'évaluation des fournisseurs impliqués dans le cycle de vie du système d'IA."
+  },
+  {
+   "tgv_ref": "S13.03",
+   "cible_ref": "A.10.3",
+   "cible_intitule": "Suppliers",
+   "relation": "recoupement_partiel",
+   "justification": "La liste des fournisseurs participant au développement, à l'exploitation et à l'entretien de l'application, avec la nature des services, identifie les fournisseurs du système d'IA à gérer selon A.10.3."
+  },
+  {
+   "tgv_ref": "S13.04",
+   "cible_ref": "A.10.3",
+   "cible_intitule": "Suppliers",
+   "relation": "recoupement_partiel",
+   "justification": "Les exigences définies par fournisseur (sécurité, accès, niveaux de service, incidents) constituent les exigences imposées aux fournisseurs du système d'IA exigées par A.10.3."
+  },
+  {
+   "tgv_ref": "S13.05",
+   "cible_ref": "A.10.3",
+   "cible_intitule": "Suppliers",
+   "relation": "recoupement_partiel",
+   "justification": "Les processus de surveillance de la conformité des fournisseurs à leurs exigences couvrent le suivi des fournisseurs impliqués dans le système d'IA."
+  },
+  {
+   "tgv_ref": "S13.06",
+   "cible_ref": "A.10.3",
+   "cible_intitule": "Suppliers",
+   "relation": "recoupement_partiel",
+   "justification": "Les ententes contractuelles avec chaque fournisseur fournissent la preuve contractuelle de la gestion des fournisseurs du système d'IA exigée par A.10.3."
+  },
+  {
+   "tgv_ref": "S14.01",
+   "cible_ref": "A.10.3",
+   "cible_intitule": "Suppliers",
+   "relation": "recoupement_partiel",
+   "justification": "L'évaluation régulière de la performance des fournisseurs alimente le suivi continu des fournisseurs intervenant dans le système d'IA."
+  },
+  {
+   "tgv_ref": "S14.03",
+   "cible_ref": "A.8.4",
+   "cible_intitule": "Communication of incidents",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus de gestion des incidents arrimé avec celui des clients opérationnalise la communication des incidents du système d'IA aux parties intéressées exigée par A.8.4."
+  },
+  {
+   "tgv_ref": "S14.04",
+   "cible_ref": "A.8.4",
+   "cible_intitule": "Communication of incidents",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus établi d'avertissement des clients de tout incident portant sur les données couvre la communication des incidents du système d'IA aux parties concernées."
+  }
+ ]
+}

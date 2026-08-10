@@ -1,0 +1,40 @@
+name: Contester une correspondance
+description: Signaler un lien que vous jugez erroné, mal qualifié ou insuffisamment justifié
+title: "[Correspondance] "
+labels: ["correspondance"]
+body:
+  - type: input
+    id: tgv
+    attributes:
+      label: Référence du critère TGV
+      placeholder: "S04.02"
+    validations: {required: true}
+  - type: input
+    id: cible
+    attributes:
+      label: Référence du contrôle cible
+      placeholder: "A.6.3"
+    validations: {required: true}
+  - type: dropdown
+    id: referentiel
+    attributes:
+      label: Référentiel concerné
+      options: [ISO 27001, ISO 27701, ISO 42001, ISO 22301, SOC 2, RGPD, HITRUST,
+                BSI C5, NIS2, CCB CyberFundamentals, EU AI Act, HDS, NIST SP 800-66 (HIPAA)]
+    validations: {required: true}
+  - type: dropdown
+    id: nature
+    attributes:
+      label: Nature du problème
+      options:
+        - Le lien ne devrait pas exister
+        - La relation est mal qualifiée
+        - La justification est insuffisante ou erronée
+        - Une correspondance manque
+    validations: {required: true}
+  - type: textarea
+    id: argument
+    attributes:
+      label: Votre argument
+      description: Expliquez pourquoi, en citant si possible le texte des deux exigences.
+    validations: {required: true}

@@ -1,0 +1,856 @@
+{
+ "referentiel": {
+  "slug": "iso-27701-2025",
+  "nom": "ISO/IEC 27701:2025",
+  "categorie": "Certification",
+  "controles_total": 21
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 119,
+  "criteres_tgv": 114,
+  "controles_cible_touches": 17,
+  "relations": {
+   "tgv_plus_etroit": 118,
+   "recoupement_partiel": 1
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "P01.01",
+   "cible_ref": "A.3.3-4",
+   "cible_intitule": "Politique de vie privee et roles",
+   "relation": "tgv_plus_etroit",
+   "justification": "P01.01 exige une politique de protection de la vie privée/RP; A.3.3-4 impose d'établir cette politique et d'attribuer les rôles. Le critère TGV est l'instance précise de l'exigence de politique du groupe partage."
+  },
+  {
+   "tgv_ref": "P01.02",
+   "cible_ref": "A.3.3-4",
+   "cible_intitule": "Politique de vie privee et roles",
+   "relation": "tgv_plus_etroit",
+   "justification": "P01.02 encadre la PRP par politiques/processus/directives/procédures; correspond à l'établissement du dispositif documentaire et de gouvernance des RP de A.3.3-4."
+  },
+  {
+   "tgv_ref": "P01.03",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P01.03 rend la politique de confidentialité facilement consultable par l'utilisateur, ce qui réalisé l'obligation d'information transparente et accessible de A.1.3.2-4."
+  },
+  {
+   "tgv_ref": "P01.04",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P01.04 publie de l'information détaillée sur la gouvernance des RP en termes simples/clairs sur le site = obligation de transparence (A.1.3.2-4)."
+  },
+  {
+   "tgv_ref": "P01.04",
+   "cible_ref": "A.3.3-4",
+   "cible_intitule": "Politique de vie privee et roles",
+   "relation": "tgv_plus_etroit",
+   "justification": "P01.04 établit des politiques et pratiques encadrant la gouvernance des RP = volet politique et rôles de A.3.3-4."
+  },
+  {
+   "tgv_ref": "P01.05",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P01.05 détaille dans les politiques ce qui est collecté/conservé/communiqué/détruit = information transparente sur le traitement fournie aux personnes (A.1.3.2-4)."
+  },
+  {
+   "tgv_ref": "P02.01",
+   "cible_ref": "A.3.3-4",
+   "cible_intitule": "Politique de vie privee et roles",
+   "relation": "tgv_plus_etroit",
+   "justification": "P02.01 désigne un responsable de la PRP chargé de la mise en oeuvre = attribution des rôles et responsabilités vie privée de A.3.3-4."
+  },
+  {
+   "tgv_ref": "P02.02",
+   "cible_ref": "A.3.3-4",
+   "cible_intitule": "Politique de vie privee et roles",
+   "relation": "tgv_plus_etroit",
+   "justification": "P02.02 dote le responsable des ressources humaines/techniques/financières = engagement de la direction et ressources pour les rôles définis à A.3.3-4."
+  },
+  {
+   "tgv_ref": "P02.03",
+   "cible_ref": "A.3.3-4",
+   "cible_intitule": "Politique de vie privee et roles",
+   "relation": "tgv_plus_etroit",
+   "justification": "P02.03 impliqué le responsable PRP dans le projet de développement = exercice concret des rôles/responsabilités vie privée (A.3.3-4)."
+  },
+  {
+   "tgv_ref": "P03.01",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "recoupement_partiel",
+   "justification": "P03.01 intègre des activités assurant le respect des principes de PRP dès la conception (privacy by design); recoupe le noyau minimisation/protection des données dès la conception de A.1.4.2-5 sans se limiter à la seule minimisation."
+  },
+  {
+   "tgv_ref": "P03.02",
+   "cible_ref": "A.3.13-16",
+   "cible_intitule": "Conformite, audit et revue",
+   "relation": "tgv_plus_etroit",
+   "justification": "P03.02 cerné et analyse les risques d'atteinte à la vie privée des les premières étapes et tout au long du projet = évaluation des risques vie privée alimentant le dispositif de conformité/revue de A.3.13-16."
+  },
+  {
+   "tgv_ref": "P04.01",
+   "cible_ref": "A.3.13-16",
+   "cible_intitule": "Conformite, audit et revue",
+   "relation": "tgv_plus_etroit",
+   "justification": "P04.01 réalisé une ÉFVP évaluant la conformité du projet aux lois et relevant les risques = instrument d'évaluation de conformité réglementaire du groupe A.3.13-16."
+  },
+  {
+   "tgv_ref": "P04.02",
+   "cible_ref": "A.3.13-16",
+   "cible_intitule": "Conformite, audit et revue",
+   "relation": "tgv_plus_etroit",
+   "justification": "P04.02 exige que l'ÉFVP contienne les éléments requis par la CAI = complétude de l'évaluation de conformité couverte par A.3.13-16."
+  },
+  {
+   "tgv_ref": "P05.01",
+   "cible_ref": "A.3.17-19",
+   "cible_intitule": "Securite du personnel et bureau range",
+   "relation": "tgv_plus_etroit",
+   "justification": "P05.01 sensibilisé le personnel à la protection de la vie privée et aux bonnes pratiques = sensibilisation/formation du personnel de A.3.17-19."
+  },
+  {
+   "tgv_ref": "P05.02",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P05.02 informe acquéreur et utilisateurs de l'usage autorisé et des mesures de sécurité et de leur rôle = information fournie aux utilisateurs sur le traitement (A.1.3.2-4)."
+  },
+  {
+   "tgv_ref": "P06.01",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.01 informe l'utilisateur de la finalité de la collecte et de l'usage des RP = transparence sur les finalités du traitement (A.1.3.2-4)."
+  },
+  {
+   "tgv_ref": "P06.02",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.02 s'assure de l'obtention du consentement et de l'information sur motifs/usage/tiers/droit de retrait = base de consentement geree à A.1.2.2-5."
+  },
+  {
+   "tgv_ref": "P06.02",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.02 exige, au-delà de l'obtention du consentement (déjà mappé à A.1.2.2-5), que les personnes concernées soient systématiquement informées des motifs de la collecte, de l'utilisation prévue, des tiers impliqués et de leur droit de rétractation. Ce volet information/transparence est une exigence distincte qui réalisé l'obligation de fournir aux personnes une information claire sur le traitement du groupe A.1.3.2-4. Mapping dual justifié (consentement + transparence), ratio maintenu à 2."
+  },
+  {
+   "tgv_ref": "P06.03",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.03 recueille et consigne le consentement à la collecte = obtention et preuve du consentement (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P06.04",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.04 consigne l'attestation que le professionnel à obtenu le consentement pour collecter = preuve du consentement (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P06.05",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.05 recueille/consigne le consentement à la communication des RP = gestion et preuve du consentement (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P06.06",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.06 fait confirmer formellement tout transfert spécifique de RP du DSQ = consentement/confirmation propre à une communication (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P06.07",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.07 gère finement le consentement (paramètres d'acceptation, préférences) = gestion du consentement incluant préférences et retrait (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P06.08",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.08 consigne, en collecte indirecte, une déclaration justifiant la provenance des RP = établissement de la base légale/autorisation de la collecte indirecte (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P06.09",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.09 consigne l'acceptation des conditions d'utilisation par chaque utilisateur = preuve d'accord/consentement documenté (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P06.10",
+   "cible_ref": "A.1.5.2-5",
+   "cible_intitule": "Transfert et divulgation des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.10 respecte l'encadrement de la communication de RP sans consentement = règles et registre de divulgation de A.1.5.2-5."
+  },
+  {
+   "tgv_ref": "P06.11",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.11 obtient le consentement des titulaires de l'autorité parentale pour les mineurs de moins de 14 ans = condition de consentement spécifique (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P06.12",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P06.12 consigne l'attestation d'obtention du consentement pour communiquer les RP = preuve du consentement à la communication (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P07.01",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P07.01 s'assure que les partenaires respectent ses exigences PRP = encadrement et contrôle des fournisseurs traitant des RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P07.02",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P07.02 informe les utilisateurs de l'identité des parties prenantes (fournisseur, acquéreur, ministère) = transparence sur l'identité des intervenants au traitement (A.1.3.2-4)."
+  },
+  {
+   "tgv_ref": "P08.01",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.01 ne recueille les identifiants généraux (NAS, NAM...) qu'en vertu de dispositions légales/ententes, la personne informée = base légale de la collecte (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P08.02",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.02 informe préalablement, lors d'une collecte directe, de l'utilisation des RP = information au moment de la collecte (A.1.3.2-4)."
+  },
+  {
+   "tgv_ref": "P08.03",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.03 consigne, en collecte indirecte, une confirmation d'autorisation de la personne = base d'autorisation de la collecte indirecte (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P08.04",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.04 informe, obtient le consentement et justifie la collecte automatisée (témoins de navigation, localisation) = consentement aux identifiants/traceurs (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P08.04",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.04 impose explicitement d'INFORMER l'utilisateur de la collecte automatisée (témoins de navigation, information de localisation) et d'en justifier le recours, en plus d'obtenir son consentement (déjà mappé à A.1.2.2-5). Le volet 'vous l'en informez' constitue une obligation de transparence propre relevant du groupe A.1.3.2-4, distincte de la gestion du consentement. Correspondance forte et non redondante (l'obligation d'information est énoncée séparément dans le critère)."
+  },
+  {
+   "tgv_ref": "P08.05",
+   "cible_ref": "A.1.2.6-9",
+   "cible_intitule": "Gouvernance de la vie privee et registres",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.05 permet de connaître la date de collecte (réception) des RP = métadonnée du traitement consignée au registre des traitements (A.1.2.6-9)."
+  },
+  {
+   "tgv_ref": "P08.06",
+   "cible_ref": "A.3.5-7",
+   "cible_intitule": "Classification de l'information et transfert",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.06 assure la traçabilité et un marquage spécifique des RP du DSQ tout au long du cycle de vie = classification/marquage de l'information selon sa sensibilité (A.3.5-7)."
+  },
+  {
+   "tgv_ref": "P08.07",
+   "cible_ref": "A.1.5.2-5",
+   "cible_intitule": "Transfert et divulgation des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.07 identifie et trace toute communication de RP entrante/sortante = traçabilité et registre des communications et divulgations (A.1.5.2-5)."
+  },
+  {
+   "tgv_ref": "P08.08",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.08 garde l'information sur les RP collectés/traités facilement disponible pour l'utilisateur = accessibilité de l'information sur le traitement (A.1.3.2-4)."
+  },
+  {
+   "tgv_ref": "P08.09",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P08.09 informe l'utilisateur de la durée de conservation au moment de la collecte = information sur la conservation fournie à la personne (A.1.3.2-4)."
+  },
+  {
+   "tgv_ref": "P09.01",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.01 gère les accès aux RP par profils selon le moindre privilège = gestion de l'identité et des accès aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.02",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.02 authentifie les utilisateurs proportionnellement à la sensibilité des RP = assurance d'identité et contrôle d'accès aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.03",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.03 fondé chaque accès sur le besoin de connaître = principe de nécessité du contrôle d'accès aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.04",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.04 journalise l'ensemble des accès aux RP = traçabilité des accès intégrée au dispositif de gestion des accès (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.05",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.05 relie chaque RP au type d'accès, aux tâches et aux profils = cartographie des accès aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.06",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.06 journalise les accès de façon exploitable par des outils de gestion = revue et monitoring des accès aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.07",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.07 restreint l'accès aux RP selon le moment (plage horaire) = mesure de contrôle d'accès aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.08",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.08 renforcé le contrôle des accès à privilèges élevés = gestion des accès privilégiés aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.09",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.09 reserve la mise à jour des RP aux personnes autorisées avec journalisation des circonstances/origine = contrôle et traçabilité des accès en modification (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.10",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.10 permet à la personne de définir les types de RP restreints, les groupes visés et la durée = exercice du droit de restreindre l'accès à ses RP (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P09.11",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.11 vérifié à l'accès si le demandeur est visé par une restriction en vigueur = application opérationnelle du contrôle d'accès aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P09.12",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P09.12 permet de refuser temporairement l'accès du patient à ses RP avec motifs documentés = traitement et limitation encadrée du droit d'accès (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P10.01",
+   "cible_ref": "A.3.3-4",
+   "cible_intitule": "Politique de vie privee et roles",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.01 précise les rôles/responsabilités du personnel pour la PRP tout au long du cycle de vie = attribution des rôles et responsabilités (A.3.3-4)."
+  },
+  {
+   "tgv_ref": "P10.02",
+   "cible_ref": "A.1.4.6-10",
+   "cible_intitule": "Cycle de vie, conservation et elimination des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.02 détermine et justifie la durée de conservation de chaque RP = définition des durées de conservation de A.1.4.6-10."
+  },
+  {
+   "tgv_ref": "P10.03",
+   "cible_ref": "A.3.23-31",
+   "cible_intitule": "Controles techniques (authentification, chiffrement, developpement)",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.03 met en place des mesures de sécurité protégeant les RP tout au long du cycle de vie = contrôles techniques de protection des RP (A.3.23-31)."
+  },
+  {
+   "tgv_ref": "P10.04",
+   "cible_ref": "A.3.23-31",
+   "cible_intitule": "Controles techniques (authentification, chiffrement, developpement)",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.04 journalise toute activité sur chaque RP durant son cycle de vie = journalisation, mesure technique de A.3.23-31."
+  },
+  {
+   "tgv_ref": "P10.05",
+   "cible_ref": "A.1.4.6-10",
+   "cible_intitule": "Cycle de vie, conservation et elimination des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.05 protège adéquatement les RP lors de leur archivage = conservation sécurisée au cours du cycle de vie (A.1.4.6-10)."
+  },
+  {
+   "tgv_ref": "P10.06",
+   "cible_ref": "A.1.4.6-10",
+   "cible_intitule": "Cycle de vie, conservation et elimination des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.06 détruit les RP lorsque la finalité de leur collecte est accomplie = élimination en fin de traitement (A.1.4.6-10)."
+  },
+  {
+   "tgv_ref": "P10.07",
+   "cible_ref": "A.1.4.6-10",
+   "cible_intitule": "Cycle de vie, conservation et elimination des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.07 anonymise les RP à des fins légitimes sous conditions/délai légaux = dépersonnalisation en fin de traitement (A.1.4.6-10)."
+  },
+  {
+   "tgv_ref": "P10.08",
+   "cible_ref": "A.1.4.6-10",
+   "cible_intitule": "Cycle de vie, conservation et elimination des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.08 rend la destruction irréversible et étendue à toutes les copies = élimination sécurisée des RP (A.1.4.6-10)."
+  },
+  {
+   "tgv_ref": "P10.09",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.09 respecte le droit à la cessation de diffusion/réindexation/désindexation (droit à l'oubli) = droit d'effacement/désindexation des personnes (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P10.10",
+   "cible_ref": "A.1.5.2-5",
+   "cible_intitule": "Transfert et divulgation des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P10.10 applique les règles de communication des RP facilitant le processus de deuil (proches d'une personne décédée) = encadrement des divulgations (A.1.5.2-5)."
+  },
+  {
+   "tgv_ref": "P11.01",
+   "cible_ref": "A.1.2.2-5",
+   "cible_intitule": "Base legale et consentement",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.01 identifie les dispositions légales légitimant collecte/usage et en assure le respect = établissement de la base légale du traitement (A.1.2.2-5)."
+  },
+  {
+   "tgv_ref": "P11.02",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.02 destine chaque RP à un usage déterminé relié aux fonctionnalités = spécification et limitation des finalités, principe couvert par A.1.4.2-5."
+  },
+  {
+   "tgv_ref": "P11.03",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.03 réduit au minimum les RP utilisés et le nombre de destinataires = minimisation des données (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P11.04",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.04 n'affiche l'identité des personnes concernées que lorsque nécessaire = minimisation/limitation de l'exposition des données (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P11.05",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.05 n'utilise chaque RP que pour une finalité autorisée = limitation des finalités d'utilisation (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P11.06",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.06 ne recueille que les RP strictement nécessaires = minimisation de la collecte (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P11.07",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.07 créé/maintient chaque fichier de RP pour une finalité autorisée = limitation des finalités (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P11.08",
+   "cible_ref": "A.1.5.2-5",
+   "cible_intitule": "Transfert et divulgation des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.08 contrôle l'extraction/communication des RP avec mesures de confidentialité = encadrement des communications/divulgations de RP (A.1.5.2-5)."
+  },
+  {
+   "tgv_ref": "P11.10",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.10 permet de savoir quand et par qui chaque RP a été utilisé = journalisation des accès et usages aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P11.11",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.11 rend accessibles à l'utilisateur les RP le concernant pour consultation/correction = droits d'accès et de rectification (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P11.12",
+   "cible_ref": "A.2.3.2",
+   "cible_intitule": "Obligations envers les personnes (sous-traitant)",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.12 fournit à l'acquéreur des mécanismes pour répondre aux demandes de consultation/correction = aide du sous-traitant au client (responsable) pour répondre aux demandes des personnes (A.2.3.2)."
+  },
+  {
+   "tgv_ref": "P11.13",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.13 propage les RP mis à jour ou rectifiés = mise en oeuvre de la rectification et information des tiers (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P11.14",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.14 interdit l'utilisation secondaire (création/export/conservation/distribution, même anonymisée) hors cas légaux = limitation des finalités (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P11.15",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.15 limite chaque panorama aux RP strictement nécessaires à la tache = minimisation à l'affichage (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P11.16",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.16 informe de la nécessité de mettre à jour les RP selon les règles/fréquence = maintien de l'exactitude des données (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P11.17",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.17 tient compte des duplicatas et répliques lors des mises à jour = cohérence/exactitude des données sur toutes les copies (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P11.18",
+   "cible_ref": "A.1.5.2-5",
+   "cible_intitule": "Transfert et divulgation des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.18 héberge les RP (y compris composantes redondantes) conformément aux exigences de la loi du Québec = juridiction/localisation d'hébergement encadrée par A.1.5.2-5."
+  },
+  {
+   "tgv_ref": "P11.19",
+   "cible_ref": "A.2.2.2-7",
+   "cible_intitule": "Ententes et obligations du sous-traitant",
+   "relation": "tgv_plus_etroit",
+   "justification": "P11.19 interdit l'utilisation de RP pour l'apprentissage ou le développement du produit hors cas légaux = interdiction de l'usage propre des RP par le sous-traitant (A.2.2.2-7)."
+  },
+  {
+   "tgv_ref": "P12.01",
+   "cible_ref": "A.3.11-12",
+   "cible_intitule": "Gestion des incidents de vie privee",
+   "relation": "tgv_plus_etroit",
+   "justification": "P12.01 définit l'incident de confidentialité et une procédure de traitement = gestion des incidents de vie privée (A.3.11-12)."
+  },
+  {
+   "tgv_ref": "P12.02",
+   "cible_ref": "A.3.11-12",
+   "cible_intitule": "Gestion des incidents de vie privee",
+   "relation": "tgv_plus_etroit",
+   "justification": "P12.02 établit les procédures de notification interne et externe en cas d'incident = notification des atteintes aux RP (A.3.11-12)."
+  },
+  {
+   "tgv_ref": "P12.03",
+   "cible_ref": "A.3.11-12",
+   "cible_intitule": "Gestion des incidents de vie privee",
+   "relation": "tgv_plus_etroit",
+   "justification": "P12.03 met en place des mesures pour prévenir ou limiter les conséquences d'un incident = volet réponse/limitation de la gestion des incidents (A.3.11-12)."
+  },
+  {
+   "tgv_ref": "P12.04",
+   "cible_ref": "A.3.11-12",
+   "cible_intitule": "Gestion des incidents de vie privee",
+   "relation": "tgv_plus_etroit",
+   "justification": "P12.04 diminue les risques de préjudice et prévient la récurrence des incidents = gestion et suivi post-incident (A.3.11-12)."
+  },
+  {
+   "tgv_ref": "P12.05",
+   "cible_ref": "A.3.11-12",
+   "cible_intitule": "Gestion des incidents de vie privee",
+   "relation": "tgv_plus_etroit",
+   "justification": "P12.05 instauré un plan de réponse et des directives pour réagir rapidement = préparation à la gestion des incidents (A.3.11-12)."
+  },
+  {
+   "tgv_ref": "P12.06",
+   "cible_ref": "A.3.11-12",
+   "cible_intitule": "Gestion des incidents de vie privee",
+   "relation": "tgv_plus_etroit",
+   "justification": "P12.06 avise le Bureau, la Commission et la personne en cas de risque sérieux et tient un registre des incidents = notification aux autorités et tenue du registre (A.3.11-12)."
+  },
+  {
+   "tgv_ref": "P13.01",
+   "cible_ref": "A.3.23-31",
+   "cible_intitule": "Controles techniques (authentification, chiffrement, developpement)",
+   "relation": "tgv_plus_etroit",
+   "justification": "P13.01 cloisonne les fichiers de RP provenant de plusieurs clients = ségrégation/isolation technique des données multi-clients (A.3.23-31)."
+  },
+  {
+   "tgv_ref": "P13.02",
+   "cible_ref": "A.1.4.2-5",
+   "cible_intitule": "Minimisation des donnees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P13.02 cloisonne dans un entrepôt les fichiers à finalités distinctes = séparation selon les finalités, application de la limitation des finalités (A.1.4.2-5)."
+  },
+  {
+   "tgv_ref": "P14.01",
+   "cible_ref": "A.1.2.6-9",
+   "cible_intitule": "Gouvernance de la vie privee et registres",
+   "relation": "tgv_plus_etroit",
+   "justification": "P14.01 dressé un inventaire complet des RP (lieux de stockage, types d'informations) = registre des traitements (A.1.2.6-9)."
+  },
+  {
+   "tgv_ref": "P14.02",
+   "cible_ref": "A.1.2.6-9",
+   "cible_intitule": "Gouvernance de la vie privee et registres",
+   "relation": "tgv_plus_etroit",
+   "justification": "P14.02 tient à jour l'inventaire évolutif des RP (y compris journalisation) = maintien du registre des traitements (A.1.2.6-9)."
+  },
+  {
+   "tgv_ref": "P14.03",
+   "cible_ref": "A.1.5.2-5",
+   "cible_intitule": "Transfert et divulgation des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P14.03 assure un contrôle efficace du transfert des RP conforme aux politiques = encadrement des transferts/divulgations (A.1.5.2-5)."
+  },
+  {
+   "tgv_ref": "P14.03",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "P14.03 assure un contrôle efficace de l'accès aux RP conforme aux politiques = gestion des accès aux RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "P14.04",
+   "cible_ref": "A.1.5.2-5",
+   "cible_intitule": "Transfert et divulgation des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P14.04 dispose d'un processus clair de transfert de RP à des tiers = encadrement documenté des transferts/divulgations (A.1.5.2-5)."
+  },
+  {
+   "tgv_ref": "P14.05",
+   "cible_ref": "A.3.11-12",
+   "cible_intitule": "Gestion des incidents de vie privee",
+   "relation": "tgv_plus_etroit",
+   "justification": "P14.05 identifie rapidement les données mises en cause lors d'un incident = qualification et portée de l'atteinte, volet de la gestion des incidents (A.3.11-12)."
+  },
+  {
+   "tgv_ref": "P15.01",
+   "cible_ref": "A.1.4.6-10",
+   "cible_intitule": "Cycle de vie, conservation et elimination des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P15.01 définit et documente la politique de conservation et de destruction des données personnelles = règles de conservation et d'élimination (A.1.4.6-10)."
+  },
+  {
+   "tgv_ref": "P15.03",
+   "cible_ref": "A.1.4.6-10",
+   "cible_intitule": "Cycle de vie, conservation et elimination des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P15.03 suit un calendrier de conservation conforme à la politique et adapte aux types de données = durées/calendrier de conservation (A.1.4.6-10)."
+  },
+  {
+   "tgv_ref": "P15.04",
+   "cible_ref": "A.3.13-16",
+   "cible_intitule": "Conformite, audit et revue",
+   "relation": "tgv_plus_etroit",
+   "justification": "P15.04 révise régulièrement la politique de données selon les changements législatifs = revue périodique et maintien de la conformité réglementaire (A.3.13-16)."
+  },
+  {
+   "tgv_ref": "P16.01",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P16.01 définit une stratégie de traitement des plaintes relatives à la PRP = traitement des demandes/plaintes des personnes concernées (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P16.02",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P16.02 désigne et forme des personnes pour répondre aux plaintes = capacité de traitement des demandes des personnes (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P16.03",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P16.03 intègre une authentification adéquate des requérants pour toute forme de requête = vérification de l'identité des demandeurs avant traitement (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P16.04",
+   "cible_ref": "A.1.3.2-4",
+   "cible_intitule": "Transparence et information",
+   "relation": "tgv_plus_etroit",
+   "justification": "P16.04 décrit simplement le processus de plainte et le publie sur le site Web = transparence et information accessible au public (A.1.3.2-4)."
+  },
+  {
+   "tgv_ref": "P16.05",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P16.05 tient un registre des plaintes et des réponses, régulièrement mis à jour = suivi et traçabilité du traitement des demandes des personnes (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P17.01",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P17.01 établit un processus formel de réception et de traitement des demandes de désindexation = mise en oeuvre du droit de désindexation (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P17.02",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P17.02 vérifié les empêchements légaux à une demande de désindexation = traitement encadre du droit de désindexation (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P17.03",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P17.03 développé des processus de destruction/anonymisation/désindexation pour répondre aux demandes = exercice des droits d'effacement/désindexation (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P17.03",
+   "cible_ref": "A.1.4.6-10",
+   "cible_intitule": "Cycle de vie, conservation et elimination des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P17.03 met en oeuvre les mécanismes de destruction et d'anonymisation des RP = élimination/dépersonnalisation au cycle de vie (A.1.4.6-10)."
+  },
+  {
+   "tgv_ref": "P17.04",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P17.04 informe le requérant des raisons d'impossibilité de désindexation = information de la personne sur le traitement de sa demande (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P17.05",
+   "cible_ref": "A.1.4.6-10",
+   "cible_intitule": "Cycle de vie, conservation et elimination des RP",
+   "relation": "tgv_plus_etroit",
+   "justification": "P17.05 recourt à des techniques d'anonymisation ou de destruction pour répondre aux demandes = mise en oeuvre de l'élimination/dépersonnalisation des RP (A.1.4.6-10)."
+  },
+  {
+   "tgv_ref": "P18.01",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P18.01 permet à la personne de demander une copie de ses RP = droit d'accès et de portabilité (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P18.02",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P18.02 communique les RP dans un format technologique structuré et couramment utilisé = droit à la portabilité (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "P18.03",
+   "cible_ref": "A.1.3.5-10",
+   "cible_intitule": "Droits des personnes concernees",
+   "relation": "tgv_plus_etroit",
+   "justification": "P18.03 forme les responsables à communiquer les RP de façon sécuritaire et dans un délai raisonnable = traitement des demandes de portabilité (A.1.3.5-10)."
+  },
+  {
+   "tgv_ref": "S05.05",
+   "cible_ref": "A.3.5-7",
+   "cible_intitule": "Classification de l'information et transfert",
+   "relation": "tgv_plus_etroit",
+   "justification": "S05.05 classifie/catégorise l'application et ses actifs = classification de l'information selon sa sensibilité (A.3.5-7), contrôle partage protégeant les RP."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "A.3.23-31",
+   "cible_intitule": "Controles techniques (authentification, chiffrement, developpement)",
+   "relation": "tgv_plus_etroit",
+   "justification": "S07.01 chiffre l'ensemble des données sensibles dont les RP et RP de santé = chiffrement, contrôle technique protégeant les RP (A.3.23-31)."
+  },
+  {
+   "tgv_ref": "S07.02",
+   "cible_ref": "A.3.23-31",
+   "cible_intitule": "Controles techniques (authentification, chiffrement, developpement)",
+   "relation": "tgv_plus_etroit",
+   "justification": "S07.02 chiffre et authentifie les communications entre composantes = chiffrement et authentification, contrôles techniques de A.3.23-31."
+  },
+  {
+   "tgv_ref": "S08.02",
+   "cible_ref": "A.3.20-22",
+   "cible_intitule": "Securite physique, des supports et des terminaux",
+   "relation": "tgv_plus_etroit",
+   "justification": "S08.02 protège physiquement les locaux hébergeant les composantes traitant les RP = sécurité physique des installations et supports (A.3.20-22)."
+  },
+  {
+   "tgv_ref": "S09.01",
+   "cible_ref": "A.3.17-19",
+   "cible_intitule": "Securite du personnel et bureau range",
+   "relation": "tgv_plus_etroit",
+   "justification": "S09.01 adopte une politique du bureau propre et de l'écran vide = mesures bureau/écran propres du personnel (A.3.17-19)."
+  },
+  {
+   "tgv_ref": "S13.06",
+   "cible_ref": "A.3.8-10",
+   "cible_intitule": "Identite, acces et controles fournisseurs",
+   "relation": "tgv_plus_etroit",
+   "justification": "S13.06 exige des ententes contractuelles avec chaque fournisseur = encadrement contractuel des fournisseurs traitant des RP (A.3.8-10)."
+  },
+  {
+   "tgv_ref": "S14.03",
+   "cible_ref": "A.3.11-12",
+   "cible_intitule": "Gestion des incidents de vie privee",
+   "relation": "tgv_plus_etroit",
+   "justification": "S14.03 arrimé le processus de gestion des incidents avec celui des clients = gestion coordonnée des incidents touchant les RP (A.3.11-12)."
+  },
+  {
+   "tgv_ref": "S14.04",
+   "cible_ref": "A.3.11-12",
+   "cible_intitule": "Gestion des incidents de vie privee",
+   "relation": "tgv_plus_etroit",
+   "justification": "S14.04 avertit les clients de tout incident portant sur les données dans les meilleurs délais = notification des atteintes aux RP (A.3.11-12)."
+  }
+ ]
+}

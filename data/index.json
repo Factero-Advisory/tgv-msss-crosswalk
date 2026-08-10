@@ -1,0 +1,203 @@
+{
+ "titre": "Correspondances TGV vers referentiels internationaux",
+ "source": {
+  "referentiel": "Trousse globale de verification (TGV)",
+  "editeur": "Ministere de la Sante et des Services sociaux du Quebec",
+  "publication": "24-715-38W",
+  "isbn": "978-2-550-97589-2",
+  "url": "https://publications.msss.gouv.qc.ca/msss/document-003757/"
+ },
+ "statistiques": {
+  "criteres_tgv_total": 382,
+  "criteres_tgv_couverts": 286,
+  "referentiels": 13,
+  "correspondances_total": 1302,
+  "relations": {
+   "tgv_plus_etroit": 642,
+   "recoupement_partiel": 551,
+   "equivalent": 72,
+   "tgv_plus_large": 37
+  }
+ },
+ "referentiels": [
+  {
+   "slug": "soc2-type2",
+   "nom": "SOC 2 (Trust Services Criteria, AICPA 2017)",
+   "categorie": "Attestation",
+   "correspondances": 220,
+   "criteres_tgv": 217,
+   "controles_cible_touches": 45,
+   "controles_total": 358,
+   "relations": {
+    "tgv_plus_etroit": 165,
+    "recoupement_partiel": 55
+   }
+  },
+  {
+   "slug": "hipaa-nist-800-66",
+   "nom": "NIST SP 800-66 Rev. 2 (HIPAA Security Rule)",
+   "categorie": "Reglementation",
+   "correspondances": 149,
+   "criteres_tgv": 139,
+   "controles_cible_touches": 72,
+   "controles_total": 152,
+   "relations": {
+    "recoupement_partiel": 98,
+    "tgv_plus_etroit": 36,
+    "equivalent": 10,
+    "tgv_plus_large": 5
+   }
+  },
+  {
+   "slug": "iso-27001-2022",
+   "nom": "ISO/IEC 27001:2022",
+   "categorie": "Certification",
+   "correspondances": 135,
+   "criteres_tgv": 109,
+   "controles_cible_touches": 68,
+   "controles_total": 123,
+   "relations": {
+    "tgv_plus_etroit": 56,
+    "recoupement_partiel": 43,
+    "equivalent": 36
+   }
+  },
+  {
+   "slug": "iso-27701-2025",
+   "nom": "ISO/IEC 27701:2025",
+   "categorie": "Certification",
+   "correspondances": 119,
+   "criteres_tgv": 114,
+   "controles_cible_touches": 17,
+   "controles_total": 21,
+   "relations": {
+    "tgv_plus_etroit": 118,
+    "recoupement_partiel": 1
+   }
+  },
+  {
+   "slug": "iso-42001-2023",
+   "nom": "ISO/IEC 42001:2023",
+   "categorie": "Certification",
+   "correspondances": 115,
+   "criteres_tgv": 111,
+   "controles_cible_touches": 31,
+   "controles_total": 67,
+   "relations": {
+    "tgv_plus_etroit": 61,
+    "recoupement_partiel": 54
+   }
+  },
+  {
+   "slug": "bsi-c5-2020",
+   "nom": "BSI C5:2020",
+   "categorie": "Attestation",
+   "correspondances": 113,
+   "criteres_tgv": 103,
+   "controles_cible_touches": 67,
+   "controles_total": 121,
+   "relations": {
+    "tgv_plus_etroit": 46,
+    "recoupement_partiel": 64,
+    "equivalent": 3
+   }
+  },
+  {
+   "slug": "rgpd-gdpr",
+   "nom": "RGPD / GDPR (UE 2016/679)",
+   "categorie": "Reglementation",
+   "correspondances": 110,
+   "criteres_tgv": 98,
+   "controles_cible_touches": 51,
+   "controles_total": 287,
+   "relations": {
+    "tgv_plus_etroit": 16,
+    "recoupement_partiel": 90,
+    "equivalent": 2,
+    "tgv_plus_large": 2
+   }
+  },
+  {
+   "slug": "hitrust-csf-v11",
+   "nom": "HITRUST CSF v11",
+   "categorie": "Certification",
+   "correspondances": 101,
+   "criteres_tgv": 66,
+   "controles_cible_touches": 82,
+   "controles_total": 132,
+   "relations": {
+    "recoupement_partiel": 47,
+    "tgv_plus_etroit": 17,
+    "tgv_plus_large": 29,
+    "equivalent": 8
+   }
+  },
+  {
+   "slug": "nis2",
+   "nom": "Directive NIS2 (annexe technique, guidance ENISA)",
+   "categorie": "Reglementation",
+   "correspondances": 95,
+   "criteres_tgv": 91,
+   "controles_cible_touches": 80,
+   "controles_total": 351,
+   "relations": {
+    "tgv_plus_etroit": 48,
+    "recoupement_partiel": 41,
+    "equivalent": 6
+   }
+  },
+  {
+   "slug": "ccb-cyberfundamentals",
+   "nom": "CCB CyberFundamentals Framework 2023",
+   "categorie": "Cadre national",
+   "correspondances": 83,
+   "criteres_tgv": 78,
+   "controles_cible_touches": 64,
+   "controles_total": 221,
+   "relations": {
+    "tgv_plus_etroit": 48,
+    "recoupement_partiel": 28,
+    "equivalent": 7
+   }
+  },
+  {
+   "slug": "eu-ai-act",
+   "nom": "Reglement europeen sur l'IA (EU AI Act)",
+   "categorie": "Reglementation",
+   "correspondances": 43,
+   "criteres_tgv": 41,
+   "controles_cible_touches": 31,
+   "controles_total": 347,
+   "relations": {
+    "recoupement_partiel": 18,
+    "tgv_plus_etroit": 25
+   }
+  },
+  {
+   "slug": "hds-v2",
+   "nom": "Hebergement de Donnees de Sante (HDS) v2.0",
+   "categorie": "Certification",
+   "correspondances": 12,
+   "criteres_tgv": 12,
+   "controles_cible_touches": 11,
+   "controles_total": 71,
+   "relations": {
+    "recoupement_partiel": 11,
+    "tgv_plus_large": 1
+   }
+  },
+  {
+   "slug": "iso-22301-2019",
+   "nom": "ISO 22301:2019",
+   "categorie": "Certification",
+   "correspondances": 7,
+   "criteres_tgv": 6,
+   "controles_cible_touches": 5,
+   "controles_total": 46,
+   "relations": {
+    "recoupement_partiel": 1,
+    "tgv_plus_etroit": 6
+   }
+  }
+ ]
+}

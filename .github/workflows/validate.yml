@@ -1,0 +1,32 @@
+name: Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Intégrité des données et balises SEO
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Valider le dépôt
+        run: python tools/validate.py
+
+      - name: Vérifier que les JSON sont bien formés
+        run: |
+          for f in $(find data -name '*.json'); do
+            python -c "import json,sys; json.load(open(sys.argv[1],encoding='utf-8'))" "$f" \
+              || { echo "JSON invalide : $f"; exit 1; }
+          done
+          echo "Tous les fichiers JSON sont valides."

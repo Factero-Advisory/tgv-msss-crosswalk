@@ -1,0 +1,136 @@
+﻿tgv_ref,cible_ref,cible_intitule,relation,justification
+S01.01,8.2,Information security risk assessment,tgv_plus_etroit,Le rapport d'évaluation des risques de sécurité réalisé à la conception constitue une exécution ponctuelle du processus d'appréciation des risques exigé par 8.2.
+S01.01,A.5.8,Information security in project management,tgv_plus_etroit,L'appréciation des risques menée durant le projet de développement avant mise en production est la preuve attendue d'intégration de la sécurité dans la gestion de projet (A.5.8).
+S01.02,6.1.2,Information security risk assessment requirement,tgv_plus_etroit,"L'exigence d'évaluer périodiquement les risques sur la confidentialité, l'intégrité et la disponibilité recoupe le critère d'appréciation des risques CID de 6.1.2."
+S01.02,8.2,Information security risk assessment,recoupement_partiel,Les rapports d'évaluations périodiques des risques CID sont acceptes comme preuve de mise en oeuvre du processus d'appréciation des risques à intervalles planifiés (8.2).
+S01.03,6.1.2,Information security risk assessment requirement,recoupement_partiel,La réaffirmation périodique de l'évaluation initiale des risques correspond au processus documenté d'appréciation à intervalles planifiés de 6.1.2.
+S01.03,8.2,Information security risk assessment,recoupement_partiel,"La réévaluation des risques à chaque changement majeur, approuvée par la direction, alimente le processus d'appréciation des risques de 8.2."
+S02.01,5.2,Policy,recoupement_partiel,L'énoncé des objectifs et principes directeurs de sécurité recoupe la politique de sécurité de l'information de la clause 5.2.
+S02.01,A.5.1,Policies for information security,equivalent,"La politique de sécurité documentant objectifs, principes, rôles et gestion des dérogations est exactement la politique de sécurité de l'information exigée par A.5.1."
+S02.02,A.5.37,Documented operating procedures,recoupement_partiel,Les normes et procédures techniques établies pour atteindre les objectifs de sécurité sont des procédures d'exploitation documentées au sens d'A.5.37.
+S02.03,5.2,Policy,tgv_plus_etroit,La preuve de communication et d'approbation de la politique satisfait l'exigence de communication de la politique de la clause 5.2.
+S02.03,A.5.1,Policies for information security,tgv_plus_etroit,"L'approbation par la direction, la communication et la mise à jour des politiques constituent le sous-ensemble maintien de la politique de sécurité d'A.5.1."
+S02.04,A.5.10,Acceptable use of information and other associated assets,recoupement_partiel,Le cadre de bonnes pratiques d'utilisation des outils informatiques est une politique d'utilisation acceptable des actifs (A.5.10).
+S02.04,A.5.24,Information security incident management planning and preparation,recoupement_partiel,La procédure de réaction en cas d'incident correspond à la planification et préparation de la gestion des incidents (A.5.24).
+S03.01,5.3,"Organizational roles, responsibilities and authorities",recoupement_partiel,L'attribution des responsabilités de sécurité recoupe la définition et communication des rôles et autorités de la clause 5.3.
+S03.01,A.5.2,Information security roles and responsibilities,equivalent,La définition documentée des responsabilités de sécurité est précisément l'attribution des rôles et responsabilités de sécurité d'A.5.2.
+S03.02,A.5.2,Information security roles and responsibilities,tgv_plus_etroit,L'attribution d'un responsable de sécurité à l'application est un cas particulier de l'affectation des rôles de sécurité d'A.5.2.
+S03.02,A.5.9,Inventory of information and other associated assets,recoupement_partiel,La désignation d'un propriétaire responsable de chaque actif recoupe l'attribution de propriété exigée par l'inventaire des actifs d'A.5.9.
+S03.03,A.5.3,Segregation of duties,equivalent,L'identification des tâches incompatibles et les mesures pour en limiter l'usage constituent la séparation des tâches d'A.5.3.
+S03.04,A.5.8,Information security in project management,equivalent,La méthode de gestion de projet intégrant l'identification et le traitement des risques de sécurité est la sécurité dans la gestion de projet d'A.5.8.
+S03.05,A.8.1,User end point devices,tgv_plus_etroit,La gestion des risques propres aux appareils mobiles est le sous-ensemble mobiles de la protection des terminaux d'A.8.1.
+S03.06,A.6.7,Remote working,equivalent,La politique couvrant les risques du télétravail est exactement le contrôle travail à distance d'A.6.7.
+S04.01,7.2,Competence,equivalent,La preuve que le personnel possède les compétences requises pour ses fonctions est l'exigence de compétence de la clause 7.2.
+S04.02,7.3,Awareness,recoupement_partiel,La sensibilisation de l'ensemble du personnel recoupe l'exigence de sensibilisation de la clause 7.3.
+S04.02,A.6.3,"Information security awareness, education and training",equivalent,"Le programme de sensibilisation et de formation à la sécurité pour tout le personnel est le contrôle de sensibilisation, éducation et formation d'A.6.3."
+S04.03,A.6.2,Terms and conditions of employment,recoupement_partiel,L'information des employés et contractants sur leurs responsabilités de sécurité recoupe les responsabilités inscrites aux conditions d'emploi d'A.6.2.
+S04.03,A.6.3,"Information security awareness, education and training",recoupement_partiel,La communication des procédures à appliquer aux intervenants recoupe la formation et la sensibilisation d'A.6.3.
+S04.04,A.6.4,Disciplinary process,equivalent,Les sanctions approuvées pour non-respect des politiques de sécurité constituent le processus disciplinaire d'A.6.4.
+S04.05,A.6.5,Responsibilities after termination or change of employment,equivalent,Le rappel des obligations subsistant à la fin de l'emploi est exactement le contrôle des responsabilités après cessation d'emploi d'A.6.5.
+S05.01,A.5.10,Acceptable use of information and other associated assets,recoupement_partiel,Les conditions d'utilisation de l'application et des actifs recoupent la politique d'utilisation acceptable des actifs d'A.5.10.
+S05.02,A.5.10,Acceptable use of information and other associated assets,recoupement_partiel,La présentation des conditions d'utilisation à la première utilisation avec consignation de l'acceptation matérialise l'utilisation acceptable des actifs d'A.5.10.
+S05.03,A.5.10,Acceptable use of information and other associated assets,tgv_plus_etroit,La consultation permanente et le rappel périodique des conditions d'utilisation relèvent du maintien de l'utilisation acceptable d'A.5.10.
+S05.04,A.5.9,Inventory of information and other associated assets,equivalent,L'inventaire de l'application et des actifs avec responsable attitré est exactement l'inventaire des actifs avec propriété d'A.5.9.
+S05.05,A.5.12,Classification of information,equivalent,"La classification de l'application et des actifs en disponibilité, intégrité et confidentialité est la classification de l'information d'A.5.12."
+S05.06,A.5.11,Return of assets,equivalent,La restitution des actifs confiés au terme du contrat est exactement le contrôle restitution des actifs d'A.5.11.
+S05.07,A.7.10,Storage media,tgv_plus_etroit,L'encadrement des supports amovibles selon la classification est le sous-ensemble supports amovibles de la gestion des supports de stockage d'A.7.10.
+S05.08,A.7.10,Storage media,tgv_plus_etroit,La procédure de mise au rebut sécurisée des supports d'information est le volet élimination de la gestion des supports d'A.7.10.
+S05.08,A.7.14,Secure disposal or re-use of equipment,recoupement_partiel,La mise au rebut sécurisée des supports recoupe l'élimination ou réutilisation sécurisée des équipements d'A.7.14.
+S06.01,A.5.15,Access control,equivalent,La politique de gestion des accès applicable à tous les intervenants est exactement le contrôle d'accès d'A.5.15.
+S06.02,A.5.15,Access control,tgv_plus_etroit,Les règles de gestion des accès à l'application sont un cas particulier du contrôle d'accès d'A.5.15.
+S06.03,A.8.3,Information access restriction,equivalent,"Le mécanisme limitant l'accès aux seules composantes, fonctions et informations autorisées est exactement la restriction d'accès à l'information d'A.8.3."
+S06.04,A.8.2,Privileged access rights,equivalent,La réservation des activités à privilèges élevés à des comptes dédiés contrôles est exactement le contrôle des droits d'accès à privilèges d'A.8.2.
+S06.05,A.5.17,Authentication information,tgv_plus_etroit,La gestion de la complexité et robustesse des mots de passe est le volet politique de mots de passe de l'information d'authentification d'A.5.17.
+S06.06,A.8.5,Secure authentication,tgv_plus_etroit,L'obligation d'authentification multifacteur est un cas particulier de l'authentification sécurisée d'A.8.5.
+S06.07,A.8.5,Secure authentication,tgv_plus_etroit,Le recours à des protocoles d'authentification sécurisés modernes et à la fédération d'identités relève de l'authentification sécurisée d'A.8.5.
+S06.08,A.5.17,Authentication information,tgv_plus_etroit,La préservation de la confidentialité et le non-stockage des mots de passe relèvent de la protection de l'information d'authentification d'A.5.17.
+S06.09,A.5.17,Authentication information,tgv_plus_etroit,La possibilité pour l'utilisateur de changer son mot de passe est un volet de la gestion de l'information d'authentification d'A.5.17.
+S06.10,A.8.3,Information access restriction,recoupement_partiel,Le minimum de privilèges accordé aux composantes recoupe la restriction d'accès à l'information d'A.8.3.
+S06.10,A.8.5,Secure authentication,recoupement_partiel,L'authentification mutuelle des communications entre composantes recoupe l'authentification sécurisée d'A.8.5.
+S06.11,A.5.17,Authentication information,tgv_plus_etroit,L'interdiction de mots de passe en clair dans le code et les scripts est le volet protection des secrets de l'information d'authentification d'A.5.17.
+S06.11,A.8.28,Secure coding,tgv_plus_etroit,"L'interdiction de tout mot de passe en clair dans le code source, scripts et macros est une règle canonique de codage sécurisé qu'une revue de code A.8.28 vérifié directement; S06.11 est un sous-ensemble précis du codage sécurisé (le mapping existant vers A.5.17 ne couvre que le volet protection du secret)."
+S06.12,A.5.18,Access rights,tgv_plus_etroit,Les fonctionnalités facilitant la revue des accès servent la revue périodique des droits d'accès d'A.5.18.
+S06.13,A.5.15,Access control,recoupement_partiel,Les profils d'accès basés sur les fonctionnalités recoupent la mise en oeuvre du contrôle d'accès d'A.5.15.
+S06.13,A.8.3,Information access restriction,tgv_plus_etroit,La gestion des accès par profils octroyant les seuls accès nécessaires est la mise en oeuvre du moindre privilège de la restriction d'accès d'A.8.3.
+S06.14,A.5.18,Access rights,tgv_plus_etroit,Les fonctionnalités de gestion des accès offertes à l'acquéreur servent la provision et la gestion des droits d'accès d'A.5.18.
+S06.15,A.8.5,Secure authentication,tgv_plus_etroit,La fonction de déconnexion aisée relève de la gestion sécurisée des sessions de l'authentification sécurisée d'A.8.5.
+S06.16,A.8.5,Secure authentication,tgv_plus_etroit,Le verrouillage du compte après cinq échecs de connexion est une mesure anti-force-brute de l'authentification sécurisée d'A.8.5.
+S06.17,A.8.5,Secure authentication,tgv_plus_etroit,L'affichage d'un message d'échec générique sans détail des champs invalides relève des bonnes pratiques d'ouverture de session sécurisée d'A.8.5.
+S06.18,A.5.16,Identity management,tgv_plus_etroit,L'interdiction des comptes génériques matérialise l'exigence d'identités uniques de la gestion des identités d'A.5.16.
+S06.19,A.8.5,Secure authentication,tgv_plus_etroit,La déconnexion automatique après inactivité est une mesure de gestion de session de l'authentification sécurisée d'A.8.5.
+S06.20,A.8.4,Access to source code,equivalent,La restriction de l'accès au code source est exactement le contrôle accès au code source d'A.8.4.
+S06.21,A.8.5,Secure authentication,tgv_plus_etroit,La protection de l'authentification par test CAPTCHA est une mesure anti-automatisation de l'authentification sécurisée d'A.8.5.
+S06.23,A.8.16,Monitoring activities,tgv_plus_etroit,La détection et l'alerte des attaques par bourrage de justificatifs relèvent de la surveillance des activités et détection d'anomalies d'A.8.16.
+S06.24,A.5.16,Identity management,tgv_plus_etroit,L'exigence que les comptes proviennent de l'annuaire centralisé est un cas particulier de la gestion centralisée des identités d'A.5.16.
+S06.25,A.8.15,Logging,tgv_plus_etroit,La journalisation des accès au PST exposé sur Internet est un sous-ensemble de la journalisation d'A.8.15.
+S07.01,A.8.24,Use of cryptography,equivalent,Le chiffrement des données sensibles au repos et en transit est exactement l'utilisation de la cryptographie d'A.8.24.
+S07.02,A.8.20,Networks security,recoupement_partiel,L'authentification mutuelle des flux entre composantes recoupe la sécurité des réseaux d'A.8.20.
+S07.02,A.8.24,Use of cryptography,tgv_plus_etroit,Le chiffrement des communications entre composantes est le volet chiffrement en transit de l'utilisation de la cryptographie d'A.8.24.
+S08.01,A.8.24,Use of cryptography,tgv_plus_etroit,La documentation de la gestion des clés sur tout leur cycle de vie est le volet gestion des clés de la cryptographie d'A.8.24.
+S08.02,A.7.1,Physical security perimeters,tgv_plus_etroit,Le contrôle d'accès et la protection physique des locaux d'hébergement relèvent des périmètres de sécurité physique d'A.7.1.
+S08.02,A.7.2,Physical entry,tgv_plus_etroit,Le contrôle d'accès aux locaux hébergeant les composantes est le contrôle des entrées physiques d'A.7.2.
+S08.03,A.7.2,Physical entry,tgv_plus_etroit,Le contrôle d'accès physique aux locaux des développeurs est le contrôle des entrées physiques d'A.7.2.
+S08.03,A.7.3,"Securing offices, rooms and facilities",tgv_plus_etroit,La sécurisation des locaux des équipes de développement et de soutien relève de la sécurisation des bureaux et installations d'A.7.3.
+S08.04,A.7.13,Equipment maintenance,equivalent,L'entretien approprié du matériel hébergeant l'application est exactement la maintenance des équipements d'A.7.13.
+S09.01,A.7.7,Clear desk and clear screen,equivalent,La politique du bureau propre et de l'écran vide est exactement le contrôle bureau propre et écran vide d'A.7.7.
+S09.02,A.5.37,Documented operating procedures,equivalent,La documentation et la communication des procédures d'exploitation sont exactement les procédures d'exploitation documentées d'A.5.37.
+S09.04,A.5.37,Documented operating procedures,tgv_plus_etroit,"Le guide d'installation et d'entretien (config, accès, surveillance, sauvegardes) est un ensemble de procédures d'exploitation documentées d'A.5.37."
+S09.04,A.8.9,Configuration management,recoupement_partiel,La documentation de la configuration des serveurs et terminaux recoupe la gestion de la configuration d'A.8.9.
+S09.05,A.8.13,Information backup,tgv_plus_etroit,Le système de sauvegarde à l'abri des rançongiciels est une exigence renforcée de la sauvegarde de l'information d'A.8.13.
+S09.06,A.8.13,Information backup,equivalent,Les stratégies de sauvegarde permettant une récupération complète ou partielle des données sont exactement la sauvegarde de l'information d'A.8.13.
+S09.07,A.8.32,Change management,equivalent,Le processus documenté de gestion des changements de l'application est exactement le contrôle gestion des changements d'A.8.32.
+S09.08,A.8.32,Change management,tgv_plus_etroit,La gestion des versions identifiant chaque changement par un numéro relève de la traçabilité de la gestion des changements d'A.8.32.
+S09.09,A.8.8,Management of technical vulnerabilities,equivalent,Le plan de gestion continue des vulnérabilités est exactement la gestion des vulnérabilités techniques d'A.8.8.
+S09.10,A.8.8,Management of technical vulnerabilities,tgv_plus_etroit,L'application diligente des correctifs de sécurité est le volet correctifs de la gestion des vulnérabilités techniques d'A.8.8.
+S09.11,A.8.8,Management of technical vulnerabilities,recoupement_partiel,La documentation de composantes reposant sur des technologies supportées par leur fournisseur recoupe la maîtrise des versions vulnérables de la gestion des vulnérabilités d'A.8.8.
+S09.12,A.8.28,Secure coding,recoupement_partiel,L'absence de porte dérobée dans l'application recoupe les exigences de codage sécurisé d'A.8.28.
+S10.01,A.8.7,Protection against malware,equivalent,La solution antivirus récente avec fonction EDR sur tous les systèmes est exactement la protection contre les logiciels malveillants d'A.8.7.
+S10.02,A.8.16,Monitoring activities,recoupement_partiel,Les mécanismes de gestion des exceptions et d'alertes de la solution recoupent la surveillance des activités d'A.8.16.
+S10.03,A.5.16,Identity management,recoupement_partiel,L'utilisation des règles d'accès du portail provincial de gestion de l'identité et des accès recoupe la gestion des identités d'A.5.16.
+S10.04,A.8.15,Logging,equivalent,"La journalisation de toute activité (acteur, moment, nature, informations concernées) est exactement la journalisation d'A.8.15."
+S10.05,A.8.15,Logging,tgv_plus_etroit,"Le filtrage, l'analyse et l'extraction en format standard des journaux relèvent de l'exploitation des journaux d'A.8.15."
+S10.05,A.8.16,Monitoring activities,recoupement_partiel,L'analyse de l'information journalisée pour produire des rapports recoupe la surveillance des activités d'A.8.16.
+S10.06,A.8.16,Monitoring activities,equivalent,Les fonctionnalités d'alerte sur comportements anormaux et incidents potentiels sont exactement la surveillance des activités d'A.8.16.
+S10.07,A.8.16,Monitoring activities,tgv_plus_etroit,Les systèmes de détection d'intrusion sont un moyen de la surveillance et de la détection des menaces d'A.8.16.
+S10.07,A.8.20,Networks security,recoupement_partiel,Les systèmes de détection d'intrusion recoupent la sécurité des réseaux d'A.8.20.
+S10.08,A.8.15,Logging,recoupement_partiel,Le rôle d'auditeur permettant la consultation des rapports d'audit recoupe l'accès protégé et exploitable aux journaux d'A.8.15.
+S10.09,A.8.15,Logging,tgv_plus_etroit,La protection des journaux contre l'altération et la divulgation est le volet protection des journaux d'A.8.15.
+S11.01,A.5.33,Protection of records,recoupement_partiel,La conservation de l'information journalisée selon les lois et normes recoupe la protection et rétention des enregistrements d'A.5.33.
+S11.01,A.8.15,Logging,tgv_plus_etroit,La conservation des journaux selon un calendrier légal relève de la rétention des journaux d'A.8.15.
+S11.02,A.5.14,Information transfer,recoupement_partiel,"La protection des communications entre composantes, y compris le soutien à distance, recoupe le transfert sécurisé de l'information d'A.5.14."
+S11.02,A.8.20,Networks security,recoupement_partiel,La sécurisation des flux entre composantes recoupe la sécurité des réseaux d'A.8.20.
+S11.03,A.8.22,Segregation of networks,equivalent,Le cloisonnement de l'environnement d'exécution (accès public vs zone serveur) est exactement la ségrégation des réseaux d'A.8.22.
+S11.04,A.5.14,Information transfer,tgv_plus_etroit,L'encadrement du courrier électronique ne traitant pas d'information confidentielle est le volet courriel du transfert de l'information d'A.5.14.
+S11.04,A.8.12,Data leakage prevention,recoupement_partiel,Les mesures empêchant l'information confidentielle de transiter par courriel recoupent la prévention des fuites de données d'A.8.12.
+S11.05,A.6.3,"Information security awareness, education and training",tgv_plus_etroit,Les campagnes de simulation d'hameçonnage sont un moyen de la sensibilisation et formation à la sécurité d'A.6.3.
+S11.06,A.8.20,Networks security,tgv_plus_etroit,L'assurance d'une connectivité sécuritaire relève de la sécurité des réseaux d'A.8.20.
+S12.01,A.6.3,"Information security awareness, education and training",equivalent,"Le plan de formation continue en cybersécurité (hameçonnage, rançongiciels, ingénierie sociale) est exactement la sensibilisation et formation à la sécurité d'A.6.3."
+S12.02,A.8.25,Secure development life cycle,equivalent,La prise en compte de la sécurité à chaque étape du développement est exactement le cycle de développement sécurisé d'A.8.25.
+S12.03,A.8.31,"Separation of development, test and production environments",equivalent,"La séparation des environnements de développement, de test et d'exploitation est exactement le contrôle d'A.8.31."
+S12.04,A.8.28,Secure coding,tgv_plus_etroit,Le respect des bonnes pratiques de sécurité de l'industrie dans le développement relève du codage sécurisé d'A.8.28.
+S12.05,A.8.27,Secure system architecture and engineering principles,equivalent,Le respect des principes d'ingénierie de la sécurité des systèmes est exactement les principes d'ingénierie et d'architecture sécurisées d'A.8.27.
+S12.06,A.8.30,Outsourced development,equivalent,La supervision de tout développement réalisé à l'externe est exactement le contrôle développement externalisé d'A.8.30.
+S12.07,A.8.33,Test information,equivalent,L'interdiction d'utiliser de l'information confidentielle de production en développement est exactement la protection des données de test d'A.8.33.
+S12.08,A.8.29,Security testing in development and acceptance,recoupement_partiel,La stratégie de tests applicatifs recoupe les tests de sécurité en développement et en recette d'A.8.29.
+S13.01,A.5.21,Managing information security in the ICT supply chain,recoupement_partiel,La maîtrise des vulnérabilités des composantes tierces recoupe la gestion de la sécurité dans la chaîne d'approvisionnement TIC d'A.5.21.
+S13.01,A.8.8,Management of technical vulnerabilities,recoupement_partiel,La prise en compte des vulnérabilités des composantes tierces et leur mise à jour recoupe la gestion des vulnérabilités techniques d'A.8.8.
+S13.02,A.5.19,Information security in supplier relationships,recoupement_partiel,L'évaluation des menaces et des risques préalable au recours à un fournisseur recoupe la diligence des relations fournisseurs d'A.5.19.
+S13.03,A.5.19,Information security in supplier relationships,tgv_plus_etroit,La liste des fournisseurs et la nature de leurs services relève de la gestion des relations fournisseurs d'A.5.19.
+S13.04,A.5.20,Addressing information security within supplier agreements,equivalent,"La liste des exigences (sécurité, accès, niveau de service, incidents) par fournisseur alimente exactement la prise en compte de la sécurité dans les accords fournisseurs d'A.5.20."
+S13.05,A.5.22,"Monitoring, review and change management of supplier services",equivalent,"Les processus de surveillance de la conformité des fournisseurs sont exactement le suivi, la revue et la gestion des changements des services fournisseurs d'A.5.22."
+S13.06,A.5.20,Addressing information security within supplier agreements,tgv_plus_etroit,Les ententes contractuelles conclues avec chaque fournisseur matérialisent les accords fournisseurs d'A.5.20.
+S14.01,A.5.22,"Monitoring, review and change management of supplier services",tgv_plus_etroit,L'évaluation régulière de la performance des fournisseurs relève du suivi et de la revue des services fournisseurs d'A.5.22.
+S14.02,A.5.23,Information security for use of cloud services,recoupement_partiel,La conformité de la localisation d'hébergement du PST recoupe la sécurité de l'usage des services infonuagiques d'A.5.23.
+S14.03,A.5.24,Information security incident management planning and preparation,tgv_plus_etroit,Le processus de gestion des incidents arrimé à celui des clients relève de la planification et préparation de la gestion des incidents d'A.5.24.
+S14.04,A.5.26,Response to information security incidents,tgv_plus_etroit,L'avertissement des clients de tout incident sur les données selon un processus établi relève de la réponse aux incidents d'A.5.26.
+S15.01,A.5.26,Response to information security incidents,recoupement_partiel,L'engagement à collaborer avec les clients pour la prise en charge d'un incident recoupe la réponse aux incidents d'A.5.26.
+S15.02,A.8.16,Monitoring activities,recoupement_partiel,La surveillance de la solution conforme à la classification et aux normes d'hébergement recoupe la surveillance des activités d'A.8.16.
+S15.03,A.5.30,ICT readiness for business continuity,recoupement_partiel,L'arrimage aux mécanismes de plan de reprise en vigueur recoupe la préparation des TIC à la continuité d'activité d'A.5.30.
+S15.04,A.5.29,Information security during disruption,recoupement_partiel,Le maintien des activités durant une perturbation recoupe la sécurité de l'information pendant une perturbation d'A.5.29.
+S15.04,A.5.30,ICT readiness for business continuity,recoupement_partiel,Le plan de continuité de maintenance et d'exploitation recoupe la préparation des TIC à la continuité d'activité d'A.5.30.
+S15.05,A.5.30,ICT readiness for business continuity,tgv_plus_etroit,Le plan de recouvrement après sinistre des infrastructures est le volet reprise après sinistre de la préparation des TIC à la continuité d'A.5.30.
+S16.01,A.5.30,ICT readiness for business continuity,tgv_plus_etroit,Le test périodique du plan de reprise est l'exigence de test des plans de reprise de la préparation des TIC à la continuité d'A.5.30.
+S16.02,A.5.36,"Compliance with policies, rules and standards for information security",recoupement_partiel,La stratégie de validation de la conformité technique des composantes recoupe la vérification de conformité aux normes de sécurité d'A.5.36.
+S16.03,A.5.35,Independent review of information security,recoupement_partiel,"Le test d'intrusion administré par un prestataire INDÉPENDANT et reconnu par Santé Québec fournit une revue indépendante de la mise en oeuvre technique de la sécurité, recoupant l'exigence de revue indépendante de la sécurité de l'information d'A.5.35 (complémentaire au test de sécurité technique déjà mappé vers A.8.29)."
+S16.03,A.8.29,Security testing in development and acceptance,tgv_plus_etroit,Le test d'intrusion administré par un prestataire indépendant reconnu est un cas particulier des tests de sécurité d'A.8.29.
+S16.04,A.5.32,Intellectual property rights,equivalent,La garantie de détention des droits de propriété intellectuelle du code (ou l'explicitation des licences) est exactement le contrôle droits de propriété intellectuelle d'A.5.32.

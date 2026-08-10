@@ -1,0 +1,605 @@
+{
+ "referentiel": {
+  "slug": "ccb-cyberfundamentals",
+  "nom": "CCB CyberFundamentals Framework 2023",
+  "categorie": "Cadre national",
+  "controles_total": 221
+ },
+ "source": {
+  "referentiel": "TGV",
+  "nom": "Trousse globale de verification (MSSS Quebec)"
+ },
+ "statistiques": {
+  "correspondances": 83,
+  "criteres_tgv": 78,
+  "controles_cible_touches": 64,
+  "relations": {
+   "tgv_plus_etroit": 48,
+   "recoupement_partiel": 28,
+   "equivalent": 7
+  }
+ },
+ "correspondances": [
+  {
+   "tgv_ref": "S01.01",
+   "cible_ref": "BASIC_ID.RA-5.1",
+   "cible_intitule": "The organization shall conduct risk assessments in which risk is determined by threats, vulnerabilities and impact on business processes and assets.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'évaluation des risques réalisée à la conception avant mise en production alimente l'exigence CCB de conduite d'évaluations de risques par menaces/vulnérabilités/impact."
+  },
+  {
+   "tgv_ref": "S01.02",
+   "cible_ref": "IMPORTANT_ID.RA-1.2",
+   "cible_intitule": "A process shall be established to monitor, identify, and document vulnerabilities of the organisation's business critical systems in a continuous manner.",
+   "relation": "recoupement_partiel",
+   "justification": "Le volet évaluation périodique des vulnérabilités alimente le processus de surveillance et documentation continue des vulnérabilités des systèmes critiques."
+  },
+  {
+   "tgv_ref": "S01.02",
+   "cible_ref": "IMPORTANT_ID.RA-5.2",
+   "cible_intitule": "The organization shall conduct and document risk assessments in which risk is determined by threats, vulnerabilities, impact on business processes and assets, and the likelihood of their occurrence.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les évaluations périodiques des risques DIC alimentent la conduite et la documentation d'évaluations de risques incluant la probabilité d'occurrence."
+  },
+  {
+   "tgv_ref": "S01.03",
+   "cible_ref": "IMPORTANT_ID.GV-4.2",
+   "cible_intitule": "Information security and cybersecurity risks shall be documented, formally approved, and updated when changes occur.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La réévaluation approuvée par la direction et déclenchée lors de changements majeurs alimente l'approbation formelle et la mise à jour des risques."
+  },
+  {
+   "tgv_ref": "S02.01",
+   "cible_ref": "BASIC_ID.GV-1.1",
+   "cible_intitule": "Policies and procedures for information security and cyber security shall be created, documented, reviewed, approved, and updated when changes occur.",
+   "relation": "equivalent",
+   "justification": "La politique de sécurité présentant objectifs, principes, rôles et gestion des dérogations correspond à la création/documentation/approbation des politiques de sécurité."
+  },
+  {
+   "tgv_ref": "S02.02",
+   "cible_ref": "BASIC_ID.GV-1.1",
+   "cible_intitule": "Policies and procedures for information security and cyber security shall be created, documented, reviewed, approved, and updated when changes occur.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les normes, processus et procédures techniques établis alimentent la documentation des procédures de sécurité de l'information."
+  },
+  {
+   "tgv_ref": "S02.03",
+   "cible_ref": "IMPORTANT_ID.GV-1.2",
+   "cible_intitule": "An organization-wide information security and cybersecurity policy shall be established, documented, updated when changes occur, disseminated, and approved by senior management.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'approbation par la direction, la communication et la mise à jour des politiques alimentent la politique de sécurité approuvée par la haute direction et diffusée."
+  },
+  {
+   "tgv_ref": "S02.04",
+   "cible_ref": "BASIC_RS.RP-1.1",
+   "cible_intitule": "An incident response process, including roles, responsibilities, and authorities, shall be executed during or after an information/cybersecurity event on the organization's critical systems.",
+   "relation": "recoupement_partiel",
+   "justification": "Le volet procédure à suivre en cas d'incident alimente le processus de réponse aux incidents exécuté lors d'un événement de sécurité."
+  },
+  {
+   "tgv_ref": "S03.01",
+   "cible_ref": "IMPORTANT_ID.AM-6.1",
+   "cible_intitule": "[KEY MEASURE] Information security and cybersecurity roles, responsibilities and authorities within the organization shall be documented, reviewed, authorized, and updated and alignment with organization-internal roles and external partners.",
+   "relation": "equivalent",
+   "justification": "La définition des responsabilités de sécurité dans l'organisation correspond à la documentation des rôles, responsabilités et autorités de sécurité."
+  },
+  {
+   "tgv_ref": "S03.02",
+   "cible_ref": "IMPORTANT_ID.AM-2.3",
+   "cible_intitule": "Individuals who are responsible and who are accountable for administering software platforms and applications within the organization shall be identified.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le responsable attitré de l'application et de ses actifs alimente l'identification des personnes responsables de l'administration des plateformes et applications."
+  },
+  {
+   "tgv_ref": "S03.03",
+   "cible_ref": "IMPORTANT_PR.AC-4.6",
+   "cible_intitule": "Separation of duties (SoD) shall be ensured in the management of access rights.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'identification des tâches incompatibles et les mesures limitant l'usage inapproprié alimentent la séparation des tâches dans la gestion des droits d'accès."
+  },
+  {
+   "tgv_ref": "S03.04",
+   "cible_ref": "IMPORTANT_PR.IP-2.1",
+   "cible_intitule": "The system and application development life cycle shall include security considerations.",
+   "relation": "recoupement_partiel",
+   "justification": "La méthode de gestion de projet intégrant la sécurité alimente l'intégration des considérations de sécurité dans le cycle de développement."
+  },
+  {
+   "tgv_ref": "S03.06",
+   "cible_ref": "IMPORTANT_PR.AC-3.3",
+   "cible_intitule": "[KEY MEASURE] Usage restrictions, connection requirements, implementation guidance, and authorizations for remote access to the organization’s critical systems environment shall be identified, documented and implemented.",
+   "relation": "recoupement_partiel",
+   "justification": "La politique couvrant les risques du télétravail alimente les restrictions d'usage et exigences documentées d'accès à distance."
+  },
+  {
+   "tgv_ref": "S04.02",
+   "cible_ref": "BASIC_PR.AT-1.1",
+   "cible_intitule": "Employees shall be trained as appropriate.",
+   "relation": "equivalent",
+   "justification": "Le programme de sensibilisation et de formation à la sécurité pour tout le personnel correspond à la formation des employés."
+  },
+  {
+   "tgv_ref": "S04.03",
+   "cible_ref": "IMPORTANT_PR.IP-11.2",
+   "cible_intitule": "Develop and maintain a human resource information/cyber security process that is applicable when recruiting, during employment and at termination of employment.",
+   "relation": "recoupement_partiel",
+   "justification": "Informer le personnel et les contractants de leurs responsabilités et procédures alimente le processus RH de sécurité applicable durant l'emploi."
+  },
+  {
+   "tgv_ref": "S04.05",
+   "cible_ref": "IMPORTANT_PR.IP-11.2",
+   "cible_intitule": "Develop and maintain a human resource information/cyber security process that is applicable when recruiting, during employment and at termination of employment.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le rappel des obligations à l'issue de la relation d'emploi alimente le volet cessation d'emploi du processus RH de sécurité."
+  },
+  {
+   "tgv_ref": "S05.04",
+   "cible_ref": "BASIC_ID.AM-1.1",
+   "cible_intitule": "An inventory of assets associated with information and information processing facilities within the organization shall be documented, reviewed, and updated when changes occur.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'inventaire des actifs permettant l'exploitation de l'application alimente l'inventaire documenté des actifs et installations de traitement."
+  },
+  {
+   "tgv_ref": "S05.04",
+   "cible_ref": "BASIC_ID.AM-2.1",
+   "cible_intitule": "An inventory that reflects what software platforms and applications are being used in the organization shall be documented, reviewed, and updated when changes occur.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'inventaire de l'application alimente l'inventaire documenté des plateformes logicielles et applications utilisées."
+  },
+  {
+   "tgv_ref": "S05.05",
+   "cible_ref": "BASIC_ID.AM-5.1",
+   "cible_intitule": "The organization’s resources (hardware, devices, data, time, personnel, information, and software) shall be prioritized based on their classification, criticality, and business value.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La classification de l'application et des actifs en DIC alimente la priorisation des ressources selon leur classification et valeur d'affaires."
+  },
+  {
+   "tgv_ref": "S05.06",
+   "cible_ref": "IMPORTANT_PR.DS-3.2",
+   "cible_intitule": "The organization shall enforce accountability for all its business-critical assets throughout the system lifecycle, including removal, transfers, and disposition.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La restitution des actifs au terme du contrat alimente la responsabilité des actifs tout au long du cycle de vie incluant transferts et cessions."
+  },
+  {
+   "tgv_ref": "S05.07",
+   "cible_ref": "IMPORTANT_PR.PT-2.1",
+   "cible_intitule": "The usage restriction of portable storage devices shall be ensured through an appropriate documented policy and supporting safeguards.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'encadrement des supports amovibles selon la classification de l'information alimente la restriction d'usage des supports portables par politique documentée."
+  },
+  {
+   "tgv_ref": "S05.08",
+   "cible_ref": "BASIC_PR.DS-3.1",
+   "cible_intitule": "Assets and media shall be disposed of safely.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La procédure de mise au rebut sécurisée des supports d'information alimente l'élimination sécuritaire des actifs et supports."
+  },
+  {
+   "tgv_ref": "S06.01",
+   "cible_ref": "BASIC_PR.AC-4.1",
+   "cible_intitule": "[KEY MEASURE] Access permissions for users to the organization’s systems shall be defined and managed.",
+   "relation": "recoupement_partiel",
+   "justification": "La politique de gestion des accès de l'organisation alimente la définition et la gestion des permissions d'accès aux systèmes."
+  },
+  {
+   "tgv_ref": "S06.02",
+   "cible_ref": "BASIC_PR.AC-4.2",
+   "cible_intitule": "[KEY MEASURE] It shall be identified who should have access to the organization's business's critical information and technology and the means to get access.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les règles de gestion des accès à l'application alimentent l'identification de qui doit avoir accès et des moyens d'accès."
+  },
+  {
+   "tgv_ref": "S06.03",
+   "cible_ref": "BASIC_PR.AC-4.3",
+   "cible_intitule": "[KEY MEASURE] Employee access to data and information shall be limited to the systems and specific information they need to do their jobs (the principle of Least Privilege).",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le contrôle limitant les accès aux seules composantes et informations spécifiquement autorisées alimente le principe du moindre privilège."
+  },
+  {
+   "tgv_ref": "S06.04",
+   "cible_ref": "IMPORTANT_PR.AC-4.7",
+   "cible_intitule": "Priviliged users shall be managed and monitored.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les activités à privilèges élevés réservées à des comptes dédiés et contrôlés alimentent la gestion et la surveillance des utilisateurs privilégiés."
+  },
+  {
+   "tgv_ref": "S06.05",
+   "cible_ref": "BASIC_PR.AC-1.1",
+   "cible_intitule": "[KEY MEASURE] Identities and credentials for authorized devices and users shall be managed.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La gestion du niveau de complexité des mots de passe alimente la gestion des identifiants et justificatifs des utilisateurs autorisés."
+  },
+  {
+   "tgv_ref": "S06.06",
+   "cible_ref": "PR.AC-1.4",
+   "cible_intitule": "For transactions within the organization's critical systems, the organization shall implement: • multi-factor end-user authentication (MFA or \"strong authentication\"). • certificate-based authentication for system-to-system communications",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'obligation d'authentification multifacteur (AMF) alimente l'exigence de MFA pour les transactions sur les systèmes critiques."
+  },
+  {
+   "tgv_ref": "S06.07",
+   "cible_ref": "BASIC_PR.AC-1.1",
+   "cible_intitule": "[KEY MEASURE] Identities and credentials for authorized devices and users shall be managed.",
+   "relation": "recoupement_partiel",
+   "justification": "Le mécanisme d'authentification par protocoles sécurisés modernes et fédérations d'identités alimente la gestion des identifiants et justificatifs."
+  },
+  {
+   "tgv_ref": "S06.09",
+   "cible_ref": "BASIC_PR.AC-1.1",
+   "cible_intitule": "[KEY MEASURE] Identities and credentials for authorized devices and users shall be managed.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La capacité de chaque utilisateur à changer son mot de passe alimente la gestion du cycle de vie des justificatifs."
+  },
+  {
+   "tgv_ref": "S06.10",
+   "cible_ref": "PR.AC-6.2",
+   "cible_intitule": "The organization shall ensure the use of unique credentials bound to each verified user, device, and process interacting with the organization's critical systems; make sure that they are authenticated, and that the unique identifiers are captured when performing system interactions.",
+   "relation": "recoupement_partiel",
+   "justification": "L'authentification des communications inter-composantes avec le minimum de privilèges alimente l'usage de justificatifs uniques authentifiés pour les processus et dispositifs."
+  },
+  {
+   "tgv_ref": "S06.12",
+   "cible_ref": "IMPORTANT_PR.AC-4.5",
+   "cible_intitule": "Where feasible, automated mechanisms shall be implemented to support the management of user accounts on the organisation's critical systems, including disabling, monitoring, reporting and deleting user accounts.",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctionnalités facilitant la revue des accès alimentent la gestion, la surveillance et le rapport des comptes utilisateurs."
+  },
+  {
+   "tgv_ref": "S06.13",
+   "cible_ref": "BASIC_PR.AC-4.1",
+   "cible_intitule": "[KEY MEASURE] Access permissions for users to the organization’s systems shall be defined and managed.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La gestion des accès par profils basés sur les fonctionnalités attribuant les seuls accès nécessaires alimente la définition et gestion des permissions d'accès."
+  },
+  {
+   "tgv_ref": "S06.16",
+   "cible_ref": "PR.AC-1.5",
+   "cible_intitule": "The organization’s critical systems shall be monitored for atypical use of system credentials. Credentials associated with significant risk shall be disabled.",
+   "relation": "recoupement_partiel",
+   "justification": "La désactivation d'un identifiant après cinq échecs de connexion alimente la désactivation des justificatifs associés à un risque significatif."
+  },
+  {
+   "tgv_ref": "S06.18",
+   "cible_ref": "PR.AC-6.2",
+   "cible_intitule": "The organization shall ensure the use of unique credentials bound to each verified user, device, and process interacting with the organization's critical systems; make sure that they are authenticated, and that the unique identifiers are captured when performing system interactions.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'absence de comptes génériques alimente l'exigence de justificatifs uniques liés à chaque utilisateur vérifié."
+  },
+  {
+   "tgv_ref": "S06.19",
+   "cible_ref": "PR.AC-1.3",
+   "cible_intitule": "System credentials shall be deactivated after a specified period of inactivity unless it would compromise the safe operation of (critical) processes.",
+   "relation": "recoupement_partiel",
+   "justification": "La déconnexion automatique d'une session après inactivité alimente la désactivation des justificatifs système après une période d'inactivité définie."
+  },
+  {
+   "tgv_ref": "S06.23",
+   "cible_ref": "PR.AC-1.5",
+   "cible_intitule": "The organization’s critical systems shall be monitored for atypical use of system credentials. Credentials associated with significant risk shall be disabled.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La détection et mitigation des attaques par bourrage de justificatifs ou dictionnaire alimente la surveillance de l'usage atypique des justificatifs."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "PR.DS-1.1",
+   "cible_intitule": "The organization shall protect its critical system information determined to be critical/ sensitive while at rest.",
+   "relation": "recoupement_partiel",
+   "justification": "Le chiffrement des données sensibles lors de leur entreposage alimente la protection des informations critiques au repos."
+  },
+  {
+   "tgv_ref": "S07.01",
+   "cible_ref": "PR.DS-2.1",
+   "cible_intitule": "The organization shall protect its critical system information determined to be critical when in transit.",
+   "relation": "recoupement_partiel",
+   "justification": "Le chiffrement des données sensibles lors de leurs communications alimente la protection des informations critiques en transit."
+  },
+  {
+   "tgv_ref": "S07.02",
+   "cible_ref": "PR.DS-2.1",
+   "cible_intitule": "The organization shall protect its critical system information determined to be critical when in transit.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le chiffrement et l'authentification mutuelle des communications entre composantes alimentent la protection des informations en transit."
+  },
+  {
+   "tgv_ref": "S08.02",
+   "cible_ref": "BASIC_PR.AC-2.1",
+   "cible_intitule": "Physical access to the facility, servers and network components shall be managed.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le contrôle d'accès et les mesures de protection physiques des locaux d'hébergement alimentent la gestion de l'accès physique aux installations, serveurs et composants réseau."
+  },
+  {
+   "tgv_ref": "S08.03",
+   "cible_ref": "BASIC_PR.AC-2.1",
+   "cible_intitule": "Physical access to the facility, servers and network components shall be managed.",
+   "relation": "recoupement_partiel",
+   "justification": "Le contrôle d'accès des locaux des développeurs et du personnel de maintenance alimente la gestion de l'accès physique aux installations."
+  },
+  {
+   "tgv_ref": "S08.04",
+   "cible_ref": "IMPORTANT_PR.MA-1.2",
+   "cible_intitule": "The organization shall plan, perform and document preventive maintenance and repairs on its critical system components according to approved processes and tools.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'entretien approprié du matériel hébergeant l'application garantissant disponibilité et intégrité alimente la maintenance préventive documentée des composants critiques."
+  },
+  {
+   "tgv_ref": "S09.05",
+   "cible_ref": "BASIC_PR.IP-4.1",
+   "cible_intitule": "[KEY MEASURE] Backups for organization's business critical data shall be conducted and stored on a system different from the device on which the original data resides",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le système de sauvegarde à l'abri des rançongiciels alimente la réalisation de sauvegardes stockées sur un système distinct de l'original."
+  },
+  {
+   "tgv_ref": "S09.06",
+   "cible_ref": "BASIC_PR.IP-4.1",
+   "cible_intitule": "[KEY MEASURE] Backups for organization's business critical data shall be conducted and stored on a system different from the device on which the original data resides",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les stratégies de sauvegarde permettant une récupération complète ou partielle des données alimentent la réalisation de sauvegardes des données critiques."
+  },
+  {
+   "tgv_ref": "S09.07",
+   "cible_ref": "IMPORTANT_PR.IP-3.1",
+   "cible_intitule": "Changes shall be tested and validated before being implemented into operational systems.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le processus documenté de gestion des changements alimente le contrôle des changements testés et validés avant implémentation."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "IMPORTANT_PR.IP-12.1",
+   "cible_intitule": "The organization shall establish and maintain a documented process that allows continuous review of vulnerabilities and strategies to mitigate them.",
+   "relation": "equivalent",
+   "justification": "Le plan de gestion continue des vulnérabilités correspond au processus documenté permettant la revue continue des vulnérabilités et des stratégies de mitigation."
+  },
+  {
+   "tgv_ref": "S09.09",
+   "cible_ref": "IMPORTANT_RS.AN-5.1",
+   "cible_intitule": "[KEY MEASURE] The organization shall implement vulnerability management processes and procedures that include processing, analyzing and remedying vulnerabilities from internal and external sources.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de gestion continue des vulnérabilités alimente les processus de traitement, d'analyse et de correction des vulnérabilités provenant de sources internes et externes (mesure clé)."
+  },
+  {
+   "tgv_ref": "S09.10",
+   "cible_ref": "BASIC_PR.MA-1.1",
+   "cible_intitule": "[KEY MEASURE] Patches and security updates for Operating Systems and critical system components shall be installed.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'application rapide des correctifs de sécurité de toute composante alimente l'installation des correctifs et mises à jour de sécurité."
+  },
+  {
+   "tgv_ref": "S10.01",
+   "cible_ref": "BASIC_DE.CM-3.1",
+   "cible_intitule": "End point and network protection tools to monitor end-user behavior for dangerous activity shall be implemented.",
+   "relation": "recoupement_partiel",
+   "justification": "La fonction EDR de la solution alimente les outils de protection des terminaux et du réseau surveillant les comportements dangereux."
+  },
+  {
+   "tgv_ref": "S10.01",
+   "cible_ref": "BASIC_DE.CM-4.1",
+   "cible_intitule": "[KEY MEASURE] Anti-virus, -spyware, and other -malware programs shall be installed and updated.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La solution de protection antivirus récente alimente l'installation et la mise à jour des programmes anti-virus et anti-malware."
+  },
+  {
+   "tgv_ref": "S10.02",
+   "cible_ref": "DE.CM-4.2",
+   "cible_intitule": "The organisation shall set up a system to detect false positives while detecting and eradicating malicious code.",
+   "relation": "recoupement_partiel",
+   "justification": "La gestion des exceptions de la solution anti-maliciel (listes d'exclusion) alimente le système de détection des faux positifs lors de la détection et de l'éradication du code malveillant."
+  },
+  {
+   "tgv_ref": "S10.04",
+   "cible_ref": "BASIC_PR.PT-1.1",
+   "cible_intitule": "[KEY MEASURE] Logs shall be maintained, documented, and reviewed.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La journalisation de toute activité identifiant l'acteur, le moment et la nature de l'action alimente la tenue, la documentation et la revue des journaux."
+  },
+  {
+   "tgv_ref": "S10.05",
+   "cible_ref": "IMPORTANT_DE.AE-3.2",
+   "cible_intitule": "The organization shall ensure that event data is compiled and correlated across its critical systems using various sources such as event reports, audit monitoring, network monitoring, physical access monitoring, and user/administrator reports.",
+   "relation": "recoupement_partiel",
+   "justification": "Les fonctionnalités de filtrage, analyse et extraction des journaux alimentent la compilation et la corrélation des données d'événements provenant de sources multiples."
+  },
+  {
+   "tgv_ref": "S10.06",
+   "cible_ref": "IMPORTANT_DE.AE-5.1",
+   "cible_intitule": "The organization shall implement automated mechanisms and system generated alerts to support event detection and to assist in the identification of security alert thresholds.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les fonctionnalités d'alerte signalant comportements anormaux et incidents potentiels alimentent les mécanismes automatisés et alertes système pour la détection d'événements."
+  },
+  {
+   "tgv_ref": "S10.07",
+   "cible_ref": "DE.CM-1.3",
+   "cible_intitule": "The organization shall conduct ongoing security status monitoring of its network to detect defined information/cybersecurity events and indicators of potential information/cybersecurity events.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les systèmes de détection d'intrusion alimentent la surveillance continue de l'état de sécurité du réseau pour détecter les événements."
+  },
+  {
+   "tgv_ref": "S11.02",
+   "cible_ref": "PR.PT-4.3",
+   "cible_intitule": "The organization shall manage the interface for external communication services by establishing a traffic flow policy, protecting the confidentiality and integrity of the information being transmitted; This includes the review and documenting of each exception to the traffic flow policy.",
+   "relation": "recoupement_partiel",
+   "justification": "La protection de toutes les communications entre composantes alimente la gestion de l'interface de communication protégeant la confidentialité et l'intégrité des informations transmises."
+  },
+  {
+   "tgv_ref": "S11.03",
+   "cible_ref": "BASIC_PR.AC-5.2",
+   "cible_intitule": "[KEY MEASURE] Where appropriate, network integrity of the organization's critical systems shall be protected by incorporating network segmentation and segregation.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le cloisonnement de l'environnement d'exécution compartimentant les zones alimente la protection de l'intégrité réseau par segmentation et ségrégation."
+  },
+  {
+   "tgv_ref": "S11.05",
+   "cible_ref": "PR.AT-1.3",
+   "cible_intitule": "The organization shall implement an evaluation method to measure the effectiveness of the awareness trainings.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les campagnes continues de simulation d'hameçonnage alimentent la méthode d'évaluation de l'efficacité des formations de sensibilisation."
+  },
+  {
+   "tgv_ref": "S12.01",
+   "cible_ref": "BASIC_PR.AT-1.1",
+   "cible_intitule": "Employees shall be trained as appropriate.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de formation en cybersécurité sur les menaces numériques, hameçonnage et rançongiciels alimente la formation appropriée des employés."
+  },
+  {
+   "tgv_ref": "S12.02",
+   "cible_ref": "IMPORTANT_PR.IP-2.1",
+   "cible_intitule": "The system and application development life cycle shall include security considerations.",
+   "relation": "equivalent",
+   "justification": "La prise en compte de la sécurité à chaque étape du développement correspond à l'intégration des considérations de sécurité dans le cycle de développement."
+  },
+  {
+   "tgv_ref": "S12.03",
+   "cible_ref": "PR.DS-7.1",
+   "cible_intitule": "The development and test environment(s) shall be isolated from the production environment.",
+   "relation": "equivalent",
+   "justification": "La séparation des environnements de développement, de test et d'exploitation correspond à l'isolation des environnements de développement et de test de la production."
+  },
+  {
+   "tgv_ref": "S12.04",
+   "cible_ref": "PR.IP-2.2",
+   "cible_intitule": "The development process for critical systems and system components shall cover the full design cycle and shall provide a description of the functional properties of security controls, and design and implementation information for security-relevant system interfaces.",
+   "relation": "recoupement_partiel",
+   "justification": "Le respect des bonnes pratiques de l'industrie en matière de sécurité dans le développement alimente le processus de développement couvrant les contrôles de sécurité."
+  },
+  {
+   "tgv_ref": "S12.05",
+   "cible_ref": "IMPORTANT_PR.IP-2.1",
+   "cible_intitule": "The system and application development life cycle shall include security considerations.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le respect des principes d'ingénierie de sécurité par les développeurs alimente l'intégration de la sécurité dans le cycle de développement."
+  },
+  {
+   "tgv_ref": "S12.06",
+   "cible_ref": "IMPORTANT_PR.AT-3.3",
+   "cible_intitule": "The organization shall monitor business critical service providers and users for security compliance.",
+   "relation": "recoupement_partiel",
+   "justification": "La supervision de tout développement réalisé à l'externe alimente la surveillance de la conformité de sécurité des prestataires critiques."
+  },
+  {
+   "tgv_ref": "S12.07",
+   "cible_ref": "PR.DS-7.1",
+   "cible_intitule": "The development and test environment(s) shall be isolated from the production environment.",
+   "relation": "recoupement_partiel",
+   "justification": "L'évitement d'information confidentielle de production dans le développement alimente l'isolation de l'environnement de développement vis-à-vis de la production."
+  },
+  {
+   "tgv_ref": "S12.08",
+   "cible_ref": "IMPORTANT_PR.IP-3.1",
+   "cible_intitule": "Changes shall be tested and validated before being implemented into operational systems.",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de tests applicatifs alimente les tests et la validation des changements avant leur implémentation en production."
+  },
+  {
+   "tgv_ref": "S13.01",
+   "cible_ref": "IMPORTANT_PR.IP-12.1",
+   "cible_intitule": "The organization shall establish and maintain a documented process that allows continuous review of vulnerabilities and strategies to mitigate them.",
+   "relation": "recoupement_partiel",
+   "justification": "La prise en compte des vulnérabilités des composantes tierces et les mises à jour associées alimentent le processus de gestion des vulnérabilités."
+  },
+  {
+   "tgv_ref": "S13.02",
+   "cible_ref": "IMPORTANT_ID.SC-2.1",
+   "cible_intitule": "The organization shall conduct cyber supply chain risk assessments at least annually or when a change to the organization’s critical systems, operational environment, or supply chain occurs; These assessments shall be documented, and the results disseminated to relevant stakeholders including those responsible for ICT/OT systems.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'évaluation des menaces et des risques pour tout recours à un fournisseur tiers alimente les évaluations de risque de la chaîne d'approvisionnement."
+  },
+  {
+   "tgv_ref": "S13.03",
+   "cible_ref": "ID.SC-2.2",
+   "cible_intitule": "A documented list of all the organization’s suppliers, vendors and partners who may be involved in a major incident shall be established, kept up-to-date and made available online and offline.",
+   "relation": "equivalent",
+   "justification": "La liste des fournisseurs participant au développement et à l'exploitation avec la nature des services correspond à la liste documentée des fournisseurs et partenaires."
+  },
+  {
+   "tgv_ref": "S13.04",
+   "cible_ref": "IMPORTANT_PR.AT-3.1",
+   "cible_intitule": "The organization shall establish and enforce security requirements for business-critical third-party providers and users.",
+   "relation": "tgv_plus_etroit",
+   "justification": "La liste des exigences de sécurité, d'accès et de niveau de service par fournisseur alimente l'établissement des exigences de sécurité pour les tiers critiques."
+  },
+  {
+   "tgv_ref": "S13.05",
+   "cible_ref": "IMPORTANT_ID.SC-4.1",
+   "cible_intitule": "The organization shall review assessments of suppliers’ and third-party partner’s compliance with contractual obligations by routinely reviewing audits, test results, and other evaluations.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les processus de surveillance de la conformité des fournisseurs aux exigences alimentent la revue des audits et évaluations de conformité des fournisseurs."
+  },
+  {
+   "tgv_ref": "S13.06",
+   "cible_ref": "IMPORTANT_ID.SC-3.1",
+   "cible_intitule": "Based on the results of the cyber supply chain risk assessment, a contractual framework for suppliers and external partners shall be established to address sharing of sensitive information and distributed and interconnected ICT/OT products and services.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les ententes contractuelles avec chaque fournisseur alimentent le cadre contractuel établi pour les fournisseurs et partenaires externes."
+  },
+  {
+   "tgv_ref": "S14.01",
+   "cible_ref": "PR.AT-3.4",
+   "cible_intitule": "The organization shall audit business-critical external service providers for security compliance.",
+   "relation": "recoupement_partiel",
+   "justification": "L'évaluation régulière de la performance des fournisseurs alimente l'audit de conformité de sécurité des prestataires externes critiques."
+  },
+  {
+   "tgv_ref": "S14.03",
+   "cible_ref": "BASIC_RS.RP-1.1",
+   "cible_intitule": "An incident response process, including roles, responsibilities, and authorities, shall be executed during or after an information/cybersecurity event on the organization's critical systems.",
+   "relation": "recoupement_partiel",
+   "justification": "Le processus de gestion des incidents arrimé avec celui des clients alimente le processus de réponse aux incidents exécuté lors d'un événement."
+  },
+  {
+   "tgv_ref": "S14.04",
+   "cible_ref": "IMPORTANT_RS.CO-3.2",
+   "cible_intitule": "The organization shall share information/cybersecurity incident information with relevant stakeholders as foreseen in the incident response plan.",
+   "relation": "tgv_plus_etroit",
+   "justification": "L'avertissement des clients de tout incident sur les données selon un processus établi alimente le partage de l'information d'incident avec les parties prenantes."
+  },
+  {
+   "tgv_ref": "S15.01",
+   "cible_ref": "IMPORTANT_RS.CO-4.1",
+   "cible_intitule": "The organization shall coordinate information/cybersecurity incident response actions with all predefined stakeholders.",
+   "relation": "recoupement_partiel",
+   "justification": "L'engagement à collaborer avec les clients pour la prise en charge d'un incident alimente la coordination de la réponse aux incidents avec les parties prenantes."
+  },
+  {
+   "tgv_ref": "S15.03",
+   "cible_ref": "BASIC_RC.RP-1.1",
+   "cible_intitule": "A recovery process for disasters and information/cybersecurity incidents shall be developed and executed as appropriate.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Les mécanismes de plan de reprise alimentent le processus de récupération développé et exécuté pour les sinistres et incidents."
+  },
+  {
+   "tgv_ref": "S15.04",
+   "cible_ref": "IMPORTANT_PR.IP-9.1",
+   "cible_intitule": "Incident response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) shall be established, maintained, approved, and tested to determine the effectiveness of the plans, and the readiness to execute the plans.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de continuité des activités alimente l'établissement des plans de réponse et de récupération incluant la continuité des affaires."
+  },
+  {
+   "tgv_ref": "S15.05",
+   "cible_ref": "IMPORTANT_PR.IP-9.1",
+   "cible_intitule": "Incident response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) shall be established, maintained, approved, and tested to determine the effectiveness of the plans, and the readiness to execute the plans.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le plan de recouvrement après sinistre chapeautant les infrastructures alimente l'établissement des plans de récupération après sinistre."
+  },
+  {
+   "tgv_ref": "S16.01",
+   "cible_ref": "IMPORTANT_PR.IP-9.1",
+   "cible_intitule": "Incident response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) shall be established, maintained, approved, and tested to determine the effectiveness of the plans, and the readiness to execute the plans.",
+   "relation": "recoupement_partiel",
+   "justification": "Le test périodique du plan de reprise pour vérifier son efficacité alimente le test des plans de réponse et de récupération."
+  },
+  {
+   "tgv_ref": "S16.02",
+   "cible_ref": "IMPORTANT_DE.CM-8.1",
+   "cible_intitule": "The organization shall monitor and scan for vulnerabilities in its critical systems and hosted applications ensuring that system functions are not adversely impacted by the scanning process.",
+   "relation": "recoupement_partiel",
+   "justification": "La stratégie de validation de la conformité technique des composantes alimente la surveillance et l'analyse des vulnérabilités des systèmes critiques."
+  },
+  {
+   "tgv_ref": "S16.03",
+   "cible_ref": "ID.RA-1.3",
+   "cible_intitule": "To ensure that organization's operations are not adversely impacted by the testing process, performance/load testing and penetration testing on the organization’s systems shall be conducted with care.",
+   "relation": "tgv_plus_etroit",
+   "justification": "Le test d'intrusion administré par un prestataire indépendant alimente la conduite maîtrisée de tests d'intrusion sur les systèmes de l'organisation."
+  }
+ ]
+}
