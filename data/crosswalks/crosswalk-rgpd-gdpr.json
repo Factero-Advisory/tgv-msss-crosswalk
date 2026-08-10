@@ -2,12 +2,12 @@
  "referentiel": {
   "slug": "rgpd-gdpr",
   "nom": "RGPD / GDPR (UE 2016/679)",
-  "categorie": "Reglementation",
+  "categorie": "Réglementation",
   "controles_total": 287
  },
  "source": {
   "referentiel": "TGV",
-  "nom": "Trousse globale de verification (MSSS Quebec)"
+  "nom": "Trousse globale de vérification (MSSS Québec)"
  },
  "statistiques": {
   "correspondances": 110,

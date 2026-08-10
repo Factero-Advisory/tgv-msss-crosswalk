@@ -6,8 +6,8 @@ from collections import Counter, defaultdict
 
 SRC = "/code/db/repo_export"
 OUT = "/code/db/site_out"
-SITE = "https://certification-tgv.ca"
-REPO = "https://github.com/factero/tgv-msss-crosswalk"
+SITE = "https://facterocanada.github.io/tgv-msss-crosswalk"
+REPO = "https://github.com/FacteroCanada/tgv-msss-crosswalk"
 DATE = "2026-07-23"
 
 idx = json.load(open(f"{SRC}/index.json", encoding="utf-8"))
@@ -42,76 +42,116 @@ SHORT = {
 def short(slug, fallback): return SHORT.get(slug, fallback)
 
 CSS = """
-:root{--bg:#fff;--fg:#1a1d24;--muted:#5a6270;--line:#e3e7ee;--band:#f7f9fc;
---navy:#1f3864;--blue:#2e5496;--steel:#8eaadb;--acc:#0b6b5e;
---eq:#cfeddb;--sub:#d4e4f7;--sup:#fbe0d0;--int:#eceef2;--card:#fff}
-@media(prefers-color-scheme:dark){:root{--bg:#0f1218;--fg:#e8ecf3;--muted:#9aa4b5;
---line:#232a36;--band:#151a23;--navy:#8fb0e8;--blue:#7ea3e0;--steel:#4a6a9d;
---eq:#1d3d2c;--sub:#1b2f47;--sup:#3d2a1c;--int:#242a35;--card:#141922}}
-:root[data-theme=dark]{--bg:#0f1218;--fg:#e8ecf3;--muted:#9aa4b5;--line:#232a36;
---band:#151a23;--navy:#8fb0e8;--blue:#7ea3e0;--eq:#1d3d2c;--sub:#1b2f47;
---sup:#3d2a1c;--int:#242a35;--card:#141922}
-:root[data-theme=light]{--bg:#fff;--fg:#1a1d24;--muted:#5a6270;--line:#e3e7ee;
---band:#f7f9fc;--navy:#1f3864;--blue:#2e5496;--eq:#cfeddb;--sub:#d4e4f7;
---sup:#fbe0d0;--int:#eceef2;--card:#fff}
+/* Charte Factero : jetons repris de factero.ca (theme.min.css)
+   base #DDDDE3 - encre #141831 - alternes #141831/#DDDDE3 - doux #F7F7F8
+   police Epilogue (variable, auto-hebergee, SIL OFL 1.1)
+   bordures 3px - rayon 7px (blocs) et 10px (boutons) */
+@font-face{font-family:Epilogue;font-style:normal;font-weight:100 900;font-display:swap;
+src:url(FONTPATHepilogue-latin.woff2) format('woff2');
+unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Epilogue;font-style:normal;font-weight:100 900;font-display:swap;
+src:url(FONTPATHepilogue-latin-ext.woff2) format('woff2');
+unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{--base:#DDDDE3;--ink:#141831;--soft:#F7F7F8;--paper:#fff;
+--muted:#4a4f6b;--line:#141831;--accent:#cc8425;
+--eq:#bfe3cd;--sub:#c6d9f2;--sup:#f4d9bf;--int:#e6e6ec;
+--r:7px;--rb:10px;--bw:3px}
+:root[data-theme=dark]{--base:#141831;--ink:#DDDDE3;--soft:#1c2142;--paper:#1a1f3d;
+--muted:#a7abc4;--line:#DDDDE3;--eq:#1f4433;--sub:#1e3355;--sup:#4a3320;--int:#2a2f4e}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--base:#141831;--ink:#DDDDE3;
+--soft:#1c2142;--paper:#1a1f3d;--muted:#a7abc4;--line:#DDDDE3;
+--eq:#1f4433;--sub:#1e3355;--sup:#4a3320;--int:#2a2f4e}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);
-font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
--webkit-text-size-adjust:100%}
-.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
-header.top{border-bottom:1px solid var(--line);background:var(--band)}
-header.top .wrap{display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding-top:14px;padding-bottom:14px}
-.brand{font-weight:700;color:var(--navy);text-decoration:none;font-size:15px;letter-spacing:-.01em}
-nav.main{display:flex;gap:16px;flex-wrap:wrap;margin-left:auto}
-nav.main a{color:var(--muted);text-decoration:none;font-size:14px}
-nav.main a:hover,nav.main a[aria-current=page]{color:var(--blue)}
-.hero{padding:52px 0 34px;border-bottom:1px solid var(--line)}
-h1{font-size:clamp(26px,4.4vw,42px);line-height:1.15;margin:0 0 14px;letter-spacing:-.02em}
-.lede{font-size:clamp(16px,2vw,19px);color:var(--muted);max-width:70ch;margin:0 0 22px}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
-.stat b{display:block;font-size:29px;line-height:1.1;color:var(--navy);letter-spacing:-.02em}
-.stat span{font-size:13px;color:var(--muted)}
-main{padding:34px 0 60px}
-h2{font-size:24px;margin:38px 0 12px;letter-spacing:-.01em}
-h3{font-size:18px;margin:26px 0 8px}
-p{max-width:74ch}
-a{color:var(--blue)}
-.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:18px 0}
-table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
-th{background:var(--band);text-align:left;padding:11px 12px;font-weight:600;
-border-bottom:1px solid var(--line);white-space:nowrap}
-td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-tr:last-child td{border-bottom:0}
+body{margin:0;background:var(--base);color:var(--ink);
+font-family:Epilogue,'Epilogue-Fallback',Arial,Helvetica,sans-serif;
+font-size:1rem;line-height:1.5;-webkit-text-size-adjust:100%}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+header.top{position:sticky;top:0;z-index:50;background:var(--base);
+border-bottom:var(--bw) solid var(--line)}
+header.top .wrap{display:flex;gap:20px;align-items:center;flex-wrap:wrap;
+padding-top:16px;padding-bottom:16px}
+.brand{font-weight:800;color:var(--ink);text-decoration:none;font-size:1.05rem;
+letter-spacing:-.02em;text-transform:uppercase}
+nav.main{display:flex;gap:20px;flex-wrap:wrap;margin-left:auto;align-items:center}
+nav.main a{color:var(--ink);text-decoration:none;font-size:.92rem;font-weight:600;
+padding-bottom:2px;border-bottom:2px solid transparent}
+nav.main a:hover{border-bottom-color:var(--accent);color:var(--ink)}
+.hero{background:var(--ink);color:var(--base);padding:64px 0 52px;
+border-bottom:var(--bw) solid var(--line)}
+.hero a{color:var(--base)}
+.hero .lede{color:var(--base);opacity:.88}
+h1{font-size:clamp(2rem,4.6vw,2.5rem);line-height:1.15;margin:0 0 16px;
+font-weight:800;letter-spacing:-.025em}
+h2{font-size:clamp(1.4rem,3vw,2rem);margin:44px 0 14px;font-weight:700;letter-spacing:-.02em}
+h3{font-size:1.15rem;margin:28px 0 8px;font-weight:700}
+.lede{font-size:1.1rem;max-width:68ch;margin:0 0 24px}
+p{max-width:72ch}
+a{color:var(--ink);text-underline-offset:3px;text-decoration-thickness:2px}
+a:hover{color:var(--accent)}
+main{padding:8px 0 64px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:28px 0}
+.stat{background:var(--base);color:var(--ink);border:var(--bw) solid var(--ink);
+border-radius:var(--r);padding:18px}
+.hero .stat{background:transparent;color:var(--base);border-color:var(--base)}
+.stat b{display:block;font-size:2rem;line-height:1.05;font-weight:800;letter-spacing:-.03em}
+.stat span{font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;opacity:.85}
+.tablewrap{overflow-x:auto;border:var(--bw) solid var(--ink);border-radius:var(--r);
+margin:22px 0;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:600px}
+th{background:var(--ink);color:var(--base);text-align:left;padding:12px 14px;
+font-weight:700;white-space:nowrap;font-size:.85rem;text-transform:uppercase;letter-spacing:.03em}
+td{padding:12px 14px;border-top:1px solid rgba(20,24,49,.16);vertical-align:top}
+:root[data-theme=dark] td{border-top-color:rgba(221,221,227,.16)}
 td.num,th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
-code,.ref{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-.ref{white-space:nowrap;font-weight:600}
-.pill{display:inline-block;padding:2px 9px;border-radius:11px;font-size:12px;
-font-weight:600;white-space:nowrap}
+code,.ref{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.85rem}
+.ref{white-space:nowrap;font-weight:700}
+.pill{display:inline-block;padding:3px 10px;border-radius:var(--r);font-size:.75rem;
+font-weight:700;white-space:nowrap;color:#141831;border:2px solid rgba(20,24,49,.35)}
 .pill.eq{background:var(--eq)}.pill.sub{background:var(--sub)}
 .pill.sup{background:var(--sup)}.pill.int{background:var(--int)}
-.note{background:var(--band);border-left:3px solid var(--steel);padding:14px 16px;
-border-radius:0 8px 8px 0;margin:22px 0;font-size:15px}
-.note strong{color:var(--navy)}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:18px 0}
-.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;
-padding:16px;text-decoration:none;color:inherit;transition:border-color .15s}
-.card:hover{border-color:var(--steel)}
-.card b{display:block;margin-bottom:4px;color:var(--navy);font-size:15px}
-.card span{font-size:13px;color:var(--muted)}
-input[type=search]{width:100%;max-width:460px;padding:11px 13px;border:1px solid var(--line);
-border-radius:9px;background:var(--card);color:var(--fg);font-size:15px}
-footer{border-top:1px solid var(--line);background:var(--band);padding:30px 0;
-font-size:13px;color:var(--muted)}
-footer a{color:var(--blue)}
-.dl{display:inline-block;background:var(--navy);color:#fff;padding:11px 20px;border-radius:9px;
-text-decoration:none;font-weight:600;font-size:15px;margin:6px 8px 6px 0}
-.dl.alt{background:transparent;color:var(--blue);border:1px solid var(--line)}
-@media(prefers-color-scheme:dark){.dl{color:#0f1218}}
+:root[data-theme=dark] .pill{color:#DDDDE3;border-color:rgba(221,221,227,.3)}
+.note{background:var(--soft);border:var(--bw) solid var(--ink);border-radius:var(--r);
+padding:18px 20px;margin:26px 0}
+.note strong{font-weight:800}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:22px 0}
+.card{display:block;background:var(--paper);border:var(--bw) solid var(--ink);
+border-radius:var(--r);padding:20px;text-decoration:none;color:var(--ink);
+transition:transform .12s,box-shadow .12s}
+.card:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--ink);color:var(--ink)}
+.card b{display:block;margin-bottom:6px;font-size:1.02rem;font-weight:800}
+.card span{font-size:.88rem;color:var(--muted)}
+input[type=search]{width:100%;max-width:480px;padding:12px 14px;
+border:var(--bw) solid var(--ink);border-radius:var(--r);
+background:var(--paper);color:var(--ink);font-family:inherit;font-size:1rem}
+input[type=search]::placeholder{color:var(--muted)}
+.dl{display:inline-block;background:var(--ink);color:var(--base);
+padding:11px 22px;border:var(--bw) solid var(--ink);border-radius:var(--rb);
+text-decoration:none;font-weight:700;font-size:.95rem;margin:8px 10px 8px 0;
+min-height:40px;text-align:center}
+.dl:hover{background:var(--base);color:var(--ink);border-color:var(--ink)}
+.hero .dl{background:var(--base);color:var(--ink);border-color:var(--base)}
+.hero .dl:hover{background:transparent;color:var(--base)}
+.dl.alt{background:transparent;color:var(--ink);border-color:var(--ink)}
+.dl.alt:hover{background:var(--ink);color:var(--base)}
+.hero .dl.alt{background:transparent;color:var(--base);border-color:var(--base)}
+.hero .dl.alt:hover{background:var(--base);color:var(--ink)}
+.cta{background:var(--ink);color:var(--base);border-radius:var(--r);
+padding:32px;margin:44px 0 8px}
+.cta h2{margin-top:0;color:var(--base)}
+.cta p{color:var(--base);opacity:.9;max-width:64ch}
+.cta a{color:var(--base)}
+.cta .dl{background:var(--base);color:var(--ink);border-color:var(--base)}
+.cta .dl:hover{background:transparent;color:var(--base)}
+footer{border-top:var(--bw) solid var(--line);background:var(--soft);
+padding:36px 0;font-size:.85rem;color:var(--muted)}
+footer p{max-width:80ch}
+footer a{color:var(--ink);font-weight:600}
 .hidden{display:none}
+@media(max-width:640px){.hero{padding:40px 0 32px}.wrap{padding:0 18px}
+nav.main{gap:14px;width:100%;margin-left:0}.cta{padding:24px}}
 """
 
-def head(title, desc, canon, alt_lang, alt_href, lang, jsonld=None, extra_kw=""):
+def head(title, desc, canon, alt_lang, alt_href, lang, jsonld=None, extra_kw="", fontbase="assets/fonts/"):
     j = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     return f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -134,7 +174,7 @@ def head(title, desc, canon, alt_lang, alt_href, lang, jsonld=None, extra_kw="")
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <meta name="author" content="Services Conseil Factero">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231f3864'/><text x='32' y='44' font-size='34' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>T</text></svg>">
-<style>{CSS}</style>
+<style>{CSS.replace("FONTPATH", fontbase)}</style>
 {j}"""
 
 def shell(title, desc, canon, alt_lang, alt_href, lang, body, jsonld=None, kw="", depth=0):
@@ -145,7 +185,11 @@ def shell(title, desc, canon, alt_lang, alt_href, lang, body, jsonld=None, kw=""
                f'<a href="{up}fr/criteres.html">Les 382 critères</a>'
                f'<a href="{up}fr/methodologie.html">Méthodologie</a>'
                f'<a href="{up}en/">EN</a>')
-        foot = (f'<p><strong>Source des critères :</strong> Certification — Trousse globale de '
+        foot = (f'<p><strong>Vous préparez une certification TGV ?</strong> '
+                f'Services Conseil Factero accompagne les entreprises technologiques en santé '
+                f'dans cette démarche. <a href="https://certification-tgv.ca">'
+                f'Voir notre accompagnement TGV</a>.</p>'
+                f'<p><strong>Source des critères :</strong> Certification — Trousse globale de '
                 f'vérification (TGV), ministère de la Santé et des Services sociaux du Québec, '
                 f'publication 24-715-38W, ISBN 978-2-550-97589-2. '
                 f'<a href="https://publications.msss.gouv.qc.ca/msss/document-003757/">Publication officielle</a>. '
@@ -162,7 +206,10 @@ def shell(title, desc, canon, alt_lang, alt_href, lang, body, jsonld=None, kw=""
                f'<a href="{up}en/frameworks/">Frameworks</a>'
                f'<a href="{up}en/methodology.html">Methodology</a>'
                f'<a href="{up}">FR</a>')
-        foot = (f'<p><strong>Criteria source:</strong> Certification — Trousse globale de vérification '
+        foot = (f'<p><strong>Preparing for TGV certification?</strong> '
+                f'Services Conseil Factero guides health technology companies through the process. '
+                f'<a href="https://certification-tgv.ca">TGV certification support</a>.</p>'
+                f'<p><strong>Criteria source:</strong> Certification — Trousse globale de vérification '
                 f'(TGV), Ministère de la Santé et des Services sociaux du Québec, publication '
                 f'24-715-38W, ISBN 978-2-550-97589-2. '
                 f'<a href="https://publications.msss.gouv.qc.ca/msss/document-003757/">Official publication</a>. '
@@ -176,7 +223,7 @@ def shell(title, desc, canon, alt_lang, alt_href, lang, body, jsonld=None, kw=""
     return f"""<!doctype html>
 <html lang="{lang}"{'' if lang=='fr' else ''}>
 <head>
-{head(title, desc, canon, alt_lang, alt_href, lang, jsonld, kw)}
+{head(title, desc, canon, alt_lang, alt_href, lang, jsonld, kw, up + "assets/fonts/")}
 </head>
 <body>
 <header class="top"><div class="wrap">
@@ -350,6 +397,14 @@ durée de la certification.</span></a>
 correspondances par référentiel.</span></a>
 <a class="card" href="fr/methodologie.html"><b>Méthodologie</b><span>Comment les correspondances
 sont produites et vérifiées.</span></a>
+</div>
+
+<div class="cta">
+<h2>Vous devez passer la TGV ?</h2>
+<p>Ce jeu de données vous montre où vous en êtes. Si vous voulez de l'aide pour y arriver,
+Services Conseil Factero accompagne les entreprises technologiques en santé dans leur démarche
+de certification, de la préparation de la trousse jusqu'à la vérification externe.</p>
+<a class="dl" href="https://certification-tgv.ca">Notre accompagnement TGV</a>
 </div>
 </div></main>"""
 

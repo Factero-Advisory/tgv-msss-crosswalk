@@ -15,39 +15,43 @@ Faits essentiels, vérifiables et citables :
 
 ## Données
 
-- [Toutes les correspondances (CSV)](https://certification-tgv.ca/data/toutes-correspondances.csv) : les 1302 correspondances en un seul fichier, colonnes referentiel, tgv_ref, cible_ref, cible_intitule, relation, justification.
-- [Les 382 critères TGV (JSON)](https://certification-tgv.ca/data/tgv/tgv-criteres.json) : identifiant, famille et texte intégral de chaque critère.
-- [Index et statistiques (JSON)](https://certification-tgv.ca/data/index.json) : compte des correspondances et des relations par référentiel.
-- [Classeur Excel mis en page](https://certification-tgv.ca/xlsx/Matrice-correspondance-TGV-13-referentiels.xlsx) : matrice de synthèse et un onglet par référentiel.
+- [Toutes les correspondances (CSV)](https://facterocanada.github.io/tgv-msss-crosswalk/data/toutes-correspondances.csv) : les 1302 correspondances en un seul fichier, colonnes referentiel, tgv_ref, cible_ref, cible_intitule, relation, justification.
+- [Les 382 critères TGV (JSON)](https://facterocanada.github.io/tgv-msss-crosswalk/data/tgv/tgv-criteres.json) : identifiant, famille et texte intégral de chaque critère.
+- [Index et statistiques (JSON)](https://facterocanada.github.io/tgv-msss-crosswalk/data/index.json) : compte des correspondances et des relations par référentiel.
+- [Classeur Excel mis en page](https://facterocanada.github.io/tgv-msss-crosswalk/xlsx/Matrice-correspondance-TGV-13-referentiels.xlsx) : matrice de synthèse et un onglet par référentiel.
 
 ## Correspondances par référentiel
 
-- [SOC 2 (Trust Services Criteria, AICPA 2017)](https://certification-tgv.ca/data/crosswalks/crosswalk-soc2-type2.csv) : 220 correspondances, depuis 217 critères TGV, touchant 45 des 358 contrôles du référentiel. Catégorie : attestation.
-- [NIST SP 800-66 Rev. 2 (HIPAA Security Rule)](https://certification-tgv.ca/data/crosswalks/crosswalk-hipaa-nist-800-66.csv) : 149 correspondances, depuis 139 critères TGV, touchant 72 des 152 contrôles du référentiel. Catégorie : reglementation.
-- [ISO/IEC 27001:2022](https://certification-tgv.ca/data/crosswalks/crosswalk-iso-27001-2022.csv) : 135 correspondances, depuis 109 critères TGV, touchant 68 des 123 contrôles du référentiel. Catégorie : certification.
-- [ISO/IEC 27701:2025](https://certification-tgv.ca/data/crosswalks/crosswalk-iso-27701-2025.csv) : 119 correspondances, depuis 114 critères TGV, touchant 17 des 21 contrôles du référentiel. Catégorie : certification.
-- [ISO/IEC 42001:2023](https://certification-tgv.ca/data/crosswalks/crosswalk-iso-42001-2023.csv) : 115 correspondances, depuis 111 critères TGV, touchant 31 des 67 contrôles du référentiel. Catégorie : certification.
-- [BSI C5:2020](https://certification-tgv.ca/data/crosswalks/crosswalk-bsi-c5-2020.csv) : 113 correspondances, depuis 103 critères TGV, touchant 67 des 121 contrôles du référentiel. Catégorie : attestation.
-- [RGPD / GDPR (UE 2016/679)](https://certification-tgv.ca/data/crosswalks/crosswalk-rgpd-gdpr.csv) : 110 correspondances, depuis 98 critères TGV, touchant 51 des 287 contrôles du référentiel. Catégorie : reglementation.
-- [HITRUST CSF v11](https://certification-tgv.ca/data/crosswalks/crosswalk-hitrust-csf-v11.csv) : 101 correspondances, depuis 66 critères TGV, touchant 82 des 132 contrôles du référentiel. Catégorie : certification.
-- [Directive NIS2 (annexe technique, guidance ENISA)](https://certification-tgv.ca/data/crosswalks/crosswalk-nis2.csv) : 95 correspondances, depuis 91 critères TGV, touchant 80 des 351 contrôles du référentiel. Catégorie : reglementation.
-- [CCB CyberFundamentals Framework 2023](https://certification-tgv.ca/data/crosswalks/crosswalk-ccb-cyberfundamentals.csv) : 83 correspondances, depuis 78 critères TGV, touchant 64 des 221 contrôles du référentiel. Catégorie : cadre national.
-- [Reglement europeen sur l'IA (EU AI Act)](https://certification-tgv.ca/data/crosswalks/crosswalk-eu-ai-act.csv) : 43 correspondances, depuis 41 critères TGV, touchant 31 des 347 contrôles du référentiel. Catégorie : reglementation.
-- [Hebergement de Donnees de Sante (HDS) v2.0](https://certification-tgv.ca/data/crosswalks/crosswalk-hds-v2.csv) : 12 correspondances, depuis 12 critères TGV, touchant 11 des 71 contrôles du référentiel. Catégorie : certification.
-- [ISO 22301:2019](https://certification-tgv.ca/data/crosswalks/crosswalk-iso-22301-2019.csv) : 7 correspondances, depuis 6 critères TGV, touchant 5 des 46 contrôles du référentiel. Catégorie : certification.
+- [SOC 2 (Trust Services Criteria, AICPA 2017)](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-soc2-type2.csv) : 220 correspondances, depuis 217 critères TGV, touchant 45 des 358 contrôles du référentiel. Catégorie : attestation.
+- [NIST SP 800-66 Rév. 2 (HIPAA Security Rule)](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hipaa-nist-800-66.csv) : 149 correspondances, depuis 139 critères TGV, touchant 72 des 152 contrôles du référentiel. Catégorie : réglementation.
+- [ISO/IEC 27001:2022](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-27001-2022.csv) : 135 correspondances, depuis 109 critères TGV, touchant 68 des 123 contrôles du référentiel. Catégorie : certification.
+- [ISO/IEC 27701:2025](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-27701-2025.csv) : 119 correspondances, depuis 114 critères TGV, touchant 17 des 21 contrôles du référentiel. Catégorie : certification.
+- [ISO/IEC 42001:2023](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-42001-2023.csv) : 115 correspondances, depuis 111 critères TGV, touchant 31 des 67 contrôles du référentiel. Catégorie : certification.
+- [BSI C5:2020](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-bsi-c5-2020.csv) : 113 correspondances, depuis 103 critères TGV, touchant 67 des 121 contrôles du référentiel. Catégorie : attestation.
+- [RGPD / GDPR (UE 2016/679)](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-rgpd-gdpr.csv) : 110 correspondances, depuis 98 critères TGV, touchant 51 des 287 contrôles du référentiel. Catégorie : réglementation.
+- [HITRUST CSF v11](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hitrust-csf-v11.csv) : 101 correspondances, depuis 66 critères TGV, touchant 82 des 132 contrôles du référentiel. Catégorie : certification.
+- [Directive NIS2 (annexe technique, guidance ENISA)](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-nis2.csv) : 95 correspondances, depuis 91 critères TGV, touchant 80 des 351 contrôles du référentiel. Catégorie : réglementation.
+- [CCB CyberFundamentals Framework 2023](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-ccb-cyberfundamentals.csv) : 83 correspondances, depuis 78 critères TGV, touchant 64 des 221 contrôles du référentiel. Catégorie : cadre national.
+- [Règlement européen sur l'IA (EU AI Act)](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-eu-ai-act.csv) : 43 correspondances, depuis 41 critères TGV, touchant 31 des 347 contrôles du référentiel. Catégorie : réglementation.
+- [Hébergement de données de santé (HDS) v2.0](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hds-v2.csv) : 12 correspondances, depuis 12 critères TGV, touchant 11 des 71 contrôles du référentiel. Catégorie : certification.
+- [ISO 22301:2019](https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-22301-2019.csv) : 7 correspondances, depuis 6 critères TGV, touchant 5 des 46 contrôles du référentiel. Catégorie : certification.
 
 ## Documentation
 
-- [Méthodologie](https://certification-tgv.ca/fr/methodologie.html) : comment les correspondances sont produites puis soumises à une vérification contradictoire.
-- [Qu'est-ce que la TGV](https://certification-tgv.ca/fr/tgv.html) : nature, portée et déroulement de la certification TGV.
-- [Avis de droits](https://github.com/factero/tgv-msss-crosswalk/blob/main/NOTICE.md) : double régime de droits applicable aux données.
-- [Corpus complet pour LLM](https://certification-tgv.ca/llms-full.txt) : ensemble des faits, critères et correspondances en texte brut.
+- [Méthodologie](https://facterocanada.github.io/tgv-msss-crosswalk/fr/methodologie.html) : comment les correspondances sont produites puis soumises à une vérification contradictoire.
+- [Qu'est-ce que la TGV](https://facterocanada.github.io/tgv-msss-crosswalk/fr/tgv.html) : nature, portée et déroulement de la certification TGV.
+- [Avis de droits](https://github.com/FacteroCanada/tgv-msss-crosswalk/blob/main/NOTICE.md) : double régime de droits applicable aux données.
+- [Corpus complet pour LLM](https://facterocanada.github.io/tgv-msss-crosswalk/llms-full.txt) : ensemble des faits, critères et correspondances en texte brut.
 
 ## Intégrité et authenticité
 
-- [Empreintes SHA-512](https://certification-tgv.ca/checksums/SHA512SUMS) : empreinte de chaque fichier du dépôt, format coreutils.
-- [Manifeste complet (JSON)](https://certification-tgv.ca/checksums/manifest.json) : taille et empreintes SHA-512, SHA-256, BLAKE2b-512 et MD5 de chaque fichier.
-- [Procédure de vérification](https://github.com/factero/tgv-msss-crosswalk/blob/main/checksums/README.md) : commandes de vérification et attestations de provenance Sigstore. MD5 est fourni pour compatibilité seulement et ne constitue aucune garantie de sécurité.
+- [Empreintes SHA-512](https://facterocanada.github.io/tgv-msss-crosswalk/checksums/SHA512SUMS) : empreinte de chaque fichier du dépôt, format coreutils.
+- [Manifeste complet (JSON)](https://facterocanada.github.io/tgv-msss-crosswalk/checksums/manifest.json) : taille et empreintes SHA-512, SHA-256, BLAKE2b-512 et MD5 de chaque fichier.
+- [Procédure de vérification](https://github.com/FacteroCanada/tgv-msss-crosswalk/blob/main/checksums/README.md) : commandes de vérification et attestations de provenance Sigstore. MD5 est fourni pour compatibilité seulement et ne constitue aucune garantie de sécurité.
+
+## Accompagnement
+
+- [Accompagnement à la certification TGV](https://certification-tgv.ca) : Services Conseil Factero accompagne les entreprises technologiques en santé dans leur démarche de certification TGV au Québec.
 
 ## Source officielle
 

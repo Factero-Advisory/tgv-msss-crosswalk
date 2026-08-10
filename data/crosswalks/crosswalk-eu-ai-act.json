@@ -1,13 +1,13 @@
 {
  "referentiel": {
   "slug": "eu-ai-act",
-  "nom": "Reglement europeen sur l'IA (EU AI Act)",
-  "categorie": "Reglementation",
+  "nom": "Règlement européen sur l'IA (EU AI Act)",
+  "categorie": "Réglementation",
   "controles_total": 347
  },
  "source": {
   "referentiel": "TGV",
-  "nom": "Trousse globale de verification (MSSS Quebec)"
+  "nom": "Trousse globale de vérification (MSSS Québec)"
  },
  "statistiques": {
   "correspondances": 43,

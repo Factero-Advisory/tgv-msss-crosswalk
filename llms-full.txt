@@ -1,7 +1,7 @@
 # Correspondances TGV — corpus complet
 
-Source canonique : https://certification-tgv.ca
-Dépôt : https://github.com/factero/tgv-msss-crosswalk
+Source canonique : https://facterocanada.github.io/tgv-msss-crosswalk
+Dépôt : https://github.com/FacteroCanada/tgv-msss-crosswalk
 Licence des correspondances : CC BY 4.0, Services Conseil Factero.
 Texte des critères TGV : © Gouvernement du Québec, publication 24-715-38W, ISBN 978-2-550-97589-2, https://publications.msss.gouv.qc.ca/msss/document-003757/
 Version du corpus : 1.0.0 (2026-07-23)
@@ -42,79 +42,79 @@ Répartition des critères TGV par famille :
 Identifiant du jeu de données : soc2-type2. Catégorie : Attestation.
 220 correspondances depuis 217 critères TGV, touchant 45 des 358 contrôles.
 Relations : recoupement_partiel : 55, tgv_plus_etroit : 165.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-soc2-type2.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-soc2-type2.csv
 
-### NIST SP 800-66 Rev. 2 (HIPAA Security Rule)
-Identifiant du jeu de données : hipaa-nist-800-66. Catégorie : Reglementation.
+### NIST SP 800-66 Rév. 2 (HIPAA Security Rule)
+Identifiant du jeu de données : hipaa-nist-800-66. Catégorie : Réglementation.
 149 correspondances depuis 139 critères TGV, touchant 72 des 152 contrôles.
 Relations : equivalent : 10, recoupement_partiel : 98, tgv_plus_etroit : 36, tgv_plus_large : 5.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-hipaa-nist-800-66.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hipaa-nist-800-66.csv
 
 ### ISO/IEC 27001:2022
 Identifiant du jeu de données : iso-27001-2022. Catégorie : Certification.
 135 correspondances depuis 109 critères TGV, touchant 68 des 123 contrôles.
 Relations : equivalent : 36, recoupement_partiel : 43, tgv_plus_etroit : 56.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-iso-27001-2022.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-27001-2022.csv
 
 ### ISO/IEC 27701:2025
 Identifiant du jeu de données : iso-27701-2025. Catégorie : Certification.
 119 correspondances depuis 114 critères TGV, touchant 17 des 21 contrôles.
 Relations : recoupement_partiel : 1, tgv_plus_etroit : 118.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-iso-27701-2025.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-27701-2025.csv
 
 ### ISO/IEC 42001:2023
 Identifiant du jeu de données : iso-42001-2023. Catégorie : Certification.
 115 correspondances depuis 111 critères TGV, touchant 31 des 67 contrôles.
 Relations : recoupement_partiel : 54, tgv_plus_etroit : 61.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-iso-42001-2023.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-42001-2023.csv
 
 ### BSI C5:2020
 Identifiant du jeu de données : bsi-c5-2020. Catégorie : Attestation.
 113 correspondances depuis 103 critères TGV, touchant 67 des 121 contrôles.
 Relations : equivalent : 3, recoupement_partiel : 64, tgv_plus_etroit : 46.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-bsi-c5-2020.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-bsi-c5-2020.csv
 
 ### RGPD / GDPR (UE 2016/679)
-Identifiant du jeu de données : rgpd-gdpr. Catégorie : Reglementation.
+Identifiant du jeu de données : rgpd-gdpr. Catégorie : Réglementation.
 110 correspondances depuis 98 critères TGV, touchant 51 des 287 contrôles.
 Relations : equivalent : 2, recoupement_partiel : 90, tgv_plus_etroit : 16, tgv_plus_large : 2.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-rgpd-gdpr.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-rgpd-gdpr.csv
 
 ### HITRUST CSF v11
 Identifiant du jeu de données : hitrust-csf-v11. Catégorie : Certification.
 101 correspondances depuis 66 critères TGV, touchant 82 des 132 contrôles.
 Relations : equivalent : 8, recoupement_partiel : 47, tgv_plus_etroit : 17, tgv_plus_large : 29.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-hitrust-csf-v11.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hitrust-csf-v11.csv
 
 ### Directive NIS2 (annexe technique, guidance ENISA)
-Identifiant du jeu de données : nis2. Catégorie : Reglementation.
+Identifiant du jeu de données : nis2. Catégorie : Réglementation.
 95 correspondances depuis 91 critères TGV, touchant 80 des 351 contrôles.
 Relations : equivalent : 6, recoupement_partiel : 41, tgv_plus_etroit : 48.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-nis2.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-nis2.csv
 
 ### CCB CyberFundamentals Framework 2023
 Identifiant du jeu de données : ccb-cyberfundamentals. Catégorie : Cadre national.
 83 correspondances depuis 78 critères TGV, touchant 64 des 221 contrôles.
 Relations : equivalent : 7, recoupement_partiel : 28, tgv_plus_etroit : 48.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-ccb-cyberfundamentals.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-ccb-cyberfundamentals.csv
 
-### Reglement europeen sur l'IA (EU AI Act)
-Identifiant du jeu de données : eu-ai-act. Catégorie : Reglementation.
+### Règlement européen sur l'IA (EU AI Act)
+Identifiant du jeu de données : eu-ai-act. Catégorie : Réglementation.
 43 correspondances depuis 41 critères TGV, touchant 31 des 347 contrôles.
 Relations : recoupement_partiel : 18, tgv_plus_etroit : 25.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-eu-ai-act.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-eu-ai-act.csv
 
-### Hebergement de Donnees de Sante (HDS) v2.0
+### Hébergement de données de santé (HDS) v2.0
 Identifiant du jeu de données : hds-v2. Catégorie : Certification.
 12 correspondances depuis 12 critères TGV, touchant 11 des 71 contrôles.
 Relations : recoupement_partiel : 11, tgv_plus_large : 1.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-hds-v2.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hds-v2.csv
 
 ### ISO 22301:2019
 Identifiant du jeu de données : iso-22301-2019. Catégorie : Certification.
 7 correspondances depuis 6 critères TGV, touchant 5 des 46 contrôles.
 Relations : recoupement_partiel : 1, tgv_plus_etroit : 6.
-Données : https://certification-tgv.ca/data/crosswalks/crosswalk-iso-22301-2019.csv
+Données : https://facterocanada.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-22301-2019.csv
 
 ## 4. Les 382 critères de la TGV
 
@@ -750,7 +750,7 @@ S16.02 -> CC4.1 (COSO Principle 16) | tgv_plus_etroit | Stratégie de validation
 S16.03 -> CC4.1 (COSO Principle 16) | tgv_plus_etroit | Test d'intrusion par un prestataire indépendant reconnu = évaluation séparée incluant les tests d'intrusion (CC4.1).
 S16.04 -> CC9.2 (The entity assesses and manages risks associated with vendors and business partners.) | recoupement_partiel | Détention des droits de PI du code ou explicitation des limitations de licence = gestion des droits/licences des tiers (CC9.2), chevauchement partiel.
 
-### NIST SP 800-66 Rev. 2 (HIPAA Security Rule) (149 correspondances)
+### NIST SP 800-66 Rév. 2 (HIPAA Security Rule) (149 correspondances)
 
 P01.01 -> 164.316(a) (1. Create and Deploy Policies and Procedures) | recoupement_partiel | La politique de protection des renseignements personnels fournit une preuve partielle des politiques et procédures documentées exigées par 164.316(a) pour protéger les renseignements de santé.
 P01.02 -> 164.316(a) (1. Create and Deploy Policies and Procedures) | recoupement_partiel | Les politiques, processus et procédures encadrant la PRP alimentent l'exigence HIPAA de politiques et procédures raisonnables et appropriées documentées (164.316(a)).
@@ -1797,7 +1797,7 @@ S16.01 -> IMPORTANT_PR.IP-9.1 (Incident response plans (Incident Response and Bu
 S16.02 -> IMPORTANT_DE.CM-8.1 (The organization shall monitor and scan for vulnerabilities in its critical systems and hosted applications ensuring that system functions are not adversely impacted by the scanning process.) | recoupement_partiel | La stratégie de validation de la conformité technique des composantes alimente la surveillance et l'analyse des vulnérabilités des systèmes critiques.
 S16.03 -> ID.RA-1.3 (To ensure that organization's operations are not adversely impacted by the testing process, performance/load testing and penetration testing on the organization’s systems shall be conducted with care.) | tgv_plus_etroit | Le test d'intrusion administré par un prestataire indépendant alimente la conduite maîtrisée de tests d'intrusion sur les systèmes de l'organisation.
 
-### Reglement europeen sur l'IA (EU AI Act) (43 correspondances)
+### Règlement européen sur l'IA (EU AI Act) (43 correspondances)
 
 IA10 -> 15.3 (The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.) | recoupement_partiel | La stratégie d'évaluation avec métriques, faux positifs et faux négatifs alimente la déclaration des niveaux et métriques d'exactitude dans la notice (art. 15.3).
 IA12 -> 15.5 (High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities.) | tgv_plus_etroit | Les tests d'injection de requêtes malveillantes alimentent la résilience aux tentatives de tiers d'altérer les sorties en exploitant les vulnérabilités (art. 15.5).
@@ -1843,7 +1843,7 @@ IA7 -> 14.1 (High-risk AI systems shall be designed and developed in such a way,
 IA8 -> 10.2.f (examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;) | recoupement_partiel | Le processus d'essais identifiant les différences de comportement selon les groupes sociaux correspond à l'examen des biais possibles de l'art. 10.2.f.
 IA9 -> 9.6 (High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures. Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.) | tgv_plus_etroit | Les essais établissant l'adéquation à l'utilisation envisagée alimentent les tests garantissant une performance conforme au but prévu (art. 9.6).
 
-### Hebergement de Donnees de Sante (HDS) v2.0 (12 correspondances)
+### Hébergement de données de santé (HDS) v2.0 (12 correspondances)
 
 P09.04 -> [EXI 05] (c. Traçabilité et imputabilité des accès ;) | recoupement_partiel | La journalisation de l'ensemble des accès aux renseignements personnels (P09.04) fournit les traces nominatives assurant la traçabilité et l'imputabilité des accès aux DSCP attendues par HDS (EXI 05 D-c).
 S04.02 -> [EXI 10] (Les personnels travaillant pour l’Hébergeur doivent être sensibilisés à la criticité en termes de disponibilité, de confidentialité et d’intégrité des DSCP hébergées.) | recoupement_partiel | Le programme de sensibilisation/formation à la sécurité (S04.02) fournit la preuve de sensibilisation du personnel exigée par HDS (EXI 10) sur la criticité DIC des données de santé.

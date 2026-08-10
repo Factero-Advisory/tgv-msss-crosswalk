@@ -9,7 +9,7 @@ Utilise uniquement la bibliotheque standard. Lance par la CI et executable en lo
 import json, csv, os, re, sys, html.parser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://certification-tgv.ca"
+SITE = "https://facterocanada.github.io/tgv-msss-crosswalk"
 err, warn = [], []
 
 
@@ -176,15 +176,19 @@ for f in sorted(pages):
             E(f"{rel} : JSON-LD invalide ({ex})")
 
 # ---------------------------------------------------------------- 3. Fichiers requis
-for f in ["README.md", "LICENSE", "NOTICE.md", "CITATION.cff", "CNAME",
+for f in ["README.md", "LICENSE", "NOTICE.md", "CITATION.cff",
           "robots.txt", "sitemap.xml", "llms.txt", "llms-full.txt", ".gitignore",
+          "checksums/SHA512SUMS", "checksums/manifest.json",
+          "assets/fonts/epilogue-latin.woff2", "assets/fonts/OFL.txt",
           "xlsx/Matrice-correspondance-TGV-13-referentiels.xlsx"]:
     if not os.path.exists(p(f)):
         E(f"fichier requis absent : {f}")
 
-cname = open(p("CNAME"), encoding="utf-8").read().strip()
-if cname != "certification-tgv.ca":
-    E(f"CNAME incorrect : '{cname}'")
+# Le site est servi sur l'URL GitHub Pages du projet. Le domaine
+# certification-tgv.ca reste dedie a la page de services de Factero : aucun
+# fichier CNAME ne doit etre present, sinon Pages revendiquerait le domaine.
+if os.path.exists(p("CNAME")):
+    E("un fichier CNAME est present : il detournerait certification-tgv.ca vers ce site")
 
 sm = open(p("sitemap.xml"), encoding="utf-8").read()
 locs = re.findall(r"<loc>([^<]+)</loc>", sm)

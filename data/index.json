@@ -1,8 +1,8 @@
 {
- "titre": "Correspondances TGV vers referentiels internationaux",
+ "titre": "Correspondances TGV vers référentiels internationaux",
  "source": {
-  "referentiel": "Trousse globale de verification (TGV)",
-  "editeur": "Ministere de la Sante et des Services sociaux du Quebec",
+  "referentiel": "Trousse globale de vérification (TGV)",
+  "editeur": "Ministère de la Santé et des Services sociaux du Québec",
   "publication": "24-715-38W",
   "isbn": "978-2-550-97589-2",
   "url": "https://publications.msss.gouv.qc.ca/msss/document-003757/"
@@ -35,8 +35,8 @@
   },
   {
    "slug": "hipaa-nist-800-66",
-   "nom": "NIST SP 800-66 Rev. 2 (HIPAA Security Rule)",
-   "categorie": "Reglementation",
+   "nom": "NIST SP 800-66 Rév. 2 (HIPAA Security Rule)",
+   "categorie": "Réglementation",
    "correspondances": 149,
    "criteres_tgv": 139,
    "controles_cible_touches": 72,
@@ -105,7 +105,7 @@
   {
    "slug": "rgpd-gdpr",
    "nom": "RGPD / GDPR (UE 2016/679)",
-   "categorie": "Reglementation",
+   "categorie": "Réglementation",
    "correspondances": 110,
    "criteres_tgv": 98,
    "controles_cible_touches": 51,
@@ -135,7 +135,7 @@
   {
    "slug": "nis2",
    "nom": "Directive NIS2 (annexe technique, guidance ENISA)",
-   "categorie": "Reglementation",
+   "categorie": "Réglementation",
    "correspondances": 95,
    "criteres_tgv": 91,
    "controles_cible_touches": 80,
@@ -162,8 +162,8 @@
   },
   {
    "slug": "eu-ai-act",
-   "nom": "Reglement europeen sur l'IA (EU AI Act)",
-   "categorie": "Reglementation",
+   "nom": "Règlement européen sur l'IA (EU AI Act)",
+   "categorie": "Réglementation",
    "correspondances": 43,
    "criteres_tgv": 41,
    "controles_cible_touches": 31,
@@ -175,7 +175,7 @@
   },
   {
    "slug": "hds-v2",
-   "nom": "Hebergement de Donnees de Sante (HDS) v2.0",
+   "nom": "Hébergement de données de santé (HDS) v2.0",
    "categorie": "Certification",
    "correspondances": 12,
    "criteres_tgv": 12,

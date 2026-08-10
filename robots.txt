@@ -3,7 +3,7 @@ Allow: /
 
 # Corpus optimise pour les modeles de langage
 # LLM-oriented corpus
-# https://certification-tgv.ca/llms.txt
-# https://certification-tgv.ca/llms-full.txt
+# https://facterocanada.github.io/tgv-msss-crosswalk/llms.txt
+# https://facterocanada.github.io/tgv-msss-crosswalk/llms-full.txt
 
-Sitemap: https://certification-tgv.ca/sitemap.xml
+Sitemap: https://facterocanada.github.io/tgv-msss-crosswalk/sitemap.xml

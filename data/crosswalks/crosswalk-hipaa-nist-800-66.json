@@ -1,13 +1,13 @@
 {
  "referentiel": {
   "slug": "hipaa-nist-800-66",
-  "nom": "NIST SP 800-66 Rev. 2 (HIPAA Security Rule)",
-  "categorie": "Reglementation",
+  "nom": "NIST SP 800-66 Rév. 2 (HIPAA Security Rule)",
+  "categorie": "Réglementation",
   "controles_total": 152
  },
  "source": {
   "referentiel": "TGV",
-  "nom": "Trousse globale de verification (MSSS Quebec)"
+  "nom": "Trousse globale de vérification (MSSS Québec)"
  },
  "statistiques": {
   "correspondances": 149,

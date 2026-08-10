@@ -2,12 +2,12 @@
  "referentiel": {
   "slug": "nis2",
   "nom": "Directive NIS2 (annexe technique, guidance ENISA)",
-  "categorie": "Reglementation",
+  "categorie": "Réglementation",
   "controles_total": 351
  },
  "source": {
   "referentiel": "TGV",
-  "nom": "Trousse globale de verification (MSSS Quebec)"
+  "nom": "Trousse globale de vérification (MSSS Québec)"
  },
  "statistiques": {
   "correspondances": 95,

@@ -1,13 +1,13 @@
 {
  "referentiel": {
   "slug": "hds-v2",
-  "nom": "Hebergement de Donnees de Sante (HDS) v2.0",
+  "nom": "Hébergement de données de santé (HDS) v2.0",
   "categorie": "Certification",
   "controles_total": 71
  },
  "source": {
   "referentiel": "TGV",
-  "nom": "Trousse globale de verification (MSSS Quebec)"
+  "nom": "Trousse globale de vérification (MSSS Québec)"
  },
  "statistiques": {
   "correspondances": 12,
