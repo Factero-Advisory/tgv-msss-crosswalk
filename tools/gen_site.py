@@ -135,20 +135,13 @@ min-height:40px;text-align:center}
 .dl.alt:hover{background:var(--ink);color:var(--base)}
 .hero .dl.alt{background:transparent;color:var(--base);border-color:var(--base)}
 .hero .dl.alt:hover{background:var(--base);color:var(--ink)}
-.cta{background:var(--ink);color:var(--base);border-radius:var(--r);
-padding:32px;margin:44px 0 8px}
-.cta h2{margin-top:0;color:var(--base)}
-.cta p{color:var(--base);opacity:.9;max-width:64ch}
-.cta a{color:var(--base)}
-.cta .dl{background:var(--base);color:var(--ink);border-color:var(--base)}
-.cta .dl:hover{background:transparent;color:var(--base)}
 footer{border-top:var(--bw) solid var(--line);background:var(--soft);
 padding:36px 0;font-size:.85rem;color:var(--muted)}
 footer p{max-width:80ch}
 footer a{color:var(--ink);font-weight:600}
 .hidden{display:none}
 @media(max-width:640px){.hero{padding:40px 0 32px}.wrap{padding:0 18px}
-nav.main{gap:14px;width:100%;margin-left:0}.cta{padding:24px}}
+nav.main{gap:14px;width:100%;margin-left:0}}
 """
 
 def head(title, desc, canon, alt_lang, alt_href, lang, jsonld=None, extra_kw="", fontbase="assets/fonts/"):
@@ -185,11 +178,7 @@ def shell(title, desc, canon, alt_lang, alt_href, lang, body, jsonld=None, kw=""
                f'<a href="{up}fr/criteres.html">Les 382 critères</a>'
                f'<a href="{up}fr/methodologie.html">Méthodologie</a>'
                f'<a href="{up}en/">EN</a>')
-        foot = (f'<p><strong>Vous préparez une certification TGV ?</strong> '
-                f'Services Conseil Factero accompagne les entreprises technologiques en santé '
-                f'dans cette démarche. <a href="https://certification-tgv.ca">'
-                f'Voir notre accompagnement TGV</a>.</p>'
-                f'<p><strong>Source des critères :</strong> Certification — Trousse globale de '
+        foot = (f'<p><strong>Source des critères :</strong> Certification — Trousse globale de '
                 f'vérification (TGV), ministère de la Santé et des Services sociaux du Québec, '
                 f'publication 24-715-38W, ISBN 978-2-550-97589-2. '
                 f'<a href="https://publications.msss.gouv.qc.ca/msss/document-003757/">Publication officielle</a>. '
@@ -206,10 +195,7 @@ def shell(title, desc, canon, alt_lang, alt_href, lang, body, jsonld=None, kw=""
                f'<a href="{up}en/frameworks/">Frameworks</a>'
                f'<a href="{up}en/methodology.html">Methodology</a>'
                f'<a href="{up}">FR</a>')
-        foot = (f'<p><strong>Preparing for TGV certification?</strong> '
-                f'Services Conseil Factero guides health technology companies through the process. '
-                f'<a href="https://certification-tgv.ca">TGV certification support</a>.</p>'
-                f'<p><strong>Criteria source:</strong> Certification — Trousse globale de vérification '
+        foot = (f'<p><strong>Criteria source:</strong> Certification — Trousse globale de vérification '
                 f'(TGV), Ministère de la Santé et des Services sociaux du Québec, publication '
                 f'24-715-38W, ISBN 978-2-550-97589-2. '
                 f'<a href="https://publications.msss.gouv.qc.ca/msss/document-003757/">Official publication</a>. '
@@ -399,12 +385,13 @@ correspondances par référentiel.</span></a>
 sont produites et vérifiées.</span></a>
 </div>
 
-<div class="cta">
-<h2>Vous devez passer la TGV ?</h2>
-<p>Ce jeu de données vous montre où vous en êtes. Si vous voulez de l'aide pour y arriver,
-Services Conseil Factero accompagne les entreprises technologiques en santé dans leur démarche
-de certification, de la préparation de la trousse jusqu'à la vérification externe.</p>
-<a class="dl" href="https://certification-tgv.ca">Notre accompagnement TGV</a>
+<div class="note">
+<p><strong>Portée de ce site.</strong> Il publie des correspondances entre exigences, rien de plus.
+Il ne remplace ni la lecture de la trousse officielle, ni un audit, ni l'avis du Bureau de
+certification et d'homologation. Une correspondance signale un recoupement d'intention entre deux
+exigences : elle n'établit pas qu'un critère TGV satisfait automatiquement le contrôle visé.</p>
+<p>Une correspondance vous semble contestable ? <a href="{REPO}/issues">Signalez-la</a>. Les
+justifications sont publiées précisément pour pouvoir être discutées.</p>
 </div>
 </div></main>"""
 

@@ -90,6 +90,15 @@ w(f"- [Avis de droits]({REPO}/blob/main/NOTICE.md) : double régime de droits "
 w(f"- [Corpus complet pour LLM]({SITE}/llms-full.txt) : ensemble des faits, critères "
   "et correspondances en texte brut.")
 w("")
+w("## Intégrité et authenticité")
+w("")
+w(f"- [Empreintes SHA-512]({REPO}/blob/main/checksums/SHA512SUMS) : empreinte de chaque "
+  "fichier du dépôt, format coreutils.")
+w(f"- [Manifeste complet]({REPO}/blob/main/checksums/manifest.json) : taille et empreintes "
+  "SHA-512, SHA-256, BLAKE2b-512 et MD5 de chaque fichier.")
+w(f"- [Procédure de vérification]({REPO}/blob/main/checksums/README.md) : commandes de "
+  "vérification et attestations de provenance Sigstore.")
+w("")
 w("## Source officielle")
 w("")
 w("- [Certification — Trousse globale de vérification (TGV), MSSS]"

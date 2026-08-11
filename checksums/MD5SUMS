@@ -43,7 +43,7 @@ f20a02194528a6a4715a12c88e46bf65  data/tgv/tgv-criteres.json
 5b99db8c8f10484c076fb401fd411096  tools/README.md
 7eb55693e7b8528898fd7bdc6d86935f  tools/export_from_ciso_assistant.py
 227ac8864f0e5b76cd9cb76dfd360baf  tools/gen_checksums.py
-4d60a4c8c818460db8e85c5fcf48e898  tools/gen_llms_txt.py
-eedc591e24486f8801a80b271c5d95c6  tools/gen_site.py
+bff2e7213be81ff29aa35ecddbc35226  tools/gen_llms_txt.py
+2c401e920e9f220b61cca038f81863fe  tools/gen_site.py
 9d446bc0ab98cdf35a3bbdb6a9166b4f  tools/validate.py
 d03288338cae47aa8e279f86efdd4d8e  xlsx/Matrice-correspondance-TGV-13-referentiels.xlsx
