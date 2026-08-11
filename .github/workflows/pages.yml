@@ -1,0 +1,46 @@
+name: Construction et publication du site
+
+# Le site est un ARTEFACT : il est reconstruit depuis data/ a chaque poussee
+# plutot que versionne dans main. Cela garde le depot leger et les diffs lisibles.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Construire le site et les corpus
+        run: |
+          python tools/gen_site.py
+          python tools/gen_llms_txt.py
+      - name: Contrôler les balises SEO du site construit
+        run: python tools/validate.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site_out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4

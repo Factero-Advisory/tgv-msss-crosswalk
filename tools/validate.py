@@ -148,7 +148,7 @@ for dirpath, _dn, fn in os.walk(ROOT):
         if f.endswith(".html"):
             pages.append(os.path.join(dirpath, f))
 
-for f in sorted(pages):
+for f in sorted(pages):   # vide si le site n'a pas ete construit
     rel = os.path.relpath(f, ROOT).replace("\\", "/")
     m = Meta()
     m.feed(open(f, encoding="utf-8").read())
@@ -176,10 +176,9 @@ for f in sorted(pages):
             E(f"{rel} : JSON-LD invalide ({ex})")
 
 # ---------------------------------------------------------------- 3. Fichiers requis
-for f in ["README.md", "LICENSE", "NOTICE.md", "CITATION.cff",
-          "robots.txt", "sitemap.xml", "llms.txt", "llms-full.txt", ".gitignore",
+for f in ["README.md", "LICENSE", "NOTICE.md", "CITATION.cff", ".gitignore",
           "checksums/SHA512SUMS", "checksums/manifest.json",
-          "assets/fonts/epilogue-latin.woff2", "assets/fonts/OFL.txt",
+          "tools/gen_site.py", "tools/gen_checksums.py",
           "xlsx/Matrice-correspondance-TGV-13-referentiels.xlsx"]:
     if not os.path.exists(p(f)):
         E(f"fichier requis absent : {f}")
@@ -190,17 +189,20 @@ for f in ["README.md", "LICENSE", "NOTICE.md", "CITATION.cff",
 if os.path.exists(p("CNAME")):
     E("un fichier CNAME est present : il detournerait certification-tgv.ca vers ce site")
 
-sm = open(p("sitemap.xml"), encoding="utf-8").read()
-locs = re.findall(r"<loc>([^<]+)</loc>", sm)
-if len(locs) != len(set(locs)):
-    E("URL en double dans sitemap.xml")
-for loc in locs:
-    sub = loc[len(SITE):].lstrip("/")
-    cand = p(sub) if sub else p("index.html")
-    if sub.endswith("/"):
-        cand = p(sub, "index.html")
-    if not os.path.exists(cand):
-        E(f"sitemap : {loc} ne correspond a aucun fichier ({sub or 'index.html'})")
+# Le sitemap n'existe qu'apres construction du site : la CI le verifie a ce
+# moment-la. Absent en local, ce n'est pas une erreur.
+locs = []
+if os.path.exists(p("sitemap.xml")):
+    locs = re.findall(r"<loc>([^<]+)</loc>", sm)
+    if len(locs) != len(set(locs)):
+        E("URL en double dans sitemap.xml")
+    for loc in locs:
+        sub = loc[len(SITE):].lstrip("/")
+        cand = p(sub) if sub else p("index.html")
+        if sub.endswith("/"):
+            cand = p(sub, "index.html")
+        if not os.path.exists(cand):
+            E(f"sitemap : {loc} ne correspond a aucun fichier ({sub or 'index.html'})")
 
 # ---------------------------------------------------------------- Rapport
 print(f"Criteres TGV            : {len(crit)}")

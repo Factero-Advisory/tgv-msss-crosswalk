@@ -9,11 +9,11 @@
 [![Licence CC BY 4.0](https://img.shields.io/badge/donn%C3%A9es-CC%20BY%204.0-blue.svg)](LICENSE)
 [![Correspondances](https://img.shields.io/badge/correspondances-1302-success.svg)](data/toutes-correspondances.csv)
 [![Référentiels](https://img.shields.io/badge/r%C3%A9f%C3%A9rentiels-13-informational.svg)](#les-13-référentiels-cartographiés)
-[![Site](https://img.shields.io/badge/site-certification--tgv.ca-orange.svg)](https://certification-tgv.ca)
+[![Site](https://img.shields.io/badge/site-GitHub%20Pages-orange.svg)](https://facterocanada.github.io/tgv-msss-crosswalk)
 
-**[Site web](https://certification-tgv.ca)** ·
+**[Site web](https://facterocanada.github.io/tgv-msss-crosswalk)** ·
 **[Télécharger le classeur Excel](xlsx/)** ·
-**[Méthodologie](docs/fr/methodologie.md)** ·
+**[Méthodologie](#méthodologie-en-bref)** ·
 **[English](#english)**
 
 </div>
@@ -179,7 +179,7 @@ for c in cw["correspondances"]:
 3. Chaque lien retenu porte une **relation qualifiée** et une **justification
    écrite**. Une flèche sans justification n'a aucune valeur en audit.
 
-Le détail complet est dans [docs/fr/methodologie.md](docs/fr/methodologie.md).
+Le détail complet est dans la page Méthodologie du site.
 
 ---
 
