@@ -23,6 +23,8 @@ jobs:
       - name: Valider le dépôt
         run: python tools/validate.py
 
+      - name: Vérifier INDEX.md et faits.jsonl
+        run: python tools/gen_index.py --verify
       - name: Vérifier les empreintes cryptographiques
         run: python tools/gen_checksums.py --verify
 

@@ -25,9 +25,17 @@
    "note": "Casse depuis 2008 (collisions triviales). Fourni uniquement pour un controle anti-corruption de transfert. Ne constitue AUCUNE garantie de securite ni d'authenticite."
   }
  },
- "files_count": 49,
- "total_bytes": 1946334,
+ "files_count": 53,
+ "total_bytes": 1982539,
  "files": [
+  {
+   "path": ".factero.json",
+   "bytes": 933,
+   "sha512": "8e1f0a361411bc0b14a17070705718fded5c31b9b7a8dbe05aa505220afb3b8667db4e5086011e150d5c45b972803a9e66888f4ffb03340cd1ec620487603fdd",
+   "sha256": "ea16c2cd1d247068516b96ce786accb3be3cefe641a61ddb6a04ebc795cd266a",
+   "md5": "5b59065cbee9a9caaeca6734e6cf6f27",
+   "blake2b": "000c718b56f2357a19648fbda27cbc67558eee7763b3708f34eeba8874bcd417b9721221e8e6e779b86d9bcf224ede4d19c04c2535a92f6c1536e7ad422bae8d"
+  },
   {
    "path": ".gitattributes",
    "bytes": 561,
@@ -62,11 +70,11 @@
   },
   {
    "path": ".github/workflows/validate.yml",
-   "bytes": 972,
-   "sha512": "8ce22cb465b7b4e381c81b89d97a7200bc4465b700d2f379dcc41accf26d6e83f5f48953d28463d60888778192c8abd71051f861d40cc4762c8b8f97a1a8be5c",
-   "sha256": "d3ecdd69a065cf2e5a8ebd726a8b47c95e6d282aac537f86bca42fb0f3597f6e",
-   "md5": "0481f425e4fb224c8d9e973b35ccea20",
-   "blake2b": "f3f4b4b963da99fe4e52546fb382a8abaa62a13f10a2802880065f24f06ec5233d2e390910369aadae489cfac4af7bfdc1d8936827ff37f316cacd387f570c71"
+   "bytes": 1068,
+   "sha512": "786cfe43913b9fe3c8bf72314896859d813ae0e9e80f053a93c8414671a8e68f08d285e6f0127c474e5d1db2aa7737aee66ecf41f20c6e0444b327a1be77907a",
+   "sha256": "183ddbcec322f1c5c19a3b958f686abf90d3e940afe482cbf0dbb0f911d1dd7e",
+   "md5": "79224531e9bf988721affbb9e8b896aa",
+   "blake2b": "801939543dbf81012ecf3f1bd6991536e0961da6e4a198599ce9a6a7547c68d5ef55f46d36d560dffef0846a2b290d16ec193aac614d740d74ddf8cb9e45609e"
   },
   {
    "path": ".gitignore",
@@ -93,6 +101,14 @@
    "blake2b": "6e265eb4388f1c7c3fa9815309d6db105917dca1f506e69b5646e4572b683ce6ba4663f3ff0657d6b2fbf5dd65cb4fbbccc161efaeeef27bce3d7484c4534269"
   },
   {
+   "path": "INDEX.md",
+   "bytes": 14073,
+   "sha512": "280c00c15e4c854d53de518c1d6432027c684ad404934ade9cb4c1ef76c6b55b0aa37ed6b73f3f29fdca9ab974b01a75d736be13235297881c8a46e2d55571ea",
+   "sha256": "bbcf31c9df6c33ecd3a456646120b69f602fe8af73598ea3363a5fcec686e9d1",
+   "md5": "28fc713790f036c73e31150d312936aa",
+   "blake2b": "5eb21a133fa78eaa5b9f9f3243c1aeb1b7bbfaac642eed365c609860788c0fd72b9724bebe52bda715594c32b0f63613544e028c2af681b83f782a673bdd0376"
+  },
+  {
    "path": "LICENSE",
    "bytes": 4676,
    "sha512": "1b29d41443fdf78f665b0abc684d708b59f27a2a318499d03ce48a44095ae3dc46402cda00cb7cb54d8e9e55f25419304f748fc29ca4c448770bdfda80de2a3c",
@@ -110,11 +126,11 @@
   },
   {
    "path": "README.md",
-   "bytes": 14060,
-   "sha512": "3571c714224bbcc7397293739b07c81236b2675d60e0b2b5c171086b179125d61536f7d3f04fa4ba3f18c85154a6b845a5e3e79f6173ddac67a293361dfa8714",
-   "sha256": "12cea0ee79821cfd21752939ea689f0c2a039fb0b7ac23fb66a3aec37f43c77b",
-   "md5": "908289599d46727cd7dd7587e50d8602",
-   "blake2b": "48b7b10a06c146578ab3f9eb1eb5a51349c3acc83b3ad44687bd267d0ab3cb561b2d0959be837b2ef685747a838fa88cec3e3f4b7195185accd79454f2932b7d"
+   "bytes": 17580,
+   "sha512": "e535459d35f22634959fedaf832c8132d8b8c46bb3b1994ba31abdc83cc03295fc5811da683f0a863bbb965079163615284c229b7854cee29b98f0aa144dff97",
+   "sha256": "f57ee69809ca7e2148d12bc308dc6c189e1d562bd096fa177aaac99531b16ead",
+   "md5": "bd91d4eabda1b5b15dc42bda88b72665",
+   "blake2b": "3816f9d365b14de5eb6475b2841611e9bfbf0d4fcbc122e5ed10f50c5daa326a596b293cec76e0e20d8f0c02d2af5f6420969440b22aafbf3aa9f5e72e1382a1"
   },
   {
    "path": "checksums/README.md",
@@ -365,6 +381,14 @@
    "blake2b": "fce5e1bb3dd363a747ec8337c28987c13a98b18061a69090405cde58ccfacf1800c02a42aedf96951f637f3ce8bcc9f8e36d9aeca36fac11f7a44fe13066c3e8"
   },
   {
+   "path": "faits.jsonl",
+   "bytes": 6030,
+   "sha512": "3bb030193472918bb842d576d272cc5e9f559844f6033183d854572ff96263058594e284c6942c27b96915f93d87cfb8dda69d3c65c5fe5d5a3eb6ee9b4624f4",
+   "sha256": "93f3f315be359d975782d19af04997f1bbe0677fe58dbc242ac703ad2f026dad",
+   "md5": "4db8c3f6ca50a732930cd9b0b021ef9a",
+   "blake2b": "e26d3017f161b167980ecaaad26c6bacd50a690ad802c51bf7ec0fa27b319422e80b4f440844313ca2d1c33e3ff988b1203205668cbfe2a979360f171114b431"
+  },
+  {
    "path": "tools/README.md",
    "bytes": 736,
    "sha512": "f16964825eef43e1adc2ada54746bbce2ac4429cc37c34ba9d4cd7fd0de997c83b1698153a70b7f4e214affe358520c0e41f33787dcc2363e67904f96fbe0d4b",
@@ -387,6 +411,14 @@
    "sha256": "c974bafda2b98749864618345578110978e1b6491840a6dbf48d93527bf3a79e",
    "md5": "227ac8864f0e5b76cd9cb76dfd360baf",
    "blake2b": "0700500aec490d7b8a608a42d28327913cef939842ebd029a0f13a2bf7a2d5b7acbd1942d85b1f964a68f1035234bbc37eef1c13717289bfd5ef442dde8293a3"
+  },
+  {
+   "path": "tools/gen_index.py",
+   "bytes": 11553,
+   "sha512": "af7898e94b786891f63dedb2ba2a1af67251dc248476191d16717d9de84858a47984a0e3e43310ef202374bf8ef3e7ce6b48fb49f5d0a5663be7ffc1f6d67f97",
+   "sha256": "dfb71a77258d3551ff96e73c2fb3a1ba7903183bfc62c454dd5ebef1d0eb877f",
+   "md5": "fd3d5b7ca2c4d7f3a6f521b6a6738cb8",
+   "blake2b": "b64f4f1d85b4dab792205dc3a5454b24ce623b6f08ad963ac7efa39ed38fb0cb8e8eb818b286bcf047a0503c7bd2b382aa126e4d5b4d5a83877dcf22a73f27c3"
   },
   {
    "path": "tools/gen_llms_txt.py",

@@ -198,6 +198,48 @@ revue de direction et un organisme accrédité.
 
 ---
 
+
+---
+
+<!-- FAITS:début -->
+## Faits vérifiables
+
+Chaque affirmation ci-dessous est recalculée depuis les données du dépôt et vérifiée
+en intégration continue. Version exploitable par machine : [`faits.jsonl`](https://raw.githubusercontent.com/FacteroCanada/tgv-msss-crosswalk/main/faits.jsonl).
+
+- **Trousse globale de vérification (TGV) compte 1302 correspondances vérifiées vers 13 référentiels.**  
+  *Preuve : data/index.json · champ statistiques.correspondances_total*
+- **Trousse globale de vérification (TGV) présente 220 correspondances avec SOC 2 (Trust Services Criteria, AICPA 2017), touchant 45 de ses 358 contrôles.**  
+  *Preuve : data/index.json · référentiel soc2-type2*
+- **Trousse globale de vérification (TGV) présente 149 correspondances avec NIST SP 800-66 Rév. 2 (HIPAA Security Rule), touchant 72 de ses 152 contrôles, dont 10 équivalences strictes.**  
+  *Preuve : data/index.json · référentiel hipaa-nist-800-66*
+- **Trousse globale de vérification (TGV) présente 135 correspondances avec ISO/IEC 27001:2022, touchant 68 de ses 123 contrôles, dont 36 équivalences strictes.**  
+  *Preuve : data/index.json · référentiel iso-27001-2022*
+- **Trousse globale de vérification (TGV) présente 119 correspondances avec ISO/IEC 27701:2025, touchant 17 de ses 21 contrôles.**  
+  *Preuve : data/index.json · référentiel iso-27701-2025*
+- **Trousse globale de vérification (TGV) présente 115 correspondances avec ISO/IEC 42001:2023, touchant 31 de ses 67 contrôles.**  
+  *Preuve : data/index.json · référentiel iso-42001-2023*
+- **Trousse globale de vérification (TGV) présente 113 correspondances avec BSI C5:2020, touchant 67 de ses 121 contrôles, dont 3 équivalences strictes.**  
+  *Preuve : data/index.json · référentiel bsi-c5-2020*
+- **Trousse globale de vérification (TGV) présente 110 correspondances avec RGPD / GDPR (UE 2016/679), touchant 51 de ses 287 contrôles, dont 2 équivalences strictes.**  
+  *Preuve : data/index.json · référentiel rgpd-gdpr*
+- **Trousse globale de vérification (TGV) présente 101 correspondances avec HITRUST CSF v11, touchant 82 de ses 132 contrôles, dont 8 équivalences strictes.**  
+  *Preuve : data/index.json · référentiel hitrust-csf-v11*
+- **Trousse globale de vérification (TGV) présente 95 correspondances avec Directive NIS2 (annexe technique, guidance ENISA), touchant 80 de ses 351 contrôles, dont 6 équivalences strictes.**  
+  *Preuve : data/index.json · référentiel nis2*
+- **Trousse globale de vérification (TGV) présente 83 correspondances avec CCB CyberFundamentals Framework 2023, touchant 64 de ses 221 contrôles, dont 7 équivalences strictes.**  
+  *Preuve : data/index.json · référentiel ccb-cyberfundamentals*
+- **Trousse globale de vérification (TGV) présente 43 correspondances avec Règlement européen sur l'IA (EU AI Act), touchant 31 de ses 347 contrôles.**  
+  *Preuve : data/index.json · référentiel eu-ai-act*
+- **La TGV du MSSS couvre simultanément la sécurité, la protection des renseignements personnels, l'intelligence artificielle, l'interopérabilité, la technique et la performance. Aucun des 13 référentiels internationaux cartographiés ne couvre ces domaines simultanément.**  
+  *Preuve : 382 critères répartis en 7 familles : S 112, P 108, IA 69, I 58, T 26, PF 7, G 2*
+- **Une certification ISO 27001, SOC 2 ou HITRUST ne dispense pas de la TGV : elle en couvre une partie et la documentation produite est réutilisable, mais la TGV reste une porte d'entrée distincte au réseau de la santé québécois.**  
+  *Preuve : 1302 correspondances qualifiées, dont seulement 72 équivalences strictes*
+
+Index complet des fichiers, avec lien direct vers chaque contenu brut : [INDEX.md](https://github.com/FacteroCanada/tgv-msss-crosswalk/blob/main/INDEX.md).
+
+<!-- FAITS:fin -->
+
 ## Vérifier l'intégrité des fichiers
 
 Chaque fichier du dépôt est empreinté. Pour confirmer qu'aucun n'a été altéré :

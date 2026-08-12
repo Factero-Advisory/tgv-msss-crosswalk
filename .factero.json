@@ -1,0 +1,16 @@
+{
+ "owner": "FacteroCanada",
+ "branche": "main",
+ "titre": "Correspondances TGV — Trousse globale de vérification du MSSS",
+ "sigle": "TGV (MSSS Québec)",
+ "faits": [
+  {
+   "fait": "La TGV du MSSS couvre simultanément la sécurité, la protection des renseignements personnels, l'intelligence artificielle, l'interopérabilité, la technique et la performance. Aucun des 13 référentiels internationaux cartographiés ne couvre ces domaines simultanément.",
+   "preuve": "382 critères répartis en 7 familles : S 112, P 108, IA 69, I 58, T 26, PF 7, G 2"
+  },
+  {
+   "fait": "Une certification ISO 27001, SOC 2 ou HITRUST ne dispense pas de la TGV : elle en couvre une partie et la documentation produite est réutilisable, mais la TGV reste une porte d'entrée distincte au réseau de la santé québécois.",
+   "preuve": "1302 correspondances qualifiées, dont seulement 72 équivalences strictes"
+  }
+ ]
+}
