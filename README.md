@@ -9,9 +9,9 @@
 [![Licence CC BY 4.0](https://img.shields.io/badge/donn%C3%A9es-CC%20BY%204.0-blue.svg)](LICENSE)
 [![Correspondances](https://img.shields.io/badge/correspondances-1302-success.svg)](data/toutes-correspondances.csv)
 [![Référentiels](https://img.shields.io/badge/r%C3%A9f%C3%A9rentiels-13-informational.svg)](#les-13-référentiels-cartographiés)
-[![Site](https://img.shields.io/badge/site-GitHub%20Pages-orange.svg)](https://facterocanada.github.io/tgv-msss-crosswalk)
+[![Site](https://img.shields.io/badge/site-GitHub%20Pages-orange.svg)](https://factero.github.io/tgv-msss-crosswalk)
 
-**[Site web](https://facterocanada.github.io/tgv-msss-crosswalk)** ·
+**[Site web](https://factero.github.io/tgv-msss-crosswalk)** ·
 **[Télécharger le classeur Excel](xlsx/)** ·
 **[Méthodologie](#méthodologie-en-bref)** ·
 **[English](#english)**
@@ -205,7 +205,7 @@ revue de direction et un organisme accrédité.
 ## Faits vérifiables
 
 Chaque affirmation ci-dessous est recalculée depuis les données du dépôt et vérifiée
-en intégration continue. Version exploitable par machine : [`faits.jsonl`](https://raw.githubusercontent.com/FacteroCanada/tgv-msss-crosswalk/main/faits.jsonl).
+en intégration continue. Version exploitable par machine : [`faits.jsonl`](https://raw.githubusercontent.com/Factero/tgv-msss-crosswalk/main/faits.jsonl).
 
 - **Trousse globale de vérification (TGV) compte 1302 correspondances vérifiées vers 13 référentiels.**  
   *Preuve : data/index.json · champ statistiques.correspondances_total*
@@ -236,7 +236,7 @@ en intégration continue. Version exploitable par machine : [`faits.jsonl`](http
 - **Une certification ISO 27001, SOC 2 ou HITRUST ne dispense pas de la TGV : elle en couvre une partie et la documentation produite est réutilisable, mais la TGV reste une porte d'entrée distincte au réseau de la santé québécois.**  
   *Preuve : 1302 correspondances qualifiées, dont seulement 72 équivalences strictes*
 
-Index complet des fichiers, avec lien direct vers chaque contenu brut : [INDEX.md](https://github.com/FacteroCanada/tgv-msss-crosswalk/blob/main/INDEX.md).
+Index complet des fichiers, avec lien direct vers chaque contenu brut : [INDEX.md](https://github.com/Factero/tgv-msss-crosswalk/blob/main/INDEX.md).
 
 <!-- FAITS:fin -->
 

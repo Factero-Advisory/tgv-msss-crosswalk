@@ -6,8 +6,8 @@ from collections import Counter, defaultdict
 
 SRC = "/code/db/repo_export"
 OUT = "/code/db/site_out"
-SITE = "https://facterocanada.github.io/tgv-msss-crosswalk"
-REPO = "https://github.com/FacteroCanada/tgv-msss-crosswalk"
+SITE = "https://factero.github.io/tgv-msss-crosswalk"
+REPO = "https://github.com/Factero/tgv-msss-crosswalk"
 DATE = "2026-07-23"
 
 idx = json.load(open(f"{SRC}/index.json", encoding="utf-8"))

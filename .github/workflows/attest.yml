@@ -3,7 +3,7 @@ name: Attestation de provenance
 # Signe les manifestes d'empreintes sans clé, via Sigstore/OIDC, et inscrit
 # l'attestation au journal de transparence public Rekor.
 # Vérification côté utilisateur :
-#   gh attestation verify checksums/SHA512SUMS --repo FacteroCanada/tgv-msss-crosswalk
+#   gh attestation verify checksums/SHA512SUMS --repo Factero/tgv-msss-crosswalk
 
 on:
   release:

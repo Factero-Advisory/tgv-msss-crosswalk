@@ -14,8 +14,8 @@ authors:
     city: Saint-Jean-sur-Richelieu
     region: Québec
     country: CA
-repository-code: https://github.com/FacteroCanada/tgv-msss-crosswalk
-url: https://facterocanada.github.io/tgv-msss-crosswalk
+repository-code: https://github.com/Factero/tgv-msss-crosswalk
+url: https://factero.github.io/tgv-msss-crosswalk
 abstract: >-
   Cartographie ouverte et vérifiée entre les 382 critères de la Trousse globale
   de vérification (TGV) du ministère de la Santé et des Services sociaux du

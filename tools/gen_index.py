@@ -32,7 +32,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONF = os.path.join(ROOT, ".factero.json")
 
-DEFAUT = {"owner": "FacteroCanada", "branche": "main",
+DEFAUT = {"owner": "Factero", "branche": "main",
           "titre": os.path.basename(ROOT), "sigle": "", "faits": []}
 conf = dict(DEFAUT)
 if os.path.exists(CONF):

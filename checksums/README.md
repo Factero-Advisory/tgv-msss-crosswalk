@@ -84,7 +84,7 @@ provenance signée sans clé via [Sigstore](https://www.sigstore.dev/), rattach�
 l'identité GitHub du dépôt et inscrite au journal de transparence public Rekor.
 
 ```bash
-gh attestation verify checksums/SHA512SUMS --repo FacteroCanada/tgv-msss-crosswalk
+gh attestation verify checksums/SHA512SUMS --repo Factero/tgv-msss-crosswalk
 ```
 
 C'est la méthode la plus robuste : aucune clé privée à protéger, et toute signature
