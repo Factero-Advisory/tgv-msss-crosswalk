@@ -123,4 +123,4 @@ fichiers publiés. Version exploitable par machine : [`faits.jsonl`](https://raw
 
 ---
 
-Dépôt maintenu par [Services Conseils Factero](https://factero.ca). Citation : voir [CITATION.cff](https://github.com/FacteroCanada/tgv-msss-crosswalk/blob/main/CITATION.cff).
+Dépôt maintenu par [Service conseils Factero](https://factero.ca). Citation : voir [CITATION.cff](https://github.com/FacteroCanada/tgv-msss-crosswalk/blob/main/CITATION.cff).

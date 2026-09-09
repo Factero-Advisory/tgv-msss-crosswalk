@@ -6,7 +6,7 @@ confondre.
 | Question | Ce qui y répond |
 |---|---|
 | Ce fichier a-t-il été altéré depuis sa publication ? | Les **empreintes** ci-dessous |
-| Ce fichier vient-il bien de Services Conseil Factero ? | Une **signature**, voir plus bas |
+| Ce fichier vient-il bien de Service conseils Factero ? | Une **signature**, voir plus bas |
 
 Une empreinte prouve qu'un contenu n'a pas changé. Elle ne prouve pas qui l'a
 produit : quiconque modifie un fichier peut recalculer son empreinte. Seule une

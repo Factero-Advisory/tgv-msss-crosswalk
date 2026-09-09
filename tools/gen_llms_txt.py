@@ -56,7 +56,7 @@ w("- La TGV couvre simultanément la sécurité, la protection des renseignement
 w("- Une correspondance signale un recoupement d'intention. Elle ne signifie pas "
   "qu'un critère TGV satisfait automatiquement le contrôle cible, ni qu'un "
   "pourcentage de couverture équivaut à un pourcentage de certification.")
-w("- Données publiées par Services Conseil Factero sous licence CC BY 4.0. Le texte "
+w("- Données publiées par Service conseils Factero sous licence CC BY 4.0. Le texte "
   "des critères demeure © Gouvernement du Québec.")
 w("")
 w("## Données")
@@ -113,7 +113,7 @@ w("# Correspondances TGV — corpus complet")
 w("")
 w(f"Source canonique : {SITE}")
 w(f"Dépôt : {REPO}")
-w("Licence des correspondances : CC BY 4.0, Services Conseil Factero.")
+w("Licence des correspondances : CC BY 4.0, Service conseils Factero.")
 w("Texte des critères TGV : © Gouvernement du Québec, publication 24-715-38W, "
   "ISBN 978-2-550-97589-2, https://publications.msss.gouv.qc.ca/msss/document-003757/")
 w("Version du corpus : 1.0.0 (2026-07-23)")

@@ -165,7 +165,7 @@ def head(title, desc, canon, alt_lang, alt_href, lang, jsonld=None, extra_kw="",
 <meta name="twitter:title" content="{E(title)}">
 <meta name="twitter:description" content="{E(desc)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
-<meta name="author" content="Services Conseil Factero">
+<meta name="author" content="Service conseils Factero">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231f3864'/><text x='32' y='44' font-size='34' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>T</text></svg>">
 <style>{CSS.replace("FONTPATH", fontbase)}</style>
 {j}"""
@@ -185,7 +185,7 @@ def shell(title, desc, canon, alt_lang, alt_href, lang, body, jsonld=None, kw=""
                 f'© Gouvernement du Québec.</p>'
                 f'<p>Les correspondances, justifications et l\'outillage sont publiés sous '
                 f'<a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a> par '
-                f'<a href="https://factero.ca">Services Conseil Factero</a>, Saint-Jean-sur-Richelieu, Québec. '
+                f'<a href="https://factero.ca">Service conseils Factero</a>, Saint-Jean-sur-Richelieu, Québec. '
                 f'<a href="{REPO}/blob/main/NOTICE.md">Avis de droits complet</a>.</p>'
                 f'<p>Site indépendant. Ni produit, ni approuvé, ni endossé par le MSSS ou Santé Québec. '
                 f'En cas de divergence, la publication officielle prévaut. '
@@ -202,7 +202,7 @@ def shell(title, desc, canon, alt_lang, alt_href, lang, body, jsonld=None, kw=""
                 f'© Gouvernement du Québec.</p>'
                 f'<p>Crosswalk mappings, rationales and tooling released under '
                 f'<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> by '
-                f'<a href="https://factero.ca">Services Conseil Factero</a>, Quebec, Canada. '
+                f'<a href="https://factero.ca">Service conseils Factero</a>, Quebec, Canada. '
                 f'<a href="{REPO}/blob/main/NOTICE.md">Full rights notice</a>.</p>'
                 f'<p>Independent project. Not produced, approved or endorsed by the MSSS or Santé Québec. '
                 f'<a href="{REPO}">GitHub repository</a> · <a href="{up}llms.txt">llms.txt</a></p>')
@@ -247,10 +247,10 @@ DATASET = {
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "isAccessibleForFree": True, "inLanguage": ["fr-CA","en-CA"], "version": "1.0.0",
  "datePublished": DATE, "dateModified": DATE,
- "creator": {"@type":"Organization","name":"Services Conseil Factero","url":"https://factero.ca",
+ "creator": {"@type":"Organization","name":"Service conseils Factero","url":"https://factero.ca",
    "address":{"@type":"PostalAddress","addressLocality":"Saint-Jean-sur-Richelieu",
      "addressRegion":"QC","addressCountry":"CA"}},
- "publisher": {"@type":"Organization","name":"Services Conseil Factero","url":"https://factero.ca"},
+ "publisher": {"@type":"Organization","name":"Service conseils Factero","url":"https://factero.ca"},
  "isBasedOn": {"@type":"CreativeWork",
    "name":"Certification — Trousse globale de vérification (TGV)",
    "publisher":{"@type":"GovernmentOrganization",
@@ -465,7 +465,7 @@ def fw_page(r, lang):
 </div></main>"""
     jl = {"@context":"https://schema.org","@type":"Dataset","name":t,"description":d,
           "url":canon,"license":"https://creativecommons.org/licenses/by/4.0/",
-          "isAccessibleForFree":True,"creator":{"@type":"Organization","name":"Services Conseil Factero"},
+          "isAccessibleForFree":True,"creator":{"@type":"Organization","name":"Service conseils Factero"},
           "distribution":[{"@type":"DataDownload","encodingFormat":"text/csv",
             "contentUrl":f"{SITE}/data/crosswalks/crosswalk-{r['slug']}.csv"}]}
     w(f"{'fr/referentiels' if fr else 'en/frameworks'}/{r['slug']}.html",

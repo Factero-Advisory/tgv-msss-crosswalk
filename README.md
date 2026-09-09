@@ -273,8 +273,8 @@ Le texte des critères provient de la publication officielle du MSSS :
 
 Ce dépôt est soumis à **deux régimes de droits distincts** : le texte des
 critères appartient au Gouvernement du Québec, alors que les correspondances,
-les justifications et l'outillage sont publiés sous CC BY 4.0 par Services
-Conseil Factero. **Lisez [NOTICE.md](NOTICE.md) avant toute réutilisation.**
+les justifications et l'outillage sont publiés sous CC BY 4.0 par Service
+conseils Factero. **Lisez [NOTICE.md](NOTICE.md) avant toute réutilisation.**
 
 Ce dépôt n'est ni produit, ni approuvé, ni endossé par le MSSS ou Santé Québec.
 En cas de divergence, **la publication officielle du MSSS prévaut**.
@@ -283,7 +283,7 @@ En cas de divergence, **la publication officielle du MSSS prévaut**.
 
 ## Qui maintient ce projet
 
-[**Services Conseil Factero**](https://factero.ca) accompagne les entreprises
+[**Service conseils Factero**](https://factero.ca) accompagne les entreprises
 technologiques en santé dans leurs démarches de certification, à
 Saint-Jean-sur-Richelieu au Québec.
 
@@ -378,8 +378,8 @@ formal process conducted by an accredited body.
 
 **Two distinct regimes.** The TGV criteria text is © Gouvernement du Québec
 (publication 24-715-38W, ISBN 978-2-550-97589-2). The crosswalk mappings,
-rationales, methodology and tooling are released under **CC BY 4.0** by Services
-Conseil Factero. **Read [NOTICE.md](NOTICE.md) before reusing anything.**
+rationales, methodology and tooling are released under **CC BY 4.0** by Service
+conseils Factero. **Read [NOTICE.md](NOTICE.md) before reusing anything.**
 
 This repository is not produced, approved or endorsed by the MSSS or Santé
 Québec. The official MSSS publication prevails in case of any discrepancy.
@@ -387,7 +387,7 @@ Québec. The official MSSS publication prevails in case of any discrepancy.
 ## Citation
 
 ```
-Services Conseil Factero (2026). TGV Crosswalk: mapping Quebec's health
+Service conseils Factero (2026). TGV Crosswalk: mapping Quebec's health
 technology verification framework to 13 international standards.
 https://certification-tgv.ca
 ```

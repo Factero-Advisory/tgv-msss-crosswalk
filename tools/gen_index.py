@@ -102,7 +102,7 @@ def faits():
             "fait": fait, "preuve": preuve, "portee": portee,
             "referentiel": conf.get("sigle") or conf.get("titre"),
             "source": f"https://github.com/{conf['owner']}/{REPO}",
-            "auteur": "Services Conseils Factero",
+            "auteur": "Service conseils Factero",
             "licence": "CC BY 4.0",
         })
 
@@ -149,7 +149,7 @@ def faits():
     # Faits rédigés à la main, propres au dépôt
     for f in conf.get("faits", []):
         if isinstance(f, dict):
-            out.append({**{"auteur": "Services Conseils Factero", "licence": "CC BY 4.0",
+            out.append({**{"auteur": "Service conseils Factero", "licence": "CC BY 4.0",
                            "source": f"https://github.com/{conf['owner']}/{REPO}"}, **f})
     return out
 
@@ -190,7 +190,7 @@ def index_md(fs, fts):
             L.append(f"- {f['fait']}")
         L.append("")
     L += ["---", "",
-          f"Dépôt maintenu par [Services Conseils Factero](https://factero.ca). "
+          f"Dépôt maintenu par [Service conseils Factero](https://factero.ca). "
           f"Citation : voir [CITATION.cff]({BASE_BLOB}/CITATION.cff)."]
     return "\n".join(L) + "\n"
 

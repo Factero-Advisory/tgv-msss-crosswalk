@@ -42,7 +42,7 @@ sociaux du Québec ou par Santé Québec.
 
 ---
 
-## 2. Travail original de Services Conseil Factero
+## 2. Travail original de Service conseils Factero
 
 **Ce qui est concerné :**
 
@@ -59,7 +59,7 @@ Ce travail est une œuvre originale d'analyse. Il est publié sous
 Vous pouvez le partager, l'adapter et l'utiliser commercialement, à condition de
 créditer :
 
-> Correspondances TGV — Services Conseil Factero — https://certification-tgv.ca
+> Correspondances TGV — Service conseils Factero — https://certification-tgv.ca
 
 ---
 
