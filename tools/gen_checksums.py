@@ -69,7 +69,7 @@ def main():
     total = sum(e["bytes"] for e in entries)
     manifest = {
         "schema": "https://certification-tgv.ca/checksums/manifest.schema.json",
-        "repository": "https://github.com/factero/tgv-msss-crosswalk",
+        "repository": "https://github.com/Factero-Advisory/tgv-msss-crosswalk",
         "site": "https://certification-tgv.ca",
         "generator": "tools/gen_checksums.py",
         "algorithms": {
