@@ -9,9 +9,9 @@
 [![Licence CC BY 4.0](https://img.shields.io/badge/donn%C3%A9es-CC%20BY%204.0-blue.svg)](LICENSE)
 [![Correspondances](https://img.shields.io/badge/correspondances-1302-success.svg)](data/toutes-correspondances.csv)
 [![Référentiels](https://img.shields.io/badge/r%C3%A9f%C3%A9rentiels-13-informational.svg)](#les-13-référentiels-cartographiés)
-[![Site](https://img.shields.io/badge/site-GitHub%20Pages-orange.svg)](https://factero-advisory.github.io/tgv-msss-crosswalk)
+[![Site](https://img.shields.io/badge/site-GitHub%20Pages-orange.svg)](https://tgv.factero.ca)
 
-**[Site web](https://factero-advisory.github.io/tgv-msss-crosswalk)** ·
+**[Site web](https://tgv.factero.ca)** ·
 **[Télécharger le classeur Excel](xlsx/)** ·
 **[Méthodologie](#méthodologie-en-bref)** ·
 **[English](#english)**

@@ -1,6 +1,6 @@
 # Correspondances TGV — corpus complet
 
-Source canonique : https://factero-advisory.github.io/tgv-msss-crosswalk
+Source canonique : https://tgv.factero.ca
 Dépôt : https://github.com/Factero-Advisory/tgv-msss-crosswalk
 Licence des correspondances : CC BY 4.0, Service conseils Factero.
 Texte des critères TGV : © Gouvernement du Québec, publication 24-715-38W, ISBN 978-2-550-97589-2, https://publications.msss.gouv.qc.ca/msss/document-003757/
@@ -42,79 +42,79 @@ Répartition des critères TGV par famille :
 Identifiant du jeu de données : soc2-type2. Catégorie : Attestation.
 220 correspondances depuis 217 critères TGV, touchant 45 des 358 contrôles.
 Relations : recoupement_partiel : 55, tgv_plus_etroit : 165.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-soc2-type2.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-soc2-type2.csv
 
 ### NIST SP 800-66 Rév. 2 (HIPAA Security Rule)
 Identifiant du jeu de données : hipaa-nist-800-66. Catégorie : Réglementation.
 149 correspondances depuis 139 critères TGV, touchant 72 des 152 contrôles.
 Relations : equivalent : 10, recoupement_partiel : 98, tgv_plus_etroit : 36, tgv_plus_large : 5.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hipaa-nist-800-66.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-hipaa-nist-800-66.csv
 
 ### ISO/IEC 27001:2022
 Identifiant du jeu de données : iso-27001-2022. Catégorie : Certification.
 135 correspondances depuis 109 critères TGV, touchant 68 des 123 contrôles.
 Relations : equivalent : 36, recoupement_partiel : 43, tgv_plus_etroit : 56.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-27001-2022.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-iso-27001-2022.csv
 
 ### ISO/IEC 27701:2025
 Identifiant du jeu de données : iso-27701-2025. Catégorie : Certification.
 119 correspondances depuis 114 critères TGV, touchant 17 des 21 contrôles.
 Relations : recoupement_partiel : 1, tgv_plus_etroit : 118.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-27701-2025.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-iso-27701-2025.csv
 
 ### ISO/IEC 42001:2023
 Identifiant du jeu de données : iso-42001-2023. Catégorie : Certification.
 115 correspondances depuis 111 critères TGV, touchant 31 des 67 contrôles.
 Relations : recoupement_partiel : 54, tgv_plus_etroit : 61.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-42001-2023.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-iso-42001-2023.csv
 
 ### BSI C5:2020
 Identifiant du jeu de données : bsi-c5-2020. Catégorie : Attestation.
 113 correspondances depuis 103 critères TGV, touchant 67 des 121 contrôles.
 Relations : equivalent : 3, recoupement_partiel : 64, tgv_plus_etroit : 46.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-bsi-c5-2020.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-bsi-c5-2020.csv
 
 ### RGPD / GDPR (UE 2016/679)
 Identifiant du jeu de données : rgpd-gdpr. Catégorie : Réglementation.
 110 correspondances depuis 98 critères TGV, touchant 51 des 287 contrôles.
 Relations : equivalent : 2, recoupement_partiel : 90, tgv_plus_etroit : 16, tgv_plus_large : 2.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-rgpd-gdpr.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-rgpd-gdpr.csv
 
 ### HITRUST CSF v11
 Identifiant du jeu de données : hitrust-csf-v11. Catégorie : Certification.
 101 correspondances depuis 66 critères TGV, touchant 82 des 132 contrôles.
 Relations : equivalent : 8, recoupement_partiel : 47, tgv_plus_etroit : 17, tgv_plus_large : 29.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hitrust-csf-v11.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-hitrust-csf-v11.csv
 
 ### Directive NIS2 (annexe technique, guidance ENISA)
 Identifiant du jeu de données : nis2. Catégorie : Réglementation.
 95 correspondances depuis 91 critères TGV, touchant 80 des 351 contrôles.
 Relations : equivalent : 6, recoupement_partiel : 41, tgv_plus_etroit : 48.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-nis2.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-nis2.csv
 
 ### CCB CyberFundamentals Framework 2023
 Identifiant du jeu de données : ccb-cyberfundamentals. Catégorie : Cadre national.
 83 correspondances depuis 78 critères TGV, touchant 64 des 221 contrôles.
 Relations : equivalent : 7, recoupement_partiel : 28, tgv_plus_etroit : 48.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-ccb-cyberfundamentals.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-ccb-cyberfundamentals.csv
 
 ### Règlement européen sur l'IA (EU AI Act)
 Identifiant du jeu de données : eu-ai-act. Catégorie : Réglementation.
 43 correspondances depuis 41 critères TGV, touchant 31 des 347 contrôles.
 Relations : recoupement_partiel : 18, tgv_plus_etroit : 25.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-eu-ai-act.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-eu-ai-act.csv
 
 ### Hébergement de données de santé (HDS) v2.0
 Identifiant du jeu de données : hds-v2. Catégorie : Certification.
 12 correspondances depuis 12 critères TGV, touchant 11 des 71 contrôles.
 Relations : recoupement_partiel : 11, tgv_plus_large : 1.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hds-v2.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-hds-v2.csv
 
 ### ISO 22301:2019
 Identifiant du jeu de données : iso-22301-2019. Catégorie : Certification.
 7 correspondances depuis 6 critères TGV, touchant 5 des 46 contrôles.
 Relations : recoupement_partiel : 1, tgv_plus_etroit : 6.
-Données : https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-22301-2019.csv
+Données : https://tgv.factero.ca/data/crosswalks/crosswalk-iso-22301-2019.csv
 
 ## 4. Les 382 critères de la TGV
 

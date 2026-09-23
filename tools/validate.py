@@ -9,7 +9,7 @@ Utilise uniquement la bibliotheque standard. Lance par la CI et executable en lo
 import json, csv, os, re, sys, html.parser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://factero-advisory.github.io/tgv-msss-crosswalk"
+SITE = "https://tgv.factero.ca"
 err, warn = [], []
 
 

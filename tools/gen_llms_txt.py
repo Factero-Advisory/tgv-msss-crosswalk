@@ -14,7 +14,7 @@ OUT = ROOT
 idx = json.load(open(f"{SRC}/index.json", encoding="utf-8"))
 crit = json.load(open(f"{SRC}/tgv/tgv-criteres.json", encoding="utf-8"))
 S = idx["statistiques"]
-SITE = "https://factero-advisory.github.io/tgv-msss-crosswalk"
+SITE = "https://tgv.factero.ca"
 REPO = "https://github.com/Factero-Advisory/tgv-msss-crosswalk"
 
 FAM_ORDER = ["S", "P", "IA", "I", "T", "PF", "G"]

@@ -24,9 +24,9 @@ aucune restriction.
 | `CONTRIBUTING.md` | Markdown | 1.9 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/CONTRIBUTING.md) |
 | `LICENSE` | binaire | 4.6 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/LICENSE) |
 | `NOTICE.md` | Markdown | 4.3 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/NOTICE.md) |
-| `README.md` | Markdown | 17.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/README.md) |
-| `llms-full.txt` | Texte | 501.6 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/llms-full.txt) |
-| `llms.txt` | Texte | 7.0 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/llms.txt) |
+| `README.md` | Markdown | 17.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/README.md) |
+| `llms-full.txt` | Texte | 501.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/llms-full.txt) |
+| `llms.txt` | Texte | 6.4 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/llms.txt) |
 
 ## Intégration continue
 

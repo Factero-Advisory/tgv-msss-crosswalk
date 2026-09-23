@@ -10,7 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # l export du conteneur CISO Assistant.
 SRC = os.path.join(ROOT, "data")
 OUT = os.path.join(ROOT, "site_out")
-SITE = "https://factero-advisory.github.io/tgv-msss-crosswalk"
+SITE = "https://tgv.factero.ca"
 REPO = "https://github.com/Factero-Advisory/tgv-msss-crosswalk"
 DATE = "2026-07-23"
 
