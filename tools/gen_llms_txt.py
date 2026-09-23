@@ -10,8 +10,8 @@ OUT = "/code/db/repo_export"
 idx = json.load(open(f"{SRC}/index.json", encoding="utf-8"))
 crit = json.load(open(f"{SRC}/tgv-criteres.json", encoding="utf-8"))
 S = idx["statistiques"]
-SITE = "https://factero.github.io/tgv-msss-crosswalk"
-REPO = "https://github.com/Factero/tgv-msss-crosswalk"
+SITE = "https://factero-advisory.github.io/tgv-msss-crosswalk"
+REPO = "https://github.com/Factero-Advisory/tgv-msss-crosswalk"
 
 FAM_ORDER = ["S", "P", "IA", "I", "T", "PF", "G"]
 FAM_LABEL = {

@@ -9,7 +9,7 @@ Chaque fichier est listé ci-dessous avec un lien direct vers son contenu brut s
 `raw.githubusercontent.com`, domaine qui ne publie aucun robots.txt et n'impose donc
 aucune restriction.
 
-**55 fichiers · 1.9 Mo · licence CC BY 4.0 pour le travail d'analyse, voir [NOTICE.md](https://github.com/Factero/tgv-msss-crosswalk/blob/main/NOTICE.md)**
+**55 fichiers · 1.9 Mo · licence CC BY 4.0 pour le travail d'analyse, voir [NOTICE.md](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/NOTICE.md)**
 
 ---
 
@@ -123,4 +123,4 @@ fichiers publiés. Version exploitable par machine : [`faits.jsonl`](https://raw
 
 ---
 
-Dépôt maintenu par [Service conseils Factero](https://factero.ca). Citation : voir [CITATION.cff](https://github.com/Factero/tgv-msss-crosswalk/blob/main/CITATION.cff).
+Dépôt maintenu par [Service conseils Factero](https://factero.ca). Citation : voir [CITATION.cff](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/CITATION.cff).
