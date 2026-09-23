@@ -108,7 +108,7 @@ w("")
 w("- [Certification — Trousse globale de vérification (TGV), MSSS]"
   "(https://publications.msss.gouv.qc.ca/msss/document-003757/) : publication "
   "officielle, © Gouvernement du Québec. La version officielle prévaut.")
-open(f"{OUT}/llms.txt", "w", encoding="utf-8").write("\n".join(L) + "\n")
+open(f"{OUT}/llms.txt", "w", encoding="utf-8", newline="\n").write("\n".join(L) + "\n")
 
 # ----------------------------------------------------------- llms-full.txt
 F = []
@@ -205,7 +205,7 @@ w("")
 w("Ce corpus n'est ni produit, ni approuvé, ni endossé par le ministère de la Santé "
   "et des Services sociaux du Québec ou par Santé Québec. En cas de divergence, la "
   "publication officielle du MSSS prévaut.")
-open(f"{OUT}/llms-full.txt", "w", encoding="utf-8").write("\n".join(F) + "\n")
+open(f"{OUT}/llms-full.txt", "w", encoding="utf-8", newline="\n").write("\n".join(F) + "\n")
 
 a = os.path.getsize(f"{OUT}/llms.txt"); b = os.path.getsize(f"{OUT}/llms-full.txt")
 sys.stderr.write(f"RESULT llms.txt {a} o | llms-full.txt {b} o ({b//1024} Ko)\n")

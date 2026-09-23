@@ -9,7 +9,7 @@ Chaque fichier est listé ci-dessous avec un lien direct vers son contenu brut s
 `raw.githubusercontent.com`, domaine qui ne publie aucun robots.txt et n'impose donc
 aucune restriction.
 
-**94 fichiers · 4.7 Mo · licence CC BY 4.0 pour le travail d'analyse, voir [NOTICE.md](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/NOTICE.md)**
+**57 fichiers · 2.4 Mo · licence CC BY 4.0 pour le travail d'analyse, voir [NOTICE.md](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/NOTICE.md)**
 
 ---
 
@@ -25,8 +25,8 @@ aucune restriction.
 | `LICENSE` | binaire | 4.6 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/LICENSE) |
 | `NOTICE.md` | Markdown | 4.3 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/NOTICE.md) |
 | `README.md` | Markdown | 17.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/README.md) |
-| `llms-full.txt` | Texte | 503.5 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/llms-full.txt) |
-| `llms.txt` | Texte | 7.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/llms.txt) |
+| `llms-full.txt` | Texte | 501.6 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/llms-full.txt) |
+| `llms.txt` | Texte | 7.0 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/llms.txt) |
 
 ## Intégration continue
 
@@ -41,11 +41,11 @@ aucune restriction.
 
 | Fichier | Format | Taille | Contenu brut |
 |---|---|--:|---|
-| `checksums/MD5SUMS` | binaire | 6.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/MD5SUMS) |
+| `checksums/MD5SUMS` | binaire | 3.5 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/MD5SUMS) |
 | `checksums/README.md` | Markdown | 4.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/README.md) |
-| `checksums/SHA256SUMS` | binaire | 9.0 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/SHA256SUMS) |
-| `checksums/SHA512SUMS` | binaire | 14.7 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/SHA512SUMS) |
-| `checksums/manifest.json` | JSON | 45.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/manifest.json) |
+| `checksums/SHA256SUMS` | binaire | 5.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/SHA256SUMS) |
+| `checksums/SHA512SUMS` | binaire | 8.7 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/SHA512SUMS) |
+| `checksums/manifest.json` | JSON | 27.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/manifest.json) |
 
 ## Données
 
@@ -82,55 +82,13 @@ aucune restriction.
 | `data/tgv/tgv-criteres.csv` | CSV (UTF-8 avec BOM, compatible Excel) | 86.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/data/tgv/tgv-criteres.csv) |
 | `data/tgv/tgv-criteres.json` | JSON | 148.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/data/tgv/tgv-criteres.json) |
 
-## site_out
-
-| Fichier | Format | Taille | Contenu brut |
-|---|---|--:|---|
-| `site_out/index.html` | .html | 23.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/index.html) |
-| `site_out/robots.txt` | Texte | 312 o | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/robots.txt) |
-| `site_out/sitemap.xml` | .xml | 6.6 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/sitemap.xml) |
-| `site_out/en/index.html` | .html | 17.0 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/index.html) |
-| `site_out/en/methodology.html` | .html | 11.9 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/methodology.html) |
-| `site_out/en/tgv.html` | .html | 12.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/tgv.html) |
-| `site_out/en/frameworks/bsi-c5-2020.html` | .html | 73.3 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/bsi-c5-2020.html) |
-| `site_out/en/frameworks/ccb-cyberfundamentals.html` | .html | 67.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/ccb-cyberfundamentals.html) |
-| `site_out/en/frameworks/eu-ai-act.html` | .html | 50.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/eu-ai-act.html) |
-| `site_out/en/frameworks/hds-v2.html` | .html | 20.0 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/hds-v2.html) |
-| `site_out/en/frameworks/hipaa-nist-800-66.html` | .html | 101.6 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/hipaa-nist-800-66.html) |
-| `site_out/en/frameworks/hitrust-csf-v11.html` | .html | 86.6 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/hitrust-csf-v11.html) |
-| `site_out/en/frameworks/index.html` | .html | 11.9 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/index.html) |
-| `site_out/en/frameworks/iso-22301-2019.html` | .html | 16.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/iso-22301-2019.html) |
-| `site_out/en/frameworks/iso-27001-2022.html` | .html | 82.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/iso-27001-2022.html) |
-| `site_out/en/frameworks/iso-27701-2025.html` | .html | 82.0 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/iso-27701-2025.html) |
-| `site_out/en/frameworks/iso-42001-2023.html` | .html | 78.9 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/iso-42001-2023.html) |
-| `site_out/en/frameworks/nis2.html` | .html | 77.9 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/nis2.html) |
-| `site_out/en/frameworks/rgpd-gdpr.html` | .html | 109.8 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/rgpd-gdpr.html) |
-| `site_out/en/frameworks/soc2-type2.html` | .html | 162.9 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/en/frameworks/soc2-type2.html) |
-| `site_out/fr/criteres.html` | .html | 203.0 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/criteres.html) |
-| `site_out/fr/methodologie.html` | .html | 13.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/methodologie.html) |
-| `site_out/fr/tgv.html` | .html | 16.4 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/tgv.html) |
-| `site_out/fr/referentiels/bsi-c5-2020.html` | .html | 74.0 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/bsi-c5-2020.html) |
-| `site_out/fr/referentiels/ccb-cyberfundamentals.html` | .html | 67.8 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/ccb-cyberfundamentals.html) |
-| `site_out/fr/referentiels/eu-ai-act.html` | .html | 50.6 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/eu-ai-act.html) |
-| `site_out/fr/referentiels/hds-v2.html` | .html | 20.3 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/hds-v2.html) |
-| `site_out/fr/referentiels/hipaa-nist-800-66.html` | .html | 102.4 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/hipaa-nist-800-66.html) |
-| `site_out/fr/referentiels/hitrust-csf-v11.html` | .html | 87.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/hitrust-csf-v11.html) |
-| `site_out/fr/referentiels/index.html` | .html | 12.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/index.html) |
-| `site_out/fr/referentiels/iso-22301-2019.html` | .html | 16.4 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/iso-22301-2019.html) |
-| `site_out/fr/referentiels/iso-27001-2022.html` | .html | 82.8 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/iso-27001-2022.html) |
-| `site_out/fr/referentiels/iso-27701-2025.html` | .html | 82.8 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/iso-27701-2025.html) |
-| `site_out/fr/referentiels/iso-42001-2023.html` | .html | 79.6 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/iso-42001-2023.html) |
-| `site_out/fr/referentiels/nis2.html` | .html | 78.5 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/nis2.html) |
-| `site_out/fr/referentiels/rgpd-gdpr.html` | .html | 110.4 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/rgpd-gdpr.html) |
-| `site_out/fr/referentiels/soc2-type2.html` | .html | 164.0 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/site_out/fr/referentiels/soc2-type2.html) |
-
 ## Outillage
 
 | Fichier | Format | Taille | Contenu brut |
 |---|---|--:|---|
 | `tools/README.md` | Markdown | 736 o | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/README.md) |
 | `tools/export_from_ciso_assistant.py` | Python | 7.5 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/export_from_ciso_assistant.py) |
-| `tools/gen_checksums.py` | Python | 5.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/gen_checksums.py) |
+| `tools/gen_checksums.py` | Python | 5.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/gen_checksums.py) |
 | `tools/gen_index.py` | Python | 11.3 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/gen_index.py) |
 | `tools/gen_llms_txt.py` | Python | 10.3 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/gen_llms_txt.py) |
 | `tools/gen_site.py` | Python | 48.3 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/gen_site.py) |

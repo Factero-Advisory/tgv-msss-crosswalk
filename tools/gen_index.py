@@ -42,7 +42,7 @@ REPO = os.path.basename(ROOT)
 BASE_RAW = f"https://raw.githubusercontent.com/{conf['owner']}/{REPO}/{conf['branche']}"
 BASE_BLOB = f"https://github.com/{conf['owner']}/{REPO}/blob/{conf['branche']}"
 
-IGNORE_DIR = {".git", "__pycache__", ".venv", "venv", "node_modules"}
+IGNORE_DIR = {".git", "__pycache__", ".venv", "venv", "node_modules", "site_out"}
 IGNORE_FILE = {"INDEX.md", "faits.jsonl"}
 
 LABELS = {

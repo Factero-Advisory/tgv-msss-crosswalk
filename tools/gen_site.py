@@ -227,7 +227,7 @@ def shell(title, desc, canon, alt_lang, alt_href, lang, body, jsonld=None, kw=""
 def w(path, content):
     p = os.path.join(OUT, path)
     os.makedirs(os.path.dirname(p), exist_ok=True)
-    open(p, "w", encoding="utf-8").write(content)
+    open(p, "w", encoding="utf-8", newline="\n").write(content)
 
 pages = []   # (loc, priority, changefreq)
 def reg(loc, pr="0.7"):

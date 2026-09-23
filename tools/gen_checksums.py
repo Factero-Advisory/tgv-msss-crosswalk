@@ -19,7 +19,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTDIR = os.path.join(ROOT, "checksums")
 
 # Repertoires jamais integres au manifeste
-SKIP_DIRS = {".git", "__pycache__", ".venv", "venv", "node_modules", ".pytest_cache"}
+SKIP_DIRS = {".git", "__pycache__", ".venv", "venv", "node_modules", ".pytest_cache", "site_out"}
 # Fichiers jamais integres : les manifestes eux-memes (auto-reference) et leurs signatures
 SKIP_FILES = {"SHA512SUMS", "SHA256SUMS", "MD5SUMS", "manifest.json",
               "SHA512SUMS.asc", "SHA512SUMS.sig", "SHA512SUMS.pem"}
