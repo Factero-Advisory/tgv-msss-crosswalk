@@ -4,14 +4,18 @@
 import json, os, sys, html, re
 from collections import Counter, defaultdict
 
-SRC = "/code/db/repo_export"
-OUT = "/code/db/site_out"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Chemins relatifs au depot : le contenu est reparti en data/, data/tgv/ et
+# data/crosswalks/ depuis la restructuration, et non plus a plat comme dans
+# l export du conteneur CISO Assistant.
+SRC = os.path.join(ROOT, "data")
+OUT = os.path.join(ROOT, "site_out")
 SITE = "https://factero-advisory.github.io/tgv-msss-crosswalk"
 REPO = "https://github.com/Factero-Advisory/tgv-msss-crosswalk"
 DATE = "2026-07-23"
 
 idx = json.load(open(f"{SRC}/index.json", encoding="utf-8"))
-crit = json.load(open(f"{SRC}/tgv-criteres.json", encoding="utf-8"))
+crit = json.load(open(f"{SRC}/tgv/tgv-criteres.json", encoding="utf-8"))
 S = idx["statistiques"]
 E = html.escape
 
@@ -410,7 +414,7 @@ reg(f"{SITE}/", "1.0")
 crit_by_ref = {c["ref"]: c for c in crit}
 
 def fw_page(r, lang):
-    doc = json.load(open(f"{SRC}/crosswalk-{r['slug']}.json", encoding="utf-8"))
+    doc = json.load(open(f"{SRC}/crosswalks/crosswalk-{r['slug']}.json", encoding="utf-8"))
     cs = doc["correspondances"]
     fr = lang == "fr"
     canon = f"{SITE}/{'fr/referentiels' if fr else 'en/frameworks'}/{r['slug']}.html"

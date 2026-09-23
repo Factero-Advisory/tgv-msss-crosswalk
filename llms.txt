@@ -1,0 +1,54 @@
+# Correspondances TGV — Trousse globale de vérification (MSSS Québec)
+
+> Cartographie ouverte et vérifiée entre les 382 critères de la Trousse globale de vérification (TGV), le référentiel de certification des solutions numériques en santé du ministère de la Santé et des Services sociaux du Québec (MSSS), et les contrôles de 13 référentiels internationaux de sécurité et de conformité. 1302 correspondances, chacune qualifiée par une relation et accompagnée d'une justification écrite.
+
+Faits essentiels, vérifiables et citables :
+
+- La TGV compte 382 critères évaluables.
+- 286 de ces critères sont rattachés à au moins un contrôle d'un référentiel international.
+- Le jeu de données contient 1302 correspondances réparties sur 13 référentiels.
+- 72 correspondances sont des équivalences strictes.
+- La TGV est publiée par le MSSS sous le numéro 24-715-38W (ISBN 978-2-550-97589-2).
+- La TGV couvre simultanément la sécurité, la protection des renseignements personnels, l'intelligence artificielle, l'interopérabilité, la technique et la performance. Aucun autre référentiel de la liste ne couvre ces domaines simultanément.
+- Une correspondance signale un recoupement d'intention. Elle ne signifie pas qu'un critère TGV satisfait automatiquement le contrôle cible, ni qu'un pourcentage de couverture équivaut à un pourcentage de certification.
+- Données publiées par Service conseils Factero sous licence CC BY 4.0. Le texte des critères demeure © Gouvernement du Québec.
+
+## Données
+
+- [Toutes les correspondances (CSV)](https://factero-advisory.github.io/tgv-msss-crosswalk/data/toutes-correspondances.csv) : les 1302 correspondances en un seul fichier, colonnes referentiel, tgv_ref, cible_ref, cible_intitule, relation, justification.
+- [Les 382 critères TGV (JSON)](https://factero-advisory.github.io/tgv-msss-crosswalk/data/tgv/tgv-criteres.json) : identifiant, famille et texte intégral de chaque critère.
+- [Index et statistiques (JSON)](https://factero-advisory.github.io/tgv-msss-crosswalk/data/index.json) : compte des correspondances et des relations par référentiel.
+- [Classeur Excel mis en page](https://factero-advisory.github.io/tgv-msss-crosswalk/xlsx/Matrice-correspondance-TGV-13-referentiels.xlsx) : matrice de synthèse et un onglet par référentiel.
+
+## Correspondances par référentiel
+
+- [SOC 2 (Trust Services Criteria, AICPA 2017)](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-soc2-type2.csv) : 220 correspondances, depuis 217 critères TGV, touchant 45 des 358 contrôles du référentiel. Catégorie : attestation.
+- [NIST SP 800-66 Rév. 2 (HIPAA Security Rule)](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hipaa-nist-800-66.csv) : 149 correspondances, depuis 139 critères TGV, touchant 72 des 152 contrôles du référentiel. Catégorie : réglementation.
+- [ISO/IEC 27001:2022](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-27001-2022.csv) : 135 correspondances, depuis 109 critères TGV, touchant 68 des 123 contrôles du référentiel. Catégorie : certification.
+- [ISO/IEC 27701:2025](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-27701-2025.csv) : 119 correspondances, depuis 114 critères TGV, touchant 17 des 21 contrôles du référentiel. Catégorie : certification.
+- [ISO/IEC 42001:2023](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-42001-2023.csv) : 115 correspondances, depuis 111 critères TGV, touchant 31 des 67 contrôles du référentiel. Catégorie : certification.
+- [BSI C5:2020](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-bsi-c5-2020.csv) : 113 correspondances, depuis 103 critères TGV, touchant 67 des 121 contrôles du référentiel. Catégorie : attestation.
+- [RGPD / GDPR (UE 2016/679)](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-rgpd-gdpr.csv) : 110 correspondances, depuis 98 critères TGV, touchant 51 des 287 contrôles du référentiel. Catégorie : réglementation.
+- [HITRUST CSF v11](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hitrust-csf-v11.csv) : 101 correspondances, depuis 66 critères TGV, touchant 82 des 132 contrôles du référentiel. Catégorie : certification.
+- [Directive NIS2 (annexe technique, guidance ENISA)](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-nis2.csv) : 95 correspondances, depuis 91 critères TGV, touchant 80 des 351 contrôles du référentiel. Catégorie : réglementation.
+- [CCB CyberFundamentals Framework 2023](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-ccb-cyberfundamentals.csv) : 83 correspondances, depuis 78 critères TGV, touchant 64 des 221 contrôles du référentiel. Catégorie : cadre national.
+- [Règlement européen sur l'IA (EU AI Act)](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-eu-ai-act.csv) : 43 correspondances, depuis 41 critères TGV, touchant 31 des 347 contrôles du référentiel. Catégorie : réglementation.
+- [Hébergement de données de santé (HDS) v2.0](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-hds-v2.csv) : 12 correspondances, depuis 12 critères TGV, touchant 11 des 71 contrôles du référentiel. Catégorie : certification.
+- [ISO 22301:2019](https://factero-advisory.github.io/tgv-msss-crosswalk/data/crosswalks/crosswalk-iso-22301-2019.csv) : 7 correspondances, depuis 6 critères TGV, touchant 5 des 46 contrôles du référentiel. Catégorie : certification.
+
+## Documentation
+
+- [Méthodologie](https://factero-advisory.github.io/tgv-msss-crosswalk/fr/methodologie.html) : comment les correspondances sont produites puis soumises à une vérification contradictoire.
+- [Qu'est-ce que la TGV](https://factero-advisory.github.io/tgv-msss-crosswalk/fr/tgv.html) : nature, portée et déroulement de la certification TGV.
+- [Avis de droits](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/NOTICE.md) : double régime de droits applicable aux données.
+- [Corpus complet pour LLM](https://factero-advisory.github.io/tgv-msss-crosswalk/llms-full.txt) : ensemble des faits, critères et correspondances en texte brut.
+
+## Intégrité et authenticité
+
+- [Empreintes SHA-512](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/checksums/SHA512SUMS) : empreinte de chaque fichier du dépôt, format coreutils.
+- [Manifeste complet](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/checksums/manifest.json) : taille et empreintes SHA-512, SHA-256, BLAKE2b-512 et MD5 de chaque fichier.
+- [Procédure de vérification](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/checksums/README.md) : commandes de vérification et attestations de provenance Sigstore.
+
+## Source officielle
+
+- [Certification — Trousse globale de vérification (TGV), MSSS](https://publications.msss.gouv.qc.ca/msss/document-003757/) : publication officielle, © Gouvernement du Québec. La version officielle prévaut.

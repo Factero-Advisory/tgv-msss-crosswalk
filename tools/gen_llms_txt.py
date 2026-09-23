@@ -4,11 +4,15 @@
 import json, os, sys, io
 from collections import Counter, defaultdict
 
-SRC = "/code/db/repo_export"
-OUT = "/code/db/repo_export"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Chemins relatifs au depot : le contenu est reparti en data/, data/tgv/ et
+# data/crosswalks/ depuis la restructuration, et non plus a plat comme dans
+# l export du conteneur CISO Assistant.
+SRC = os.path.join(ROOT, "data")
+OUT = ROOT
 
 idx = json.load(open(f"{SRC}/index.json", encoding="utf-8"))
-crit = json.load(open(f"{SRC}/tgv-criteres.json", encoding="utf-8"))
+crit = json.load(open(f"{SRC}/tgv/tgv-criteres.json", encoding="utf-8"))
 S = idx["statistiques"]
 SITE = "https://factero-advisory.github.io/tgv-msss-crosswalk"
 REPO = "https://github.com/Factero-Advisory/tgv-msss-crosswalk"
@@ -182,7 +186,7 @@ w("")
 w("Format : critère TGV -> contrôle cible | relation | justification.")
 w("")
 for r in idx["referentiels"]:
-    doc = json.load(open(f"{SRC}/crosswalk-{r['slug']}.json", encoding="utf-8"))
+    doc = json.load(open(f"{SRC}/crosswalks/crosswalk-{r['slug']}.json", encoding="utf-8"))
     w(f"### {r['nom']} ({len(doc['correspondances'])} correspondances)")
     w("")
     for c in doc["correspondances"]:
