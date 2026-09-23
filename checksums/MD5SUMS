@@ -5,11 +5,11 @@ c459b9f5caf6c4793dafc1bfb7b18b30  .github/workflows/attest.yml
 cb2bac315d0970974beb05bb0d6eb002  .github/workflows/pages.yml
 79224531e9bf988721affbb9e8b896aa  .github/workflows/validate.yml
 cedabf6eacd331ddb307972adc2eb120  .gitignore
-e00cc74b620875df09313ad406733141  CITATION.cff
+39eead0133268dc5c9777e8b1fde40f5  CITATION.cff
 b9297641d9aca2d6fd2211ffd02de688  CONTRIBUTING.md
-05ed56d4619dbe61bb8365947e015c5e  INDEX.md
+1d171a2afcbf111412d18b344275b89b  INDEX.md
 810094a70072afac19762c7656a01ce8  LICENSE
-8479ae981d842588f3e9d76c31da0827  NOTICE.md
+f843f6880364e88c80dc16b7648d25bc  NOTICE.md
 a23537b4f1945e14ff519fe7052c1353  README.md
 74ddef00f4e35d1c578e82f0a56dad69  checksums/README.md
 2d76cb549d682bbec76fa19a294e9082  data/crosswalks/crosswalk-bsi-c5-2020.csv
@@ -46,7 +46,6 @@ f0fc0ec9daaf043ffb3eb7b60f1e43eb  data/toutes-correspondances.csv
 6886a4a8430aa2baf0700028ca1cff3c  llms-full.txt
 09059a407bafccd3c494d2bce0d06695  llms.txt
 5b99db8c8f10484c076fb401fd411096  tools/README.md
-7eb55693e7b8528898fd7bdc6d86935f  tools/export_from_ciso_assistant.py
 5c0f321c438252aada31a4c648be1d62  tools/gen_checksums.py
 e74257374760d2984ddaa44cab65000c  tools/gen_index.py
 65adb9c54a4b0e3e6f70710edbc52270  tools/gen_llms_txt.py

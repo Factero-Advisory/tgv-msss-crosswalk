@@ -101,5 +101,5 @@ certification demeure un processus formel mené par un organisme accrédité.
 
 Une erreur, une correspondance contestable, ou une objection quant au contenu
 reproduit ? Ouvrez une *issue* sur le dépôt, ou écrivez à
-<srobert@factero.ca>. Toute demande de retrait provenant d'un ayant droit sera
+<info@factero.ca>. Toute demande de retrait provenant d'un ayant droit sera
 traitée avec diligence.

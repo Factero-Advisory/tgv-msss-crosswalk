@@ -9,7 +9,7 @@ Chaque fichier est listé ci-dessous avec un lien direct vers son contenu brut s
 `raw.githubusercontent.com`, domaine qui ne publie aucun robots.txt et n'impose donc
 aucune restriction.
 
-**57 fichiers · 2.4 Mo · licence CC BY 4.0 pour le travail d'analyse, voir [NOTICE.md](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/NOTICE.md)**
+**56 fichiers · 2.4 Mo · licence CC BY 4.0 pour le travail d'analyse, voir [NOTICE.md](https://github.com/Factero-Advisory/tgv-msss-crosswalk/blob/main/NOTICE.md)**
 
 ---
 
@@ -43,9 +43,9 @@ aucune restriction.
 |---|---|--:|---|
 | `checksums/MD5SUMS` | binaire | 3.5 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/MD5SUMS) |
 | `checksums/README.md` | Markdown | 4.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/README.md) |
-| `checksums/SHA256SUMS` | binaire | 5.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/SHA256SUMS) |
-| `checksums/SHA512SUMS` | binaire | 8.7 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/SHA512SUMS) |
-| `checksums/manifest.json` | JSON | 27.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/manifest.json) |
+| `checksums/SHA256SUMS` | binaire | 5.1 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/SHA256SUMS) |
+| `checksums/SHA512SUMS` | binaire | 8.5 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/SHA512SUMS) |
+| `checksums/manifest.json` | JSON | 26.7 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/checksums/manifest.json) |
 
 ## Données
 
@@ -87,7 +87,6 @@ aucune restriction.
 | Fichier | Format | Taille | Contenu brut |
 |---|---|--:|---|
 | `tools/README.md` | Markdown | 736 o | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/README.md) |
-| `tools/export_from_ciso_assistant.py` | Python | 7.5 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/export_from_ciso_assistant.py) |
 | `tools/gen_checksums.py` | Python | 5.2 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/gen_checksums.py) |
 | `tools/gen_index.py` | Python | 11.3 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/gen_index.py) |
 | `tools/gen_llms_txt.py` | Python | 10.3 Ko | [brut](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/tools/gen_llms_txt.py) |
