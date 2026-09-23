@@ -205,7 +205,7 @@ revue de direction et un organisme accrédité.
 ## Faits vérifiables
 
 Chaque affirmation ci-dessous est recalculée depuis les données du dépôt et vérifiée
-en intégration continue. Version exploitable par machine : [`faits.jsonl`](https://raw.githubusercontent.com/Factero/tgv-msss-crosswalk/main/faits.jsonl).
+en intégration continue. Version exploitable par machine : [`faits.jsonl`](https://raw.githubusercontent.com/Factero-Advisory/tgv-msss-crosswalk/main/faits.jsonl).
 
 - **Trousse globale de vérification (TGV) compte 1302 correspondances vérifiées vers 13 référentiels.**  
   *Preuve : data/index.json · champ statistiques.correspondances_total*
